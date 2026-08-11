@@ -1,0 +1,39 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>YouTube Signage UI Test</title>
+<style>
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#000}
+#wrap{position:fixed;inset:0;background:#000;overflow:hidden}
+#player{position:absolute;left:50%;top:50%;width:100vw;height:56.25vw;min-height:100vh;min-width:177.78vh;transform:translate(-50%,-50%);pointer-events:none}
+#player iframe{pointer-events:none}
+#msg{position:fixed;left:0;right:0;bottom:14px;text-align:center;color:#fff;font:16px Arial;z-index:10;text-shadow:0 2px 4px #000;opacity:.65}
+</style></head>
+<body>
+<div id="wrap"><div id="player"></div></div>
+<div id="msg">Loading…</div>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+let p;
+function onYouTubeIframeAPIReady(){
+ p=new YT.Player("player",{
+  width:"100%",height:"100%",videoId:"J93YInokDIM",
+  playerVars:{
+   autoplay:1,controls:0,disablekb:1,fs:0,iv_load_policy:3,
+   modestbranding:1,rel:0,playsinline:1,cc_load_policy:0
+  },
+  events:{
+   onReady:e=>{
+    e.target.mute();
+    try{e.target.setOption("captions","fontSize",-3)}catch(_){}
+    e.target.playVideo();
+    document.getElementById("msg").textContent="Playing automatically";
+   },
+   onStateChange:e=>{
+    if(e.data===YT.PlayerState.PLAYING) document.getElementById("msg").textContent="Playing automatically";
+    if(e.data===YT.PlayerState.ENDED) document.getElementById("msg").textContent="VIDEO FINISHED";
+   },
+   onError:e=>document.getElementById("msg").textContent="YouTube error: "+e.data
+  }
+ });
+}
+</script></body></html>
