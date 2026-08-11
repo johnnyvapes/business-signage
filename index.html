@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>R2 Direct Video Test</title>
+<style>
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#000}
+video{position:fixed;inset:0;width:100vw;height:100vh;object-fit:contain;background:#000}
+#status{position:fixed;left:0;right:0;bottom:14px;text-align:center;color:#fff;font:16px Arial;opacity:.65;text-shadow:0 2px 4px #000;pointer-events:none}
+</style>
+</head>
+<body>
+<video id="v" autoplay muted playsinline preload="auto">
+<source src="https://pub-3250bab389bf4d21b5ff0b1f63045fc7.r2.dev/vid1.mp4" type="video/mp4">
+</video>
+<div id="status">Loading direct MP4…</div>
+<script>
+const v=document.getElementById("v"),s=document.getElementById("status");
+v.addEventListener("playing",()=>s.textContent="Playing automatically");
+v.addEventListener("ended",()=>s.textContent="VIDEO FINISHED");
+v.addEventListener("error",()=>s.textContent="Could not load the R2 video");
+v.play().catch(()=>s.textContent="Loaded, but autoplay was blocked");
+</script>
+</body>
+</html>
