@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Drive Video Test</title>
+<style>
+html,body{margin:0;width:100%;height:100%;background:#000;overflow:hidden}
+video{width:100vw;height:100vh;object-fit:contain;display:block}
+#msg{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;
+color:white;font:24px Arial;background:#000;text-align:center;padding:20px}
+</style>
+</head>
+<body>
+<div id="msg">Loading video…</div>
+<video id="v" autoplay muted playsinline controls>
+  <source src="https://drive.google.com/uc?export=download&id=1qMdwMWBjdB9jLEY-1Y_0VBGhQrMyZLTx">
+</video>
+<script>
+const v=document.getElementById("v"), m=document.getElementById("msg");
+v.addEventListener("loadeddata",()=>m.style.display="none");
+v.addEventListener("error",()=>m.textContent="Drive video could not be loaded directly.");
+v.addEventListener("ended",()=>m.textContent="VIDEO FINISHED");
+v.play().catch(()=>m.textContent="Video loaded, but autoplay was blocked. Press Play.");
+</script>
+</body>
+</html>
