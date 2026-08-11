@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>R2 Sequential Video Test</title>
+<style>
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#000}
+#stage{position:fixed;inset:0;background:#000}
+#status{position:fixed;left:0;right:0;bottom:14px;text-align:center;color:#fff;
+font:16px Arial;opacity:.55;text-shadow:0 2px 4px #000;pointer-events:none}
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<div id="status">Starting…</div>
+<script>
+const videos=[
+ "https://pub-3250bab389bf4d21b5ff0b1f63045fc7.r2.dev/vid1.mp4",
+ "https://pub-3250bab389bf4d21b5ff0b1f63045fc7.r2.dev/vid2.mp4"
+];
+let n=0, v=null, generation=0;
+
+function playNext(){
+  const g=++generation;
+  if(v){
+    try{v.pause();v.removeAttribute("src");v.load();v.remove();}catch(e){}
+    v=null;
+  }
+
+  document.getElementById("status").textContent="Preparing video "+(n+1)+"…";
+
+  // Same delayed dynamic creation used by the successful standalone test.
+  setTimeout(()=>{
+    if(g!==generation)return;
+
+    v=document.createElement("video");
+    v.setAttribute("autoplay","");
+    v.setAttribute("muted","");
+    v.setAttribute("playsinline","");
+    v.setAttribute("preload","auto");
+    v.muted=true;
+    v.defaultMuted=true;
+    v.playsInline=true;
+
+    v.style.cssText=
+      "position:fixed;inset:0;width:100vw;height:100vh;"+
+      "object-fit:contain;background:#000;";
+
+    v.addEventListener("playing",()=>{
+      document.getElementById("status").textContent=
+        "Playing video "+(n+1)+" automatically";
+    });
+
+    v.addEventListener("ended",()=>{
+      if(g!==generation)return;
+      n=(n+1)%videos.length;
+      playNext();
+    },{once:true});
+
+    v.addEventListener("error",()=>{
+      document.getElementById("status").textContent="Video "+(n+1)+" error";
+      setTimeout(()=>{
+        if(g===generation){
+          n=(n+1)%videos.length;
+          playNext();
+        }
+      },3000);
+    },{once:true});
+
+    document.getElementById("stage").appendChild(v);
+    v.src=videos[n];
+    v.load();
+    v.play().catch(()=>{
+      document.getElementById("status").textContent=
+        "Video "+(n+1)+" loaded, autoplay blocked";
+    });
+  },1500);
+}
+
+playNext();
+</script>
+</body>
+</html>
