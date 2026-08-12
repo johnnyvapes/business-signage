@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TV Bro Video Test</title>
+<style>
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#000}
+#stage{position:fixed;inset:0;background:#000}
+video{position:fixed;inset:0;width:100vw;height:100vh;object-fit:contain;background:#000}
+#status{position:fixed;left:0;right:0;bottom:12px;text-align:center;
+font:16px Arial;color:#fff;opacity:.55;pointer-events:none;text-shadow:0 2px 4px #000}
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<div id="status">Preparing video…</div>
+<script>
+const VIDEO="https://pub-3250bab389bf4d21b5ff0b1f63045fc7.r2.dev/vid1.mp4";
+const stage=document.getElementById("stage");
+const status=document.getElementById("status");
+
+setTimeout(()=>{
+  const v=document.createElement("video");
+  v.autoplay=true;
+  v.muted=true;
+  v.defaultMuted=true;
+  v.playsInline=true;
+  v.preload="auto";
+  v.controls=false;
+  v.src=VIDEO;
+
+  v.addEventListener("playing",()=>status.textContent="Playing automatically");
+  v.addEventListener("ended",()=>status.textContent="VIDEO FINISHED");
+  v.addEventListener("error",()=>status.textContent="Video error");
+
+  stage.appendChild(v);
+  v.load();
+  v.play().catch(()=>status.textContent="Autoplay blocked");
+},1500);
+</script>
+</body>
+</html>
