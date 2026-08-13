@@ -12,9 +12,7 @@
       "seconds": 20
     },
     {
-      "type": "live",
-      "kind": "google_reviews",
-      "title": "Google Reviews",
+      "type": "google_reviews",
       "seconds": 20
     }
   ]
