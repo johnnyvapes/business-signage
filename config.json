@@ -1,0 +1,19 @@
+{
+  "store": "Store 4",
+  "screen": 1,
+  "location": {
+    "city": "Bellevue",
+    "state": "WI",
+    "country": "US"
+  },
+  "playlist": [
+    {
+      "type": "weather",
+      "seconds": 20
+    },
+    {
+      "type": "google_reviews",
+      "seconds": 20
+    }
+  ]
+}
