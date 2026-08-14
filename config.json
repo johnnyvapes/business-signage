@@ -29,7 +29,7 @@
     },
     {
       "type": "weather",
-      "seconds": 20
+      "seconds": 120
     },
     {
       "type": "google_reviews",
