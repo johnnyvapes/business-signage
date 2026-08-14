@@ -50,17 +50,38 @@ function reviewText(r){const d=r?.description;if(typeof d==="string")return d.tr
 async function googleReviews(seconds){
 const s=document.getElementById("stage"),b=document.createElement("div");b.className="cardpage google-theme";
 b.innerHTML='<div class="header"><div><div class="brand">Johnny Vapes</div><div class="location">Bellevue, WI</div></div><div class="source">Google Reviews</div></div><div class="heading">What Our Customers Are Saying</div><div class="card"><div class="stars">★★★★★</div><div class="author" id="ga"></div><div class="review-date" id="gd"></div><div class="review-text" id="gt">Loading review…</div></div><div class="footer"><div>Customer reviews • Johnny Vapes Bellevue</div><div>Google</div></div>';s.appendChild(b);
-try{const data=await(await fetch(bust(GOOGLE_REVIEWS),{cache:"no-store"})).json();const reviews=(Array.isArray(data)?data:[]).filter(r=>Number(r.rating)>=4.5&&reviewText(r));if(!reviews.length)throw 0;
-let i=googleIndex%reviews.length;googleIndex++;const perReview=Math.max(5,Math.min(10,seconds));let shown=0;
-const show=()=>{const r=reviews[i%reviews.length];document.getElementById("ga").textContent=r.author||"Google Customer";document.getElementById("gd").textContent=formatDate(r.review_date||r.created_date);document.getElementById("gt").textContent=reviewText(r);i++;shown++;timer=setTimeout(shown<reviews.length?show:next,perReview*1000)};show();
-}catch(e){document.getElementById("gt").textContent="Google reviews temporarily unavailable.";timer=setTimeout(next,seconds*1000)}
-} async function facebookPost(seconds){const s=document.getElementById("stage"),b=document.createElement("div");b.className="cardpage fbpost";b.innerHTML='<div class="fb-label">LATEST FROM FACEBOOK</div><div class="fb-card"><div class="fb-date" id="fpd"></div><img class="fb-image" id="fpi" alt="Facebook post image" style="display:none"><div class="fb-text" id="fpt">Loading Facebook post…</div></div><div class="footer"><div>Johnny Vapes</div><div class="fb-mark">Facebook</div></div>';s.appendChild(b);try{const data=await(await fetch(bust("facebook-posts.json"),{cache:"no-store"})).json();const posts=(Array.isArray(data)?data:[]);const p=posts[0];if(!p)throw 0;document.getElementById("fpd").textContent=formatDate(p.created_time);document.getElementById("fpt").textContent=p.message||p.story||"Facebook post";const img=p.attachments?.data?.[0]?.media?.image?.src;if(img){const im=document.getElementById("fpi");im.src=bust(img);im.style.display="block";im.onerror=()=>im.style.display="none"}}catch(e){document.getElementById("fpt").textContent="Facebook post temporarily unavailable."}timer=setTimeout(next,seconds*1000)}
-async function facebookReview(seconds){
+try{
+const data=await(await fetch(bust(GOOGLE_REVIEWS),{cache:"no-store"})).json();
+const reviews=(Array.isArray(data)?data:[]).filter(r=>Number(r.rating)>=4.5&&reviewText(r));
+if(!reviews.length)throw 0;
+const totalMs=Math.max(1000,seconds*1000),slotMs=totalMs/reviews.length,start=Date.now();
+let i=googleIndex%reviews.length;googleIndex++;
+const show=()=>{
+if(Date.now()-start>=totalMs){next();return}
+const r=reviews[i%reviews.length];i++;
+document.getElementById("ga").textContent=r.author||"Google Customer";
+document.getElementById("gd").textContent=formatDate(r.review_date||r.created_date);
+document.getElementById("gt").textContent=reviewText(r);
+timer=setTimeout(show,Math.min(slotMs,Math.max(250,totalMs-(Date.now()-start))));
+};
+show();
+}catch(e){document.getElementById("gt").textContent="Google reviews temporarily unavailable.";timer=setTimeout(next,seconds*1000)}} async function facebookReview(seconds){
 const s=document.getElementById("stage"),b=document.createElement("div");b.className="cardpage fb-review-theme";
 b.innerHTML='<div class="header"><div><div class="brand">Johnny Vapes</div><div class="location">Bellevue, WI</div></div><div class="source">Facebook Reviews</div></div><div class="heading">What Our Customers Are Saying</div><div class="card"><div class="recommend">👍 Recommends Johnny Vapes</div><div class="author" id="fa">Facebook Customer</div><div class="review-date" id="fd"></div><div class="review-text" id="ft">Loading review…</div></div><div class="footer"><div>Customer recommendation • Johnny Vapes Bellevue</div><div>Facebook</div></div>';s.appendChild(b);
-try{const data=await(await fetch(bust("facebook-reviews.json"),{cache:"no-store"})).json();const reviews=(Array.isArray(data)?data:[]).filter(r=>(r.recommendation_type||"").toLowerCase()==="positive"&&r.review_text);if(!reviews.length)throw 0;
-let i=facebookReviewIndex%reviews.length;facebookReviewIndex++;const perReview=Math.max(5,Math.min(10,seconds));let shown=0;
-const show=()=>{const r=reviews[i%reviews.length];document.getElementById("fa").textContent="Facebook Customer";document.getElementById("fd").textContent=formatDate(r.created_time);document.getElementById("ft").textContent=r.review_text;i++;shown++;timer=setTimeout(shown<reviews.length?show:next,perReview*1000)};show();
-}catch(e){document.getElementById("ft").textContent="Facebook reviews temporarily unavailable.";timer=setTimeout(next,seconds*1000)}
-} init().catch(()=>document.getElementById("stage").innerHTML='<div class="message">Unable to load signage configuration.</div>');
+try{
+const data=await(await fetch(bust("facebook-reviews.json"),{cache:"no-store"})).json();
+const reviews=(Array.isArray(data)?data:[]).filter(r=>(r.recommendation_type||"").toLowerCase()==="positive"&&r.review_text);
+if(!reviews.length)throw 0;
+const totalMs=Math.max(1000,seconds*1000),slotMs=totalMs/reviews.length,start=Date.now();
+let i=facebookReviewIndex%reviews.length;facebookReviewIndex++;
+const show=()=>{
+if(Date.now()-start>=totalMs){next();return}
+const r=reviews[i%reviews.length];i++;
+document.getElementById("fa").textContent="Facebook Customer";
+document.getElementById("fd").textContent=formatDate(r.created_time);
+document.getElementById("ft").textContent=r.review_text;
+timer=setTimeout(show,Math.min(slotMs,Math.max(250,totalMs-(Date.now()-start))));
+};
+show();
+}catch(e){document.getElementById("ft").textContent="Facebook reviews temporarily unavailable.";timer=setTimeout(next,seconds*1000)}} init().catch(()=>document.getElementById("stage").innerHTML='<div class="message">Unable to load signage configuration.</div>');
 </script></body></html>
