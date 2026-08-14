@@ -54,7 +54,7 @@ try{
 const data=await(await fetch(bust(GOOGLE_REVIEWS),{cache:"no-store"})).json();
 const reviews=(Array.isArray(data)?data:[]).filter(r=>Number(r.rating)>=4.5&&reviewText(r));
 if(!reviews.length)throw 0;
-const totalMs=Math.max(1000,seconds*1000),slotMs=totalMs/reviews.length,start=Date.now();
+const totalMs=Math.max(1000,seconds*1000),slotMs=Math.min(15000,totalMs),start=Date.now();
 let i=googleIndex%reviews.length;googleIndex++;
 const show=()=>{
 if(Date.now()-start>=totalMs){next();return}
@@ -72,7 +72,7 @@ try{
 const data=await(await fetch(bust("facebook-reviews.json"),{cache:"no-store"})).json();
 const reviews=(Array.isArray(data)?data:[]).filter(r=>(r.recommendation_type||"").toLowerCase()==="positive"&&r.review_text);
 if(!reviews.length)throw 0;
-const totalMs=Math.max(1000,seconds*1000),slotMs=totalMs/reviews.length,start=Date.now();
+const totalMs=Math.max(1000,seconds*1000),slotMs=Math.min(15000,totalMs),start=Date.now();
 let i=facebookReviewIndex%reviews.length;facebookReviewIndex++;
 const show=()=>{
 if(Date.now()-start>=totalMs){next();return}
