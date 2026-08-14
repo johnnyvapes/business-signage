@@ -21,7 +21,6 @@
     {
       "type": "video",
       "src": "https://pub-3250bab389bf4d21b5ff0b1f63045fc7.r2.dev/vid1.mp4"
-      "seconds": 5
     },
     {
       "type": "image",
@@ -52,7 +51,6 @@
     {
       "type": "video",
       "src": "https://pub-3250bab389bf4d21b5ff0b1f63045fc7.r2.dev/vid2.mp4"
-      "seconds": 5
     },
     {
       "type": "image",
