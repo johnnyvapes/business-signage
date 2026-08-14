@@ -11,12 +11,12 @@
     {
       "type": "image",
       "src": "media/promo1.jpg",
-      "seconds": 10
+      "seconds": 1
     },
     {
       "type": "image",
       "src": "media/promo2.jpg",
-      "seconds": 10
+      "seconds": 1
     },
     {
       "type": "video",
@@ -25,11 +25,11 @@
     {
       "type": "image",
       "src": "media/promo3.jpg",
-      "seconds": 10
+      "seconds": 1
     },
     {
       "type": "weather",
-      "seconds": 120
+      "seconds": 1
     },
     {
       "type": "google_reviews",
@@ -38,11 +38,11 @@
     {
       "type": "image",
       "src": "media/promo4.png",
-      "seconds": 10
+      "seconds": 1
     },
     {
       "type": "facebook_post",
-      "seconds": 15
+      "seconds": 1
     },
     {
       "type": "facebook_review",
