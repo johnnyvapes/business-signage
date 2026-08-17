@@ -9,53 +9,8 @@
   "refresh_minutes": 30,
   "playlist": [
     {
-      "type": "image",
-      "src": "media/promo1.jpg",
-      "seconds": 10
-    },
-    {
-      "type": "image",
-      "src": "media/promo2.jpg",
-      "seconds": 10
-    },
-    {
-      "type": "video",
-      "src": "https://pub-3250bab389bf4d21b5ff0b1f63045fc7.r2.dev/vid1.mp4"
-    },
-    {
-      "type": "image",
-      "src": "media/promo3.jpg",
-      "seconds": 10
-    },
-    {
-      "type": "weather",
+      "type": "traffic",
       "seconds": 60
-    },
-    {
-      "type": "google_reviews",
-      "seconds": 45
-    },
-    {
-      "type": "image",
-      "src": "media/promo4.png",
-      "seconds": 10
-    },
-    {
-      "type": "facebook_post",
-      "seconds": 20
-    },
-    {
-      "type": "facebook_review",
-      "seconds": 45
-    },
-    {
-      "type": "video",
-      "src": "https://pub-3250bab389bf4d21b5ff0b1f63045fc7.r2.dev/vid2.mp4"
-    },
-    {
-      "type": "image",
-      "src": "media/promo5.png",
-      "seconds": 10
     }
   ]
 }
