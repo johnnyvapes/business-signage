@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bellevue Traffic</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#f4f7fa;font-family:Arial,Helvetica,sans-serif;color:#102a43}
+#stage{width:100vw;height:100vh;overflow:hidden}
+.traffic{width:100%;height:100%;display:flex;flex-direction:column;background:#fff}
+.topbar{height:7vh;min-height:58px;background:#102c49;color:#fff;display:flex;align-items:center;padding:0 1.8vw;position:relative;z-index:5}
+.signal{width:38px;height:38px;border-radius:50%;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;margin-right:18px;box-shadow:0 1px 3px #0004}
+.signal i{width:9px;height:9px;border-radius:50%;display:block}.signal .r{background:#e53935}.signal .y{background:#fbc02d}.signal .g{background:#19a463}
+.title{font-size:2.55vw;font-weight:800;letter-spacing:.02em;white-space:nowrap}.updated{margin-left:auto;text-align:right;font-size:1.05vw;line-height:1.2}
+.body{height:93vh;display:flex;min-height:0}
+.panel{width:25vw;flex:0 0 25vw;background:#f4f7fa;padding:1.15vw .85vw .7vw;display:flex;flex-direction:column;min-width:0;overflow:hidden}
+.section-title{font-size:1.55vw;font-weight:800;line-height:1;margin:.05vw 0 .7vw;padding-left:.15vw}
+.list{min-height:0;overflow:hidden}
+.card{background:#fff;border-radius:10px;margin:0 0 .55vw;padding:.52vw .55vw;border-left:5px solid #18a467;box-shadow:0 1px 4px #0000000c;min-height:0}
+.card.red{border-left-color:#e32735}.card.orange{border-left-color:#f47b20}.card.yellow{border-left-color:#e5b400}.card.green{border-left-color:#18a467}
+.road{font-weight:800;font-size:1.02vw;line-height:1.1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.dot{font-size:.75em;margin-right:.25em}.detail{color:#617386;font-size:.70vw;line-height:1.15;margin-top:.18vw;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.delay{font-weight:800;font-size:.82vw;margin-top:.22vw;line-height:1.1}.delay.orange{color:#f47b20}.delay.yellow{color:#c99b00}.delay.green{color:#15945a}.delay.red{color:#e32735}
+.delays-title{margin-top:.35vw}
+.map{width:75vw;flex:0 0 75vw;position:relative;overflow:hidden;background:#dbe4ea}
+.map>img.mainmap{width:100%;height:100%;display:block;object-fit:cover}
+.map-label{position:absolute;left:1.1vw;top:1.2vw;background:#102c49;color:#fff;border-radius:7px;padding:.55vw .75vw;font-weight:800;font-size:1.15vw;box-shadow:0 2px 5px #0003}
+.overview{position:absolute;right:1vw;top:1vw;width:26%;height:29%;background:#fff;border:3px solid #fff;border-radius:10px;box-shadow:0 2px 12px #0003;overflow:hidden}.overview img{width:100%;height:100%;object-fit:cover;display:block}.overview-label{position:absolute;left:.7vw;top:.6vw;background:#102c49;color:#fff;border-radius:6px;padding:.45vw .65vw;font-size:.95vw;font-weight:800}
+.legend{position:absolute;left:1vw;bottom:1vw;background:#fff;border-radius:8px;padding:.45vw .7vw;box-shadow:0 2px 7px #0003;display:flex;align-items:center;gap:1vw;font-size:.78vw;font-weight:800}.legend span{display:flex;align-items:center;gap:.28vw}.line{width:1.4vw;height:4px;border-radius:3px;display:inline-block}.fast{background:#16a467}.moderate{background:#e5b400}.slow{background:#f47b20}.stopped{background:#e32735}
+.attribution{position:absolute;right:.45vw;bottom:.2vw;font-size:.52vw;color:#40566b;background:#fff9;padding:1px 3px;border-radius:2px}
+.message{display:grid;place-items:center;width:100%;height:100%;font-size:3vw;font-weight:700;color:#667}
+@media(max-width:1200px){.road{font-size:1.25vw}.detail{font-size:.9vw}.delay{font-size:1vw}.section-title{font-size:1.8vw}.title{font-size:3vw}}
+</style>
+</head>
+<body>
+<div id="stage"><div class="message">Loading traffic…</div></div>
+<script>
+const CONFIG='config.json';
+const TRAFFIC='traffic.json';
+let timer=null;
+const bust=u=>u+(u.includes('?')?'&':'?')+Date.now();
+const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+function clsDelay(n){n=Number(n)||0;return n>10?'red':n>5?'orange':n>1?'yellow':'green'}
+function clsEvent(e){if(e.full_closure)return'red';const s=(e.lanes_affected||'').toLowerCase();if(/all lanes|full closure|closed|closure/.test(s))return'red';if(/2 lane|3 lane/.test(s))return'orange';return'yellow'}
+function render(data,seconds){
+ const d=data.generated_at?new Date(data.generated_at):new Date();
+ const events=[...(data.events||[])].sort((a,b)=>{const rank=e=>e.full_closure?0:/closure|closed|lane/i.test((e.lanes_affected||'')+' '+(e.description||''))?1:2;return rank(a)-rank(b)||(Number(a.distance_from_bellevue_miles)||99)-(Number(b.distance_from_bellevue_miles)||99)});
+ const delays=[...(data.travel_times||[])].sort((a,b)=>(Number(b.delay_minutes)||0)-(Number(a.delay_minutes)||0));
+ const ev=events.slice(0,7).map(e=>`<div class="card ${clsEvent(e)}"><div class="road"><span class="dot">●</span>${esc(e.roadway||'Traffic event')}${e.direction?' '+esc(e.direction):''}</div><div class="detail">${esc(e.lanes_affected||e.description||'Roadwork / incident')}</div></div>`).join('')||'<div class="card green"><div class="road">● No active traffic events</div><div class="detail">No significant Bellevue-area closures reported.</div></div>';
+ const dl=delays.slice(0,5).map(t=>{const n=Math.round(Number(t.delay_minutes)||0),c=clsDelay(n);return `<div class="card ${c}"><div class="road"><span class="dot">●</span>${esc(t.roadway||'Traffic route')}</div><div class="detail">${esc(t.description||'Travel time reported by Wisconsin 511')}</div><div class="delay ${c}">${n>0?'+'+n+' min delay':'Normal'}${t.current_time_minutes!=null?' · '+Math.round(Number(t.current_time_minutes))+' min travel time':''}</div></div>`}).join('')||'<div class="card green"><div class="road">● No significant delays</div></div>';
+ document.getElementById('stage').innerHTML=`<div class="traffic"><div class="topbar"><div class="signal"><i class="r"></i><i class="y"></i><i class="g"></i></div><div class="title">BELLEVUE TRAFFIC</div><div class="updated">Updated ${d.toLocaleTimeString([],{hour:'numeric',minute:'2-digit'})}<br>Source: Wisconsin 511</div></div><div class="body"><aside class="panel"><div class="section-title">Current Conditions</div><div class="list" id="conditions">${ev}</div><div class="section-title delays-title">Traffic Delays</div><div class="list" id="delays">${dl}</div></aside><main class="map"><img class="mainmap" src="traffic_map.png" alt="Bellevue traffic map"><div class="map-label">Bellevue / local traffic</div><div class="overview"><img src="traffic_overview.png" alt="Wider area traffic map"><div class="overview-label">WIDER AREA</div></div><div class="legend"><span><i class="line fast"></i>Fast</span><span><i class="line moderate"></i>Moderate</span><span><i class="line slow"></i>Slow</span><span><i class="line stopped"></i>Very slow / stopped</span></div><div class="attribution">511WI traffic speeds · OpenStreetMap contributors</div></main></div></div>`;
+ fitPanel(); clearTimeout(timer); timer=setTimeout(()=>load(seconds),seconds*1000);
+}
+function fitPanel(){
+ const p=document.querySelector('.panel');if(!p)return;
+ let scale=1;for(let i=0;i<6;i++){p.style.fontSize=scale+'px';const lists=[...p.querySelectorAll('.list')];const over=lists.reduce((n,e)=>n+e.scrollHeight,0);const avail=p.clientHeight-p.querySelector('.section-title').offsetHeight-p.querySelector('.delays-title').offsetHeight-20;if(over<=avail)break;scale*=.93}
+}
+async function load(seconds=60){try{const c=await(await fetch(bust(CONFIG),{cache:'no-store'})).json();const item=(c.playlist||[]).find(x=>x.enabled!==false&&x.type==='traffic');const sec=item?.seconds||seconds||60;const r=await fetch(bust(TRAFFIC),{cache:'no-store'});if(!r.ok)throw Error('traffic '+r.status);render(await r.json(),sec)}catch(e){document.getElementById('stage').innerHTML='<div class="message">Unable to load current Wisconsin 511 traffic data.</div>';console.error(e);clearTimeout(timer);timer=setTimeout(()=>load(seconds),15000)}}
+load();
+</script>
+</body></html>
