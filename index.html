@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bellevue Traffic</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+:root{
+  --navy:#102b4a;
+  --navy2:#173a61;
+  --panel:#f5f7fa;
+  --card:#eef2f6;
+  --text:#10243c;
+  --muted:#60738a;
+  --green:#08a95b;
+  --yellow:#f2bd00;
+  --orange:#f47b20;
+  --red:#e5222e;
+}
+*{box-sizing:border-box}
+html,body,#stage{margin:0;width:100%;height:100%;overflow:hidden;font-family:Arial,Helvetica,sans-serif;color:var(--text)}
+#stage{background:#fff;position:relative}
+.slide{width:100%;height:100%;display:grid;grid-template-rows:8% 92%;background:#fff}
+.topbar{
+  background:var(--navy);color:#fff;display:flex;align-items:center;
+  justify-content:space-between;padding:0 2.1vw;position:relative;z-index:1000
+}
+.brand{display:flex;align-items:center;gap:1.15vw;min-width:0}
+.brand-logo{width:3.25vw;height:3.25vw;min-width:42px;min-height:42px;max-width:62px;max-height:62px}
+.brand-name{font-size:2.75vw;font-weight:900;letter-spacing:.02em;white-space:nowrap}
+.meta{text-align:right;font-size:1.05vw;line-height:1.15;white-space:nowrap}
+.meta strong{font-size:1.12vw}
+.body{display:grid;grid-template-columns:25% 75%;min-height:0}
+.info{
+  background:var(--panel);border-right:2px solid #d8e0e8;
+  padding:1.15vw .75vw .65vw;min-width:0;display:flex;flex-direction:column;min-height:0
+}
+.section{min-height:0;display:flex;flex-direction:column}
+.section.conditions{flex:1.05}
+.section.delays{flex:.95}
+.section-title{
+  font-weight:900;font-size:1.42vw;line-height:1.05;margin:0 0 .65vw .15vw;
+  letter-spacing:.01em;flex:none
+}
+.list{overflow:hidden;min-height:0;padding-right:.05vw}
+.card{
+  background:var(--card);border-radius:.65vw;margin:0 0 .48vw;
+  padding:.52vw .7vw;border-left:.28vw solid var(--orange);
+  min-height:3.15vw;overflow:hidden
+}
+.card .road{font-weight:900;font-size:.98vw;line-height:1.05;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .desc{font-size:.73vw;color:var(--muted);margin-top:.25vw;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .delay{font-size:.83vw;font-weight:900;margin-top:.27vw;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.empty{font-size:.78vw;color:var(--muted);background:var(--card);padding:.75vw;border-radius:.65vw}
+.map-wrap{position:relative;min-width:0;min-height:0;background:#ddd}
+#localMap{position:absolute;inset:0}
+.leaflet-control-zoom{margin-top:1vw!important;margin-left:1vw!important}
+.map-label{
+ position:absolute;z-index:500;left:1.1vw;top:1vw;background:rgba(16,43,74,.94);
+ color:#fff;font-size:1.05vw;font-weight:900;padding:.55vw .8vw;border-radius:.5vw;
+ box-shadow:0 2px 8px rgba(0,0,0,.2)
+}
+.legend{
+ position:absolute;z-index:600;left:1.2vw;bottom:1vw;background:rgba(255,255,255,.96);
+ border-radius:.55vw;padding:.55vw .8vw;display:flex;gap:1vw;align-items:center;
+ font-size:.72vw;font-weight:800;box-shadow:0 2px 8px rgba(0,0,0,.18)
+}
+.leg{display:flex;align-items:center;gap:.3vw;white-space:nowrap}
+.sw{width:1.25vw;height:.22vw;border-radius:4px}
+.pip{
+ position:absolute;z-index:700;right:1.15vw;top:1.15vw;width:25%;height:34%;
+ min-width:270px;min-height:190px;border:3px solid #fff;border-radius:.8vw;
+ overflow:hidden;box-shadow:0 3px 14px rgba(0,0,0,.28);background:#ddd
+}
+#wideMap{width:100%;height:100%}
+.pip-title{
+ position:absolute;z-index:800;top:.7vw;left:.7vw;background:rgba(16,43,74,.94);
+ color:#fff;padding:.45vw .7vw;border-radius:.45vw;font-size:.8vw;font-weight:900
+}
+.store-marker{
+ width:3.25vw;height:3.25vw;min-width:42px;min-height:42px;max-width:58px;max-height:58px;
+ border-radius:50%;background:#fff;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.4);
+ display:flex;align-items:center;justify-content:center
+}
+.store-marker svg{width:86%;height:86%}
+.leaflet-marker-icon.store-icon{background:transparent;border:0}
+.leaflet-tile{image-rendering:auto}
+.map-status{
+ position:absolute;z-index:900;left:1.1vw;top:4.25vw;background:rgba(255,255,255,.94);
+ color:#263b53;border-radius:.45vw;padding:.4vw .6vw;font-size:.65vw;
+ box-shadow:0 1px 6px rgba(0,0,0,.18);display:none
+}
+@media(max-width:1100px){
+ .brand-name{font-size:3.3vw}.meta{font-size:1.4vw}
+ .section-title{font-size:1.8vw}.card .road{font-size:1.25vw}.card .desc{font-size:.95vw}.card .delay{font-size:1vw}
+ .legend{font-size:.9vw}.map-label{font-size:1.3vw}
+}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="slide">
+    <header class="topbar">
+      <div class="brand">
+        <svg class="brand-logo" viewBox="0 0 100 100" aria-label="Johnny Vapes logo">
+          <circle cx="50" cy="50" r="47" fill="#fff"/>
+          <circle cx="50" cy="27" r="10" fill="#ed1c24"/>
+          <circle cx="50" cy="50" r="10" fill="#f7c600"/>
+          <circle cx="50" cy="73" r="10" fill="#08a95b"/>
+        </svg>
+        <div class="brand-name">BELLEVUE TRAFFIC</div>
+      </div>
+      <div class="meta">
+        <strong id="updated">Updated --</strong><br>
+        Source: Wisconsin 511
+      </div>
+    </header>
+
+    <main class="body">
+      <aside class="info">
+        <section class="section conditions">
+          <h2 class="section-title">Current Conditions</h2>
+          <div id="conditions" class="list"></div>
+        </section>
+        <section class="section delays">
+          <h2 class="section-title">Traffic Delays</h2>
+          <div id="delays" class="list"></div>
+        </section>
+      </aside>
+
+      <section class="map-wrap">
+        <div id="localMap"></div>
+        <div class="map-label">Bellevue / local traffic</div>
+        <div class="map-status" id="mapStatus">Loading 511WI traffic layer…</div>
+
+        <div class="pip">
+          <div id="wideMap"></div>
+          <div class="pip-title">WIDER AREA</div>
+        </div>
+
+        <div class="legend">
+          <div class="leg"><span class="sw" style="background:#08a95b"></span>Fast</div>
+          <div class="leg"><span class="sw" style="background:#f2bd00"></span>Moderate</div>
+          <div class="leg"><span class="sw" style="background:#f47b20"></span>Slow</div>
+          <div class="leg"><span class="sw" style="background:#e5222e"></span>Very slow / stopped</div>
+        </div>
+      </section>
+    </main>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+/*
+  Traffic slide test.
+  Data files are published by traffic-automation into this repository:
+    traffic.json
+    traffic_tiles/
+    traffic_tiles.json
+*/
+
+const BASE = new URL(".", location.href).href;
+const TRAFFIC_JSON = BASE + "traffic.json";
+const TILE_INDEX = BASE + "traffic_tiles.json";
+const TILE_URL = BASE + "traffic_tiles/14/{x}/{y}.png";
+
+/* Verified store addresses:
+   Bellevue: 1681 Lime Kiln Rd
+   Packerland: 2652 N Packerland Dr
+*/
+const STORES = [
+  {name:"Johnny Vapes • Bellevue", lat:44.469354, lon:-87.982207},
+  {name:"Johnny Vapes • Packerland", lat:44.541733, lon:-88.093166}
+];
+
+/* A compact version of the Johnny Vapes traffic-light mark for map markers. */
+function logoSvg(){
+  return `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="50" cy="50" r="46" fill="#fff"/>
+    <rect x="29" y="8" width="42" height="84" rx="21" fill="#102b4a"/>
+    <circle cx="50" cy="27" r="10" fill="#ed1c24"/>
+    <circle cx="50" cy="50" r="10" fill="#f7c600"/>
+    <circle cx="50" cy="73" r="10" fill="#08a95b"/>
+  </svg>`;
+}
+function storeIcon(){
+  return L.divIcon({
+    className:"store-icon",
+    html:`<div class="store-marker">${logoSvg()}</div>`,
+    iconSize:[54,54], iconAnchor:[27,27]
+  });
+}
+
+const localMap = L.map("localMap",{zoomControl:true,attributionControl:true});
+const wideMap = L.map("wideMap",{zoomControl:false,attributionControl:false});
+
+const osmLocal = L.tileLayer(
+ "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+ {maxZoom:19,attribution:'© OpenStreetMap contributors'}
+).addTo(localMap);
+
+const osmWide = L.tileLayer(
+ "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+ {maxZoom:19}
+).addTo(wideMap);
+
+const trafficLocal = L.tileLayer(TILE_URL,{
+  minZoom:10,maxZoom:14,opacity:.92,tms:false,
+  attribution:"Traffic: Wisconsin 511"
+}).addTo(localMap);
+
+const trafficWide = L.tileLayer(TILE_URL,{
+  minZoom:8,maxZoom:14,opacity:.92,tms:false
+}).addTo(wideMap);
+
+localMap.setView([44.489,-87.986],12.5);
+wideMap.fitBounds([
+  [44.43,-88.14],
+  [44.58,-87.93]
+],{padding:[5,5]});
+
+STORES.forEach(store=>{
+  L.marker([store.lat,store.lon],{icon:storeIcon(),title:store.name}).addTo(localMap);
+  L.marker([store.lat,store.lon],{icon:storeIcon(),title:store.name}).addTo(wideMap);
+});
+
+function esc(v){
+  return String(v ?? "").replace(/[&<>"']/g,m=>({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+  }[m]));
+}
+
+function num(v){
+  const n=Number(v);
+  return Number.isFinite(n)?n:0;
+}
+
+function delayColor(mins){
+  mins=num(mins);
+  if(mins>=15)return ["#e5222e","red"];
+  if(mins>=7)return ["#f47b20","orange"];
+  if(mins>=3)return ["#f2bd00","yellow"];
+  return ["#08a95b","green"];
+}
+
+function pickArray(obj, names){
+  for(const n of names){
+    if(Array.isArray(obj?.[n])) return obj[n];
+  }
+  return [];
+}
+
+function eventRoad(e){
+  return e.roadway || e.road || e.name || e.route || e.title || e.description || "Traffic event";
+}
+function eventDesc(e){
+  return e.description || e.message || e.details || e.status || "Traffic conditions reported.";
+}
+function eventSeverity(e){
+  const s=String(e.severity||e.severity_name||e.type||"").toLowerCase();
+  if(s.includes("closed")||s.includes("severe")||s.includes("red"))return ["#e5222e","red"];
+  if(s.includes("heavy")||s.includes("major")||s.includes("slow"))return ["#f47b20","orange"];
+  if(s.includes("moderate")||s.includes("medium"))return ["#f2bd00","yellow"];
+  return ["#08a95b","green"];
+}
+
+function renderTraffic(data){
+  const events=pickArray(data,["events","traffic_events","incidents","closures","traffic"]);
+  const times=pickArray(data,["travel_times","travelTimes","delays","segments","routes"]);
+
+  const cb=document.getElementById("conditions");
+  const db=document.getElementById("delays");
+  cb.innerHTML="";
+  db.innerHTML="";
+
+  const visibleEvents=events.slice(0,8);
+  if(!visibleEvents.length){
+    cb.innerHTML='<div class="empty">No active traffic events in the Bellevue area.</div>';
+  }else{
+    visibleEvents.forEach(e=>{
+      const c=eventSeverity(e);
+      const d=document.createElement("div");
+      d.className="card";
+      d.style.borderLeftColor=c[0];
+      d.innerHTML=`<div class="road"><span style="color:${c[0]}">●</span> ${esc(eventRoad(e))}</div>
+                   <div class="desc">${esc(eventDesc(e))}</div>`;
+      cb.appendChild(d);
+    });
+  }
+
+  const sorted=[...times].sort((a,b)=>num(b.delay_minutes ?? b.delay ?? b.delayMinutes)-num(a.delay_minutes ?? a.delay ?? a.delayMinutes));
+  const visibleTimes=sorted.slice(0,8);
+  if(!visibleTimes.length){
+    db.innerHTML='<div class="empty">No significant traffic delays reported.</div>';
+  }else{
+    visibleTimes.forEach(t=>{
+      const mins=num(t.delay_minutes ?? t.delay ?? t.delayMinutes);
+      const c=delayColor(mins);
+      const road=t.roadway||t.road||t.route||t.name||"Traffic segment";
+      const desc=t.description||t.route_description||t.details||"Local traffic delay";
+      const current=t.current_time_minutes ?? t.currentTimeMinutes ?? t.travel_time_minutes ?? t.travelTimeMinutes;
+      const travel=Number.isFinite(Number(current)) ? Math.round(Number(current))+" min travel time" : "";
+      const d=document.createElement("div");
+      d.className="card";
+      d.style.borderLeftColor=c[0];
+      d.innerHTML=`<div class="road"><span style="color:${c[0]}">●</span> ${esc(road)}</div>
+                   <div class="desc">${esc(String(desc))}</div>
+                   <div class="delay" style="color:${c[0]}">+${Math.round(mins)} min delay${travel?" • "+esc(travel):""}</div>`;
+      db.appendChild(d);
+    });
+  }
+
+  const stamp=data.generated_at||data.generatedAt||data.updated_at||data.updatedAt;
+  document.getElementById("updated").textContent =
+    "Updated "+(stamp ? new Date(stamp).toLocaleTimeString([],{hour:"numeric",minute:"2-digit"}) :
+    new Date().toLocaleTimeString([],{hour:"numeric",minute:"2-digit"}));
+}
+
+async function loadTraffic(){
+  try{
+    const r=await fetch(TRAFFIC_JSON+"?t="+Date.now(),{cache:"no-store"});
+    if(!r.ok) throw new Error("traffic.json "+r.status);
+    renderTraffic(await r.json());
+  }catch(e){
+    document.getElementById("conditions").innerHTML =
+      '<div class="empty" style="border-left:4px solid #f47b20">Unable to load current 511WI events.</div>';
+    document.getElementById("delays").innerHTML =
+      '<div class="empty" style="border-left:4px solid #f47b20">Unable to load current travel times.</div>';
+    document.getElementById("updated").textContent =
+      "Updated "+new Date().toLocaleTimeString([],{hour:"numeric",minute:"2-digit"});
+    console.error(e);
+  }
+}
+
+async function checkTileIndex(){
+  try{
+    const r=await fetch(TILE_INDEX+"?t="+Date.now(),{cache:"no-store"});
+    if(!r.ok) throw new Error("traffic_tiles.json "+r.status);
+    const j=await r.json();
+    console.log("traffic_tiles.json loaded",j);
+  }catch(e){
+    console.warn("traffic_tiles.json could not be read:",e);
+  }
+}
+
+loadTraffic();
+checkTileIndex();
+
+setInterval(loadTraffic,5*60*1000);
+
+/* GitHub Pages / signage sometimes initializes maps before the container has its final size. */
+setTimeout(()=>{
+  localMap.invalidateSize();
+  wideMap.invalidateSize();
+},300);
+window.addEventListener("resize",()=>{
+  localMap.invalidateSize();
+  wideMap.invalidateSize();
+});
+</script>
+</body>
+</html>
