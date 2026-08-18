@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-18T13:33:34.335086+00:00",
+  "generated_at": "2026-08-18T14:08:40.392641+00:00",
   "source": "Wisconsin 511 Traffic Speeds",
   "tile_source": "https://tiles.ibi511.com/Geoservice/GetTrafficTile",
   "tile_zoom": 14,
-  "tile_timestamp": 1787059976,
+  "tile_timestamp": 1787062110,
   "center": {
     "name": "Bellevue, WI",
     "latitude": 44.4586,
