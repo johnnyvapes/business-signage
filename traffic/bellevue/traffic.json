@@ -8,11 +8,11 @@
     "enabled": true,
     "id": "bellevue"
   },
-  "updated_local": "Aug 18, 2026 07:19 PM",
+  "updated_local": "Aug 18, 2026 07:22 PM",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 33,
+  "incident_count": 32,
   "segments": [
     {
       "id": "4008",
@@ -859,23 +859,6 @@
       "encoded_polyline": "us}nGx`lxO??",
       "latitude_secondary": 44.5575472145984,
       "longitude_secondary": -88.0489310241059
-    },
-    {
-      "id": 718215,
-      "roadway": "I-43",
-      "direction": "s",
-      "description": "I-43 South at Atkinson Dr. The right shoulder is blocked due to a disabled vehicle.",
-      "severity": "1",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.542931,
-      "longitude": -88.029776,
-      "last_updated": 1787079202,
-      "lanes_affected": "Shoulder blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Disabled Vehicle",
-      "encoded_polyline": "ixznGbihxO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     },
     {
       "id": 718239,
