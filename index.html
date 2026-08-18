@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bellevue Traffic</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+ integrity="sha256-p4NxAoJBhIINfQ3l3mGJ8Z7nJYQ2NQ3mZ3wY2m2wQ0=" crossorigin="anonymous">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#eef2f5;font-family:Arial,Helvetica,sans-serif;color:#102f4f}
+#app{width:100vw;height:100vh;display:flex;flex-direction:column}
+#header{height:7vh;min-height:58px;background:#102f4f;color:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 1.1vw;flex:0 0 7vh}
+.brand{display:flex;align-items:center;gap:.65vw;font-weight:900;font-size:3.0vw;line-height:1;letter-spacing:.01em}
+.signal{width:2.45vw;height:2.45vw;min-width:34px;min-height:34px;border-radius:50%;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;box-shadow:0 1px 2px #0004}
+.signal i{width:.55vw;height:.55vw;min-width:7px;min-height:7px;border-radius:50%;display:block}
+.signal i:nth-child(1){background:#e83d45}.signal i:nth-child(2){background:#f4bd20}.signal i:nth-child(3){background:#19aa67}
+.updated{text-align:right;font-size:1.15vw;line-height:1.15;font-weight:700}.updated small{font-size:1vw;font-weight:400}
+#body{height:93vh;display:flex;min-height:0}
+#sidebar{width:25%;height:100%;overflow:hidden;background:#f5f7f9;padding:.75vw .8vw;display:flex;flex-direction:column;gap:.35vw}
+.sectionTitle{font-size:1.7vw;font-weight:900;margin:.25vw 0 .45vw}
+#events,#delays{overflow:hidden}
+#events{height:44%}
+#delays{height:56%}
+.list{height:calc(100% - 2.2vw);overflow:hidden}
+.card{background:#fff;border-radius:.55vw;margin:.32vw 0;padding:.45vw .6vw;border-left:.22vw solid #e51f35;box-shadow:0 1px 3px #00000012;min-height:4.1vw}
+.card .road{font-size:1.15vw;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .desc{font-size:.78vw;color:#57718a;margin-top:.12vw;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card.delay-green{border-left-color:#16ad6b}.card.delay-yellow{border-left-color:#f2c000}.card.delay-orange{border-left-color:#f47b20}.card.delay-red{border-left-color:#e51f35}
+.card .delay{font-size:.95vw;font-weight:900;margin-top:.12vw}
+.green{color:#07995c}.yellow{color:#d39d00}.orange{color:#e86c00}.red{color:#e51f35}
+.empty{background:#fff;border-radius:.55vw;padding:.7vw;color:#536b80;font-size:.9vw}
+#mapWrap{position:relative;width:75%;height:100%;background:#dfe7eb}
+#map{position:absolute;inset:0}
+#mapTitle{position:absolute;z-index:900;top:1.0vw;left:1.0vw;background:#102f4f;color:#fff;padding:.55vw .8vw;border-radius:.45vw;font-size:1.45vw;font-weight:900;box-shadow:0 2px 5px #0004;pointer-events:none}
+#wide{position:absolute;z-index:900;top:1.0vw;right:1.0vw;width:24%;height:28%;background:#fff;border:3px solid #fff;border-radius:.65vw;box-shadow:0 2px 8px #0004;overflow:hidden}
+#wideMap{width:100%;height:100%}
+#wideTitle{position:absolute;z-index:1000;top:.7vw;left:.7vw;background:#102f4f;color:#fff;padding:.4vw .6vw;border-radius:.35vw;font-size:1.0vw;font-weight:900;pointer-events:none}
+#legend{position:absolute;z-index:900;left:1vw;bottom:1vw;background:#fff;border-radius:.5vw;padding:.45vw .7vw;box-shadow:0 1px 5px #0004;font-size:.82vw;font-weight:800;display:flex;gap:1vw}
+.legendItem{display:flex;align-items:center;gap:.3vw}.swatch{width:1.1vw;height:.23vw;border-radius:2px}
+.leaflet-control-zoom{display:none!important}
+.leaflet-control-attribution{font-size:9px!important}
+.storeIcon{background:transparent;border:0}
+.storePin{width:34px;height:34px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:#fff;border:2px solid #102f4f;box-shadow:0 2px 5px #0006;display:flex;align-items:center;justify-content:center}
+.storePin img{width:25px;height:25px;object-fit:contain;border-radius:50%;transform:rotate(45deg)}
+.storePin .fallback{font-size:10px;font-weight:900;color:#102f4f;transform:rotate(45deg)}
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="header">
+    <div class="brand"><span class="signal"><i></i><i></i><i></i></span>BELLEVUE TRAFFIC</div>
+    <div class="updated"><span id="updated">Updated --</span><br><small>Source: Wisconsin 511</small></div>
+  </div>
+  <div id="body">
+    <aside id="sidebar">
+      <section id="events">
+        <div class="sectionTitle">Current Conditions</div>
+        <div id="eventList" class="list"></div>
+      </section>
+      <section id="delays">
+        <div class="sectionTitle">Traffic Delays</div>
+        <div id="delayList" class="list"></div>
+      </section>
+    </aside>
+    <main id="mapWrap">
+      <div id="map"></div>
+      <div id="mapTitle">Bellevue / local traffic</div>
+      <div id="wide"><div id="wideMap"></div><div id="wideTitle">WIDER AREA</div></div>
+      <div id="legend">
+        <span class="legendItem"><b class="swatch" style="background:#16ad6b"></b>Fast</span>
+        <span class="legendItem"><b class="swatch" style="background:#f2c000"></b>Moderate</span>
+        <span class="legendItem"><b class="swatch" style="background:#f47b20"></b>Slow</span>
+        <span class="legendItem"><b class="swatch" style="background:#e51f35"></b>Very slow / stopped</span>
+      </div>
+    </main>
+  </div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
+<script>
+const bust=u=>u+(u.includes("?")?"&":"?")+"v="+Date.now();
+const LOCAL_CENTER=[44.4477,-87.9760];
+const WIDE_CENTER=[44.510,-88.020];
+const LOGO_CANDIDATES=[
+  "media/logo.png","media/logo.jpg","media/logo.webp",
+  "media/johnny-vapes-logo.png","media/johnny_vapes_logo.png",
+  "facebook_images/logo.png","facebook_images/logo.jpg"
+];
+
+/* These are intentionally isolated so the two locations can be corrected
+   without changing the map code. */
+const STORES=[
+  // Bellevue store: approximate location in the Bellevue/Manitowoc Rd area.
+  {name:"Johnny Vapes • Bellevue",lat:44.4477,lng:-87.9760},
+  // Packerland store: approximate Packerland Dr / west Green Bay area.
+  {name:"Johnny Vapes • Packerland",lat:44.4895,lng:-88.1015}
+];
+
+let logoURL=null, trafficMap, wideMap, trafficLayer=null;
+
+function esc(v){return String(v??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]))}
+
+function delayClass(n){
+  n=Number(n||0);
+  if(n>=8)return ["delay-red","red"];
+  if(n>=5)return ["delay-orange","orange"];
+  if(n>=2)return ["delay-yellow","yellow"];
+  return ["delay-green","green"];
+}
+
+function addStoreMarkers(map){
+  STORES.forEach(s=>{
+    const html=`<div class="storePin">${logoURL?`<img src="${logoURL}" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">`:""}<span class="fallback" style="${logoURL?"display:none":""}">JV</span></div>`;
+    L.marker([s.lat,s.lng],{
+      icon:L.divIcon({className:"storeIcon",html,iconSize:[34,34],iconAnchor:[17,30]})
+    }).addTo(map);
+  });
+}
+
+async function findLogo(){
+  for(const u of LOGO_CANDIDATES){
+    try{
+      const r=await fetch(u,{method:"HEAD",cache:"no-store"});
+      if(r.ok){logoURL=u;return}
+    }catch(e){}
+  }
+}
+
+function flattenManifest(obj){
+  const out={template:null,tiles:{}};
+  const visit=(v,path="")=>{
+    if(v==null)return;
+    if(typeof v==="string"){
+      if(v.includes("{z}")&&v.includes("{x}")&&v.includes("{y}"))out.template=v;
+      return;
+    }
+    if(Array.isArray(v)){v.forEach(x=>visit(x,path));return}
+    if(typeof v==="object"){
+      for(const [k,val] of Object.entries(v)){
+        const kl=k.toLowerCase();
+        if(typeof val==="string" && val.includes("{z}")&&val.includes("{x}")&&val.includes("{y}"))out.template=val;
+        if(typeof val==="string" && /^\\d+[_\\/,]\\d+[_\\/,]\\d+/.test(k))out.tiles[k]=val;
+        if(typeof val==="object" || Array.isArray(val))visit(val,path?path+"/"+k:k);
+      }
+    }
+  };
+  visit(obj);
+  if(obj && typeof obj==="object"){
+    for(const k of ["template","url","tile_url","tileUrl","tiles","tileTemplate"]){
+      if(typeof obj[k]==="string" && obj[k].includes("{z}")&&obj[k].includes("{x}")&&obj[k].includes("{y}"))out.template=obj[k];
+    }
+  }
+  return out;
+}
+
+function addTrafficTiles(map,manifest){
+  if(!manifest)return;
+  const m=flattenManifest(manifest);
+  let template=m.template;
+  if(template){
+    if(!/^https?:/i.test(template) && !template.startsWith("/")) template=template.replace(/^\.?\//,"");
+    if(!/^https?:/i.test(template)) template=template;
+    L.tileLayer(template,{opacity:.82,maxZoom:18,minZoom:5,tileSize:256}).addTo(map);
+    return;
+  }
+  // Common local manifest forms: a list/map of z/x/y -> filename.
+  const entries=m.tiles;
+  if(!Object.keys(entries).length)return;
+  const Layer=L.GridLayer.extend({
+    createTile:function(coords,done){
+      const tile=document.createElement("img");
+      tile.width=256;tile.height=256;
+      const keys=[
+        `${coords.z}/${coords.x}/${coords.y}`,
+        `${coords.z}_${coords.x}_${coords.y}`,
+        `${coords.z},${coords.x},${coords.y}`,
+        `${coords.x}/${coords.y}/${coords.z}`
+      ];
+      let src=null;
+      for(const k of keys){if(entries[k]){src=entries[k];break}}
+      if(!src){
+        // Try filename convention generated by update_traffic.py.
+        const guesses=[
+          `traffic_tiles/${coords.z}/${coords.x}/${coords.y}.png`,
+          `traffic_tiles/${coords.z}_${coords.x}_${coords.y}.png`,
+          `traffic_tiles/${coords.z}/${coords.x}/${coords.y}.jpg`
+        ];
+        src=guesses[0];
+      }else if(!/^https?:/i.test(src) && !src.startsWith("/"))src=src.replace(/^\.?\//,"");
+      tile.onload=()=>done(null,tile);tile.onerror=()=>done(null,tile);tile.src=bust(src);
+      return tile;
+    }
+  });
+  new Layer({opacity:.82,maxZoom:18,minZoom:5}).addTo(map);
+}
+
+async function loadTraffic(){
+  try{
+    const d=await (await fetch(bust("traffic.json"),{cache:"no-store"})).json();
+    const events=Array.isArray(d.events)?d.events:Array.isArray(d.traffic_events)?d.traffic_events:[];
+    const times=Array.isArray(d.travel_times)?d.travel_times:Array.isArray(d.times)?d.times:[];
+    const eb=document.getElementById("eventList"), db=document.getElementById("delayList");
+    eb.innerHTML="";
+    events.slice(0,6).forEach(e=>{
+      const road=e.roadway||e.road||e.name||e.description||"Traffic event";
+      const desc=e.description||e.details||e.event_description||"";
+      const card=document.createElement("div");card.className="card";
+      card.innerHTML=`<div class="road">• ${esc(road)}</div><div class="desc">${esc(desc)}</div>`;
+      eb.appendChild(card);
+    });
+    if(!events.length)eb.innerHTML='<div class="empty">No active traffic events in the Bellevue area.</div>';
+    db.innerHTML="";
+    times.slice(0,8).forEach(t=>{
+      const mins=Number(t.delay_minutes||t.delay||0), [cl,tc]=delayClass(mins);
+      const road=t.roadway||t.road||t.name||"Traffic segment";
+      const desc=t.description||t.route||"Local traffic delay";
+      const cur=t.current_time_minutes!=null?Math.round(Number(t.current_time_minutes))+" min travel time":"";
+      const card=document.createElement("div");card.className="card "+cl;
+      card.innerHTML=`<div class="road">• ${esc(road)}</div><div class="desc">${esc(desc)}</div><div class="delay ${tc}">${mins>0?"+"+Math.round(mins)+" min delay": "Normal"}${cur?" • "+cur:""}</div>`;
+      db.appendChild(card);
+    });
+    if(!times.length)db.innerHTML='<div class="empty">No significant traffic delays reported.</div>';
+    const when=d.generated_at||d.updated_at||Date.now();
+    document.getElementById("updated").textContent="Updated "+new Date(when).toLocaleTimeString([],{hour:"numeric",minute:"2-digit"});
+  }catch(e){
+    document.getElementById("eventList").innerHTML='<div class="empty">Unable to load current 511WI events.</div>';
+    document.getElementById("delayList").innerHTML='<div class="empty">Unable to load current travel times.</div>';
+  }
+}
+
+async function start(){
+  await findLogo();
+
+  trafficMap=L.map("map",{zoomControl:false,attributionControl:true,preferCanvas:true});
+  wideMap=L.map("wideMap",{zoomControl:false,attributionControl:false,preferCanvas:true});
+
+  const base="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+  L.tileLayer(base,{maxZoom:19,crossOrigin:true,attribution:'© OpenStreetMap contributors'}).addTo(trafficMap);
+  L.tileLayer(base,{maxZoom:19}).addTo(wideMap);
+
+  trafficMap.setView(LOCAL_CENTER,12);
+  wideMap.setView(WIDE_CENTER,11);
+
+  addStoreMarkers(trafficMap);
+  addStoreMarkers(wideMap);
+
+  try{
+    const manifest=await (await fetch(bust("traffic_tiles.json"),{cache:"no-store"})).json();
+    addTrafficTiles(trafficMap,manifest);
+    addTrafficTiles(wideMap,manifest);
+  }catch(e){
+    // The base map and store markers still render if the traffic tile manifest
+    // is temporarily unavailable.
+  }
+
+  loadTraffic();
+  setInterval(loadTraffic,5*60*1000);
+  setTimeout(()=>{trafficMap.invalidateSize();wideMap.invalidateSize()},300);
+}
+start();
+</script>
+</body>
+</html>
