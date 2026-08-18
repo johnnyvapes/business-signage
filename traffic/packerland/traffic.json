@@ -1,18 +1,18 @@
 {
-  "store_id": "bellevue",
+  "store_id": "packerland",
   "store": {
-    "name": "Johnny Vapes Bellevue",
-    "address": "1681 Lime Kiln Rd, Green Bay, WI 54311",
-    "latitude": 44.469354,
-    "longitude": -87.982207,
+    "name": "Johnny Vapes Packerland",
+    "address": "2652 N Packerland Dr # B, Green Bay, WI 54303",
+    "latitude": 44.541733,
+    "longitude": -88.093166,
     "enabled": true,
-    "id": "bellevue"
+    "id": "packerland"
   },
   "updated_local": "Aug 18, 2026 04:35 PM",
   "source": "511WI",
   "radius_miles": 7.0,
   "segment_count": 11,
-  "incident_count": 12,
+  "incident_count": 6,
   "segments": [
     {
       "id": "4008",
@@ -402,59 +402,48 @@
   ],
   "incidents": [
     {
-      "id": 635825,
-      "roadway": "Hoffman Road",
+      "id": 692071,
+      "roadway": "CTH EE & CTH",
       "direction": "E",
-      "description": "Roadwork - Local Road Full Closure on Hoffman Road EB from Bellevue St to CTH GV",
+      "description": "Roadwork - Local Road Full Closure on CTH EE & CTH EB EB from STA 15+00 EB to 26+65 EB. Detour: CTH EE (Orlando Dr) & CTH GE (S Pine Tree Rd) to CTH GE & CTH G (Fernando Dr) then to CTH G & CTH EB (Packerland Dr) then to CTH EB & CTH GF (Main St), then to CTH GF and Mid Valley Dr Round About then to Mid Valley Dr & CTH EE (Grant St) Round About.",
       "severity": "Unknown",
       "event_type": "closures",
-      "latitude": 44.45374324,
-      "longitude": -88.00923436,
-      "last_updated": 1782771305
+      "latitude": 44.44531625,
+      "longitude": -88.13293009,
+      "last_updated": 1785788803
     },
     {
-      "id": 635827,
-      "roadway": "Hoffman Road",
+      "id": 692072,
+      "roadway": "CTH EE & CTH",
       "direction": "W",
-      "description": "Roadwork - Local Road Full Closure on Hoffman Road WB from CTH GV to Bellevue St",
+      "description": "Roadwork - Local Road Full Closure on CTH EE & CTH EB WB from 26+65 WB to 15+00 WB. Detour: CTH EE (Orlando Dr) & CTH GE (S Pine Tree Rd) to CTH GE & CTH G (Fernando Dr) then to CTH G & CTH EB (Packerland Dr) then to CTH EB & CTH GF (Main St), then to CTH GF and Mid Valley Dr Round About then to Mid Valley Dr & CTH EE (Grant St) Round About.",
       "severity": "Unknown",
       "event_type": "closures",
-      "latitude": 44.45231042,
-      "longitude": -87.99573053,
-      "last_updated": 1782771305
+      "latitude": 44.44531739,
+      "longitude": -88.13278317,
+      "last_updated": 1785788803
     },
     {
-      "id": 693000,
-      "roadway": "US-141",
+      "id": 692073,
+      "roadway": "CTH EE & CTH",
       "direction": "N",
-      "description": "Roadwork - Mainline Right Shoulder Closed on US 141 NB from WALL ST to BLUESTONE PL",
+      "description": "Roadwork - Local Road Full Closure on CTH EE & CTH EB NB from 100+00 NB to 111+30 NB. Detour: CTH EB (Packerland Dr) & CTH F (Scheuring Rd) Round About to 41, 41 to CTH GF (Main St) then to CTH GF & CTH EB (Packerland Dr)",
       "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4392041970431,
-      "longitude": -87.9176731490878,
-      "last_updated": 1785862605
+      "event_type": "closures",
+      "latitude": 44.4452902,
+      "longitude": -88.13285727,
+      "last_updated": 1785788803
     },
     {
-      "id": 693001,
-      "roadway": "US-141",
+      "id": 692074,
+      "roadway": "CTH EE & CTH",
       "direction": "S",
-      "description": "Roadwork - Mainline Right Shoulder Closed on US 141 SB from BLUESTONE PL to WALL ST",
+      "description": "Roadwork - Local Road Full Closure on CTH EE & CTH EB SB from 111+30 SB to 100+00 SB. Detour: CTH EB (Packerland Dr) & CTH F (Scheuring Rd) Round About to 41, 41 to CTH GF (Main St) then to CTH GF & CTH EB (Packerland Dr)",
       "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4641071859532,
-      "longitude": -87.9561226730257,
-      "last_updated": 1785862605
-    },
-    {
-      "id": 693064,
-      "roadway": "WI-172",
-      "direction": "E",
-      "description": "Roadwork - Ramp Right Shoulder Closed on WIS 172 EB at OFF RAMP TO COUNTY GV",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4567106195568,
-      "longitude": -87.9958975052402,
-      "last_updated": 1785865305
+      "event_type": "closures",
+      "latitude": 44.44542048,
+      "longitude": -88.13286026,
+      "last_updated": 1785788803
     },
     {
       "id": 702490,
@@ -466,61 +455,6 @@
       "latitude": 44.5575472145984,
       "longitude": -88.0489310241059,
       "last_updated": 1786361226
-    },
-    {
-      "id": 703490,
-      "roadway": "US-141",
-      "direction": "S",
-      "description": "Roadwork - Mainline Left Lane Closed on US 141 SB from GUNS RD to PECAN ST",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4812995092148,
-      "longitude": -87.9700088492497,
-      "last_updated": 1786389127
-    },
-    {
-      "id": 708452,
-      "roadway": "US-141",
-      "direction": "S",
-      "description": "Roadwork - Mainline Flagging Operation on US 141 SB from FROM US 141 NB to US 141 NB. Daily from 08/13/2026 to 08/28/2026, 06:00 AM - 03:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4606977630343,
-      "longitude": -87.9524849562541,
-      "last_updated": 1786625919
-    },
-    {
-      "id": 708453,
-      "roadway": "US-141",
-      "direction": "N",
-      "description": "Roadwork - Mainline Flagging Operation on US 141 NB from NOEL DR to BR SORENSONS CREEK (BRIDGE CROSSING). Daily from 08/13/2026 to 08/28/2026, 06:00 AM - 03:00 PM, Sun, M, T, W, Th, F, Sat",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.458109614728,
-      "longitude": -87.9499968083929,
-      "last_updated": 1786625919
-    },
-    {
-      "id": 708454,
-      "roadway": "Allouez Avenue",
-      "direction": "W",
-      "description": "Roadwork - Local Road Flagging Operation on Allouez Avenue WB from Gemini Road to Meadow Park Drive. Daily from 08/13/2026 to 08/28/2026, 06:00 AM - 03:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.45887522,
-      "longitude": -87.94612578,
-      "last_updated": 1786625919
-    },
-    {
-      "id": 708455,
-      "roadway": "Allouez Avenue",
-      "direction": "E",
-      "description": "Roadwork - Local Road Flagging Operation on Allouez Avenue EB from Meadow Park Drive to Gemini Road. Daily from 08/13/2026 to 08/28/2026, 06:00 AM - 03:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.45884909,
-      "longitude": -87.95283598,
-      "last_updated": 1786625919
     },
     {
       "id": 717933,
