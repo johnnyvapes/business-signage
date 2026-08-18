@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T14:08:30.023100+00:00",
+  "generated_at": "2026-08-18T14:31:34.961821+00:00",
   "source": "Wisconsin 511",
   "center": {
     "name": "Bellevue, WI",
@@ -369,6 +369,27 @@
       "last_updated": 1786999434,
       "planned_end_date": 1787652000,
       "distance_from_bellevue_miles": 14.6
+    },
+    {
+      "id": 717925,
+      "roadway": "I-41",
+      "direction": "s",
+      "description": "Disabled vehicle on Exit to Lombardi Ave from I-41 South.",
+      "lanes_affected": "No lanes blocked.",
+      "full_closure": false,
+      "event_type": "accidentsAndIncidents",
+      "event_subtype": "Disabled Vehicle",
+      "severity": "1",
+      "comment": "",
+      "latitude": 44.513958,
+      "longitude": -88.082729,
+      "latitude_secondary": null,
+      "longitude_secondary": null,
+      "encoded_polyline": "gcunG`trxO",
+      "start_date": 1787062994,
+      "last_updated": 1787063007,
+      "planned_end_date": null,
+      "distance_from_bellevue_miles": 8.0
     },
     {
       "id": 708454,
@@ -1003,84 +1024,13 @@
   ],
   "travel_times": [
     {
-      "id": "4039",
-      "roadway": "WIS 54/57 ",
-      "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
-      "distance_miles": "19",
-      "normal_time_minutes": "17",
-      "current_time_minutes": "30",
-      "delay_minutes": "13",
-      "region": "Brown",
-      "start_latitude": "44.524762",
-      "start_longitude": "-87.92044",
-      "end_latitude": "44.430897",
-      "end_longitude": "-88.111944",
-      "waypoints": [
-        {
-          "RoadwayName": "WIS 54/57 West",
-          "Direction": "W",
-          "Latitude": 44.524762,
-          "Longitude": -87.92044
-        },
-        {
-          "RoadwayName": "WIS 54/57 West",
-          "Direction": "W",
-          "Latitude": 44.52475917,
-          "Longitude": -87.92044488
-        },
-        {
-          "RoadwayName": "Ramp from WIS 57 South to I-43 South",
-          "Direction": null,
-          "Latitude": 44.51712673,
-          "Longitude": -87.95830838
-        },
-        {
-          "RoadwayName": "I-43 South",
-          "Direction": "S",
-          "Latitude": 44.51101669,
-          "Longitude": -87.94246585
-        },
-        {
-          "RoadwayName": "Ramp from I-43 South to WIS 172 West",
-          "Direction": null,
-          "Latitude": 44.45467512,
-          "Longitude": -87.9669324
-        },
-        {
-          "RoadwayName": "WIS 172 West",
-          "Direction": "W",
-          "Latitude": 44.47587641,
-          "Longitude": -88.04585144
-        },
-        {
-          "RoadwayName": "Ramp from WIS 172 West to I-41 South",
-          "Direction": null,
-          "Latitude": 44.48791612,
-          "Longitude": -88.08249003
-        },
-        {
-          "RoadwayName": "I-41 South",
-          "Direction": "S",
-          "Latitude": 44.43089583,
-          "Longitude": -88.11193773
-        },
-        {
-          "RoadwayName": "I-41 South",
-          "Direction": "S",
-          "Latitude": 44.430897,
-          "Longitude": -88.111944
-        }
-      ],
-      "distance_from_bellevue_miles": 4.7
-    },
-    {
       "id": "4038",
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "distance_miles": "18",
       "normal_time_minutes": "15",
-      "current_time_minutes": "28",
-      "delay_minutes": "13",
+      "current_time_minutes": "16",
+      "delay_minutes": "1",
       "region": "Brown",
       "start_latitude": "44.524684",
       "start_longitude": "-87.919172",
@@ -1138,8 +1088,8 @@
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "distance_miles": "18",
       "normal_time_minutes": "16",
-      "current_time_minutes": "22",
-      "delay_minutes": "6",
+      "current_time_minutes": "16",
+      "delay_minutes": "0",
       "region": "Brown",
       "start_latitude": "44.451904",
       "start_longitude": "-88.090516",
@@ -1475,6 +1425,77 @@
           "Direction": "S",
           "Latitude": 44.485518,
           "Longitude": -88.080767
+        }
+      ],
+      "distance_from_bellevue_miles": 4.7
+    },
+    {
+      "id": "4039",
+      "roadway": "WIS 54/57 ",
+      "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
+      "distance_miles": "19",
+      "normal_time_minutes": "17",
+      "current_time_minutes": "17",
+      "delay_minutes": "0",
+      "region": "Brown",
+      "start_latitude": "44.524762",
+      "start_longitude": "-87.92044",
+      "end_latitude": "44.430897",
+      "end_longitude": "-88.111944",
+      "waypoints": [
+        {
+          "RoadwayName": "WIS 54/57 West",
+          "Direction": "W",
+          "Latitude": 44.524762,
+          "Longitude": -87.92044
+        },
+        {
+          "RoadwayName": "WIS 54/57 West",
+          "Direction": "W",
+          "Latitude": 44.52475917,
+          "Longitude": -87.92044488
+        },
+        {
+          "RoadwayName": "Ramp from WIS 57 South to I-43 South",
+          "Direction": null,
+          "Latitude": 44.51712673,
+          "Longitude": -87.95830838
+        },
+        {
+          "RoadwayName": "I-43 South",
+          "Direction": "S",
+          "Latitude": 44.51101669,
+          "Longitude": -87.94246585
+        },
+        {
+          "RoadwayName": "Ramp from I-43 South to WIS 172 West",
+          "Direction": null,
+          "Latitude": 44.45467512,
+          "Longitude": -87.9669324
+        },
+        {
+          "RoadwayName": "WIS 172 West",
+          "Direction": "W",
+          "Latitude": 44.47587641,
+          "Longitude": -88.04585144
+        },
+        {
+          "RoadwayName": "Ramp from WIS 172 West to I-41 South",
+          "Direction": null,
+          "Latitude": 44.48791612,
+          "Longitude": -88.08249003
+        },
+        {
+          "RoadwayName": "I-41 South",
+          "Direction": "S",
+          "Latitude": 44.43089583,
+          "Longitude": -88.11193773
+        },
+        {
+          "RoadwayName": "I-41 South",
+          "Direction": "S",
+          "Latitude": 44.430897,
+          "Longitude": -88.111944
         }
       ],
       "distance_from_bellevue_miles": 4.7
