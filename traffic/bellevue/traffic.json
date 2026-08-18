@@ -1,0 +1,449 @@
+{
+  "store_id": "bellevue",
+  "store": {
+    "name": "Johnny Vapes Bellevue",
+    "address": "1681 Lime Kiln Rd, Green Bay, WI 54311",
+    "latitude": 44.469354,
+    "longitude": -87.982207,
+    "enabled": true,
+    "id": "bellevue"
+  },
+  "updated_local": "Aug 18, 2026 03:36 PM",
+  "source": "511WI",
+  "radius_miles": 5.0,
+  "segment_count": 9,
+  "incident_count": 10,
+  "segments": [
+    {
+      "id": "3708",
+      "roadway": "I-41 ",
+      "description": "Sign 505 US 41 SB Lineville to WIS 172",
+      "normal_minutes": "6",
+      "current_minutes": "6",
+      "delay_minutes": "0",
+      "status": "Normal",
+      "waypoints": [
+        [
+          44.582572,
+          -88.048742
+        ],
+        [
+          44.58257222,
+          -88.04874209
+        ],
+        [
+          44.48324609,
+          -88.08056518
+        ],
+        [
+          44.483246,
+          -88.080565
+        ]
+      ]
+    },
+    {
+      "id": "4042",
+      "roadway": "WIS 29/32 ",
+      "description": "Sign 506 WIS 29 @ E of County FF to WIS 57 via I-43",
+      "normal_minutes": "9",
+      "current_minutes": "9",
+      "delay_minutes": "0",
+      "status": "Normal",
+      "waypoints": [
+        [
+          44.55739,
+          -88.123255
+        ],
+        [
+          44.557389,
+          -88.12325573
+        ],
+        [
+          44.53922294,
+          -88.08116913
+        ],
+        [
+          44.5490569,
+          -88.06824988
+        ],
+        [
+          44.55333009,
+          -88.04380029
+        ],
+        [
+          44.52043302,
+          -87.97038372
+        ],
+        [
+          44.51916283,
+          -87.96005773
+        ],
+        [
+          44.519166,
+          -87.960062
+        ]
+      ]
+    },
+    {
+      "id": "4044",
+      "roadway": "WIS 29/32 ",
+      "description": "Sign 506 WIS 29 EB @E of County FF to HWY 172 via I-41",
+      "normal_minutes": "5",
+      "current_minutes": "5",
+      "delay_minutes": "0",
+      "status": "Normal",
+      "waypoints": [
+        [
+          44.556658,
+          -88.121453
+        ],
+        [
+          44.55665574,
+          -88.12145429
+        ],
+        [
+          44.53521482,
+          -88.08091956
+        ],
+        [
+          44.48415849,
+          -88.08015829
+        ],
+        [
+          44.484158,
+          -88.080158
+        ]
+      ]
+    },
+    {
+      "id": "4024",
+      "roadway": "I-43 ",
+      "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
+      "normal_minutes": "6",
+      "current_minutes": "6",
+      "delay_minutes": "0",
+      "status": "Normal",
+      "waypoints": [
+        [
+          44.521888,
+          -87.973884
+        ],
+        [
+          44.52188915,
+          -87.97388942
+        ],
+        [
+          44.56089911,
+          -88.05041083
+        ],
+        [
+          44.59118918,
+          -88.04852772
+        ],
+        [
+          44.591193,
+          -88.048529
+        ]
+      ]
+    },
+    {
+      "id": "4027",
+      "roadway": "I-43 ",
+      "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
+      "normal_minutes": "9",
+      "current_minutes": "9",
+      "delay_minutes": "0",
+      "status": "Normal",
+      "waypoints": [
+        [
+          44.521963,
+          -87.974095
+        ],
+        [
+          44.52196084,
+          -87.97409956
+        ],
+        [
+          44.56076823,
+          -88.05241241
+        ],
+        [
+          44.48551593,
+          -88.08077163
+        ],
+        [
+          44.485518,
+          -88.080767
+        ]
+      ]
+    },
+    {
+      "id": "4039",
+      "roadway": "WIS 54/57 ",
+      "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
+      "normal_minutes": "17",
+      "current_minutes": "19",
+      "delay_minutes": "2",
+      "status": "Moderate",
+      "waypoints": [
+        [
+          44.524762,
+          -87.92044
+        ],
+        [
+          44.52475917,
+          -87.92044488
+        ],
+        [
+          44.51712673,
+          -87.95830838
+        ],
+        [
+          44.51101669,
+          -87.94246585
+        ],
+        [
+          44.45467512,
+          -87.9669324
+        ],
+        [
+          44.47587641,
+          -88.04585144
+        ],
+        [
+          44.48791612,
+          -88.08249003
+        ],
+        [
+          44.43089583,
+          -88.11193773
+        ],
+        [
+          44.430897,
+          -88.111944
+        ]
+      ]
+    },
+    {
+      "id": "4038",
+      "roadway": "WIS 54/57 ",
+      "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
+      "normal_minutes": "15",
+      "current_minutes": "18",
+      "delay_minutes": "3",
+      "status": "Moderate",
+      "waypoints": [
+        [
+          44.524684,
+          -87.919172
+        ],
+        [
+          44.52468358,
+          -87.9191705
+        ],
+        [
+          44.52049806,
+          -87.95579771
+        ],
+        [
+          44.52430542,
+          -87.98075663
+        ],
+        [
+          44.56076254,
+          -88.05236254
+        ],
+        [
+          44.43080635,
+          -88.1120813
+        ],
+        [
+          44.430809,
+          -88.112085
+        ]
+      ]
+    },
+    {
+      "id": "4014",
+      "roadway": "I-43 ",
+      "description": "Sign 512 I-43 NB to Lineville Rd via 172/41",
+      "normal_minutes": "14",
+      "current_minutes": "14",
+      "delay_minutes": "0",
+      "status": "Normal",
+      "waypoints": [
+        [
+          44.438107,
+          -87.928129
+        ],
+        [
+          44.43810667,
+          -87.92812905
+        ],
+        [
+          44.45992718,
+          -88.00360631
+        ],
+        [
+          44.50883658,
+          -88.08281631
+        ],
+        [
+          44.59096469,
+          -88.04886868
+        ],
+        [
+          44.590965,
+          -88.048864
+        ]
+      ]
+    },
+    {
+      "id": "4013",
+      "roadway": "I-43 ",
+      "description": "Sign 512 I-43 NB to Lineville Rd via I-43/I-41",
+      "normal_minutes": "13",
+      "current_minutes": "13",
+      "delay_minutes": "0",
+      "status": "Normal",
+      "waypoints": [
+        [
+          44.438024,
+          -87.927039
+        ],
+        [
+          44.43802247,
+          -87.9270387
+        ],
+        [
+          44.5228433,
+          -87.97658884
+        ],
+        [
+          44.56350829,
+          -88.04946784
+        ],
+        [
+          44.58683322,
+          -88.04846764
+        ],
+        [
+          44.586835,
+          -88.048473
+        ]
+      ]
+    }
+  ],
+  "incidents": [
+    {
+      "id": 635825,
+      "roadway": "Hoffman Road",
+      "direction": "E",
+      "description": "Roadwork - Local Road Full Closure on Hoffman Road EB from Bellevue St to CTH GV",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.45374324,
+      "longitude": -88.00923436,
+      "last_updated": 1782771305
+    },
+    {
+      "id": 635827,
+      "roadway": "Hoffman Road",
+      "direction": "W",
+      "description": "Roadwork - Local Road Full Closure on Hoffman Road WB from CTH GV to Bellevue St",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.45231042,
+      "longitude": -87.99573053,
+      "last_updated": 1782771305
+    },
+    {
+      "id": 693000,
+      "roadway": "US-141",
+      "direction": "N",
+      "description": "Roadwork - Mainline Right Shoulder Closed on US 141 NB from WALL ST to BLUESTONE PL",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4392041970431,
+      "longitude": -87.9176731490878,
+      "last_updated": 1785862605
+    },
+    {
+      "id": 693001,
+      "roadway": "US-141",
+      "direction": "S",
+      "description": "Roadwork - Mainline Right Shoulder Closed on US 141 SB from BLUESTONE PL to WALL ST",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4641071859532,
+      "longitude": -87.9561226730257,
+      "last_updated": 1785862605
+    },
+    {
+      "id": 693064,
+      "roadway": "WI-172",
+      "direction": "E",
+      "description": "Roadwork - Ramp Right Shoulder Closed on WIS 172 EB at OFF RAMP TO COUNTY GV",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4567106195568,
+      "longitude": -87.9958975052402,
+      "last_updated": 1785865305
+    },
+    {
+      "id": 703490,
+      "roadway": "US-141",
+      "direction": "S",
+      "description": "Roadwork - Mainline Left Lane Closed on US 141 SB from GUNS RD to PECAN ST",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4812995092148,
+      "longitude": -87.9700088492497,
+      "last_updated": 1786389127
+    },
+    {
+      "id": 708452,
+      "roadway": "US-141",
+      "direction": "S",
+      "description": "Roadwork - Mainline Flagging Operation on US 141 SB from FROM US 141 NB to US 141 NB. Daily from 08/13/2026 to 08/28/2026, 06:00 AM - 03:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4606977630343,
+      "longitude": -87.9524849562541,
+      "last_updated": 1786625919
+    },
+    {
+      "id": 708453,
+      "roadway": "US-141",
+      "direction": "N",
+      "description": "Roadwork - Mainline Flagging Operation on US 141 NB from NOEL DR to BR SORENSONS CREEK (BRIDGE CROSSING). Daily from 08/13/2026 to 08/28/2026, 06:00 AM - 03:00 PM, Sun, M, T, W, Th, F, Sat",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.458109614728,
+      "longitude": -87.9499968083929,
+      "last_updated": 1786625919
+    },
+    {
+      "id": 708454,
+      "roadway": "Allouez Avenue",
+      "direction": "W",
+      "description": "Roadwork - Local Road Flagging Operation on Allouez Avenue WB from Gemini Road to Meadow Park Drive. Daily from 08/13/2026 to 08/28/2026, 06:00 AM - 03:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.45887522,
+      "longitude": -87.94612578,
+      "last_updated": 1786625919
+    },
+    {
+      "id": 708455,
+      "roadway": "Allouez Avenue",
+      "direction": "E",
+      "description": "Roadwork - Local Road Flagging Operation on Allouez Avenue EB from Meadow Park Drive to Gemini Road. Daily from 08/13/2026 to 08/28/2026, 06:00 AM - 03:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.45884909,
+      "longitude": -87.95283598,
+      "last_updated": 1786625919
+    }
+  ]
+}
