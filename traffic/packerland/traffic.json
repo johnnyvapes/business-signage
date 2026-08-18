@@ -8,20 +8,20 @@
     "enabled": true,
     "id": "packerland"
   },
-  "updated_local": "Aug 18, 2026 07:57 PM",
+  "updated_local": "Aug 18, 2026 08:57 PM",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 27,
+  "incident_count": 26,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "26",
-      "delay_minutes": "10",
-      "status": "Very Slow",
+      "current_minutes": "16",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.451904,
@@ -248,9 +248,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "35",
-      "delay_minutes": "18",
-      "status": "Very Slow",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -295,9 +295,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "34",
-      "delay_minutes": "19",
-      "status": "Very Slow",
+      "current_minutes": "15",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524684,
@@ -842,23 +842,6 @@
       "encoded_polyline": "crdnGjzxxO??",
       "latitude_secondary": 44.4292995531455,
       "longitude_secondary": -88.1144574768481
-    },
-    {
-      "id": 718303,
-      "roadway": "I-41",
-      "direction": "n",
-      "description": "I-41 North 3.2 miles beyond Ramp from County S. The left shoulder is blocked due to a disabled vehicle.",
-      "severity": "1",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.424402,
-      "longitude": -88.121773,
-      "last_updated": 1787082374,
-      "lanes_affected": "Shoulder blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Disabled Vehicle",
-      "encoded_polyline": "oscnG`hzxO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }
