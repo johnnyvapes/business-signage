@@ -1,26 +1,82 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Johnny Vapes Bellevue Signage</title>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Johnny Vapes Bellevue Traffic</title>
 <style>
-html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#080d13;font-family:Arial,Helvetica,sans-serif}#stage{position:fixed;inset:0;background:#080d13}#stage>img,#stage>video{position:fixed;inset:0;width:100vw;height:100vh;object-fit:contain;background:#000;border:0}
-.weather{position:fixed;inset:0;box-sizing:border-box;padding:3vw 3.2vw;color:#fff;background:linear-gradient(135deg,#173b5c,#286f99)}.head{display:flex;justify-content:space-between;align-items:flex-start}.title{font-size:clamp(32px,4vw,68px);font-weight:700}.date{font-size:clamp(17px,1.7vw,30px);opacity:.85;margin-top:.3vw}.live{font-size:clamp(15px,1.5vw,25px);letter-spacing:.08em;opacity:.8}.current{display:flex;align-items:center;height:23vh;gap:1.4vw}.icon{font-size:clamp(55px,7vw,120px)}.temp{font-size:clamp(65px,8vw,130px);font-weight:700;line-height:.9}.condition{font-size:clamp(22px,2.5vw,42px);margin-top:10px}.details{font-size:clamp(17px,1.7vw,29px);opacity:.9}.hourly-title,.daily-title{font-size:clamp(18px,1.8vw,30px);font-weight:700}.hourly-title{margin-bottom:.7vw}.daily-title{margin:1.2vw 0 .55vw}.hours{display:grid;grid-template-columns:repeat(12,1fr);gap:.45vw}.hour{background:rgba(0,0,0,.18);border-radius:10px;text-align:center;padding:.65vw .15vw}.hour .t{font-size:clamp(13px,1.25vw,22px);font-weight:700}.hour .i{font-size:clamp(22px,2.4vw,42px);margin:.35vw 0}.hour .deg{font-size:clamp(16px,1.65vw,28px);font-weight:700}.hour .rain{font-size:clamp(14px,1.45vw,24px);margin-top:.3vw}.days{display:grid;grid-template-columns:repeat(5,1fr);gap:.55vw}.day{background:rgba(0,0,0,.18);border-radius:10px;padding:.55vw;text-align:center}.dayname{font-size:clamp(14px,1.45vw,24px);font-weight:700}.dayicon{font-size:clamp(24px,2.5vw,42px)}.high{font-size:clamp(18px,1.7vw,29px);font-weight:700}.low{font-size:clamp(14px,1.4vw,23px);opacity:.7}.precip{font-size:clamp(13px,1.3vw,21px);margin-top:.2vw}.updated{position:absolute;bottom:.7vw;right:1.2vw;font-size:12px;opacity:.45}
-.cardpage{position:fixed;inset:0;box-sizing:border-box;padding:4vw 5vw;background:#f5f6f8;color:#202124}.header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1.5vw}.brand{font-size:3.8vw;font-weight:700}.location{font-size:1.6vw;color:#6b7078;margin-top:.3vw}.source{font-size:1.8vw;font-weight:700}.heading{text-align:center;font-size:2.8vw;font-weight:700;margin:1vw 0 1.8vw}.card{background:#fff;border-radius:22px;padding:3vw 4vw;box-shadow:0 4px 18px rgba(0,0,0,.10);width:100%;min-height:50vh;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center}.stars{font-size:3.5vw;letter-spacing:.08em;margin-bottom:1.2vw}.author{font-size:2.2vw;font-weight:700}.review-date{font-size:1.25vw;color:#777;margin-top:.35vw}.review-text{font-size:2.8vw;line-height:1.4;margin-top:2vw;overflow-wrap:break-word;word-wrap:break-word}.footer{position:absolute;bottom:1.2vw;left:5vw;right:5vw;display:flex;justify-content:space-between;font-size:1.1vw;color:#888}
-.fbpost{display:flex;flex-direction:column;justify-content:center}.fb-label{font-size:2vw;font-weight:700;letter-spacing:.08em;color:#1877f2;margin-bottom:1.4vw}.fb-card{background:#fff;border-radius:22px;padding:2.2vw 3vw;box-shadow:0 4px 18px rgba(0,0,0,.10);display:flex;flex-direction:column;gap:1vw;max-height:76vh}.fb-image{width:100%;max-height:43vh;object-fit:contain;border-radius:14px;background:#f0f1f3}.fb-text{font-size:2.7vw;line-height:1.35;white-space:pre-wrap;overflow-wrap:break-word;max-height:23vh;overflow:hidden}.fb-date{font-size:1.25vw;color:#777}.fb-mark{font-weight:700;color:#1877f2}.recommend{font-size:3.2vw;font-weight:700;margin-bottom:1vw}.message{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;background:#111;font-size:4vw}
-</style></head><body><div id="stage"></div>
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#0b1220;font-family:Arial,Helvetica,sans-serif}
+body{display:flex;align-items:center;justify-content:center}
+#stage{width:100vw;height:100vh;position:relative}
+.traffic{position:absolute;inset:0;background:linear-gradient(135deg,#eef3f8,#dce6f0);display:flex;flex-direction:column;padding:2.2vw 3vw 1.2vw;color:#111827}
+.top{display:flex;align-items:flex-end;justify-content:space-between;gap:2vw;padding-bottom:1vw}
+.title{font-size:3.3vw;font-weight:800;letter-spacing:.02em}
+.subtitle{font-size:1.35vw;color:#4b5563;margin-top:.25vw}
+.source{font-size:1.35vw;font-weight:700;color:#185abc;text-align:right}
+.map-wrap{position:relative;flex:1;min-height:0;background:#fff;border-radius:1.2vw;overflow:hidden;box-shadow:0 .5vw 1.8vw rgba(0,0,0,.18);border:2px solid rgba(255,255,255,.9)}
+.map{width:100%;height:100%;object-fit:contain;background:#eef2f7}
+.bottom{display:flex;align-items:center;justify-content:space-between;padding-top:.8vw;font-size:1vw;color:#4b5563}
+.legend{display:flex;gap:1.2vw;align-items:center}
+.item{display:flex;align-items:center;gap:.35vw;font-weight:700}
+.dot{width:.8vw;height:.8vw;border-radius:50%;display:inline-block}
+.updated{font-weight:600}
+.loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:2vw;color:#4b5563;background:#eef2f7}
+.error{color:#991b1b;background:#fee2e2}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="traffic">
+    <div class="top">
+      <div>
+        <div class="title">CURRENT TRAFFIC NEAR JOHNNY VAPES</div>
+        <div class="subtitle">Bellevue • 1681 Lime Kiln Rd, Green Bay, WI 54311</div>
+      </div>
+      <div class="source">LIVE TRAFFIC<br>511WI</div>
+    </div>
+    <div class="map-wrap">
+      <div id="loading" class="loading">Loading current traffic…</div>
+      <img id="map" class="map" alt="Current traffic near Johnny Vapes Bellevue">
+    </div>
+    <div class="bottom">
+      <div class="legend">
+        <span class="item"><span class="dot" style="background:#22c55e"></span>Normal</span>
+        <span class="item"><span class="dot" style="background:#facc15"></span>Moderate</span>
+        <span class="item"><span class="dot" style="background:#f97316"></span>Slow</span>
+        <span class="item"><span class="dot" style="background:#ef4444"></span>Very Slow</span>
+        <span class="item"><span class="dot" style="background:#b91c1c"></span>Incident</span>
+      </div>
+      <div id="updated" class="updated">Traffic data generated by 511WI</div>
+    </div>
+  </div>
+</div>
 <script>
-const CONFIG="config.json", GOOGLE_REVIEWS="johnny_vapes_bellevue_4_5_star.json";
-let playlist=[],current=-1,timer=null,video=null,generation=0,googleIndex=0,facebookReviewIndex=0;
-const WMO={0:["☀️","Clear"],1:["🌤️","Mostly clear"],2:["⛅","Partly cloudy"],3:["☁️","Cloudy"],45:["🌫️","Foggy"],48:["🌫️","Foggy"],51:["🌦️","Light drizzle"],53:["🌦️","Drizzle"],55:["🌧️","Heavy drizzle"],61:["🌦️","Light rain"],63:["🌧️","Rain"],65:["🌧️","Heavy rain"],71:["🌨️","Light snow"],73:["🌨️","Snow"],75:["❄️","Heavy snow"],80:["🌦️","Showers"],81:["🌧️","Heavy showers"],82:["⛈️","Heavy showers"],95:["⛈️","Thunderstorm"],96:["⛈️","Thunderstorm"],99:["⛈️","Thunderstorm"]};
-function bust(url){return url+(url.includes("?")?"&":"?")+"v="+Date.now()}
-function clean(){clearTimeout(timer);timer=null;if(video){try{video.pause();video.removeAttribute("src");video.load();video.remove()}catch(e){}video=null}document.getElementById("stage").replaceChildren()}
-async function init(){const r=await fetch(bust(CONFIG),{cache:"no-store"});const c=await r.json();playlist=(c.playlist||[]).filter(x=>x.enabled!==false);if(!playlist.length)throw Error("Empty playlist");setInterval(()=>location.reload(),Math.max(10,c.refresh_minutes||30)*60000);next()}
-function next(){clean();current=(current+1)%playlist.length;const x=playlist[current];if(x.type==="image")return image(x);if(x.type==="video")return playVideo(x);if(x.type==="weather")return weather(x.seconds||20);if(x.type==="google_reviews")return googleReviews(x.seconds||15);if(x.type==="facebook_post")return facebookPost(x.seconds||15);if(x.type==="facebook_review")return facebookReview(x.seconds||15);document.getElementById("stage").innerHTML='<div class="message">Unsupported slide type</div>';timer=setTimeout(next,5000)}
-function image(x){const e=document.createElement("img");e.src=bust(x.src);document.getElementById("stage").appendChild(e);timer=setTimeout(next,(x.seconds||10)*1000)}
-function playVideo(x){const my=++generation;setTimeout(()=>{if(my!==generation)return;const v=document.createElement("video");video=v;v.autoplay=true;v.muted=true;v.defaultMuted=true;v.playsInline=true;v.preload="auto";v.controls=false;v.setAttribute("autoplay","");v.setAttribute("muted","");v.setAttribute("playsinline","");v.setAttribute("disablepictureinpicture","");v.setAttribute("controlslist","nodownload noplaybackrate nofullscreen");v.src=x.src;v.addEventListener("ended",()=>{if(my===generation)next()},{once:true});v.addEventListener("error",()=>{if(my===generation)setTimeout(next,3000)},{once:true});document.getElementById("stage").appendChild(v);v.load();v.play().catch(()=>{})},250)}
-function formatDate(s){if(!s)return"";const d=new Date(s);return isNaN(d)?s:d.toLocaleDateString("en-US",{year:"numeric",month:"long",day:"numeric"})}
-async function weather(seconds){const s=document.getElementById("stage"),b=document.createElement("div");b.className="weather";b.innerHTML='<div style="font-size:3vw">Loading Bellevue weather…</div>';s.appendChild(b);try{const g=await(await fetch("https://geocoding-api.open-meteo.com/v1/search?name=Bellevue&count=5&language=en&format=json&countryCode=US")).json();const place=(g.results||[]).find(x=>x.admin1==="Wisconsin")||g.results[0];if(!place)throw 0;const u="https://api.open-meteo.com/v1/forecast?latitude="+place.latitude+"&longitude="+place.longitude+"&current=temperature_2m,relative_humidity_2m,apparent_temperature,weather_code,wind_speed_10m&hourly=temperature_2m,weather_code,precipitation_probability&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=auto&forecast_days=5";const d=await(await fetch(u)).json(),c=d.current,hd=d.hourly,dy=d.daily,cc=WMO[c.weather_code]||["🌤️","Conditions"];let start=hd.time.findIndex(q=>q>=c.time);if(start<0)start=0;let hours="";for(let n=0;n<12;n++){let k=start+n;if(k>=hd.time.length)break;let tm=new Intl.DateTimeFormat("en-US",{hour:"numeric"}).format(new Date(hd.time[k])),z=WMO[hd.weather_code[k]]||["🌤️",""];hours+=`<div class="hour"><div class="t">${tm}</div><div class="i">${z[0]}</div><div class="deg">${Math.round(hd.temperature_2m[k])}°</div><div class="rain">💧 <b>${Math.round(hd.precipitation_probability[k]??0)}%</b></div></div>`}let days="";for(let n=0;n<5;n++){let z=WMO[dy.weather_code[n]]||["🌤️",""];let name=new Intl.DateTimeFormat("en-US",{weekday:"short"}).format(new Date(dy.time[n]+"T12:00:00"));days+=`<div class="day"><div class="dayname">${name}</div><div class="dayicon">${z[0]}</div><span class="high">${Math.round(dy.temperature_2m_max[n])}°</span> / <span class="low">${Math.round(dy.temperature_2m_min[n])}°</span><div class="precip">💧 ${Math.round(dy.precipitation_probability_max[n]??0)}%</div></div>`}const date=new Intl.DateTimeFormat("en-US",{weekday:"long",month:"long",day:"numeric"}).format(new Date(c.time));b.innerHTML=`<div class="head"><div><div class="title">Bellevue, WI</div><div class="date">${date}</div></div><div class="live">LIVE WEATHER</div></div><div class="current"><div class="icon">${cc[0]}</div><div><div class="temp">${Math.round(c.temperature_2m)}°</div><div class="condition">${cc[1]}</div><div class="details">Feels like ${Math.round(c.apparent_temperature)}° • Humidity ${Math.round(c.relative_humidity_2m)}% • Wind ${Math.round(c.wind_speed_10m)} mph</div></div></div><div class="hourly-title">NEXT 12 HOURS • PRECIPITATION CHANCE</div><div class="hours">${hours}</div><div class="daily-title">5-DAY FORECAST</div><div class="days">${days}</div><div class="updated">Updated ${new Date().toLocaleTimeString([],{hour:"numeric",minute:"2-digit"})}</div>`}catch(e){b.innerHTML='<div style="font-size:4vw">Bellevue Weather<br><small>Weather data temporarily unavailable</small></div>'}timer=setTimeout(next,seconds*1000)}
-function reviewText(r){const d=r?.description;if(typeof d==="string")return d.trim();if(d?.en&&typeof d.en==="string")return d.en.trim();return""}
-async function googleReviews(seconds){const s=document.getElementById("stage"),b=document.createElement("div");b.className="cardpage";b.innerHTML='<div class="header"><div><div class="brand">Johnny Vapes</div><div class="location">Bellevue, WI</div></div><div class="source">Google Reviews</div></div><div class="heading">What Our Customers Are Saying</div><div class="card"><div class="stars">★★★★★</div><div class="author" id="ga"></div><div class="review-date" id="gd"></div><div class="review-text" id="gt">Loading review…</div></div><div class="footer"><div>Customer reviews • Johnny Vapes Bellevue</div><div>Google</div></div>';s.appendChild(b);try{const data=await(await fetch(bust(GOOGLE_REVIEWS),{cache:"no-store"})).json();const reviews=(Array.isArray(data)?data:[]).filter(r=>Number(r.rating)>=4.5&&reviewText(r));if(!reviews.length)throw 0;const r=reviews[googleIndex%reviews.length];googleIndex++;document.getElementById("ga").textContent=r.author||"Google Customer";document.getElementById("gd").textContent=formatDate(r.review_date||r.created_date);document.getElementById("gt").textContent=reviewText(r)}catch(e){document.getElementById("gt").textContent="Google reviews temporarily unavailable."}timer=setTimeout(next,seconds*1000)}
-async function facebookPost(seconds){const s=document.getElementById("stage"),b=document.createElement("div");b.className="cardpage fbpost";b.innerHTML='<div class="fb-label">LATEST FROM FACEBOOK</div><div class="fb-card"><div class="fb-date" id="fpd"></div><img class="fb-image" id="fpi" alt="Facebook post image" style="display:none"><div class="fb-text" id="fpt">Loading Facebook post…</div></div><div class="footer"><div>Johnny Vapes</div><div class="fb-mark">Facebook</div></div>';s.appendChild(b);try{const data=await(await fetch(bust("facebook-posts.json"),{cache:"no-store"})).json();const posts=(Array.isArray(data)?data:[]);const p=posts[0];if(!p)throw 0;document.getElementById("fpd").textContent=formatDate(p.created_time);document.getElementById("fpt").textContent=p.message||p.story||"Facebook post";const img=p.attachments?.data?.[0]?.media?.image?.src;if(img){const im=document.getElementById("fpi");im.src=bust(img);im.style.display="block";im.onerror=()=>im.style.display="none"}}catch(e){document.getElementById("fpt").textContent="Facebook post temporarily unavailable."}timer=setTimeout(next,seconds*1000)}
-async function facebookReview(seconds){const s=document.getElementById("stage"),b=document.createElement("div");b.className="cardpage";b.innerHTML='<div class="header"><div><div class="brand">Johnny Vapes</div><div class="location">Bellevue, WI</div></div><div class="source">Facebook Reviews</div></div><div class="heading">What Our Customers Are Saying</div><div class="card"><div class="recommend">👍 Recommends Johnny Vapes</div><div class="author" id="fa">Facebook Customer</div><div class="review-date" id="fd"></div><div class="review-text" id="ft">Loading review…</div></div><div class="footer"><div>Customer recommendation • Johnny Vapes Bellevue</div><div>Facebook</div></div>';s.appendChild(b);try{const data=await(await fetch(bust("facebook-reviews.json"),{cache:"no-store"})).json();const reviews=(Array.isArray(data)?data:[]).filter(r=>(r.recommendation_type||"").toLowerCase()==="positive"&&r.review_text);if(!reviews.length)throw 0;const r=reviews[facebookReviewIndex%reviews.length];facebookReviewIndex++;document.getElementById("fa").textContent="Facebook Customer";document.getElementById("fd").textContent=formatDate(r.created_time);document.getElementById("ft").textContent=r.review_text}catch(e){document.getElementById("ft").textContent="Facebook reviews temporarily unavailable."}timer=setTimeout(next,seconds*1000)}
-init().catch(()=>document.getElementById("stage").innerHTML='<div class="message">Unable to load signage configuration.</div>');
-</script></body></html>
+const MAP="traffic/bellevue/traffic.png";
+const DATA="traffic/bellevue/traffic.json";
+const bust=u=>u+(u.includes("?")?"&":"?")+"t="+Date.now();
+
+async function loadTraffic(){
+  const img=document.getElementById("map");
+  const loading=document.getElementById("loading");
+  try{
+    const response=await fetch(bust(DATA),{cache:"no-store"});
+    if(response.ok){
+      const data=await response.json();
+      if(data.updated_local){
+        document.getElementById("updated").textContent="Updated "+data.updated_local+" • 511WI";
+      }
+    }
+  }catch(e){}
+  img.onload=()=>loading.style.display="none";
+  img.onerror=()=>{
+    loading.textContent="Unable to load the Bellevue traffic map.";
+    loading.classList.add("error");
+  };
+  img.src=bust(MAP);
+}
+loadTraffic();
+setInterval(loadTraffic,5*60*1000);
+</script>
+</body>
+</html>
