@@ -6,9 +6,14 @@
     "latitude": 44.469354,
     "longitude": -87.982207,
     "enabled": true,
+    "map": {
+      "center_latitude": 44.5055,
+      "center_longitude": -88.0051,
+      "zoom": 13
+    },
     "id": "bellevue"
   },
-  "updated_local": "Aug 19, 2026 12:55 PM CDT",
+  "updated_local": "Aug 19, 2026 01:44 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -19,9 +24,9 @@
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "18",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "25",
+      "delay_minutes": "9",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.451904,
@@ -248,9 +253,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "21",
-      "delay_minutes": "4",
-      "status": "Slow",
+      "current_minutes": "35",
+      "delay_minutes": "18",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524762,
@@ -295,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "20",
-      "delay_minutes": "5",
-      "status": "Slow",
+      "current_minutes": "34",
+      "delay_minutes": "19",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524684,
