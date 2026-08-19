@@ -8,7 +8,7 @@
     "enabled": true,
     "id": "packerland"
   },
-  "updated_local": "Aug 19, 2026 11:59 AM CDT",
+  "updated_local": "Aug 19, 2026 12:55 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -19,8 +19,8 @@
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "17",
-      "delay_minutes": "1",
+      "current_minutes": "18",
+      "delay_minutes": "2",
       "status": "Moderate",
       "waypoints": [
         [
@@ -248,9 +248,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "18",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "21",
+      "delay_minutes": "4",
+      "status": "Slow",
       "waypoints": [
         [
           44.524762,
@@ -295,9 +295,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "17",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "20",
+      "delay_minutes": "5",
+      "status": "Slow",
       "waypoints": [
         [
           44.524684,
