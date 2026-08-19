@@ -3,17 +3,17 @@
   "store": {
     "name": "Johnny Vapes Manitowoc",
     "address": "4144 Harbor Town Ln, Manitowoc, WI 54220",
-    "latitude": 44.076575,
-    "longitude": -87.7023,
+    "latitude": 44.0764905,
+    "longitude": -87.7022507,
     "enabled": true,
     "map": {
-      "center_latitude": 44.076575,
-      "center_longitude": -87.7023,
-      "zoom": 13
+      "center_latitude": 44.0764905,
+      "center_longitude": -87.7022507,
+      "zoom": 15
     },
     "id": "manitowoc"
   },
-  "updated_local": "Aug 19, 2026 02:13 PM CDT",
+  "updated_local": "Aug 19, 2026 02:44 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 0,
