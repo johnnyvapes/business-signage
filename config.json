@@ -19,42 +19,42 @@
     {
       "type": "image",
       "src": "media/promo1.jpg",
-      "seconds": 15,
+      "seconds": 2,
       "label": "Promo 1"
     },
     {
       "type": "image",
       "src": "media/promo2.jpg",
-      "seconds": 15,
+      "seconds": 2,
       "label": "Promo 2"
     },
     {
       "type": "video",
       "src": "https://pub-3250bab389bf4d21b5ff0b1f63045fc7.r2.dev/vid1.mp4",
-      "seconds": 0,
+      "seconds": 10,
       "label": "Video 1"
     },
     {
       "type": "image",
       "src": "media/promo3.jpg",
-      "seconds": 15,
+      "seconds": 2,
       "label": "Promo 3"
     },
     {
       "type": "weather",
-      "seconds": 20,
+      "seconds": 10,
       "label": "Bellevue weather"
     },
     {
       "type": "google-review",
       "src": "johnny_vapes_bellevue_4_5_star.json",
-      "seconds": 20,
+      "seconds": 45,
       "label": "Google review"
     },
     {
       "type": "image",
       "src": "media/promo4.png",
-      "seconds": 15,
+      "seconds": 2,
       "label": "Promo 4"
     },
     {
@@ -66,19 +66,19 @@
     {
       "type": "facebook-review",
       "src": "facebook-reviews.json",
-      "seconds": 20,
+      "seconds": 45,
       "label": "Facebook review"
     },
     {
       "type": "video",
       "src": "https://pub-3250bab389bf4d21b5ff0b1f63045fc7.r2.dev/vid2.mp4",
-      "seconds": 0,
+      "seconds": 10,
       "label": "Video 2"
     },
     {
       "type": "image",
       "src": "media/promo5.png",
-      "seconds": 15,
+      "seconds": 2,
       "label": "Promo 5"
     }
   ]
