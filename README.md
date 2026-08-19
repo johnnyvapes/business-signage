@@ -27,3 +27,8 @@ You do not need to edit `index.html`. Commit the replacement image to GitHub and
 11. Promo 5
 
 Facebook JSON and images are supplied automatically by the `facebook-automation` repository.
+
+
+## Multi-store TV Bro URLs
+
+Packerland: `?store=packerland&tv=1|2|3`; Manitowoc: `?store=manitowoc&tv=1|2|3`; Wausau: `?store=wausau&tv=1|2|3`. Bellevue continues to use the default `config.json`.

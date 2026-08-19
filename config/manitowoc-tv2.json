@@ -1,0 +1,62 @@
+{
+  "store": "Johnny Vapes Manitowoc",
+  "screen": 2,
+  "location": {
+    "city": "Manitowoc",
+    "state": "WI",
+    "country": "US",
+    "latitude": 44.076575,
+    "longitude": -87.7023
+  },
+  "refresh_minutes": 5,
+  "playlist": [
+    {
+      "type": "image",
+      "src": "media/promo1.jpg",
+      "seconds": 60,
+      "label": "Promo 1"
+    },
+    {
+      "type": "image",
+      "src": "media/promo2.jpg",
+      "seconds": 60,
+      "label": "Promo 2"
+    },
+    {
+      "type": "video",
+      "src": "https://pub-3250bab389bf4d21b5ff0b1f63045fc7.r2.dev/vid1.mp4",
+      "seconds": 0,
+      "label": "Video 1"
+    },
+    {
+      "type": "image",
+      "src": "media/promo3.jpg",
+      "seconds": 60,
+      "label": "Promo 3"
+    },
+    {
+      "type": "image",
+      "src": "media/promo4.png",
+      "seconds": 60,
+      "label": "Promo 4"
+    },
+    {
+      "type": "facebook-post",
+      "src": "facebook-posts.json",
+      "seconds": 60,
+      "label": "Facebook post + image"
+    },
+    {
+      "type": "video",
+      "src": "https://pub-3250bab389bf4d21b5ff0b1f63045fc7.r2.dev/vid2.mp4",
+      "seconds": 0,
+      "label": "Video 2"
+    },
+    {
+      "type": "image",
+      "src": "media/promo5.png",
+      "seconds": 60,
+      "label": "Promo 5"
+    }
+  ]
+}

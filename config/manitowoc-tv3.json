@@ -1,0 +1,25 @@
+{
+  "store": "Johnny Vapes Manitowoc",
+  "screen": 3,
+  "location": {
+    "city": "Manitowoc",
+    "state": "WI",
+    "country": "US",
+    "latitude": 44.076575,
+    "longitude": -87.7023
+  },
+  "refresh_minutes": 5,
+  "playlist": [
+    {
+      "type": "facebook-review",
+      "src": "facebook-reviews.json",
+      "seconds": 120,
+      "label": "Facebook review"
+    },
+    {
+      "type": "weather",
+      "seconds": 120,
+      "label": "Manitowoc weather"
+    }
+  ]
+}

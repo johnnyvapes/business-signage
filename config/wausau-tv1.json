@@ -1,0 +1,27 @@
+{
+  "store": "Johnny Vapes Wausau",
+  "screen": 1,
+  "location": {
+    "city": "Weston",
+    "state": "WI",
+    "country": "US",
+    "latitude": 44.90674,
+    "longitude": -89.602
+  },
+  "refresh_minutes": 5,
+  "google_reviews": "johnny_vapes_wausau_4_5_star.json",
+  "playlist": [
+    {
+      "type": "image",
+      "src": "traffic/wausau/traffic.png",
+      "seconds": 120,
+      "label": "Traffic"
+    },
+    {
+      "type": "google-review",
+      "src": "johnny_vapes_wausau_4_5_star.json",
+      "seconds": 120,
+      "label": "Google review"
+    }
+  ]
+}
