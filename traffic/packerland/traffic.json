@@ -3,12 +3,12 @@
   "store": {
     "name": "Johnny Vapes Packerland",
     "address": "2652 N Packerland Dr # B, Green Bay, WI 54303",
-    "latitude": 44.541733,
+    "latitude": 44.5417329,
     "longitude": -88.093166,
     "enabled": true,
     "id": "packerland"
   },
-  "updated_local": "Aug 19, 2026 01:36 PM",
+  "updated_local": "Aug 19, 2026 09:18 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -295,9 +295,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "15",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "16",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524684,
