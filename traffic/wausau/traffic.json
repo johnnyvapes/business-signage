@@ -13,11 +13,11 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Aug 20, 2026 06:03 AM CDT",
+  "updated_local": "Aug 20, 2026 06:59 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 79,
+  "incident_count": 77,
   "segments": [
     {
       "id": "803",
@@ -82,9 +82,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "9",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "8",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           45.025207,
@@ -220,40 +220,6 @@
       "encoded_polyline": "g|nqGnlebPCgd@",
       "latitude_secondary": 44.97365789,
       "longitude_secondary": -89.64740067
-    },
-    {
-      "id": 646667,
-      "roadway": "US-51",
-      "direction": "S",
-      "description": "Roadwork - System Interchange Full Closure on US 51 SB at US 51 SB TO WIS 29 WB (N-W). Detour: Take Exit 192 towards Stewart Ave., Turn Right and proceed along STH 52 Parkway WB, Merge onto STH 29 WB and proceed with route",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.9602779208799,
-      "longitude": -89.6642342150102,
-      "last_updated": 1783533579,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "whlqGlpgbP??",
-      "latitude_secondary": 44.9602779208799,
-      "longitude_secondary": -89.6642342150102
-    },
-    {
-      "id": 646668,
-      "roadway": "WI-29",
-      "direction": "W",
-      "description": "Roadwork - System Interchange Full Closure on WIS 29 WB at WIS 29 WB TO I-39/US 51 SB (E-S). Detour: STH 29 WB, Continue on STH 29 WB/USH 51 NB, Take Exit 188 to CTH N, Turn left on CTH N West, Turn left and proceed along USH 51 SB",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.8977778405638,
-      "longitude": -89.633527451265,
-      "last_updated": 1783533579,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "cb`qGppabP??",
-      "latitude_secondary": 44.8977778405638,
-      "longitude_secondary": -89.633527451265
     },
     {
       "id": 681392,
