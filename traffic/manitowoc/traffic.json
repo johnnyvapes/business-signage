@@ -13,46 +13,11 @@
     },
     "id": "manitowoc"
   },
-  "updated_local": "Aug 20, 2026 04:54 AM CDT",
+  "updated_local": "Aug 20, 2026 06:03 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 0,
-  "incident_count": 2,
+  "incident_count": 0,
   "segments": [],
-  "incidents": [
-    {
-      "id": 704024,
-      "roadway": "WI-310",
-      "direction": "E",
-      "description": "Roadwork - Mainline Moving Lane Closure on WIS 310 EB from 14TH ST to 14TH ST. Daily from 08/18/2026 to 08/20/2026, 08:00 PM - 05:00 AM, T, W, Th",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.1465873057709,
-      "longitude": -87.5784474366838,
-      "last_updated": 1786425129,
-      "lanes_affected": "No Data",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "ekmlGhdpuO`@c@^c@",
-      "latitude_secondary": 44.1464165444032,
-      "longitude_secondary": -87.5782667497758
-    },
-    {
-      "id": 704044,
-      "roadway": "WI-42",
-      "direction": "N",
-      "description": "Roadwork - Mainline Moving Lane Closure on WIS 42 NB from WASHINGTON ST to WASHINGTON ST. Daily from 08/18/2026 to 08/20/2026, 08:00 PM - 05:00 AM, T, W, Th",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.1532335135392,
-      "longitude": -87.5683749609588,
-      "last_updated": 1786425129,
-      "lanes_affected": "No Data",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "utnlGhenuOk@BA?",
-      "latitude_secondary": 44.1534450151542,
-      "longitude_secondary": -87.5683880030341
-    }
-  ]
+  "incidents": []
 }
