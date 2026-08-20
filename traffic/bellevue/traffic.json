@@ -13,20 +13,20 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Aug 20, 2026 12:15 PM CDT",
+  "updated_local": "Aug 20, 2026 02:18 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 33,
+  "incident_count": 32,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "16",
-      "delay_minutes": "1",
-      "status": "Normal",
+      "current_minutes": "17",
+      "delay_minutes": "2",
+      "status": "Moderate",
       "waypoints": [
         [
           44.451904,
@@ -253,9 +253,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "19",
+      "delay_minutes": "2",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524762,
@@ -300,8 +300,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "16",
-      "delay_minutes": "1",
+      "current_minutes": "18",
+      "delay_minutes": "3",
       "status": "Moderate",
       "waypoints": [
         [
@@ -728,23 +728,6 @@
       "encoded_polyline": "us}nGx`lxO??",
       "latitude_secondary": 44.5575472145984,
       "longitude_secondary": -88.0489310241059
-    },
-    {
-      "id": 703490,
-      "roadway": "US-141",
-      "direction": "S",
-      "description": "Roadwork - Mainline Left Lane Closed on US 141 SB from GUNS RD to PECAN ST",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4812995092148,
-      "longitude": -87.9700088492497,
-      "last_updated": 1786389127,
-      "lanes_affected": "2 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "cwnnGps|wOhB]rPwC",
-      "latitude_secondary": 44.480773174301,
-      "longitude_secondary": -87.9698632373885
     },
     {
       "id": 708452,
