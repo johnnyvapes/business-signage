@@ -13,11 +13,11 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Aug 19, 2026 06:51 PM CDT",
+  "updated_local": "Aug 19, 2026 10:11 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 26,
+  "incident_count": 27,
   "segments": [
     {
       "id": "4008",
@@ -300,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "15",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "16",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524684,
@@ -841,6 +841,23 @@
       "latitude": 44.4292995531455,
       "longitude": -88.1144574768481,
       "last_updated": 1787080436,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "crdnGjzxxO??",
+      "latitude_secondary": 44.4292995531455,
+      "longitude_secondary": -88.1144574768481
+    },
+    {
+      "id": 719971,
+      "roadway": "I-41",
+      "direction": "S",
+      "description": "Roadwork - Ramp Full Closure on I-41 SB at ON RAMP FROM COUNTY F. Daily from 09/02/2026 to 09/04/2026, 07:00 PM - 05:00 AM, W, Th (excluding F)",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.4292995531455,
+      "longitude": -88.1144574768481,
+      "last_updated": 1786731223,
       "lanes_affected": "All lanes closed.",
       "is_full_closure": true,
       "event_subtype": "roadwork",
