@@ -13,20 +13,20 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Aug 20, 2026 03:52 PM CDT",
+  "updated_local": "Aug 20, 2026 04:56 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 32,
+  "incident_count": 33,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "18",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "21",
+      "delay_minutes": "5",
+      "status": "Slow",
       "waypoints": [
         [
           44.451904,
@@ -253,9 +253,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "21",
-      "delay_minutes": "4",
-      "status": "Slow",
+      "current_minutes": "26",
+      "delay_minutes": "9",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524762,
@@ -300,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "20",
-      "delay_minutes": "5",
-      "status": "Slow",
+      "current_minutes": "25",
+      "delay_minutes": "10",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524684,
@@ -949,6 +949,23 @@
       "encoded_polyline": "crdnGjzxxO??",
       "latitude_secondary": 44.4292995531455,
       "longitude_secondary": -88.1144574768481
+    },
+    {
+      "id": 721583,
+      "roadway": "I-41",
+      "direction": "s",
+      "description": "Crash on Ramp from Mason St to I-41 South.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.521451,
+      "longitude": -88.082276,
+      "last_updated": 1787262518,
+      "lanes_affected": "No lanes blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Crash",
+      "encoded_polyline": "arvnGfqrxO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
