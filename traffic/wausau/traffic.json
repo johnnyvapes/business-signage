@@ -13,7 +13,7 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Aug 21, 2026 02:54 PM CDT",
+  "updated_local": "Aug 21, 2026 03:55 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -163,8 +163,8 @@
       "roadway": "WIS 29 ",
       "description": "WIS 29 WB Camp Phillips Rd to US 51",
       "normal_minutes": "5",
-      "current_minutes": "23",
-      "delay_minutes": "19",
+      "current_minutes": "13",
+      "delay_minutes": "8",
       "status": "Very Slow",
       "waypoints": [
         [
