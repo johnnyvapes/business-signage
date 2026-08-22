@@ -13,20 +13,20 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Aug 22, 2026 02:47 PM CDT",
+  "updated_local": "Aug 22, 2026 03:46 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 27,
+  "incident_count": 28,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "17",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "24",
+      "delay_minutes": "8",
+      "status": "Slow",
       "waypoints": [
         [
           44.451904,
@@ -253,9 +253,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "20",
-      "delay_minutes": "3",
-      "status": "Moderate",
+      "current_minutes": "35",
+      "delay_minutes": "18",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524762,
@@ -300,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "19",
-      "delay_minutes": "4",
-      "status": "Slow",
+      "current_minutes": "33",
+      "delay_minutes": "18",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524684,
@@ -864,6 +864,23 @@
       "encoded_polyline": "qgdnGdkyxOlZnj@bCtE|CxFfBbDxAdCfBlC|@nApA`BjCxC~FrGbH|H|FrGfMhN",
       "latitude_secondary": 44.4275539237366,
       "longitude_secondary": -88.1172398470464
+    },
+    {
+      "id": 724038,
+      "roadway": "I-41",
+      "direction": "n",
+      "description": "I-41 North at Ramp from Main Ave. The right shoulder is closed due to a disabled vehicle.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.458635,
+      "longitude": -88.08552,
+      "last_updated": 1787428359,
+      "lanes_affected": "Shoulder blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "mijnGnesxO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
