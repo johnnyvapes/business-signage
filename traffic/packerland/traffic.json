@@ -13,11 +13,11 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Aug 21, 2026 06:54 PM CDT",
+  "updated_local": "Aug 21, 2026 10:10 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 27,
+  "incident_count": 28,
   "segments": [
     {
       "id": "4008",
@@ -300,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "16",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "15",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524684,
@@ -864,6 +864,23 @@
       "encoded_polyline": "qgdnGdkyxOlZnj@bCtE|CxFfBbDxAdCfBlC|@nApA`BjCxC~FrGbH|H|FrGfMhN",
       "latitude_secondary": 44.4275539237366,
       "longitude_secondary": -88.1172398470464
+    },
+    {
+      "id": 723546,
+      "roadway": "I-41",
+      "direction": "s",
+      "description": "I-41 South at Ramp from Oneida St. The right shoulder is blocked due to a fire.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.463768,
+      "longitude": -88.082378,
+      "last_updated": 1787367313,
+      "lanes_affected": "Shoulder blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Fire",
+      "encoded_polyline": "qiknGzqrxO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
