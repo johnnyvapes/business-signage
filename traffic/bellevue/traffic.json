@@ -13,11 +13,11 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Aug 23, 2026 12:05 AM CDT",
+  "updated_local": "Aug 23, 2026 01:00 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 36,
+  "incident_count": 40,
   "segments": [
     {
       "id": "4008",
@@ -254,7 +254,7 @@
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
       "current_minutes": "84",
-      "delay_minutes": "66",
+      "delay_minutes": "67",
       "status": "Very Slow",
       "waypoints": [
         [
@@ -1017,6 +1017,74 @@
       "encoded_polyline": "a~jnGprzwO",
       "latitude_secondary": null,
       "longitude_secondary": null
+    },
+    {
+      "id": 724719,
+      "roadway": "I-41",
+      "direction": "N",
+      "description": "Roadwork - Mainline Moving Lane Closure on I-41 NB from ON RAMP FROM COUNTY F / SCHEURING RD to OFF RAMP TO COUNTY B. Daily from 08/30/2026 to 09/03/2026, 08:00 PM - 06:00 AM, Sun, M, T, W, Th",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4335859934532,
+      "longitude": -88.1071700850524,
+      "last_updated": 1787462064,
+      "lanes_affected": "No Data",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "}lenGxlwxOuCqFaKoR{E}Io@gAeBiCgAsAiAgAkAkAmA}@yAcAcDkBqFaDaGwDmI}EuMmHsAw@wA{@{E{C_RmLoA{@[Q}A_AsKsGiCaB_BcA]Ss@c@iBiA_NgIcQiKcL}Gq@c@YQUMOK{BqAeAi@w@]q@W}@[cAY}@YiAUmASwAQeAK]AcAC]Ag@CaA@aBDmFRmGV{GXyAHeCHeEPiBH_IVqFTk@BkGXwFT]@}FT_@@}AFiGVgJ^kXfAoADiDNq@D{DL{BJiPp@kPn@kDNgADmCJy@BsBJyJ^eEPwBHoBFsBHkBB]B}@?kEBiC?aCAwDE}CG{DKuEGsCIwC?uBE_DGsDKkBEsBGq@C_AA_DQqGS[MsBIUAQAcCMoBMeBGgAEiAGmJU?A{AAqGQcBGy@Cu@Ew@IWC_AMa@IAB?Cu@MmBe@o@ScA_@s@Yc@QMGg@WgBcAWQe@Yu@i@i@a@cBsAmA}@m@a@oAcAqB}Aa@[w@i@a@]WOc@Ok@i@}CkCk@e@}CgCmAeAe@a@}FyEgA_AYWcDkCwC_CyGmFaCsBy@o@i@e@{AmAsGoF{WqTgBaB{A}AgAmAm@s@u@_AW]g@q@gBmC_A{AkCiEU]g@{@cA_BsAuBoFaJ]i@{@uAcAaBmEmHo@cAs@kA_BmC_BcC{@qAu@eAc@c@}@iA[[{@w@iA}@",
+      "latitude_secondary": 44.4337305336404,
+      "longitude_secondary": -88.106939533669
+    },
+    {
+      "id": 724725,
+      "roadway": "I-41",
+      "direction": "S",
+      "description": "Roadwork - Mainline Moving Lane Closure on I-41 SB from Riverside Dr & Suamico River (BRIDGE CROSSING) to OFF RAMP TO COUNTY F. Daily from 08/30/2026 to 09/03/2026, 08:00 PM - 06:00 AM, Sun, M, T, W, Th",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.566559439968,
+      "longitude": -88.0488998890239,
+      "last_updated": 1787462064,
+      "lanes_affected": "No Data",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "_l_oGr`lxO`ATjA\\RFb@PbBv@t@b@^R^T|@t@xAnAdAhAbAnAfA~AtBdDdBtCj@dAl@dA^d@Xb@RZ`CzDbBhCx@vAl@`ANVpDbGhAnBrArBj@`ATZvBhDdAfBjAdB`@j@x@jAfArA`AhA~@`A|A`Bx@t@jB~AxAjA`KnIdFdEzAvAxEzDtAlAj@f@dEjDpCvBzAjAzApAjB`BhDlCXTn@j@ZVZXdCvBv@r@pAhAjAbAlAdArBbBzCbCxBdBFJ\\T|@v@h@b@p@j@j@f@hCxBxCzB^XTNZPh@ZlB`AjAl@rAd@~Ad@tAZjARVF`CX`AF`ABnBFhABjEJjABvBFdABlFJzHT~CFV?~BHtBDtHPf@BbA@dCF|GPzCHbWl@bFJ`CBzG@tEC`BCp@AtCGrCItAGpDOvI]nAGvCM|@EzCK`EO~Oq@dDOfEQbDMdCKfBGzCMfDOzNk@`K_@`Sq@f@A\\?dDWjBM\\?lBM|CMrEMj@Eh@ChGW|GWdCK`EMhCMvAE|GYvJa@tCIzAEfAAfABfAH\\@r@FfALnAV|AZnA\\xAh@xAl@`Bz@~A`Af@TXRr@b@fDrBzFjD|PhK~KzGhAt@jBhAn@`@b@VdC|AnNnI|A`Az@f@n@`@|EtC~Q|KxA~@jAr@hNlItD|BvG~DjF`Dv@b@|CjB~BxAdBpA`BzA~AdBvApBpAtBzC~F|J~Qz@`BbCpEP\\",
+      "latitude_secondary": 44.5662282573582,
+      "longitude_secondary": -88.0490117087335
+    },
+    {
+      "id": 724727,
+      "roadway": "I-43",
+      "direction": "N",
+      "description": "Roadwork - Mainline Moving Lane Closure on I-43 NB from WEBSTER AVE (BRIDGE CROSSING) to CNW RR (BRIDGE CROSSING). Daily from 08/30/2026 to 09/03/2026, 08:00 PM - 06:00 AM, Sun, M, T, W, Th",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.5277723679665,
+      "longitude": -87.9907031065824,
+      "last_updated": 1787462064,
+      "lanes_affected": "No Data",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "qywnGzt`xOYhAuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBaCtG",
+      "latitude_secondary": 44.5278987978444,
+      "longitude_secondary": -87.9910678324732
+    },
+    {
+      "id": 724729,
+      "roadway": "I-43",
+      "direction": "S",
+      "description": "Roadwork - Mainline Moving Lane Closure on I-43 SB from ON RAMP FROM ATKINSON DR to WEBSTER AVE (BRIDGE CROSSING). Daily from 08/30/2026 to 09/03/2026, 08:00 PM - 06:00 AM, Sun, M, T, W, Th",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.5382142013096,
+      "longitude": -88.0224968672284,
+      "last_updated": 1787462064,
+      "lanes_affected": "No Data",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "yzynGr{fxOHS`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HhBqH",
+      "latitude_secondary": 44.538159534219,
+      "longitude_secondary": -88.0223965226225
     }
   ]
 }
