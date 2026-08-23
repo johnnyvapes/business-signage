@@ -13,7 +13,7 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Aug 23, 2026 12:49 PM CDT",
+  "updated_local": "Aug 23, 2026 02:01 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -874,7 +874,7 @@
       "event_type": "accidentsAndIncidents",
       "latitude": 44.461928,
       "longitude": -87.959612,
-      "last_updated": 1787496701,
+      "last_updated": 1787511447,
       "lanes_affected": "Shoulder blocked.",
       "is_full_closure": false,
       "event_subtype": "Disabled Vehicle",

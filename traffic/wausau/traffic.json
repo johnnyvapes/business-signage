@@ -13,11 +13,11 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Aug 23, 2026 12:49 PM CDT",
+  "updated_local": "Aug 23, 2026 02:01 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 78,
+  "incident_count": 77,
   "segments": [
     {
       "id": "803",
@@ -136,9 +136,9 @@
       "roadway": "WIS 29 ",
       "description": "WIS 29 EB County O to US 51",
       "normal_minutes": "4",
-      "current_minutes": "5",
-      "delay_minutes": "1",
-      "status": "Slow",
+      "current_minutes": "21",
+      "delay_minutes": "17",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.94417,
@@ -1495,23 +1495,6 @@
       "encoded_polyline": "gn~pGlxbbPoJIaDCoEG}CE{B?}ABy@LcC\\_BZsA^uCbAmBv@",
       "latitude_secondary": 44.8913233924398,
       "longitude_secondary": -89.6398618793904
-    },
-    {
-      "id": 725645,
-      "roadway": "US-51",
-      "direction": "n",
-      "description": "US 51 North 0.5 miles beyond Ramp from County N. The right shoulder is closed due to a crash.",
-      "severity": "1",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.921481,
-      "longitude": -89.657767,
-      "last_updated": 1787505665,
-      "lanes_affected": "Shoulder blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Crash",
-      "encoded_polyline": "gvdqG`hfbP",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }
