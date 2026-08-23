@@ -13,7 +13,7 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Aug 23, 2026 02:01 PM CDT",
+  "updated_local": "Aug 23, 2026 02:45 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -253,9 +253,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "18",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -300,8 +300,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "17",
-      "delay_minutes": "2",
+      "current_minutes": "16",
+      "delay_minutes": "1",
       "status": "Moderate",
       "waypoints": [
         [
@@ -866,23 +866,6 @@
       "longitude_secondary": -88.1172398470464
     },
     {
-      "id": 724707,
-      "roadway": "Ramp from I-43  to WI-172",
-      "direction": "u",
-      "description": "Ramp from I-43 South to WIS 172 West. The right shoulder is closed due to a disabled vehicle.",
-      "severity": "1",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.461928,
-      "longitude": -87.959612,
-      "last_updated": 1787511447,
-      "lanes_affected": "Shoulder blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Disabled Vehicle",
-      "encoded_polyline": "a~jnGprzwO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
-    },
-    {
       "id": 724719,
       "roadway": "I-41",
       "direction": "N",
@@ -949,6 +932,23 @@
       "encoded_polyline": "yzynGr{fxOHS`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HhBqH",
       "latitude_secondary": 44.538159534219,
       "longitude_secondary": -88.0223965226225
+    },
+    {
+      "id": 726183,
+      "roadway": "I-43",
+      "direction": "n",
+      "description": "I-43 North at Webster Ave. The right shoulder is closed due to a disabled vehicle.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.524761,
+      "longitude": -87.98209,
+      "last_updated": 1787513344,
+      "lanes_affected": "Shoulder blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "wfwnG`__xO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
