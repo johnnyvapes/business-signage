@@ -13,11 +13,11 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Aug 24, 2026 09:12 AM CDT",
+  "updated_local": "Aug 24, 2026 11:06 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 39,
+  "incident_count": 40,
   "segments": [
     {
       "id": "4008",
@@ -253,8 +253,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "20",
-      "delay_minutes": "3",
+      "current_minutes": "18",
+      "delay_minutes": "1",
       "status": "Moderate",
       "waypoints": [
         [
@@ -300,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "19",
-      "delay_minutes": "4",
-      "status": "Slow",
+      "current_minutes": "17",
+      "delay_minutes": "2",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524684,
@@ -1053,21 +1053,38 @@
       "longitude_secondary": -88.0223965226225
     },
     {
-      "id": 727402,
-      "roadway": "I-43",
-      "direction": "n",
-      "description": "I-43 North at Atkinson Dr. The right shoulder is blocked due to a fire.",
-      "severity": "1",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.53978,
-      "longitude": -88.024985,
-      "last_updated": 1787577584,
-      "lanes_affected": "Shoulder blocked.",
+      "id": 727512,
+      "roadway": "US-141",
+      "direction": "N",
+      "description": "Roadwork - Mainline Flagging Operation on US 141 NB from CEDAR HEDGE LN to I-43 (BRIDGE CROSSING). Daily from 08/28/2026 to 09/10/2026, 05:00 AM - 03:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4381872465606,
+      "longitude": -87.9176137217538,
+      "last_updated": 1787584470,
+      "lanes_affected": "No lanes blocked.",
       "is_full_closure": false,
-      "event_subtype": "Fire",
-      "encoded_polyline": "sdznGdkgxO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
+      "event_subtype": "roadwork",
+      "encoded_polyline": "uifnG`lrwO}ALe@Be@?_@E[EkAfBm@bAeFdI_CtDsAvBIL}AdCaH|KyBfDmEdHmCrEq@rAq@tAo@rAo@~A}AzD{AdEYr@i@`B_JpVaHlRq@pBoCrHaDtIeB~E]z@Yt@sBrEq@rAs@rAy@vAs@jAsApBe@l@[b@_ApAUZoBfDk@t@MLY^ULSJOBQFMKOAKHKLcAnAsAlBs@z@yDdEkDxDmCrCOL}EpFwAzA",
+      "latitude_secondary": 44.438664156421,
+      "longitude_secondary": -87.9176797722315
+    },
+    {
+      "id": 727513,
+      "roadway": "US-141",
+      "direction": "S",
+      "description": "Roadwork - Mainline Flagging Operation on US 141 SB from FROM US 141 NB to CEDAR HEDGE LN. Daily from 08/28/2026 to 09/10/2026, 05:00 AM - 03:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4641071859532,
+      "longitude": -87.9561226730257,
+      "last_updated": 1787584470,
+      "lanes_affected": "No lanes blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "ukknGv|ywOvA{A|EqFNMlCsCjDyDxDeEr@{@rAmBZORCPAFNH@J@VGHSZi@V_@NWX_@LMj@u@nBgDT[~@qAZc@d@m@rAqBr@kAx@wAr@sAp@sArBsEXu@\\{@dB_F`DuInCsHp@qB`HmR~IqVh@aBXs@zAeE|A{Dn@_Bn@sAp@uAp@sAlCsElEeHxBgD`H}K|AeCHMrAwB~BuDdFeIl@cAjAgBZD^Dd@?d@C`BM",
+      "latitude_secondary": 44.4636667808061,
+      "longitude_secondary": -87.955660347544
     }
   ]
 }
