@@ -13,11 +13,11 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Aug 24, 2026 11:06 AM CDT",
+  "updated_local": "Aug 24, 2026 12:50 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 32,
+  "incident_count": 33,
   "segments": [
     {
       "id": "4008",
@@ -253,9 +253,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "18",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -949,6 +949,23 @@
       "encoded_polyline": "ukknGv|ywOvA{A|EqFNMlCsCjDyDxDeEr@{@rAmBZORCPAFNH@J@VGHSZi@V_@NWX_@LMj@u@nBgDT[~@qAZc@d@m@rAqBr@kAx@wAr@sAp@sArBsEXu@\\{@dB_F`DuInCsHp@qB`HmR~IqVh@aBXs@zAeE|A{Dn@_Bn@sAp@uAp@sAlCsElEeHxBgD`H}K|AeCHMrAwB~BuDdFeIl@cAjAgBZD^Dd@?d@C`BM",
       "latitude_secondary": 44.4636667808061,
       "longitude_secondary": -87.955660347544
+    },
+    {
+      "id": 727673,
+      "roadway": "I-41",
+      "direction": "s",
+      "description": "I-41 South at Ramp from Mason St. The right shoulder is blocked due to a disabled vehicle.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.519519,
+      "longitude": -88.082396,
+      "last_updated": 1787593553,
+      "lanes_affected": "Shoulder blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "_fvnG~qrxO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
