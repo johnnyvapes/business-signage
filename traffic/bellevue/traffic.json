@@ -13,20 +13,20 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Aug 24, 2026 02:19 PM CDT",
+  "updated_local": "Aug 24, 2026 03:58 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 46,
+  "incident_count": 47,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "16",
-      "delay_minutes": "1",
-      "status": "Normal",
+      "current_minutes": "19",
+      "delay_minutes": "3",
+      "status": "Moderate",
       "waypoints": [
         [
           44.451904,
@@ -253,8 +253,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "18",
-      "delay_minutes": "1",
+      "current_minutes": "20",
+      "delay_minutes": "3",
       "status": "Moderate",
       "waypoints": [
         [
@@ -300,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "17",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "19",
+      "delay_minutes": "4",
+      "status": "Slow",
       "waypoints": [
         [
           44.524684,
@@ -1187,6 +1187,23 @@
       "encoded_polyline": "{b~nGthmxO_EyGo@cAs@kA_BmC_BcC{@qAu@eAc@c@}@iA[[{@w@iA}@",
       "latitude_secondary": 44.5606473044285,
       "longitude_secondary": -88.054323205608
+    },
+    {
+      "id": 727812,
+      "roadway": "Ontario Rd",
+      "direction": "S",
+      "description": "Roadwork - Local Road Full Closure on Ontario Rd SB from North Village Limits to Eaton Rd",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.46653769,
+      "longitude": -87.92781069,
+      "last_updated": 1787600765,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "{zknGxktwO}j@M",
+      "latitude_secondary": 44.47357124,
+      "longitude_secondary": -87.92773638
     }
   ]
 }
