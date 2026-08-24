@@ -13,20 +13,20 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Aug 24, 2026 06:50 AM CDT",
+  "updated_local": "Aug 24, 2026 09:12 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 31,
+  "incident_count": 32,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "16",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "17",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.451904,
@@ -253,9 +253,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "20",
+      "delay_minutes": "3",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524762,
@@ -300,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "15",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "19",
+      "delay_minutes": "4",
+      "status": "Slow",
       "waypoints": [
         [
           44.524684,
@@ -801,7 +801,7 @@
       "id": 718241,
       "roadway": "I-41",
       "direction": "S",
-      "description": "Roadwork - Ramp Full Closure on I-41 SB at ON RAMP FROM COUNTY F. Daily from 08/24/2026 to 08/29/2026, 07:00 PM - 05:00 AM, M, T, W, Th, F (excluding Sat)",
+      "description": "Roadwork - Ramp Full Closure on I-41 SB at ON RAMP FROM COUNTY F. Daily from 08/24/2026 to 08/28/2026, 07:00 PM - 05:00 AM, M, T, W, Th, F",
       "severity": "Unknown",
       "event_type": "closures",
       "latitude": 44.4292995531455,
@@ -932,6 +932,23 @@
       "encoded_polyline": "yzynGr{fxOHS`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HhBqH",
       "latitude_secondary": 44.538159534219,
       "longitude_secondary": -88.0223965226225
+    },
+    {
+      "id": 727402,
+      "roadway": "I-43",
+      "direction": "n",
+      "description": "I-43 North at Atkinson Dr. The right shoulder is blocked due to a fire.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.53978,
+      "longitude": -88.024985,
+      "last_updated": 1787577584,
+      "lanes_affected": "Shoulder blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Fire",
+      "encoded_polyline": "sdznGdkgxO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
