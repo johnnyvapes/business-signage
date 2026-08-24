@@ -13,7 +13,7 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Aug 24, 2026 03:58 PM CDT",
+  "updated_local": "Aug 24, 2026 04:58 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -24,9 +24,9 @@
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "19",
-      "delay_minutes": "3",
-      "status": "Moderate",
+      "current_minutes": "25",
+      "delay_minutes": "10",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.451904,
@@ -253,9 +253,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "20",
-      "delay_minutes": "3",
-      "status": "Moderate",
+      "current_minutes": "35",
+      "delay_minutes": "18",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524762,
@@ -300,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "19",
-      "delay_minutes": "4",
-      "status": "Slow",
+      "current_minutes": "33",
+      "delay_minutes": "18",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524684,
@@ -1107,7 +1107,7 @@
       "id": 727761,
       "roadway": "I-41",
       "direction": "S",
-      "description": "Roadwork - Mainline 2 Left Lanes Closed on I-41 SB from Wietor Wharf Drive (BRIDGE CROSSING) to US 141/ (VELP AVE) (BRIDGE CROSSING). Daily from 09/01/2026 to 09/02/2026, 07:00 PM - 05:00 AM, T, W",
+      "description": "Roadwork - Mainline 2 Left Lanes Closed on I-41 SB from Wietor Wharf Drive (BRIDGE CROSSING) to US 141/ (VELP AVE) (BRIDGE CROSSING). Daily from 09/01/2026 to 09/02/2026, 08:00 PM - 05:00 AM, T, W",
       "severity": "Unknown",
       "event_type": "roadwork",
       "latitude": 44.5624653543762,
@@ -1158,7 +1158,7 @@
       "id": 727764,
       "roadway": "I-41",
       "direction": "N",
-      "description": "Roadwork - Mainline 2 Right Lanes Closed on I-41 NB from WEITER WHARF DRIVE (BRIDGE CROSSING) to I-41 SB TO I-43 SB (BRIDGE CROSSING). Daily from 08/31/2026 to 09/01/2026, 07:00 PM - 06:00 AM, M, T",
+      "description": "Roadwork - Mainline 2 Right Lanes Closed on I-41 NB from WEITER WHARF DRIVE (BRIDGE CROSSING) to I-41 SB TO I-43 SB (BRIDGE CROSSING). Daily from 08/31/2026 to 09/01/2026, 08:00 PM - 06:00 AM, M, T",
       "severity": "Unknown",
       "event_type": "roadwork",
       "latitude": 44.5599765186768,
