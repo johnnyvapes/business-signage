@@ -13,7 +13,7 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Aug 25, 2026 12:50 PM CDT",
+  "updated_local": "Aug 25, 2026 02:19 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -24,9 +24,9 @@
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "17",
+      "current_minutes": "16",
       "delay_minutes": "1",
-      "status": "Moderate",
+      "status": "Normal",
       "waypoints": [
         [
           44.451904,
@@ -413,15 +413,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on I-41 NB from OFF RAMP TO COUNTY F / SCHEURING RD to OFF RAMP TO COUNTY F/SCHEURING RD",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4231321322059,
-      "longitude": -88.1238048635037,
+      "latitude": 44.4233448479104,
+      "longitude": -88.1239358411224,
       "last_updated": 1775501776,
       "lanes_affected": "3 lane(s) of 5 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "qkcnGvtzxOaAgBmW_f@yEwI",
-      "latitude_secondary": 44.4234580177613,
-      "longitude_secondary": -88.1232756876067
+      "encoded_polyline": "{lcnGruzxOc@{@m^cp@",
+      "latitude_secondary": 44.42352354311,
+      "longitude_secondary": -88.1236382312894
     },
     {
       "id": 566786,
@@ -430,15 +430,15 @@
       "description": "Roadwork - Mainline Lane Shift on I-41 NB from OFF RAMP TO COUNTY F / SCHEURING RD to OFF RAMP TO COUNTY F / SCHEURING RD",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4167357242868,
-      "longitude": -88.1321859932542,
+      "latitude": 44.4169163248224,
+      "longitude": -88.1323516812715,
       "last_updated": 1775501776,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "scbnGdi|xOoFeGkCuCwBcCqA}A_BuBq@aAiAgBuA_CyAoCuCmFgCyE",
-      "latitude_secondary": 44.4170711580477,
-      "longitude_secondary": -88.1318205845559
+      "encoded_polyline": "wdbnGdj|xO[_@uEkFuJwKs@s@cIqMmCkF}BsE",
+      "latitude_secondary": 44.4170601863942,
+      "longitude_secondary": -88.1321908657197
     },
     {
       "id": 567005,
@@ -481,15 +481,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on I-41 SB from ON RAMP FROM COUNTY F to ON RAMP FROM COUNTY F",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4216190013267,
-      "longitude": -88.1266754709041,
+      "latitude": 44.4216578010844,
+      "longitude": -88.1266999399788,
       "last_updated": 1778520553,
       "lanes_affected": "3 lane(s) of 5 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "cbcnGvf{xOhApBr@nA",
-      "latitude_secondary": 44.4212546306562,
-      "longitude_secondary": -88.1272529608496
+      "encoded_polyline": "kbcnGzf{xOdC`E",
+      "latitude_secondary": 44.420985535433,
+      "longitude_secondary": -88.1276665251277
     },
     {
       "id": 578909,
@@ -498,15 +498,15 @@
       "description": "Roadwork - Mainline Lane Shift on I-41 SB from ON RAMP FROM COUNTY F to LITTLE RAPIDS RD (BRIDGE CROSSING)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4211034423779,
-      "longitude": -88.1274738001269,
+      "latitude": 44.4211143588385,
+      "longitude": -88.127481305195,
       "last_updated": 1778520553,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "{~bnGtk{xOz@xAfBlC|@nApA`BjCxC~FrGbH|H|FrGtNzO",
-      "latitude_secondary": 44.4207974394312,
-      "longitude_secondary": -88.1279207757151
+      "encoded_polyline": "}~bnGvk{xOhDtFr@r@tJvKtEjFlEdFpNjPjFzF",
+      "latitude_secondary": 44.4202592550436,
+      "longitude_secondary": -88.1287107341247
     },
     {
       "id": 578910,
@@ -521,7 +521,7 @@
       "lanes_affected": "3 lane(s) of 5 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "eaenGjbxxOtEtINT`@x@xExItCrFfEvH`Z|i@bCtEvB|D",
+      "encoded_polyline": "eaenGjbxxOtEtINT`@x@xExItCrFfEvH`Z|i@bCtExB`E",
       "latitude_secondary": 44.4310102,
       "longitude_secondary": -88.1117389
     },
@@ -532,15 +532,15 @@
       "description": "Roadwork - Local Road Full Closure on Hoffman Road EB from Bellevue St to CTH GV",
       "severity": "Unknown",
       "event_type": "closures",
-      "latitude": 44.45374324,
-      "longitude": -88.00923436,
+      "latitude": 44.4537432359101,
+      "longitude": -88.009234364635,
       "last_updated": 1782771305,
       "lanes_affected": "All lanes closed.",
       "is_full_closure": true,
       "event_subtype": "roadwork",
-      "encoded_polyline": "{jinGthdxOzGesA",
-      "latitude_secondary": 44.45232182,
-      "longitude_secondary": -87.99575786
+      "encoded_polyline": "{jinGthdxOtBcJL{BSgCqDq[EcBFqAzIu]",
+      "latitude_secondary": 44.4531514304551,
+      "longitude_secondary": -88.0074482147963
     },
     {
       "id": 635827,
@@ -549,15 +549,15 @@
       "description": "Roadwork - Local Road Full Closure on Hoffman Road WB from CTH GV to Bellevue St",
       "severity": "Unknown",
       "event_type": "closures",
-      "latitude": 44.45231042,
-      "longitude": -87.99573053,
+      "latitude": 44.452310419935,
+      "longitude": -87.9957305287273,
       "last_updated": 1782771305,
       "lanes_affected": "All lanes closed.",
       "is_full_closure": true,
       "event_subtype": "roadwork",
-      "encoded_polyline": "}ainGhtaxOcHnsA",
-      "latitude_secondary": 44.45376928,
-      "longitude_secondary": -88.0092519
+      "encoded_polyline": "}ainGhtaxOeIl[WzAGp@@t@B~@~@pIzA~L^pDF|ACfAsB`KOP",
+      "latitude_secondary": 44.4539358071664,
+      "longitude_secondary": -88.0002796556832
     },
     {
       "id": 637461,
@@ -566,15 +566,15 @@
       "description": "Roadwork - Local Road Full Closure on Southbridge Rd SB from Innovation Ct to Lawerance Dr",
       "severity": "Unknown",
       "event_type": "closures",
-      "latitude": 44.41866413,
-      "longitude": -88.12442026,
+      "latitude": 44.4186641324499,
+      "longitude": -88.1244202641617,
       "last_updated": 1782882853,
       "lanes_affected": "All lanes closed.",
       "is_full_closure": true,
       "event_subtype": "roadwork",
-      "encoded_polyline": "sobnGrxzxO`Tsf@",
-      "latitude_secondary": 44.41529034,
-      "longitude_secondary": -88.1180817
+      "encoded_polyline": "sobnGrxzxOlBBhBkBtBqH|BoJtEiN",
+      "latitude_secondary": 44.4181120195076,
+      "longitude_secondary": -88.124442362832
     },
     {
       "id": 637481,
@@ -583,15 +583,15 @@
       "description": "Roadwork - Local Road Full Closure on Southbridge Rd NB from Lawerance Dr to Innovation Ct",
       "severity": "Unknown",
       "event_type": "closures",
-      "latitude": 44.41530899,
-      "longitude": -88.11804553,
+      "latitude": 44.4153089900707,
+      "longitude": -88.1180455331957,
       "last_updated": 1782882853,
       "lanes_affected": "All lanes closed.",
       "is_full_closure": true,
       "event_subtype": "roadwork",
-      "encoded_polyline": "uzanGxpyxOyStf@",
-      "latitude_secondary": 44.41864239,
-      "longitude_secondary": -88.12440198
+      "encoded_polyline": "uzanGxpyxOmCnImBjG{D`OiBhDaBHU[",
+      "latitude_secondary": 44.4160199959707,
+      "longitude_secondary": -88.1197327485344
     },
     {
       "id": 692071,
@@ -600,15 +600,15 @@
       "description": "Roadwork - Local Road Full Closure on CTH EE & CTH EB EB from STA 15+00 EB to 26+65 EB. Detour: CTH EE (Orlando Dr) & CTH GE (S Pine Tree Rd) to CTH GE & CTH G (Fernando Dr) then to CTH G & CTH EB (Packerland Dr) then to CTH EB & CTH GF (Main St), then to CTH GF and Mid Valley Dr Round About then to Mid Valley Dr & CTH EE (Grant St) Round About.",
       "severity": "Unknown",
       "event_type": "closures",
-      "latitude": 44.44531625,
-      "longitude": -88.13293009,
+      "latitude": 44.4453162465771,
+      "longitude": -88.132930089652,
       "last_updated": 1785788803,
       "lanes_affected": "All lanes closed.",
       "is_full_closure": true,
       "event_subtype": "roadwork",
       "encoded_polyline": "gvgnGxm|xO?Y",
-      "latitude_secondary": 44.44531625,
-      "longitude_secondary": -88.13279589
+      "latitude_secondary": 44.4453162465771,
+      "longitude_secondary": -88.1327958913963
     },
     {
       "id": 692072,
@@ -617,15 +617,15 @@
       "description": "Roadwork - Local Road Full Closure on CTH EE & CTH EB WB from 26+65 WB to 15+00 WB. Detour: CTH EE (Orlando Dr) & CTH GE (S Pine Tree Rd) to CTH GE & CTH G (Fernando Dr) then to CTH G & CTH EB (Packerland Dr) then to CTH EB & CTH GF (Main St), then to CTH GF and Mid Valley Dr Round About then to Mid Valley Dr & CTH EE (Grant St) Round About.",
       "severity": "Unknown",
       "event_type": "closures",
-      "latitude": 44.44531739,
-      "longitude": -88.13278317,
+      "latitude": 44.4453173911514,
+      "longitude": -88.132783174367,
       "last_updated": 1785788803,
       "lanes_affected": "All lanes closed.",
       "is_full_closure": true,
       "event_subtype": "roadwork",
       "encoded_polyline": "gvgnGzl|xO?Z",
-      "latitude_secondary": 44.44531739,
-      "longitude_secondary": -88.13291598
+      "latitude_secondary": 44.4453173911514,
+      "longitude_secondary": -88.1329159783077
     },
     {
       "id": 692073,
@@ -634,15 +634,15 @@
       "description": "Roadwork - Local Road Full Closure on CTH EE & CTH EB NB from 100+00 NB to 111+30 NB. Detour: CTH EB (Packerland Dr) & CTH F (Scheuring Rd) Round About to 41, 41 to CTH GF (Main St) then to CTH GF & CTH EB (Packerland Dr)",
       "severity": "Unknown",
       "event_type": "closures",
-      "latitude": 44.4452902,
-      "longitude": -88.13285727,
+      "latitude": 44.445290202473,
+      "longitude": -88.132857266697,
       "last_updated": 1785788803,
       "lanes_affected": "All lanes closed.",
       "is_full_closure": true,
       "event_subtype": "roadwork",
       "encoded_polyline": "avgnGjm|xOK?",
-      "latitude_secondary": 44.44534883,
-      "longitude_secondary": -88.13285623
+      "latitude_secondary": 44.4453488269026,
+      "longitude_secondary": -88.1328562265984
     },
     {
       "id": 692074,
@@ -651,15 +651,15 @@
       "description": "Roadwork - Local Road Full Closure on CTH EE & CTH EB SB from 111+30 SB to 100+00 SB. Detour: CTH EB (Packerland Dr) & CTH F (Scheuring Rd) Round About to 41, 41 to CTH GF (Main St) then to CTH GF & CTH EB (Packerland Dr)",
       "severity": "Unknown",
       "event_type": "closures",
-      "latitude": 44.44542048,
-      "longitude": -88.13286026,
+      "latitude": 44.4454204762339,
+      "longitude": -88.1328602573354,
       "last_updated": 1785788803,
       "lanes_affected": "All lanes closed.",
       "is_full_closure": true,
       "event_subtype": "roadwork",
-      "encoded_polyline": "{vgnGjm|xOR?",
-      "latitude_secondary": 44.44532039,
-      "longitude_secondary": -88.1328636
+      "encoded_polyline": "{vgnGjm|xO`@?M?",
+      "latitude_secondary": 44.4452465129106,
+      "longitude_secondary": -88.1328635974201
     },
     {
       "id": 693000,
@@ -668,15 +668,15 @@
       "description": "Roadwork - Mainline Right Shoulder Closed on US 141 NB from WALL ST to BLUESTONE PL",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4392041970431,
-      "longitude": -87.9176731490878,
+      "latitude": 44.4392319089775,
+      "longitude": -87.9179042759725,
       "last_updated": 1785862605,
       "lanes_affected": "1 lane(s) of 2 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "_pfnGllrwO[EkAfBm@bAeFdI_CtDsAvBIL}AdCaH|KyBfDmEdHmCrEq@rAq@tAo@rAo@~A}AzD{AdEYr@i@`B_JpVaHlRq@pBoCrHaDtIeB~E]z@Yt@sBrEq@rAs@rAy@vAs@jAsApBe@l@[b@_ApAUZoBfDk@t@MLY^ULSJOBQFMKOAKHKLcAnAsAlBs@z@yDdEkDxDmCrCOL}EpFwAzA",
-      "latitude_secondary": 44.4393386918568,
-      "longitude_secondary": -87.9176432385691
+      "encoded_polyline": "epfnGzmrwOmSp[m@PQlAeTb]Yv@aFdK_EzKaT|l@kNz_@qBvEyBlEsCvEiE`GmBfD}@hA}@bAe@HQQSC[\\@n@s@JsBtCaPdQaHhI",
+      "latitude_secondary": 44.4425036357042,
+      "longitude_secondary": -87.9224678611989
     },
     {
       "id": 693001,
@@ -685,15 +685,15 @@
       "description": "Roadwork - Mainline Right Shoulder Closed on US 141 SB from BLUESTONE PL to WALL ST",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4641071859532,
-      "longitude": -87.9561226730257,
+      "latitude": 44.4638644043986,
+      "longitude": -87.956363596104,
       "last_updated": 1785862605,
       "lanes_affected": "1 lane(s) of 2 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ukknGv|ywOvA{A|EqFNMlCsCjDyDxDeEr@{@rAmBZORCPAFNH@J@VGHSZi@V_@NWX_@LMj@u@nBgDT[~@qAZc@d@m@rAqBr@kAx@wAr@sAp@sArBsEXu@\\{@dB_F`DuInCsHp@qB`HmR~IqVh@aBXs@zAeE|A{Dn@_Bn@sAp@uAp@sAlCsElEeHxBgD`H}K|AeCHMrAwB~BuDdFeIl@cAjAgBZD",
-      "latitude_secondary": 44.4636667808061,
-      "longitude_secondary": -87.955660347544
+      "encoded_polyline": "cjknGf~ywOzGaI`PeQrBuCr@KNTTB\\_@Cq@d@I|@cA|@iAlBgDhEaGrCwExBmEpBwEjN{_@`T}l@~D{K`FeKXw@dTc]PmAl@QlSq[@?",
+      "latitude_secondary": 44.462438494765,
+      "longitude_secondary": -87.9547490646254
     },
     {
       "id": 702490,
@@ -709,8 +709,8 @@
       "is_full_closure": false,
       "event_subtype": "roadwork",
       "encoded_polyline": "us}nGx`lxO??",
-      "latitude_secondary": 44.5575472145984,
-      "longitude_secondary": -88.0489310241059
+      "latitude_secondary": 44.5575471025339,
+      "longitude_secondary": -88.0489308674854
     },
     {
       "id": 708452,
@@ -719,15 +719,15 @@
       "description": "Roadwork - Mainline Flagging Operation on US 141 SB from FROM US 141 NB to US 141 NB. Daily from 08/13/2026 to 08/28/2026, 06:00 AM - 03:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4606977630343,
-      "longitude": -87.9524849562541,
+      "latitude": 44.4604945943269,
+      "longitude": -87.9526757521943,
       "last_updated": 1786625919,
       "lanes_affected": "No lanes blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "kvjnG~eywOnCwCr@{@rAmBZORCPAFNH@J@VGHSZi@V_@NWX_@LM",
-      "latitude_secondary": 44.4603533366453,
-      "longitude_secondary": -87.9521180666062
+      "encoded_polyline": "aujnGfgywOzCgDrBuCr@KNTTB\\_@Cq@d@I|@cAJM",
+      "latitude_secondary": 44.4597114633678,
+      "longitude_secondary": -87.9518405350278
     },
     {
       "id": 708453,
@@ -736,15 +736,15 @@
       "description": "Roadwork - Mainline Flagging Operation on US 141 NB from NOEL DR to BR SORENSONS CREEK (BRIDGE CROSSING). Daily from 08/13/2026 to 08/28/2026, 06:00 AM - 03:00 PM, Sun, M, T, W, Th, F, Sat",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.458109614728,
-      "longitude": -87.9499968083929,
+      "latitude": 44.4579696529086,
+      "longitude": -87.9502590590577,
       "last_updated": 1786625919,
       "lanes_affected": "No lanes blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "efjnGnvxwOMLY^ULSJOBQFMKOAKHKLcAnAsAlBs@z@yDdE",
-      "latitude_secondary": 44.4581829441474,
-      "longitude_secondary": -87.9500696605499
+      "encoded_polyline": "iejnGbxxwOOR}@bAe@HQQSC[\\@n@s@JsBtCmEzE",
+      "latitude_secondary": 44.4580540308777,
+      "longitude_secondary": -87.9503608974389
     },
     {
       "id": 708454,
@@ -753,15 +753,15 @@
       "description": "Roadwork - Local Road Flagging Operation on Allouez Avenue WB from Gemini Road to Meadow Park Drive. Daily from 08/13/2026 to 08/28/2026, 06:00 AM - 03:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.45887522,
-      "longitude": -87.94612578,
+      "latitude": 44.4588752196518,
+      "longitude": -87.9461257829852,
       "last_updated": 1786625919,
       "lanes_affected": "No lanes blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
       "encoded_polyline": "_kjnGh~wwO@fi@",
-      "latitude_secondary": 44.45886709,
-      "longitude_secondary": -87.95288932
+      "latitude_secondary": 44.4588670887746,
+      "longitude_secondary": -87.9528893242316
     },
     {
       "id": 708455,
@@ -770,15 +770,15 @@
       "description": "Roadwork - Local Road Flagging Operation on Allouez Avenue EB from Meadow Park Drive to Gemini Road. Daily from 08/13/2026 to 08/28/2026, 06:00 AM - 03:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.45884909,
-      "longitude": -87.95283598,
+      "latitude": 44.4588490897176,
+      "longitude": -87.9528359820556,
       "last_updated": 1786625919,
       "lanes_affected": "No lanes blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
       "encoded_polyline": "yjjnGfhywOEwg@",
-      "latitude_secondary": 44.45887501,
-      "longitude_secondary": -87.9463203
+      "latitude_secondary": 44.458875010307,
+      "longitude_secondary": -87.9463203049488
     },
     {
       "id": 717108,
@@ -787,15 +787,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on I-41 SB from ON RAMP FROM COUNTY F to BRIDGE (BRIDGE CROSSING). Daily from 08/31/2026 to 09/04/2026, 07:00 PM - 05:00 AM, M, T, W, Th (excluding F)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4276109667147,
-      "longitude": -88.1171498331917,
+      "latitude": 44.4276514873837,
+      "longitude": -88.1171754948381,
       "last_updated": 1786731223,
       "lanes_affected": "3 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "qgdnGdkyxOlZnj@bCtE|CxFfBbDxAdCfBlC|@nApA`BjCxC~FrGbH|H|FrGfMhN",
-      "latitude_secondary": 44.4275539237366,
-      "longitude_secondary": -88.1172398470464
+      "encoded_polyline": "ygdnGjkyxOxXjg@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjP|DhE",
+      "latitude_secondary": 44.4276081730648,
+      "longitude_secondary": -88.1172432831086
     },
     {
       "id": 717153,
@@ -804,15 +804,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on I-41 NB from LITTLE RAPIDS RD (BRIDGE CROSSING) to OFF RAMP TO COUNTY F / SCHEURING RD. Daily from 08/31/2026 to 09/04/2026, 08:00 PM - 05:00 AM, M, T, W, Th (excluding F)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4123738220953,
-      "longitude": -88.1369079998403,
+      "latitude": 44.4126051525887,
+      "longitude": -88.1371213881129,
       "last_updated": 1786731223,
       "lanes_affected": "3 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ihanGtf}xOoP}QuEeFsIqJkCuCwBcCqA}A_BuBq@aAiAgBuA_CyAoCuCmFgCyEoA_CqWef@",
-      "latitude_secondary": 44.4137715159099,
-      "longitude_secondary": -88.1353923227289
+      "encoded_polyline": "yianG~g}xOyDgEqNkPmEeFuEkFuJwKs@s@cIqMmCkFyDwH{Xog@",
+      "latitude_secondary": 44.4135368761443,
+      "longitude_secondary": -88.1361181709042
     },
     {
       "id": 717933,
@@ -828,8 +828,8 @@
       "is_full_closure": false,
       "event_subtype": "roadwork",
       "encoded_polyline": "us}nGx`lxO??",
-      "latitude_secondary": 44.5575472145984,
-      "longitude_secondary": -88.0489310241059
+      "latitude_secondary": 44.5575471025339,
+      "longitude_secondary": -88.0489308674854
     },
     {
       "id": 718239,
@@ -838,15 +838,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on I-41 SB from ON RAMP FROM COUNTY F to BRIDGE (BRIDGE CROSSING). Daily from 08/24/2026 to 08/28/2026, 07:00 PM - 05:00 AM, M, T, W, Th (excluding F)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4276109667147,
-      "longitude": -88.1171498331917,
+      "latitude": 44.4276514873837,
+      "longitude": -88.1171754948381,
       "last_updated": 1787080436,
       "lanes_affected": "3 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "qgdnGdkyxOlZnj@bCtE|CxFfBbDxAdCfBlC|@nApA`BjCxC~FrGbH|H|FrGfMhN",
-      "latitude_secondary": 44.4275539237366,
-      "longitude_secondary": -88.1172398470464
+      "encoded_polyline": "ygdnGjkyxOxXjg@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjP|DhE",
+      "latitude_secondary": 44.4276081730648,
+      "longitude_secondary": -88.1172432831086
     },
     {
       "id": 718241,
@@ -862,7 +862,7 @@
       "is_full_closure": true,
       "event_subtype": "roadwork",
       "encoded_polyline": "crdnGjzxxO??",
-      "latitude_secondary": 44.4292995531455,
+      "latitude_secondary": 44.4292995949954,
       "longitude_secondary": -88.1144574768481
     },
     {
@@ -872,15 +872,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on I-41 NB from LITTLE RAPIDS RD (BRIDGE CROSSING) to OFF RAMP TO COUNTY F / SCHEURING RD. Daily from 08/24/2026 to 08/28/2026, 08:00 PM - 05:00 AM, M, T, W, Th (excluding F)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4123738220953,
-      "longitude": -88.1369079998403,
+      "latitude": 44.4126051525887,
+      "longitude": -88.1371213881129,
       "last_updated": 1787080436,
       "lanes_affected": "3 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ihanGtf}xOoP}QuEeFsIqJkCuCwBcCqA}A_BuBq@aAiAgBuA_CyAoCuCmFgCyEoA_CqWef@",
-      "latitude_secondary": 44.4137715159099,
-      "longitude_secondary": -88.1353923227289
+      "encoded_polyline": "yianG~g}xOyDgEqNkPmEeFuEkFuJwKs@s@cIqMmCkFyDwH{Xog@",
+      "latitude_secondary": 44.4135368761443,
+      "longitude_secondary": -88.1361181709042
     },
     {
       "id": 718243,
@@ -889,15 +889,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on I-41 NB from LITTLE RAPIDS RD (BRIDGE CROSSING) to OFF RAMP TO COUNTY F / SCHEURING RD. Daily from 08/28/2026 to 08/29/2026, 08:00 PM - 07:00 AM, F (excluding Sat)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4123738220953,
-      "longitude": -88.1369079998403,
+      "latitude": 44.4126051525887,
+      "longitude": -88.1371213881129,
       "last_updated": 1787080436,
       "lanes_affected": "3 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ihanGtf}xOoP}QuEeFsIqJkCuCwBcCqA}A_BuBq@aAiAgBuA_CyAoCuCmFgCyEoA_CqWef@",
-      "latitude_secondary": 44.4137715159099,
-      "longitude_secondary": -88.1353923227289
+      "encoded_polyline": "yianG~g}xOyDgEqNkPmEeFuEkFuJwKs@s@cIqMmCkFyDwH{Xog@",
+      "latitude_secondary": 44.4135368761443,
+      "longitude_secondary": -88.1361181709042
     },
     {
       "id": 719971,
@@ -913,7 +913,7 @@
       "is_full_closure": true,
       "event_subtype": "roadwork",
       "encoded_polyline": "crdnGjzxxO??",
-      "latitude_secondary": 44.4292995531455,
+      "latitude_secondary": 44.4292995949954,
       "longitude_secondary": -88.1144574768481
     },
     {
@@ -923,15 +923,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on I-41 NB from LITTLE RAPIDS RD (BRIDGE CROSSING) to OFF RAMP TO COUNTY F / SCHEURING RD. Daily from 08/31/2026 to 09/04/2026, 08:00 PM - 05:00 AM, M, T, W, Th, F",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4123738220953,
-      "longitude": -88.1369079998403,
+      "latitude": 44.4126051525887,
+      "longitude": -88.1371213881129,
       "last_updated": 1787289259,
       "lanes_affected": "3 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ihanGtf}xOoP}QuEeFsIqJkCuCwBcCqA}A_BuBq@aAiAgBuA_CyAoCuCmFgCyEoA_CqWef@",
-      "latitude_secondary": 44.4137715159099,
-      "longitude_secondary": -88.1353923227289
+      "encoded_polyline": "yianG~g}xOyDgEqNkPmEeFuEkFuJwKs@s@cIqMmCkFyDwH{Xog@",
+      "latitude_secondary": 44.4135368761443,
+      "longitude_secondary": -88.1361181709042
     },
     {
       "id": 721893,
@@ -947,7 +947,7 @@
       "is_full_closure": true,
       "event_subtype": "roadwork",
       "encoded_polyline": "crdnGjzxxO??",
-      "latitude_secondary": 44.4292995531455,
+      "latitude_secondary": 44.4292995949954,
       "longitude_secondary": -88.1144574768481
     },
     {
@@ -957,15 +957,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on I-41 SB from ON RAMP FROM COUNTY F to BRIDGE (BRIDGE CROSSING). Daily from 08/31/2026 to 09/04/2026, 07:00 PM - 05:00 AM, M, T, W, Th, F",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4276109667147,
-      "longitude": -88.1171498331917,
+      "latitude": 44.4276514873837,
+      "longitude": -88.1171754948381,
       "last_updated": 1787289259,
       "lanes_affected": "3 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "qgdnGdkyxOlZnj@bCtE|CxFfBbDxAdCfBlC|@nApA`BjCxC~FrGbH|H|FrGfMhN",
-      "latitude_secondary": 44.4275539237366,
-      "longitude_secondary": -88.1172398470464
+      "encoded_polyline": "ygdnGjkyxOxXjg@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjP|DhE",
+      "latitude_secondary": 44.4276081730648,
+      "longitude_secondary": -88.1172432831086
     },
     {
       "id": 724719,
@@ -974,32 +974,15 @@
       "description": "Roadwork - Mainline Moving Lane Closure on I-41 NB from ON RAMP FROM COUNTY F / SCHEURING RD to OFF RAMP TO COUNTY B. Daily from 08/30/2026 to 09/03/2026, 08:00 PM - 06:00 AM, Sun, M, T, W, Th",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4335859934532,
-      "longitude": -88.1071700850524,
+      "latitude": 44.4338290626662,
+      "longitude": -88.1073224340552,
       "last_updated": 1787462064,
       "lanes_affected": "No Data",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "}lenGxlwxOuCqFaKoR{E}Io@gAeBiCgAsAiAgAkAkAmA}@yAcAcDkBqFaDaGwDmI}EuMmHsAw@wA{@{E{C_RmLoA{@[Q}A_AsKsGiCaB_BcA]Ss@c@iBiA_NgIcQiKcL}Gq@c@YQUMOK{BqAeAi@w@]q@W}@[cAY}@YiAUmASwAQeAK]AcAC]Ag@CaA@aBDmFRmGV{GXyAHeCHeEPiBH_IVqFTk@BkGXwFT]@}FT_@@}AFiGVgJ^kXfAoADiDNq@D{DL{BJiPp@kPn@kDNgADmCJy@BsBJyJ^eEPwBHoBFsBHkBB]B}@?kEBiC?aCAwDE}CG{DKuEGsCIwC?uBE_DGsDKkBEsBGq@C_AA_DQqGS[MsBIUAQAcCMoBMeBGgAEiAGmJU?A{AAqGQcBGy@Cu@Ew@IWC_AMa@IAB?Cu@MmBe@o@ScA_@s@Yc@QMGg@WgBcAWQe@Yu@i@i@a@cBsAmA}@m@a@oAcAqB}Aa@[w@i@a@]WOc@Ok@i@}CkCk@e@}CgCmAeAe@a@}FyEgA_AYWcDkCwC_CyGmFaCsBy@o@i@e@{AmAsGoF{WqTgBaB{A}AgAmAm@s@u@_AW]g@q@gBmC_A{AkCiEU]g@{@cA_BsAuBoFaJ]i@{@uAcAaBmEmHo@cAs@kA_BmC_BcC{@qAu@eAc@c@}@iA[[{@w@iA}@",
-      "latitude_secondary": 44.4337305336404,
-      "longitude_secondary": -88.106939533669
-    },
-    {
-      "id": 724725,
-      "roadway": "I-41",
-      "direction": "S",
-      "description": "Roadwork - Mainline Moving Lane Closure on I-41 SB from Riverside Dr & Suamico River (BRIDGE CROSSING) to OFF RAMP TO COUNTY F. Daily from 08/30/2026 to 09/03/2026, 08:00 PM - 06:00 AM, Sun, M, T, W, Th",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.566559439968,
-      "longitude": -88.0488998890239,
-      "last_updated": 1787462064,
-      "lanes_affected": "No Data",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "_l_oGr`lxO`ATjA\\RFb@PbBv@t@b@^R^T|@t@xAnAdAhAbAnAfA~AtBdDdBtCj@dAl@dA^d@Xb@RZ`CzDbBhCx@vAl@`ANVpDbGhAnBrArBj@`ATZvBhDdAfBjAdB`@j@x@jAfArA`AhA~@`A|A`Bx@t@jB~AxAjA`KnIdFdEzAvAxEzDtAlAj@f@dEjDpCvBzAjAzApAjB`BhDlCXTn@j@ZVZXdCvBv@r@pAhAjAbAlAdArBbBzCbCxBdBFJ\\T|@v@h@b@p@j@j@f@hCxBxCzB^XTNZPh@ZlB`AjAl@rAd@~Ad@tAZjARVF`CX`AF`ABnBFhABjEJjABvBFdABlFJzHT~CFV?~BHtBDtHPf@BbA@dCF|GPzCHbWl@bFJ`CBzG@tEC`BCp@AtCGrCItAGpDOvI]nAGvCM|@EzCK`EO~Oq@dDOfEQbDMdCKfBGzCMfDOzNk@`K_@`Sq@f@A\\?dDWjBM\\?lBM|CMrEMj@Eh@ChGW|GWdCK`EMhCMvAE|GYvJa@tCIzAEfAAfABfAH\\@r@FfALnAV|AZnA\\xAh@xAl@`Bz@~A`Af@TXRr@b@fDrBzFjD|PhK~KzGhAt@jBhAn@`@b@VdC|AnNnI|A`Az@f@n@`@|EtC~Q|KxA~@jAr@hNlItD|BvG~DjF`Dv@b@|CjB~BxAdBpA`BzA~AdBvApBpAtBzC~F|J~Qz@`BbCpEP\\",
-      "latitude_secondary": 44.5662282573582,
-      "longitude_secondary": -88.0490117087335
+      "encoded_polyline": "mnenGvmwxOKQgWoe@gAeBqAeBqAwAsAqAoAcAoAy@uxAk|@cKaGeJ{F}o@o`@oBeAsB}@uBq@qBg@qB]yBU{BKsBAaBDs`FzRkIToEFkEBoEAqEE_CCeYu@if@iAij@sAgAGkAKkAMkASuBe@uBm@qBw@sBcAaBaA_BgAcHyF{ReP{OeNwj@yd@uC}BsF}DoB}AkB_BkBiBaBgB}AkB{AoByAuBoLoRmDgHa@wBk@aBySa`@O]UWiA}AoAuAsAiAo@c@o@_@o@]q@Yq@Uy@Us@Os@Ki@G_AGaAAeAh@gEN_dCTgEDiEJgDPcDRik@zEaDT{CLuDHuDBcIKawAYmDM{DDyV?iJScIeA_P_IeFwB",
+      "latitude_secondary": 44.4338886078213,
+      "longitude_secondary": -88.1072256952044
     },
     {
       "id": 724727,
@@ -1008,15 +991,15 @@
       "description": "Roadwork - Mainline Moving Lane Closure on I-43 NB from WEBSTER AVE (BRIDGE CROSSING) to CNW RR (BRIDGE CROSSING). Daily from 08/30/2026 to 09/03/2026, 08:00 PM - 06:00 AM, Sun, M, T, W, Th",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5277723679665,
-      "longitude": -87.9907031065824,
+      "latitude": 44.5277430601342,
+      "longitude": -87.9907132676164,
       "last_updated": 1787462064,
       "lanes_affected": "No Data",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "qywnGzt`xOYhAuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBaCtG",
-      "latitude_secondary": 44.5278987978444,
-      "longitude_secondary": -87.9910678324732
+      "encoded_polyline": "kywnG|t`xOaBzGgI~[eFjTm^jfBiHjW[rBiA~D]dA",
+      "latitude_secondary": 44.5282283434336,
+      "longitude_secondary": -87.9921338540378
     },
     {
       "id": 724729,
@@ -1025,15 +1008,15 @@
       "description": "Roadwork - Mainline Moving Lane Closure on I-43 SB from ON RAMP FROM ATKINSON DR to WEBSTER AVE (BRIDGE CROSSING). Daily from 08/30/2026 to 09/03/2026, 08:00 PM - 06:00 AM, Sun, M, T, W, Th",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5382142013096,
-      "longitude": -88.0224968672284,
+      "latitude": 44.5381962731937,
+      "longitude": -88.0225066364932,
       "last_updated": 1787462064,
       "lanes_affected": "No Data",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "yzynGr{fxOHS`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HhBqH",
-      "latitude_secondary": 44.538159534219,
-      "longitude_secondary": -88.0223965226225
+      "encoded_polyline": "wzynGt{fxO\\cAhA_EZsBhHkWl^kfBdFkTfI_\\`B}G",
+      "latitude_secondary": 44.5380461237406,
+      "longitude_secondary": -88.0221661128768
     },
     {
       "id": 727512,
@@ -1042,15 +1025,15 @@
       "description": "Roadwork - Mainline Flagging Operation on US 141 NB from CEDAR HEDGE LN to I-43 (BRIDGE CROSSING). Daily from 08/28/2026 to 09/10/2026, 05:00 AM - 03:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4381872465606,
-      "longitude": -87.9176137217538,
+      "latitude": 44.4381469606751,
+      "longitude": -87.9179045992383,
       "last_updated": 1787584470,
       "lanes_affected": "No lanes blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "uifnG`lrwO}ALe@Be@?_@E[EkAfBm@bAeFdI_CtDsAvBIL}AdCaH|KyBfDmEdHmCrEq@rAq@tAo@rAo@~A}AzD{AdEYr@i@`B_JpVaHlRq@pBoCrHaDtIeB~E]z@Yt@sBrEq@rAs@rAy@vAs@jAsApBe@l@[b@_ApAUZoBfDk@t@MLY^ULSJOBQFMKOAKHKLcAnAsAlBs@z@yDdEkDxDmCrCOL}EpFwAzA",
-      "latitude_secondary": 44.438664156421,
-      "longitude_secondary": -87.9176797722315
+      "encoded_polyline": "mifnGzmrwOwE?mSp[m@PQlAeTb]Yv@aFdK_EzKaT|l@kNz_@qBvEyBlEsCvEiE`GmBfD}@hA}@bAe@HQQSC[\\@n@s@JsBtCaPdQkHrI",
+      "latitude_secondary": 44.4392319089775,
+      "longitude_secondary": -87.9179042759725
     },
     {
       "id": 727513,
@@ -1059,15 +1042,15 @@
       "description": "Roadwork - Mainline Flagging Operation on US 141 SB from FROM US 141 NB to CEDAR HEDGE LN. Daily from 08/28/2026 to 09/10/2026, 05:00 AM - 03:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4641071859532,
-      "longitude": -87.9561226730257,
+      "latitude": 44.463906614642,
+      "longitude": -87.9564113915617,
       "last_updated": 1787584470,
       "lanes_affected": "No lanes blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ukknGv|ywOvA{A|EqFNMlCsCjDyDxDeEr@{@rAmBZORCPAFNH@J@VGHSZi@V_@NWX_@LMj@u@nBgDT[~@qAZc@d@m@rAqBr@kAx@wAr@sAp@sArBsEXu@\\{@dB_F`DuInCsHp@qB`HmR~IqVh@aBXs@zAeE|A{Dn@_Bn@sAp@uAp@sAlCsElEeHxBgD`H}K|AeCHMrAwB~BuDdFeIl@cAjAgBZD^Dd@?d@C`BM",
-      "latitude_secondary": 44.4636667808061,
-      "longitude_secondary": -87.955660347544
+      "encoded_polyline": "mjknGp~ywOdHkI`PeQrBuCr@KNTTB\\_@Cq@d@I|@cA|@iAlBgDhEaGrCwExBmEpBwEjN{_@`T}l@~D{K`FeKXw@dTc]PmAl@QlSq[|E?",
+      "latitude_secondary": 44.462438494765,
+      "longitude_secondary": -87.9547490646254
     },
     {
       "id": 727760,
@@ -1083,8 +1066,8 @@
       "is_full_closure": true,
       "event_subtype": "roadwork",
       "encoded_polyline": "uk}nGbwkxO??",
-      "latitude_secondary": 44.556272753018,
-      "longitude_secondary": -88.0473782641745
+      "latitude_secondary": 44.5562728141487,
+      "longitude_secondary": -88.0473782888369
     },
     {
       "id": 727761,
@@ -1093,15 +1076,15 @@
       "description": "Roadwork - Mainline 2 Left Lanes Closed on I-41 SB from Wietor Wharf Drive (BRIDGE CROSSING) to US 141/ (VELP AVE) (BRIDGE CROSSING). Daily from 09/01/2026 to 09/02/2026, 08:00 PM - 05:00 AM, T, W",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5624653543762,
-      "longitude": -88.0521631285642,
+      "latitude": 44.5625389890261,
+      "longitude": -88.0522148690417,
       "last_updated": 1787598064,
       "lanes_affected": "3 lane(s) of 5 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "mr~nG~tlxOlAlBdBtCj@dAl@dA^d@Xb@RZ`CzDbBhCx@vAl@`ANVpDbGhAnBrArBj@`ATZvBhDdAfBd@p@",
-      "latitude_secondary": 44.5620782807147,
-      "longitude_secondary": -88.0527140591454
+      "encoded_polyline": "{r~nGhulxOhHnLhJfOjAbAlDfH`LxQ",
+      "latitude_secondary": 44.5624461403171,
+      "longitude_secondary": -88.052349037406
     },
     {
       "id": 727762,
@@ -1110,15 +1093,15 @@
       "description": "Roadwork - Mainline Right Lane Closed on I-41 SB from Wietor Wharf Drive (BRIDGE CROSSING) to US 141/ (VELP AVE) (BRIDGE CROSSING). Daily from 09/02/2026 to 09/03/2026, 07:00 PM - 05:00 AM, W, Th",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5624653543762,
-      "longitude": -88.0521631285642,
+      "latitude": 44.5625389890261,
+      "longitude": -88.0522148690417,
       "last_updated": 1787598064,
       "lanes_affected": "1 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "mr~nG~tlxOlAlBdBtCj@dAl@dA^d@Xb@RZ`CzDbBhCx@vAl@`ANVpDbGhAnBrArBj@`ATZvBhDdAfBd@p@",
-      "latitude_secondary": 44.5620782807147,
-      "longitude_secondary": -88.0527140591454
+      "encoded_polyline": "{r~nGhulxOhHnLhJfOjAbAlDfH`LxQ",
+      "latitude_secondary": 44.5624461403171,
+      "longitude_secondary": -88.052349037406
     },
     {
       "id": 727763,
@@ -1134,8 +1117,8 @@
       "is_full_closure": true,
       "event_subtype": "roadwork",
       "encoded_polyline": "mh~nG`jlxO??",
-      "latitude_secondary": 44.5608655525294,
-      "longitude_secondary": -88.0504065591427
+      "latitude_secondary": 44.5608656633105,
+      "longitude_secondary": -88.0504065618231
     },
     {
       "id": 727764,
@@ -1144,15 +1127,15 @@
       "description": "Roadwork - Mainline 2 Right Lanes Closed on I-41 NB from WEITER WHARF DRIVE (BRIDGE CROSSING) to I-41 SB TO I-43 SB (BRIDGE CROSSING). Daily from 08/31/2026 to 09/01/2026, 08:00 PM - 06:00 AM, M, T",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5599765186768,
-      "longitude": -88.0553072396406,
+      "latitude": 44.5598727378954,
+      "longitude": -88.0552364632631,
       "last_updated": 1787598064,
       "lanes_affected": "3 lane(s) of 5 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "{b~nGthmxO_EyGo@cAs@kA_BmC_BcC{@qAu@eAc@c@}@iA[[{@w@iA}@",
-      "latitude_secondary": 44.5606473044285,
-      "longitude_secondary": -88.054323205608
+      "encoded_polyline": "eb~nGfhmxO}O}YO]UWiA}AoAuAsAiAo@c@o@_@o@]q@Yq@Uy@Us@Os@Ki@G_AGaAAa@R",
+      "latitude_secondary": 44.5625811709923,
+      "longitude_secondary": -88.050929524425
     },
     {
       "id": 727765,
@@ -1161,15 +1144,15 @@
       "description": "Roadwork - Mainline Left Lane Closed on I-41 NB from WEITER WHARF DRIVE (BRIDGE CROSSING) to I-41 SB TO I-43 SB (BRIDGE CROSSING). Daily from 08/30/2026 to 08/31/2026, 07:00 PM - 06:00 AM, Sun, M",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5599765186768,
-      "longitude": -88.0553072396406,
+      "latitude": 44.5598727378954,
+      "longitude": -88.0552364632631,
       "last_updated": 1787598064,
       "lanes_affected": "2 lane(s) of 5 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "{b~nGthmxO_EyGo@cAs@kA_BmC_BcC{@qAu@eAc@c@}@iA[[{@w@iA}@",
-      "latitude_secondary": 44.5606473044285,
-      "longitude_secondary": -88.054323205608
+      "encoded_polyline": "eb~nGfhmxO}O}YO]UWiA}AoAuAsAiAo@c@o@_@o@]q@Yq@Uy@Us@Os@Ki@G_AGaAAa@R",
+      "latitude_secondary": 44.5625811709923,
+      "longitude_secondary": -88.050929524425
     },
     {
       "id": 727812,
@@ -1178,15 +1161,32 @@
       "description": "Roadwork - Local Road Full Closure on Ontario Rd SB from North Village Limits to Eaton Rd",
       "severity": "Unknown",
       "event_type": "closures",
-      "latitude": 44.46653769,
-      "longitude": -87.92781069,
+      "latitude": 44.4665376895111,
+      "longitude": -87.9278106861524,
       "last_updated": 1787600765,
       "lanes_affected": "All lanes closed.",
       "is_full_closure": true,
       "event_subtype": "roadwork",
       "encoded_polyline": "{zknGxktwO}j@M",
-      "latitude_secondary": 44.47357124,
-      "longitude_secondary": -87.92773638
+      "latitude_secondary": 44.473571237103,
+      "longitude_secondary": -87.9277363789276
+    },
+    {
+      "id": 728706,
+      "roadway": "WI-172",
+      "direction": "E",
+      "description": "Roadwork - Ramp Right Shoulder Closed on WIS 172 EB at OFF RAMP TO COUNTY GV",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4567106195568,
+      "longitude": -87.9958975052402,
+      "last_updated": 1785865305,
+      "lanes_affected": "1 lane(s) of 3 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "m}inGjuaxO??",
+      "latitude_secondary": 44.456710654794,
+      "longitude_secondary": -87.9958974876293
     }
   ]
 }
