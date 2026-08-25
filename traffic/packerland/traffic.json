@@ -13,11 +13,11 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Aug 25, 2026 11:19 AM CDT",
+  "updated_local": "Aug 25, 2026 12:50 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 38,
+  "incident_count": 37,
   "segments": [
     {
       "id": "4008",
@@ -25,7 +25,7 @@
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
       "current_minutes": "17",
-      "delay_minutes": "2",
+      "delay_minutes": "1",
       "status": "Moderate",
       "waypoints": [
         [
@@ -253,8 +253,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "20",
-      "delay_minutes": "3",
+      "current_minutes": "18",
+      "delay_minutes": "1",
       "status": "Moderate",
       "waypoints": [
         [
@@ -300,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "19",
-      "delay_minutes": "4",
-      "status": "Slow",
+      "current_minutes": "17",
+      "delay_minutes": "2",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524684,
@@ -515,15 +515,15 @@
       "description": "Roadwork - Mainline Right Lane Closed on I-41 SB from ON RAMP FROM COUNTY F to ON RAMP FROM COUNTY F",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4260947064266,
-      "longitude": -88.1195538006135,
+      "latitude": 44.4317088,
+      "longitude": -88.1106193,
       "last_updated": 1778520553,
       "lanes_affected": "3 lane(s) of 5 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "a~cnGdzyxO|Pn[bCtEvB|D",
-      "latitude_secondary": 44.4253868617195,
-      "longitude_secondary": -88.1206762652208
+      "encoded_polyline": "eaenGjbxxOtEtINT`@x@xExItCrFfEvH`Z|i@bCtEvB|D",
+      "latitude_secondary": 44.4310102,
+      "longitude_secondary": -88.1117389
     },
     {
       "id": 635825,
@@ -677,23 +677,6 @@
       "encoded_polyline": "ukknGv|ywOvA{A|EqFNMlCsCjDyDxDeEr@{@rAmBZORCPAFNH@J@VGHSZi@V_@NWX_@LMj@u@nBgDT[~@qAZc@d@m@rAqBr@kAx@wAr@sAp@sArBsEXu@\\{@dB_F`DuInCsHp@qB`HmR~IqVh@aBXs@zAeE|A{Dn@_Bn@sAp@uAp@sAlCsElEeHxBgD`H}K|AeCHMrAwB~BuDdFeIl@cAjAgBZD",
       "latitude_secondary": 44.4636667808061,
       "longitude_secondary": -87.955660347544
-    },
-    {
-      "id": 693064,
-      "roadway": "WI-172",
-      "direction": "E",
-      "description": "Roadwork - Ramp Right Shoulder Closed on WIS 172 EB at OFF RAMP TO COUNTY GV",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4567106195568,
-      "longitude": -87.9958975052402,
-      "last_updated": 1785865305,
-      "lanes_affected": "1 lane(s) of 3 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "m}inGjuaxO??",
-      "latitude_secondary": 44.4567106195568,
-      "longitude_secondary": -87.9958975052402
     },
     {
       "id": 702490,
