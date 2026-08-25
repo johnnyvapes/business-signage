@@ -13,29 +13,11 @@
     },
     "id": "manitowoc"
   },
-  "updated_local": "Aug 25, 2026 03:03 PM CDT",
+  "updated_local": "Aug 25, 2026 04:57 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 0,
-  "incident_count": 1,
+  "incident_count": 0,
   "segments": [],
-  "incidents": [
-    {
-      "id": 720652,
-      "roadway": "I-43",
-      "direction": "S",
-      "description": "Roadwork - Mainline Various Lanes Closed on I-43 SB from OFF RAMP TO US 10 WB to MANITOWOC - SHEBOYGAN CO LINE. Daily from 08/24/2026 to 08/25/2026, 06:00 AM - 03:00 PM, M, T",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.1585023801874,
-      "longitude": -87.731432487173,
-      "last_updated": 1787228057,
-      "lanes_affected": "4 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "suolGl`nvOv^~@v@@~Q\\pfAbBzCPvU^tEJhFJvUD~S_Av~@eEbAQ~E?lWsArJ_@p@YbHK^?vQs@hi@kCbDSpDEhRkAtDyA~b@e`@lf@sc@r@kA\\?dBqBlIiKbD_DZEx@eAlDcDhDqC~CeClA_AlEoEpDkC~FqF~E}CpBeAbC_AhIkAlYEhLPp[DbDFlD?duAV`w@JlMhCbExArMbHpNrJpw@no@`SzOlPxMzSxOlMpD~NbChM|C~FpB~KpBzw@pRhSbEzSzCdMhBzLdBnMlBzJxAvLfBzk@lI~SvBvX|Eze@fGbIbB`D~@pC|AhBxBbGhEzI~LfIlK`D|Dtf@pn@~OvTbBdBlOpR~HnHlBxAtFhCdDdAbXbIlCd@~VbFbTxAvpA\\",
-      "latitude_secondary": 44.1564144654156,
-      "longitude_secondary": -87.7315625556649
-    }
-  ]
+  "incidents": []
 }

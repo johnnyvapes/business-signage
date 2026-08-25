@@ -13,20 +13,20 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Aug 25, 2026 03:03 PM CDT",
+  "updated_local": "Aug 25, 2026 04:57 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 38,
+  "incident_count": 37,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "25",
-      "delay_minutes": "9",
-      "status": "Very Slow",
+      "current_minutes": "16",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.451904,
@@ -253,9 +253,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "35",
-      "delay_minutes": "18",
-      "status": "Very Slow",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -300,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "34",
-      "delay_minutes": "19",
-      "status": "Very Slow",
+      "current_minutes": "15",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524684,
@@ -677,23 +677,6 @@
       "encoded_polyline": "cjknGf~ywOzGaI`PeQrBuCr@KNTTB\\_@Cq@d@I|@cA|@iAlBgDhEaGrCwExBmEpBwEjN{_@`T}l@~D{K`FeKXw@dTc]PmAl@QlSq[@?",
       "latitude_secondary": 44.462438494765,
       "longitude_secondary": -87.9547490646254
-    },
-    {
-      "id": 702490,
-      "roadway": "I-43",
-      "direction": "N",
-      "description": "Roadwork - System Interchange Left Lane Closed on I-43 NB at I-43 NB TO US-41 NB",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.5575472145984,
-      "longitude": -88.0489310241059,
-      "last_updated": 1786361226,
-      "lanes_affected": "2 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "us}nGx`lxO??",
-      "latitude_secondary": 44.5575471025339,
-      "longitude_secondary": -88.0489308674854
     },
     {
       "id": 708452,
