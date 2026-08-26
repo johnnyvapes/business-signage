@@ -13,7 +13,7 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Aug 26, 2026 06:17 AM CDT",
+  "updated_local": "Aug 26, 2026 09:08 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -109,9 +109,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB County WW to WIS 29 West",
       "normal_minutes": "4",
-      "current_minutes": "4",
+      "current_minutes": "5",
       "delay_minutes": "0",
-      "status": "Normal",
+      "status": "Slow",
       "waypoints": [
         [
           45.025333,
@@ -313,15 +313,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on US 51 SB from BIG RIB RIVER (BRIDGE CROSSING) to US 51 SB (BEGIN CC)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.9456990682173,
-      "longitude": -89.6666671094324,
+      "latitude": 44.9329147,
+      "longitude": -89.6646957,
       "last_updated": 1785215527,
       "lanes_affected": "2 lane(s) of 5 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "smiqGt_hbPnMAbQe@xHk@xHy@vHiA|H{AxHkBpHyBrHiC`HiDpDoBbBcA`LqGtj@o]hFaDlNsJfOuJ~FeEvDyBlOaKhPuJ",
-      "latitude_secondary": 44.9433831366141,
-      "longitude_secondary": -89.6666588135949
+      "encoded_polyline": "u}fqGjsgbPvBm@bEoAjC}@p@S|D}ApFwB~BgAdJuEpC}AbDkBrBsA|EeDnPsKdJcG|FsDzDeCjFiDl@e@pPwKj@_@vL{HlDaCbEkC|HgFz@e@xHeF",
+      "latitude_secondary": 44.9323128,
+      "longitude_secondary": -89.6644702
     },
     {
       "id": 681403,
