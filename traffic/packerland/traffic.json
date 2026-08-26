@@ -13,11 +13,11 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Aug 25, 2026 06:54 PM CDT",
+  "updated_local": "Aug 25, 2026 10:36 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 37,
+  "incident_count": 39,
   "segments": [
     {
       "id": "4008",
@@ -25,7 +25,7 @@
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
       "current_minutes": "16",
-      "delay_minutes": "0",
+      "delay_minutes": "1",
       "status": "Normal",
       "waypoints": [
         [
@@ -253,9 +253,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "19",
+      "delay_minutes": "2",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524762,
@@ -300,8 +300,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "17",
-      "delay_minutes": "2",
+      "current_minutes": "18",
+      "delay_minutes": "3",
       "status": "Moderate",
       "waypoints": [
         [
@@ -1034,6 +1034,40 @@
       "encoded_polyline": "m}inGjuaxO??",
       "latitude_secondary": 44.456710654794,
       "longitude_secondary": -87.9958974876293
+    },
+    {
+      "id": 729238,
+      "roadway": "I-41",
+      "direction": "s",
+      "description": "I-41 South at Ramp from Lombardi Ave. The right shoulder is blocked due to a disabled vehicle.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.508026,
+      "longitude": -88.082713,
+      "last_updated": 1787713230,
+      "lanes_affected": "Shoulder blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "e~snG|srxO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
+    },
+    {
+      "id": 729678,
+      "roadway": "US-41",
+      "direction": "s",
+      "description": "US 41 South 2.4 miles beyond Ramp from County B. The left shoulder is blocked due to a disabled vehicle.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.599339,
+      "longitude": -88.050046,
+      "last_updated": 1787713113,
+      "lanes_affected": "Shoulder blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "{xeoGxglxO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
