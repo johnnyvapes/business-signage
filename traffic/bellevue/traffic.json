@@ -13,11 +13,11 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Aug 29, 2026 09:23 AM CDT",
+  "updated_local": "Aug 29, 2026 09:38 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 38,
+  "incident_count": 39,
   "segments": [
     {
       "id": "4008",
@@ -300,8 +300,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "34",
-      "delay_minutes": "19",
+      "current_minutes": "33",
+      "delay_minutes": "18",
       "status": "Very Slow",
       "waypoints": [
         [
@@ -1051,6 +1051,23 @@
       "encoded_polyline": "krdnGzzxxOjc@zw@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjPvm@fq@j_@hb@zMvNbGpGrXvZfIvGzClBzZnMTJ",
       "latitude_secondary": 44.4285944510169,
       "longitude_secondary": -88.1156994028136
+    },
+    {
+      "id": 735976,
+      "roadway": "I-41",
+      "direction": "n",
+      "description": "Disabled vehicle on Ramp from County F/Scheuring Rd to I-41 North.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.432374,
+      "longitude": -88.109088,
+      "last_updated": 1788013374,
+      "lanes_affected": "No lanes blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "ieenGxxwxO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
