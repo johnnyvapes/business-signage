@@ -13,7 +13,7 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Aug 28, 2026 07:38 PM CDT",
+  "updated_local": "Aug 28, 2026 07:53 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -82,8 +82,8 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "25",
-      "delay_minutes": "17",
+      "current_minutes": "26",
+      "delay_minutes": "18",
       "status": "Very Slow",
       "waypoints": [
         [
