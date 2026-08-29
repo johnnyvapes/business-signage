@@ -13,20 +13,20 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Aug 29, 2026 12:38 PM CDT",
+  "updated_local": "Aug 29, 2026 12:53 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 36,
+  "incident_count": 35,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "19",
-      "delay_minutes": "3",
-      "status": "Moderate",
+      "current_minutes": "16",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.451904,
@@ -253,9 +253,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "19",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -300,8 +300,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "18",
-      "delay_minutes": "3",
+      "current_minutes": "16",
+      "delay_minutes": "1",
       "status": "Moderate",
       "waypoints": [
         [
@@ -1000,23 +1000,6 @@
       "encoded_polyline": "krdnGzzxxOjc@zw@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjPvm@fq@j_@hb@zMvNbGpGrXvZfIvGzClBzZnMTJ",
       "latitude_secondary": 44.4285944510169,
       "longitude_secondary": -88.1156994028136
-    },
-    {
-      "id": 735976,
-      "roadway": "I-41",
-      "direction": "n",
-      "description": "Disabled vehicle on Ramp from County F/Scheuring Rd to I-41 North.",
-      "severity": "1",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.432374,
-      "longitude": -88.109088,
-      "last_updated": 1788013374,
-      "lanes_affected": "No lanes blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Disabled Vehicle",
-      "encoded_polyline": "ieenGxxwxO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }
