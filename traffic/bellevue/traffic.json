@@ -13,7 +13,7 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Aug 29, 2026 05:23 AM CDT",
+  "updated_local": "Aug 29, 2026 05:38 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -253,8 +253,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "18",
-      "delay_minutes": "1",
+      "current_minutes": "19",
+      "delay_minutes": "2",
       "status": "Moderate",
       "waypoints": [
         [
@@ -300,8 +300,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "17",
-      "delay_minutes": "2",
+      "current_minutes": "18",
+      "delay_minutes": "3",
       "status": "Moderate",
       "waypoints": [
         [
