@@ -13,11 +13,11 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Aug 28, 2026 06:53 PM CDT",
+  "updated_local": "Aug 28, 2026 07:08 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 40,
+  "incident_count": 38,
   "segments": [
     {
       "id": "4008",
@@ -1051,40 +1051,6 @@
       "encoded_polyline": "krdnGzzxxOjc@zw@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjPvm@fq@j_@hb@zMvNbGpGrXvZfIvGzClBzZnMTJ",
       "latitude_secondary": 44.4285944510169,
       "longitude_secondary": -88.1156994028136
-    },
-    {
-      "id": 734830,
-      "roadway": "Packers Game",
-      "direction": "u",
-      "description": "Packers Game",
-      "severity": "1",
-      "event_type": "specialEvents",
-      "latitude": 44.50128,
-      "longitude": -88.060438,
-      "last_updated": 1787950793,
-      "lanes_affected": "No lanes blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Lambeau Field Event",
-      "encoded_polyline": "_trnGvhnxO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
-    },
-    {
-      "id": 734834,
-      "roadway": "Packers Game",
-      "direction": "undefined",
-      "description": "Roadwork - Packers Game",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.50128,
-      "longitude": -88.060438,
-      "last_updated": 1787950793,
-      "lanes_affected": "0 lane(s) of 1 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "_trnGvhnxO??",
-      "latitude_secondary": 44.50128,
-      "longitude_secondary": -88.060438
     }
   ]
 }
