@@ -13,7 +13,7 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Aug 28, 2026 07:53 PM CDT",
+  "updated_local": "Aug 28, 2026 08:08 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -63,9 +63,9 @@
       "roadway": "I-41 ",
       "description": "Sign 504 I-41 NB N of Scheuring to WIS 29",
       "normal_minutes": "6",
-      "current_minutes": "7",
+      "current_minutes": "6",
       "delay_minutes": "0",
-      "status": "Moderate",
+      "status": "Normal",
       "waypoints": [
         [
           44.436496,
