@@ -13,11 +13,11 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Aug 29, 2026 04:23 PM CDT",
+  "updated_local": "Aug 29, 2026 04:38 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 39,
+  "incident_count": 38,
   "segments": [
     {
       "id": "4008",
@@ -1051,23 +1051,6 @@
       "encoded_polyline": "krdnGzzxxOjc@zw@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjPvm@fq@j_@hb@zMvNbGpGrXvZfIvGzClBzZnMTJ",
       "latitude_secondary": 44.4285944510169,
       "longitude_secondary": -88.1156994028136
-    },
-    {
-      "id": 736284,
-      "roadway": "I-43",
-      "direction": "s",
-      "description": "I-43 South at I-41 North. The right shoulder is closed due to a disabled vehicle.",
-      "severity": "1",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.553692,
-      "longitude": -88.044357,
-      "last_updated": 1788033177,
-      "lanes_affected": "Shoulder blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Disabled Vehicle",
-      "encoded_polyline": "q{|nGfdkxO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }
