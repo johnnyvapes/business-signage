@@ -13,11 +13,46 @@
     },
     "id": "manitowoc"
   },
-  "updated_local": "Sep 1, 2026 03:22 AM CDT",
+  "updated_local": "Sep 1, 2026 05:23 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 0,
-  "incident_count": 0,
+  "incident_count": 2,
   "segments": [],
-  "incidents": []
+  "incidents": [
+    {
+      "id": 738421,
+      "roadway": "WI-310",
+      "direction": "W",
+      "description": "Roadwork - Mainline Flagging Operation on WIS 310 WB from WIS 310 EB to WIS 310 EB. Daily from 09/08/2026 to 10/09/2026, 07:00 AM - 07:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.1535444492325,
+      "longitude": -87.6603070822886,
+      "last_updated": 1788253052,
+      "lanes_affected": "No lanes blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "svnlG|c`vOWNG^H^XL?dBGfFFrHHxoA@|EAbAWJIb@H^VL?dA?jFDrl@@lNDbgA@`^@nF?x@YNG`@H^VJ?B",
+      "latitude_secondary": 44.1536588738122,
+      "longitude_secondary": -87.6603854078599
+    },
+    {
+      "id": 738422,
+      "roadway": "WI-310",
+      "direction": "E",
+      "description": "Roadwork - Mainline Flagging Operation on WIS 310 EB from COUNTY R NB to COUNTY B NB. Daily from 09/08/2026 to 10/09/2026, 07:00 AM - 07:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.1533802437016,
+      "longitude": -87.7086128367809,
+      "last_updated": 1788253052,
+      "lanes_affected": "No lanes blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "sunlGxqivOXOF_@I_@WM?y@AoFAa^EcgAAmNEsl@?kF?eAVMHc@I_@WK@cAA}EIyoAGsHFgF?eBTOHa@Ka@WI?C",
+      "latitude_secondary": 44.1532540271088,
+      "longitude_secondary": -87.7085340941084
+    }
+  ]
 }

@@ -13,19 +13,19 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Sep 1, 2026 03:22 AM CDT",
+  "updated_local": "Sep 1, 2026 05:23 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 36,
+  "incident_count": 35,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "18",
-      "delay_minutes": "2",
+      "current_minutes": "17",
+      "delay_minutes": "1",
       "status": "Moderate",
       "waypoints": [
         [
@@ -191,9 +191,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
-      "current_minutes": "13",
-      "delay_minutes": "7",
-      "status": "Very Slow",
+      "current_minutes": "6",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.521888,
@@ -253,8 +253,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "20",
-      "delay_minutes": "3",
+      "current_minutes": "18",
+      "delay_minutes": "1",
       "status": "Moderate",
       "waypoints": [
         [
@@ -300,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "19",
-      "delay_minutes": "4",
-      "status": "Slow",
+      "current_minutes": "17",
+      "delay_minutes": "2",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524684,
@@ -374,9 +374,9 @@
       "roadway": "I-43 ",
       "description": "Sign 512 I-43 NB to Lineville Rd via I-43/I-41",
       "normal_minutes": "13",
-      "current_minutes": "19",
-      "delay_minutes": "6",
-      "status": "Slow",
+      "current_minutes": "13",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.438024,
@@ -949,23 +949,6 @@
       "encoded_polyline": "{zknGxktwO}j@M",
       "latitude_secondary": 44.473571237103,
       "longitude_secondary": -87.9277363789276
-    },
-    {
-      "id": 729865,
-      "roadway": "US-141",
-      "direction": "N",
-      "description": "Roadwork - Mainline Full Closure on US 141 NB from FROM I-41 NB to WEITER WHARF DRIVE (BRIDGE CROSSING). Daily from 08/31/2026 to 09/01/2026, 07:00 PM - 05:00 AM, M, T",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.5568275744121,
-      "longitude": -88.0587666694967,
-      "last_updated": 1787704041,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "eo}nGh~mxOw@u@k@g@aBmBgB{Bu@{@_CyBqBsD",
-      "latitude_secondary": 44.5571115120678,
-      "longitude_secondary": -88.0585013095564
     },
     {
       "id": 729953,
