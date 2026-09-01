@@ -13,19 +13,19 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Sep 1, 2026 05:23 AM CDT",
+  "updated_local": "Sep 1, 2026 06:19 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 35,
+  "incident_count": 33,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "17",
-      "delay_minutes": "1",
+      "current_minutes": "18",
+      "delay_minutes": "2",
       "status": "Moderate",
       "waypoints": [
         [
@@ -253,8 +253,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "18",
-      "delay_minutes": "1",
+      "current_minutes": "20",
+      "delay_minutes": "3",
       "status": "Moderate",
       "waypoints": [
         [
@@ -300,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "17",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "19",
+      "delay_minutes": "4",
+      "status": "Slow",
       "waypoints": [
         [
           44.524684,
@@ -515,15 +515,15 @@
       "description": "Roadwork - Mainline Right Lane Closed on I-41 SB from ON RAMP FROM COUNTY F to ON RAMP FROM COUNTY F",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4261216506404,
-      "longitude": -88.1195707717077,
+      "latitude": 44.4317088,
+      "longitude": -88.1106193,
       "last_updated": 1778520553,
       "lanes_affected": "3 lane(s) of 5 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "g~cnGhzyxOfOlXxDvHtBbE",
-      "latitude_secondary": 44.42352354311,
-      "longitude_secondary": -88.1236382312894
+      "encoded_polyline": "eaenGjbxxOtEtINT`@x@xExItCrFfEvH`Z|i@bCtExB`E",
+      "latitude_secondary": 44.4310102,
+      "longitude_secondary": -88.1117389
     },
     {
       "id": 635825,
@@ -898,40 +898,6 @@
       "encoded_polyline": "{r~nGhulxOhHnLhJfOjAbAlDfH`LxQ",
       "latitude_secondary": 44.5624461403171,
       "longitude_secondary": -88.052349037406
-    },
-    {
-      "id": 727763,
-      "roadway": "I-43",
-      "direction": "N",
-      "description": "Roadwork - System Interchange Full Closure on I-43 NB at I-43 NB TO I-41 NB. Daily from 08/30/2026 to 09/01/2026, 08:00 PM - 06:00 AM, Sun, M, T",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.5608655525294,
-      "longitude": -88.0504065591427,
-      "last_updated": 1787598064,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "mh~nG`jlxO??",
-      "latitude_secondary": 44.5608656633105,
-      "longitude_secondary": -88.0504065618231
-    },
-    {
-      "id": 727764,
-      "roadway": "I-41",
-      "direction": "N",
-      "description": "Roadwork - Mainline 2 Right Lanes Closed on I-41 NB from WEITER WHARF DRIVE (BRIDGE CROSSING) to I-41 SB TO I-43 SB (BRIDGE CROSSING). Daily from 08/31/2026 to 09/01/2026, 08:00 PM - 06:00 AM, M, T",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.5598727378954,
-      "longitude": -88.0552364632631,
-      "last_updated": 1787598064,
-      "lanes_affected": "3 lane(s) of 5 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "eb~nGfhmxO}O}YO]UWiA}AoAuAsAiAo@c@o@_@o@]q@Yq@Uy@Us@Os@Ki@G_AGaAAa@R",
-      "latitude_secondary": 44.5625811709923,
-      "longitude_secondary": -88.050929524425
     },
     {
       "id": 727812,
