@@ -13,11 +13,11 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Aug 29, 2026 10:38 PM CDT",
+  "updated_local": "Aug 31, 2026 07:30 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 76,
+  "incident_count": 78,
   "segments": [
     {
       "id": "803",
@@ -83,7 +83,7 @@
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
       "current_minutes": "9",
-      "delay_minutes": "1",
+      "delay_minutes": "0",
       "status": "Moderate",
       "waypoints": [
         [
@@ -1478,6 +1478,40 @@
       "encoded_polyline": "}|`qG~rcbPzPyKzDeCzByA~ByAlDmAz[Qj[RhGl@lD~@",
       "latitude_secondary": 44.9005474884406,
       "longitude_secondary": -89.6430725744068
+    },
+    {
+      "id": 737446,
+      "roadway": "WI-B51",
+      "direction": "S",
+      "description": "Roadwork - Mainline Full Closure on WIS B51 SB from W BRIDGE ST to STEWART AVE. Detour: Business 51 SB will take Bridge Street West to 17th Avenue, follow 17th Avenue South to Thomas Street and the continue east on Thomas Street back to Business 51.",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.9700236461201,
+      "longitude": -89.6395417237289,
+      "last_updated": 1788180750,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "senqGbvbbPp@@fGEbHDhH?hHKbH?lEDpDE~C?n@@",
+      "latitude_secondary": 44.9697734731978,
+      "longitude_secondary": -89.6395485927676
+    },
+    {
+      "id": 737447,
+      "roadway": "WI-B51",
+      "direction": "N",
+      "description": "Roadwork - Mainline Full Closure on WIS B51 NB from WIS 52 WB to BRIDGE ST W. Detour: Business 51 NB will continue on Thomas Street west to 17th Avenue, north on 17th Avenue to Bridge Street and then east on Bridge Street back to Business 51NB",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.9602975262405,
+      "longitude": -89.636934122004,
+      "last_updated": 1788180750,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "{hlqGxebbPgABuDDuDEQXiHAcHLiHDcH?wFD",
+      "latitude_secondary": 44.9606559815942,
+      "longitude_secondary": -89.6369485413147
     }
   ]
 }
