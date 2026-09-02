@@ -13,11 +13,11 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Sep 2, 2026 02:18 PM CDT",
+  "updated_local": "Sep 2, 2026 03:20 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 26,
+  "incident_count": 29,
   "segments": [
     {
       "id": "4008",
@@ -300,8 +300,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "16",
-      "delay_minutes": "1",
+      "current_minutes": "17",
+      "delay_minutes": "2",
       "status": "Moderate",
       "waypoints": [
         [
@@ -665,7 +665,7 @@
       "id": 693001,
       "roadway": "US-141",
       "direction": "S",
-      "description": "Roadwork - Mainline Right Shoulder Closed on US 141 SB from BLUESTONE PL to WALL ST",
+      "description": "Roadwork - Mainline Right Shoulder Closed on US 141 SB from BLUESTONE PL to WALL ST. Daily from 09/02/2026 to 09/25/2026, 05:00 AM - 03:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
       "severity": "Unknown",
       "event_type": "roadwork",
       "latitude": 44.4638644043986,
@@ -847,6 +847,57 @@
       "encoded_polyline": "krdnGzzxxOjc@zw@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjPvm@fq@j_@hb@zMvNbGpGrXvZfIvGzClBzZnMTJ",
       "latitude_secondary": 44.4285944510169,
       "longitude_secondary": -88.1156994028136
+    },
+    {
+      "id": 740041,
+      "roadway": "I-41",
+      "direction": "S",
+      "description": "Roadwork - Mainline Moving Lane Closure on I-41 SB from MEMORIAL DR (BRIDGE CROSSING) to COUNTY F (Scheuring Road) (BRIDGE CROSSING). Daily from 09/09/2026 to 09/10/2026, 08:00 AM - 02:00 PM, W, Th",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.5480823999361,
+      "longitude": -88.069138349378,
+      "last_updated": 1788377554,
+      "lanes_affected": "No Data",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "ox{nGb_pxOp\\pXzOdNzRdPbHxF~AfA`B`ArBbApBv@tBl@tBd@jARjALjAJfAFhj@rAhf@hAdYt@~BBpEDnE@jECnEGjIUr`F{R`BErB@zBJxBTpB\\pBf@tBp@rB|@nBdA|o@n`@dJzFbK`GtxAj|@nAx@nAbArApApAvApAdBfAdBfWne@vR~^\\n@",
+      "latitude_secondary": 44.5439772568614,
+      "longitude_secondary": -88.0726902278232
+    },
+    {
+      "id": 740042,
+      "roadway": "I-41",
+      "direction": "N",
+      "description": "Roadwork - Mainline Moving Lane Closure on I-41 NB from COUNTY F (Scheuring Road) (BRIDGE CROSSING) to MEMORIAL DR (BRIDGE CROSSING). Daily from 09/09/2026 to 09/10/2026, 08:00 AM - 02:00 PM, W, Th",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4305866520897,
+      "longitude": -88.1125800474668,
+      "last_updated": 1788377554,
+      "lanes_affected": "No Data",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "ezdnGrnxxO[m@wR__@gWoe@gAeBqAeBqAwAsAqAoAcAoAy@uxAk|@cKaGeJ{F}o@o`@oBeAsB}@uBq@qBg@qB]yBU{BKsBAaBDs`FzRkIToEFkEBoEAqEE_CCeYu@if@iAij@sAgAGkAKkAMkASuBe@uBm@qBw@sBcAaBaA_BgAcHyF{ReP{OeNs\\sX",
+      "latitude_secondary": 44.4307331165684,
+      "longitude_secondary": -88.1123506772394
+    },
+    {
+      "id": 740097,
+      "roadway": "I-43",
+      "direction": "S",
+      "description": "Roadwork - Mainline Right Shoulder Closed on I-43 SB from BAIRD CREEK RD (BRIDGE CROSSING) to OFF RAMP TO E MASON ST. Daily from 09/08/2026 to 09/08/2026, 06:30 AM - 03:00 PM, T",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4964156241051,
+      "longitude": -87.9384743045898,
+      "last_updated": 1788377554,
+      "lanes_affected": "1 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "suqnGlnvwO~D|@hUpD",
+      "latitude_secondary": 44.4954600007966,
+      "longitude_secondary": -87.9387839927034
     }
   ]
 }
