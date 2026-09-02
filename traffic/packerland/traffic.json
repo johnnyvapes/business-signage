@@ -13,11 +13,11 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Sep 1, 2026 11:21 PM CDT",
+  "updated_local": "Sep 2, 2026 12:20 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 28,
+  "incident_count": 27,
   "segments": [
     {
       "id": "4008",
@@ -300,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "16",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "15",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524684,
@@ -677,23 +677,6 @@
       "encoded_polyline": "cjknGf~ywOzGaI`PeQrBuCr@KNTTB\\_@Cq@d@I|@cA|@iAlBgDhEaGrCwExBmEpBwEjN{_@`T}l@~D{K`FeKXw@dTc]PmAl@QlSq[@?",
       "latitude_secondary": 44.462438494765,
       "longitude_secondary": -87.9547490646254
-    },
-    {
-      "id": 717933,
-      "roadway": "I-43",
-      "direction": "N",
-      "description": "Roadwork - System Interchange Right Lane Closed on I-43 NB at I-43 NB TO US-41 NB",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.5575472145984,
-      "longitude": -88.0489310241059,
-      "last_updated": 1787063336,
-      "lanes_affected": "2 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "us}nGx`lxO??",
-      "latitude_secondary": 44.5575471025339,
-      "longitude_secondary": -88.0489308674854
     },
     {
       "id": 721893,
