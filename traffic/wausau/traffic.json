@@ -13,7 +13,7 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Sep 2, 2026 05:19 PM CDT",
+  "updated_local": "Sep 2, 2026 06:17 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -313,7 +313,7 @@
       "description": "Roadwork - Mainline Various Lanes Closed on US 51 SB from BIG RIB RIVER (BRIDGE CROSSING) to US 51 SB (BEGIN CC)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.943799,
+      "latitude": 44.9437989,
       "longitude": -89.6667007,
       "last_updated": 1785215527,
       "lanes_affected": "2 lane(s) of 5 blocked.",
