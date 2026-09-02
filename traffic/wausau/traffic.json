@@ -13,7 +13,7 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Sep 2, 2026 11:21 AM CDT",
+  "updated_local": "Sep 2, 2026 12:19 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -82,9 +82,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "8",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "9",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           45.025207,
@@ -245,15 +245,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on WIS 29 WB from ON RAMP FROM WIS BUS 51 to IH-39 TERMINI NB (END CC)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.8950358,
-      "longitude": -89.6103766,
+      "latitude": 44.8952281571263,
+      "longitude": -89.6117673143889,
       "last_updated": 1785215527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "_q_qGz_}aPaBzJgC|NKf@K|@e@fCu@`EGb@c@`DQz@UrBUjBUfCCd@EbAQbCM|BKrCIdFAzBAfBBfBCdG?bG?pE@lAA`OAnB@xBCxF@~HIzDUrCUzBg@dCu@lCq@tBaAhBq@nAaApAi@h@",
-      "latitude_secondary": 44.8955271,
-      "longitude_secondary": -89.6122768
+      "encoded_polyline": "er_qGph}aPkAxGuAzKiE|X_AtMQrFIjc@e@tUE`ZWpEk@nEuAlFoBrEgC`E",
+      "latitude_secondary": 44.8955827283995,
+      "longitude_secondary": -89.6130685865703
     },
     {
       "id": 681394,
