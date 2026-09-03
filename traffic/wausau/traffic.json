@@ -13,7 +13,7 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Sep 3, 2026 03:18 PM CDT",
+  "updated_local": "Sep 3, 2026 04:19 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -262,15 +262,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on WIS 29 EB from 48TH AVE (BRIDGE CROSSING) to WIS 29 EB (BEGIN CC)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.9539319,
-      "longitude": -89.6982798,
+      "latitude": 44.953735252218,
+      "longitude": -89.6966498943778,
       "last_updated": 1785215527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "aakqGfenbPF{H?kAD}E?cGLuSD{E@sF?wHAqJAgMAqJAwBAaL?mIAqFAuAAiG@eBAq@BgBBmAFyALeAHg@\\kBb@cBVy@DGZ_AVi@r@iAt@aAh@i@d@g@HETKp@g@~@g@r@Q|@WbAI~@GrCEv@AjDAT@|FCJ?",
-      "latitude_secondary": 44.9538907,
-      "longitude_secondary": -89.696698
+      "encoded_polyline": "{_kqG`{mbPVuj@IcjBFiCPeCZyBd@uBn@oBx@eBbA_BfAoA`Ay@`B_ArBq@vBWzFCrG_@`C[",
+      "latitude_secondary": 44.9536191969291,
+      "longitude_secondary": -89.6896574147064
     },
     {
       "id": 681395,
