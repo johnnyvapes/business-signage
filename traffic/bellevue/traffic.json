@@ -13,11 +13,11 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Sep 3, 2026 04:21 AM CDT",
+  "updated_local": "Sep 3, 2026 05:21 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 34,
+  "incident_count": 30,
   "segments": [
     {
       "id": "4008",
@@ -832,40 +832,6 @@
       "longitude_secondary": -87.9547490646254
     },
     {
-      "id": 727760,
-      "roadway": "I-43",
-      "direction": "N",
-      "description": "Roadwork - System Interchange Full Closure on I-43 NB at I-43 NB TO I-41 SB (E-S). Daily from 09/02/2026 to 09/03/2026, 08:00 PM - 05:00 AM, W, Th",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.556272753018,
-      "longitude": -88.0473782641745,
-      "last_updated": 1787598064,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "uk}nGbwkxO??",
-      "latitude_secondary": 44.5562728141487,
-      "longitude_secondary": -88.0473782888369
-    },
-    {
-      "id": 727762,
-      "roadway": "I-41",
-      "direction": "S",
-      "description": "Roadwork - Mainline Right Lane Closed on I-41 SB from Wietor Wharf Drive (BRIDGE CROSSING) to US 141/ (VELP AVE) (BRIDGE CROSSING). Daily from 09/02/2026 to 09/03/2026, 07:00 PM - 05:00 AM, W, Th",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.5625389890261,
-      "longitude": -88.0522148690417,
-      "last_updated": 1787598064,
-      "lanes_affected": "1 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "{r~nGhulxOhHnLhJfOjAbAlDfH`LxQ",
-      "latitude_secondary": 44.5624461403171,
-      "longitude_secondary": -88.052349037406
-    },
-    {
       "id": 727812,
       "roadway": "Ontario Rd",
       "direction": "S",
@@ -949,40 +915,6 @@
       "encoded_polyline": "suqnGlnvwO~D|@hUpD",
       "latitude_secondary": 44.4954600007966,
       "longitude_secondary": -87.9387839927034
-    },
-    {
-      "id": 740939,
-      "roadway": "I-41 South",
-      "direction": "S",
-      "description": "Roadwork - I-41 South CLOSED from County F/Scheuring Rd to Ramp from County S because of road work until Thursday, September 3 at 4:30 am.",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.4328,
-      "longitude": -88.108905,
-      "last_updated": 1788408275,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "_henGrwwxOpA`C`AfBZh@~FxKNT`@x@xExItCrFfEvH`Z|i@bCtE|CxFfBbDxAdCfBlC|@nApA`BjCxC~FrGbH|H|FrGnNtOnP|QnP~QnPzQ~TxVvO`QfDtD^b@`CjC|FjGT\\`EnEtC`DnBpBl@j@x@r@|@n@x@l@|@h@fAl@`Af@jYxL|M|F",
-      "latitude_secondary": 44.4323873416539,
-      "longitude_secondary": -88.1095460311678
-    },
-    {
-      "id": 740937,
-      "roadway": "I-41",
-      "direction": "s",
-      "description": "Road Work - I-41 South CLOSED from County F/Scheuring Rd to Ramp from County S because of road work until Thursday, September 3 at 4:30 am. County F/Scheuring Rd - County U",
-      "severity": "4",
-      "event_type": "closures",
-      "latitude": 44.4328,
-      "longitude": -88.108905,
-      "last_updated": 1788408275,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "Road Work",
-      "encoded_polyline": "_henGrwwxOpA~B~@hBLRLRtDbHhAtBNVb@v@nA~BfCxEtCrFdEvHpLnTpLnTbCrE|CzFfBbDzAdCfBlC|@nApA`BjCzC~FpGbH|H|FrGxHrIrD`EnP|QnP~QnP|Q|TvVvObQfDtD^b@`CjC|FlGTZ~DpEtC~CnBpBl@j@x@r@|@p@v@j@|@h@hAn@`Af@jAf@|VnK|M|F",
-      "latitude_secondary": 44.38373,
-      "longitude_secondary": -88.163867
     }
   ]
 }
