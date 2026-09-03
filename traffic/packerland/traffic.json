@@ -13,7 +13,7 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Sep 3, 2026 01:25 AM CDT",
+  "updated_local": "Sep 3, 2026 02:21 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -374,8 +374,8 @@
       "roadway": "I-43 ",
       "description": "Sign 512 I-43 NB to Lineville Rd via I-43/I-41",
       "normal_minutes": "13",
-      "current_minutes": "67",
-      "delay_minutes": "54",
+      "current_minutes": "66",
+      "delay_minutes": "53",
       "status": "Very Slow",
       "waypoints": [
         [
