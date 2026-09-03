@@ -13,18 +13,18 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Sep 3, 2026 09:22 AM CDT",
+  "updated_local": "Sep 3, 2026 10:23 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 76,
+  "incident_count": 77,
   "segments": [
     {
       "id": "803",
       "roadway": "I-39/US 51 ",
       "description": "I-39 NB Maple Ridge Rd to WIS 29 East",
       "normal_minutes": "6",
-      "current_minutes": "0",
+      "current_minutes": "6",
       "delay_minutes": "0",
       "status": "Normal",
       "waypoints": [
@@ -51,7 +51,7 @@
       "roadway": "I-39/US 51 ",
       "description": "US 51 NB BUS 51 to WIS 29 West",
       "normal_minutes": "6",
-      "current_minutes": "0",
+      "current_minutes": "6",
       "delay_minutes": "0",
       "status": "Normal",
       "waypoints": [
@@ -82,9 +82,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "0",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "26",
+      "delay_minutes": "18",
+      "status": "Very Slow",
       "waypoints": [
         [
           45.025207,
@@ -109,9 +109,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB County WW to WIS 29 West",
       "normal_minutes": "4",
-      "current_minutes": "4",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "21",
+      "delay_minutes": "17",
+      "status": "Very Slow",
       "waypoints": [
         [
           45.025333,
@@ -313,7 +313,7 @@
       "description": "Roadwork - Mainline Various Lanes Closed on US 51 SB from BIG RIB RIVER (BRIDGE CROSSING) to US 51 SB (BEGIN CC)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.9437989,
+      "latitude": 44.943799,
       "longitude": -89.6667007,
       "last_updated": 1785215527,
       "lanes_affected": "2 lane(s) of 5 blocked.",
@@ -1478,6 +1478,23 @@
       "encoded_polyline": "{hlqGxebbPgABuDDuDEQXiHAcHLiHDcH?wFD",
       "latitude_secondary": 44.9606559815942,
       "longitude_secondary": -89.6369485413147
+    },
+    {
+      "id": 741225,
+      "roadway": "US-51",
+      "direction": "s",
+      "description": "US 51 South 0.3 miles beyond Ramp from WIS 52. The left lane is blocked due to a crash.",
+      "severity": "3",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.953544,
+      "longitude": -89.666974,
+      "last_updated": 1788448752,
+      "lanes_affected": "1 lane(s) of 2 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Crash",
+      "encoded_polyline": "s~jqGpahbP",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
