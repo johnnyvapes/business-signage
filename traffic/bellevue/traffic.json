@@ -13,20 +13,20 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Sep 2, 2026 09:46 PM CDT",
+  "updated_local": "Sep 3, 2026 12:28 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 32,
+  "incident_count": 34,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "16",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "81",
+      "delay_minutes": "65",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.451904,
@@ -253,9 +253,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "70",
+      "delay_minutes": "53",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524762,
@@ -300,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "15",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "122",
+      "delay_minutes": "106",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524684,
@@ -949,6 +949,40 @@
       "encoded_polyline": "suqnGlnvwO~D|@hUpD",
       "latitude_secondary": 44.4954600007966,
       "longitude_secondary": -87.9387839927034
+    },
+    {
+      "id": 740939,
+      "roadway": "I-41 South",
+      "direction": "S",
+      "description": "Roadwork - I-41 South CLOSED from County F/Scheuring Rd to Ramp from County S because of road work until Thursday, September 3 at 4:30 am.",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.4328,
+      "longitude": -88.108905,
+      "last_updated": 1788408275,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "_henGrwwxOpA`C`AfBZh@~FxKNT`@x@xExItCrFfEvH`Z|i@bCtE|CxFfBbDxAdCfBlC|@nApA`BjCxC~FrGbH|H|FrGnNtOnP|QnP~QnPzQ~TxVvO`QfDtD^b@`CjC|FjGT\\`EnEtC`DnBpBl@j@x@r@|@n@x@l@|@h@fAl@`Af@jYxL|M|F",
+      "latitude_secondary": 44.4323873416539,
+      "longitude_secondary": -88.1095460311678
+    },
+    {
+      "id": 740937,
+      "roadway": "I-41",
+      "direction": "s",
+      "description": "Road Work - I-41 South CLOSED from County F/Scheuring Rd to Ramp from County S because of road work until Thursday, September 3 at 4:30 am. County F/Scheuring Rd - County U",
+      "severity": "4",
+      "event_type": "closures",
+      "latitude": 44.4328,
+      "longitude": -88.108905,
+      "last_updated": 1788408275,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "Road Work",
+      "encoded_polyline": "_henGrwwxOpA~B~@hBLRLRtDbHhAtBNVb@v@nA~BfCxEtCrFdEvHpLnTpLnTbCrE|CzFfBbDzAdCfBlC|@nApA`BjCzC~FpGbH|H|FrGxHrIrD`EnP|QnP~QnP|Q|TvVvObQfDtD^b@`CjC|FlGTZ~DpEtC~CnBpBl@j@x@r@|@p@v@j@|@h@hAn@`Af@jAf@|VnK|M|F",
+      "latitude_secondary": 44.38373,
+      "longitude_secondary": -88.163867
     }
   ]
 }
