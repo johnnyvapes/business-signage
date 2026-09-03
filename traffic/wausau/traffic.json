@@ -13,7 +13,7 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Sep 3, 2026 08:21 AM CDT",
+  "updated_local": "Sep 3, 2026 09:22 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -24,7 +24,7 @@
       "roadway": "I-39/US 51 ",
       "description": "I-39 NB Maple Ridge Rd to WIS 29 East",
       "normal_minutes": "6",
-      "current_minutes": "6",
+      "current_minutes": "0",
       "delay_minutes": "0",
       "status": "Normal",
       "waypoints": [
@@ -51,7 +51,7 @@
       "roadway": "I-39/US 51 ",
       "description": "US 51 NB BUS 51 to WIS 29 West",
       "normal_minutes": "6",
-      "current_minutes": "6",
+      "current_minutes": "0",
       "delay_minutes": "0",
       "status": "Normal",
       "waypoints": [
@@ -82,7 +82,7 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "8",
+      "current_minutes": "0",
       "delay_minutes": "0",
       "status": "Normal",
       "waypoints": [
