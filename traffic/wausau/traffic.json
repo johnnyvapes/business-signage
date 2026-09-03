@@ -13,11 +13,11 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Sep 3, 2026 10:23 AM CDT",
+  "updated_local": "Sep 3, 2026 11:21 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 77,
+  "incident_count": 76,
   "segments": [
     {
       "id": "803",
@@ -82,9 +82,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "26",
-      "delay_minutes": "18",
-      "status": "Very Slow",
+      "current_minutes": "9",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           45.025207,
@@ -109,9 +109,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB County WW to WIS 29 West",
       "normal_minutes": "4",
-      "current_minutes": "21",
-      "delay_minutes": "17",
-      "status": "Very Slow",
+      "current_minutes": "4",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           45.025333,
@@ -1478,23 +1478,6 @@
       "encoded_polyline": "{hlqGxebbPgABuDDuDEQXiHAcHLiHDcH?wFD",
       "latitude_secondary": 44.9606559815942,
       "longitude_secondary": -89.6369485413147
-    },
-    {
-      "id": 741225,
-      "roadway": "US-51",
-      "direction": "s",
-      "description": "US 51 South 0.3 miles beyond Ramp from WIS 52. The left lane is blocked due to a crash.",
-      "severity": "3",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.953544,
-      "longitude": -89.666974,
-      "last_updated": 1788448752,
-      "lanes_affected": "1 lane(s) of 2 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Crash",
-      "encoded_polyline": "s~jqGpahbP",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }
