@@ -13,7 +13,7 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Sep 3, 2026 01:23 PM CDT",
+  "updated_local": "Sep 3, 2026 02:17 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -83,7 +83,7 @@
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
       "current_minutes": "9",
-      "delay_minutes": "0",
+      "delay_minutes": "1",
       "status": "Moderate",
       "waypoints": [
         [
@@ -313,7 +313,7 @@
       "description": "Roadwork - Mainline Various Lanes Closed on US 51 SB from BIG RIB RIVER (BRIDGE CROSSING) to US 51 SB (BEGIN CC)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.9438031,
+      "latitude": 44.9438042,
       "longitude": -89.6667008,
       "last_updated": 1785215527,
       "lanes_affected": "2 lane(s) of 5 blocked.",
