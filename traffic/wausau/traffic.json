@@ -13,11 +13,11 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Sep 3, 2026 02:21 AM CDT",
+  "updated_local": "Sep 3, 2026 03:22 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 78,
+  "incident_count": 76,
   "segments": [
     {
       "id": "803",
@@ -373,40 +373,6 @@
       "encoded_polyline": "_jiqGt_hbP_D?iL_BcGQkDPuCv@qC|AaB`BsAhB{A|CmAzDs@|EArBPxAGhCHbjBWvk@",
       "latitude_secondary": 44.9459209207129,
       "longitude_secondary": -89.6666679041311
-    },
-    {
-      "id": 708183,
-      "roadway": "US-51",
-      "direction": "N",
-      "description": "Roadwork - Ramp Full Closure on US 51 NB at OFF RAMP TO COUNTY N",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.9097782602134,
-      "longitude": -89.6492776186418,
-      "last_updated": 1786598018,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "cmbqG~rdbP??",
-      "latitude_secondary": 44.9097783975034,
-      "longitude_secondary": -89.6492776880447
-    },
-    {
-      "id": 708199,
-      "roadway": "US-51",
-      "direction": "N",
-      "description": "Roadwork - Ramp Full Closure on US 51 NB at ON RAMP FROM COUNTY N",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.9137900963543,
-      "longitude": -89.6521931905643,
-      "last_updated": 1786598018,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "efcqGdeebP??",
-      "latitude_secondary": 44.9137902017833,
-      "longitude_secondary": -89.6521932370297
     },
     {
       "id": 709172,

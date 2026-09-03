@@ -13,7 +13,7 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Sep 3, 2026 02:21 AM CDT",
+  "updated_local": "Sep 3, 2026 03:22 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -191,9 +191,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
-      "current_minutes": "61",
-      "delay_minutes": "55",
-      "status": "Very Slow",
+      "current_minutes": "6",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.521888,
@@ -222,9 +222,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "56",
-      "delay_minutes": "47",
-      "status": "Very Slow",
+      "current_minutes": "9",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.521963,
@@ -300,8 +300,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "165",
-      "delay_minutes": "150",
+      "current_minutes": "121",
+      "delay_minutes": "106",
       "status": "Very Slow",
       "waypoints": [
         [
@@ -374,9 +374,9 @@
       "roadway": "I-43 ",
       "description": "Sign 512 I-43 NB to Lineville Rd via I-43/I-41",
       "normal_minutes": "13",
-      "current_minutes": "66",
-      "delay_minutes": "53",
-      "status": "Very Slow",
+      "current_minutes": "13",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.438024,
