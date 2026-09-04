@@ -13,7 +13,7 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Sep 4, 2026 08:20 AM CDT",
+  "updated_local": "Sep 4, 2026 09:19 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -245,15 +245,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on WIS 29 WB from ON RAMP FROM WIS BUS 51 to IH-39 TERMINI NB (END CC)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.8952281571263,
-      "longitude": -89.6117673143889,
+      "latitude": 44.8950358,
+      "longitude": -89.6103766,
       "last_updated": 1785215527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "er_qGph}aPkAxGuAzKiE|X_AtMQrFIjc@e@tUE`ZWpEk@nEuAlFoBrEgC`E",
-      "latitude_secondary": 44.8955827283995,
-      "longitude_secondary": -89.6130685865703
+      "encoded_polyline": "_q_qGz_}aPaBzJgC|NKf@K|@e@fCu@`EGb@c@`DQz@UrBUjBUfCCd@EbAQbCM|BKrCIdFAzBAfBBfBCdG?bG?pE@lAA`OAnB@xBCxF@~HIzDUrCUzBg@dCu@lCq@tBaAhBq@nAaApAi@h@",
+      "latitude_secondary": 44.8955271,
+      "longitude_secondary": -89.6122768
     },
     {
       "id": 681394,
