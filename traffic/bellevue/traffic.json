@@ -13,20 +13,20 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Sep 4, 2026 04:20 AM CDT",
+  "updated_local": "Sep 4, 2026 05:21 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 27,
+  "incident_count": 23,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "16",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "17",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.451904,
@@ -63,9 +63,9 @@
       "roadway": "I-41 ",
       "description": "Sign 504 I-41 NB N of Scheuring to WIS 29",
       "normal_minutes": "6",
-      "current_minutes": "7",
+      "current_minutes": "6",
       "delay_minutes": "0",
-      "status": "Moderate",
+      "status": "Normal",
       "waypoints": [
         [
           44.436496,
@@ -90,9 +90,9 @@
       "roadway": "I-41 ",
       "description": "Sign 505 US 41 SB Lineville to WIS 172",
       "normal_minutes": "6",
-      "current_minutes": "6",
+      "current_minutes": "7",
       "delay_minutes": "0",
-      "status": "Normal",
+      "status": "Moderate",
       "waypoints": [
         [
           44.582572,
@@ -192,7 +192,7 @@
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
       "current_minutes": "6",
-      "delay_minutes": "0",
+      "delay_minutes": "1",
       "status": "Normal",
       "waypoints": [
         [
@@ -222,9 +222,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "9",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "11",
+      "delay_minutes": "2",
+      "status": "Slow",
       "waypoints": [
         [
           44.521963,
@@ -253,9 +253,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "18",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524762,
@@ -300,8 +300,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "16",
-      "delay_minutes": "1",
+      "current_minutes": "18",
+      "delay_minutes": "3",
       "status": "Moderate",
       "waypoints": [
         [
@@ -696,57 +696,6 @@
       "longitude_secondary": -87.9547490646254
     },
     {
-      "id": 721890,
-      "roadway": "I-41",
-      "direction": "N",
-      "description": "Roadwork - Mainline Various Lanes Closed on I-41 NB from LITTLE RAPIDS RD (BRIDGE CROSSING) to OFF RAMP TO COUNTY F / SCHEURING RD. Daily from 08/31/2026 to 09/04/2026, 08:00 PM - 05:00 AM, M, T, W, Th, F",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4126051525887,
-      "longitude": -88.1371213881129,
-      "last_updated": 1787289259,
-      "lanes_affected": "3 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "yianG~g}xOyDgEqNkPmEeFuEkFuJwKs@s@cIqMmCkFyDwH{Xog@",
-      "latitude_secondary": 44.4135368761443,
-      "longitude_secondary": -88.1361181709042
-    },
-    {
-      "id": 721893,
-      "roadway": "I-41",
-      "direction": "S",
-      "description": "Roadwork - Ramp Full Closure on I-41 SB at ON RAMP FROM COUNTY F. Daily from 09/02/2026 to 09/04/2026, 07:00 PM - 05:00 AM, W, Th, F",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.4292995531455,
-      "longitude": -88.1144574768481,
-      "last_updated": 1787289259,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "crdnGjzxxO??",
-      "latitude_secondary": 44.4292995949954,
-      "longitude_secondary": -88.1144574768481
-    },
-    {
-      "id": 721896,
-      "roadway": "I-41",
-      "direction": "S",
-      "description": "Roadwork - Mainline Various Lanes Closed on I-41 SB from ON RAMP FROM COUNTY F to BRIDGE (BRIDGE CROSSING). Daily from 08/31/2026 to 09/04/2026, 07:00 PM - 05:00 AM, M, T, W, Th, F",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4276514873837,
-      "longitude": -88.1171754948381,
-      "last_updated": 1787289259,
-      "lanes_affected": "3 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "ygdnGjkyxOxXjg@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjP|DhE",
-      "latitude_secondary": 44.4276081730648,
-      "longitude_secondary": -88.1172432831086
-    },
-    {
       "id": 727512,
       "roadway": "US-141",
       "direction": "N",
@@ -796,23 +745,6 @@
       "encoded_polyline": "{zknGxktwO}j@M",
       "latitude_secondary": 44.473571237103,
       "longitude_secondary": -87.9277363789276
-    },
-    {
-      "id": 730408,
-      "roadway": "I-41",
-      "direction": "S",
-      "description": "Roadwork - Mainline Full Closure on I-41 SB from ON RAMP FROM COUNTY F to COUNTY S (BRIDGE CROSSING). Daily from 09/02/2026 to 09/04/2026, 11:00 PM - 04:30 AM, W, Th (excluding F). Detour: Take I-41 SB Exit Ramp at Scheuring Rd. Go Right on Scheuring to County Rd F.  Go Left on County Rd F to County Rd S/Freedom Rd.  Go Left on County Rd S/Freedom Rd to I-41 SB",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.4293355748594,
-      "longitude": -88.1145389957391,
-      "last_updated": 1787774243,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "krdnGzzxxOjc@zw@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjPvm@fq@j_@hb@zMvNbGpGrXvZfIvGzClBzZnMTJ",
-      "latitude_secondary": 44.4285944510169,
-      "longitude_secondary": -88.1156994028136
     },
     {
       "id": 740041,
