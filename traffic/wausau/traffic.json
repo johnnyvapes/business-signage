@@ -13,11 +13,11 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Sep 4, 2026 01:21 PM CDT",
+  "updated_local": "Sep 4, 2026 02:15 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 77,
+  "incident_count": 76,
   "segments": [
     {
       "id": "803",
@@ -1478,23 +1478,6 @@
       "encoded_polyline": "{hlqGxebbPgABuDDuDEQXiHAcHLiHDcH?wFD",
       "latitude_secondary": 44.9606559815942,
       "longitude_secondary": -89.6369485413147
-    },
-    {
-      "id": 742925,
-      "roadway": "US-51",
-      "direction": "s",
-      "description": "US 51 South at Ramp from Sherman St. The left shoulder is blocked due to a disabled vehicle.",
-      "severity": "1",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.946792,
-      "longitude": -89.666707,
-      "last_updated": 1788543652,
-      "lanes_affected": "Shoulder blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Disabled Vehicle",
-      "encoded_polyline": "mtiqG|_hbP",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }

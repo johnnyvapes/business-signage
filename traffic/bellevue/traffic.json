@@ -13,7 +13,7 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Sep 4, 2026 01:21 PM CDT",
+  "updated_local": "Sep 4, 2026 02:15 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -24,9 +24,9 @@
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "17",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "22",
+      "delay_minutes": "6",
+      "status": "Slow",
       "waypoints": [
         [
           44.451904,
@@ -191,9 +191,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
-      "current_minutes": "13",
-      "delay_minutes": "7",
-      "status": "Very Slow",
+      "current_minutes": "6",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.521888,
@@ -253,9 +253,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "20",
-      "delay_minutes": "3",
-      "status": "Moderate",
+      "current_minutes": "30",
+      "delay_minutes": "13",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524762,
@@ -300,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "19",
-      "delay_minutes": "4",
-      "status": "Slow",
+      "current_minutes": "28",
+      "delay_minutes": "13",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524684,
@@ -339,9 +339,9 @@
       "roadway": "I-43 ",
       "description": "Sign 512 I-43 NB to Lineville Rd via 172/41",
       "normal_minutes": "14",
-      "current_minutes": "23",
-      "delay_minutes": "9",
-      "status": "Very Slow",
+      "current_minutes": "14",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.438107,
@@ -515,13 +515,13 @@
       "description": "Roadwork - Mainline Right Lane Closed on I-41 SB from ON RAMP FROM COUNTY F to ON RAMP FROM COUNTY F",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4317341,
-      "longitude": -88.1105789,
+      "latitude": 44.4317358,
+      "longitude": -88.1105761,
       "last_updated": 1778520553,
       "lanes_affected": "3 lane(s) of 5 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "iaenGbbxxOxE|INT`@x@xExItCrFfEvH`Z|i@bCtExB`E",
+      "encoded_polyline": "kaenGbbxxOzE|INT`@x@xExItCrFfEvH`Z|i@bCtExB`E",
       "latitude_secondary": 44.4310102,
       "longitude_secondary": -88.1117389
     },
