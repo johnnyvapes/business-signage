@@ -13,7 +13,7 @@
     },
     "id": "bellevue"
   },
-  "updated_local": "Sep 3, 2026 06:17 PM CDT",
+  "updated_local": "Sep 3, 2026 07:27 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -25,7 +25,7 @@
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
       "current_minutes": "16",
-      "delay_minutes": "1",
+      "delay_minutes": "0",
       "status": "Normal",
       "waypoints": [
         [
@@ -254,7 +254,7 @@
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
       "current_minutes": "18",
-      "delay_minutes": "2",
+      "delay_minutes": "1",
       "status": "Moderate",
       "waypoints": [
         [
@@ -300,7 +300,7 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "18",
+      "current_minutes": "17",
       "delay_minutes": "2",
       "status": "Moderate",
       "waypoints": [
@@ -515,15 +515,15 @@
       "description": "Roadwork - Mainline Right Lane Closed on I-41 SB from ON RAMP FROM COUNTY F to ON RAMP FROM COUNTY F",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4317088,
-      "longitude": -88.1106193,
+      "latitude": 44.4261216506404,
+      "longitude": -88.1195707717077,
       "last_updated": 1778520553,
       "lanes_affected": "3 lane(s) of 5 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "eaenGjbxxOtEtINT`@x@xExItCrFfEvH`Z|i@bCtExB`E",
-      "latitude_secondary": 44.4310102,
-      "longitude_secondary": -88.1117389
+      "encoded_polyline": "g~cnGhzyxOfOlXxDvHtBbE",
+      "latitude_secondary": 44.42352354311,
+      "longitude_secondary": -88.1236382312894
     },
     {
       "id": 635825,
