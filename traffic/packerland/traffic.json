@@ -13,11 +13,11 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Sep 5, 2026 03:18 PM CDT",
+  "updated_local": "Sep 5, 2026 04:17 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 21,
+  "incident_count": 20,
   "segments": [
     {
       "id": "4008",
@@ -300,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "15",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "16",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524684,
@@ -745,23 +745,6 @@
       "encoded_polyline": "suqnGlnvwO~D|@hUpD",
       "latitude_secondary": 44.4954600007966,
       "longitude_secondary": -87.9387839927034
-    },
-    {
-      "id": 744583,
-      "roadway": "I-41",
-      "direction": "n",
-      "description": "I-41 North at US 41 North. The right shoulder is blocked due to a disabled vehicle.",
-      "severity": "1",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.56427,
-      "longitude": -88.04977,
-      "last_updated": 1788637697,
-      "lanes_affected": "Shoulder blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Disabled Vehicle",
-      "encoded_polyline": "u}~nG`flxO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }
