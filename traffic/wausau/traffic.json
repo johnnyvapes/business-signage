@@ -13,11 +13,11 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Sep 4, 2026 11:19 PM CDT",
+  "updated_local": "Sep 5, 2026 12:17 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 75,
+  "incident_count": 74,
   "segments": [
     {
       "id": "803",
@@ -82,9 +82,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "9",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "8",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           45.025207,
@@ -109,9 +109,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB County WW to WIS 29 West",
       "normal_minutes": "4",
-      "current_minutes": "5",
-      "delay_minutes": "1",
-      "status": "Slow",
+      "current_minutes": "4",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           45.025333,
@@ -1444,23 +1444,6 @@
       "encoded_polyline": "{hlqGxebbPgABuDDuDEQXiHAcHLiHDcH?wFD",
       "latitude_secondary": 44.9606559815942,
       "longitude_secondary": -89.6369485413147
-    },
-    {
-      "id": 743819,
-      "roadway": "US-51",
-      "direction": "s",
-      "description": "US 51 South 0.2 miles beyond Ramp from County N. The right shoulder is blocked due to a disabled vehicle.",
-      "severity": "1",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.905583,
-      "longitude": -89.646623,
-      "last_updated": 1788581635,
-      "lanes_affected": "Shoulder blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Disabled Vehicle",
-      "encoded_polyline": "{raqGjbdbP",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }
