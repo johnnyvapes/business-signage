@@ -13,11 +13,11 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Sep 5, 2026 05:18 PM CDT",
+  "updated_local": "Sep 5, 2026 06:17 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 74,
+  "incident_count": 75,
   "segments": [
     {
       "id": "803",
@@ -136,9 +136,9 @@
       "roadway": "WIS 29 ",
       "description": "WIS 29 EB County O to US 51",
       "normal_minutes": "4",
-      "current_minutes": "5",
-      "delay_minutes": "1",
-      "status": "Slow",
+      "current_minutes": "21",
+      "delay_minutes": "17",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.94417,
@@ -1444,6 +1444,23 @@
       "encoded_polyline": "{hlqGxebbPgABuDDuDEQXiHAcHLiHDcH?wFD",
       "latitude_secondary": 44.9606559815942,
       "longitude_secondary": -89.6369485413147
+    },
+    {
+      "id": 744692,
+      "roadway": "US-51",
+      "direction": "n",
+      "description": "Disabled vehicle on Ramp from County N to US 51 North.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.914626,
+      "longitude": -89.652791,
+      "last_updated": 1788646606,
+      "lanes_affected": "No lanes blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "mkcqG|hebP",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
