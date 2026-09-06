@@ -13,11 +13,11 @@
     },
     "id": "wausau"
   },
-  "updated_local": "Sep 5, 2026 09:19 PM CDT",
+  "updated_local": "Sep 5, 2026 10:19 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 74,
+  "incident_count": 75,
   "segments": [
     {
       "id": "803",
@@ -1444,6 +1444,23 @@
       "encoded_polyline": "{hlqGxebbPgABuDDuDEQXiHAcHLiHDcH?wFD",
       "latitude_secondary": 44.9606559815942,
       "longitude_secondary": -89.6369485413147
+    },
+    {
+      "id": 745017,
+      "roadway": "CTH U",
+      "direction": "W",
+      "description": "Roadwork - Local Road Full Closure on CTH U WB from N 76th Ave to Sunnyvale Ln. Detour: From the intersection of CTH U and CTH K, travel north on CTH K; Turn left (west) on CTH A; Turn left (south) on CTH O; Continue on CTH U",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.9875353621404,
+      "longitude": -89.7327983700476,
+      "last_updated": 1788663160,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "csqqG~|tbPCrP",
+      "latitude_secondary": 44.9875575330015,
+      "longitude_secondary": -89.7356183380441
     }
   ]
 }
