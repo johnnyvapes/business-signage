@@ -13,11 +13,11 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Sep 6, 2026 06:17 PM CDT",
+  "updated_local": "Sep 6, 2026 07:32 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 24,
+  "incident_count": 23,
   "segments": [
     {
       "id": "4008",
@@ -796,23 +796,6 @@
       "encoded_polyline": "eilnG~{xwOrCrDj@z@",
       "latitude_secondary": 44.4683121681267,
       "longitude_secondary": -87.9515063861839
-    },
-    {
-      "id": 745312,
-      "roadway": "UW Badgers vs Notre Dame at Lambeau",
-      "direction": "u",
-      "description": "UW Badgers vs Notre Dame at Lambeau",
-      "severity": "1",
-      "event_type": "specialEvents",
-      "latitude": 44.501234,
-      "longitude": -88.060892,
-      "last_updated": 1788721176,
-      "lanes_affected": "No lanes blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Lambeau Field Event",
-      "encoded_polyline": "usrnGpknxO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }
