@@ -13,20 +13,20 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Sep 7, 2026 12:19 AM CDT",
+  "updated_local": "Sep 7, 2026 01:28 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 23,
+  "incident_count": 24,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "17",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "16",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.451904,
@@ -796,6 +796,23 @@
       "encoded_polyline": "eilnG~{xwOrCrDj@z@",
       "latitude_secondary": 44.4683121681267,
       "longitude_secondary": -87.9515063861839
+    },
+    {
+      "id": 746261,
+      "roadway": "I-41",
+      "direction": "n",
+      "description": "I-41 North 0.4 miles beyond Oneida St. The right shoulder is closed due to a disabled vehicle.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.472232,
+      "longitude": -88.079236,
+      "last_updated": 1788761683,
+      "lanes_affected": "Shoulder blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "m~lnGf~qxO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
