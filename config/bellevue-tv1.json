@@ -12,9 +12,9 @@
   "playlist": [
     {
       "type": "traffic-html",
-      "src": "/test-repos/green-bay.html?v=20260908-zoomfix1",
+      "src": "https://johnnyvapes.github.io/test-repos/green-bay.html",
       "seconds": 300,
-      "label": "Live Traffic"
+      "label": "Traffic"
     },
     {
       "type": "image",
