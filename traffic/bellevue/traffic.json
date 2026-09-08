@@ -14,19 +14,19 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Sep 8, 2026 02:19 PM CDT",
+  "updated_local": "Sep 8, 2026 03:20 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 29,
+  "incident_count": 28,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "19",
-      "delay_minutes": "4",
+      "current_minutes": "18",
+      "delay_minutes": "2",
       "status": "Moderate",
       "waypoints": [
         [
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "24",
-      "delay_minutes": "7",
-      "status": "Slow",
+      "current_minutes": "20",
+      "delay_minutes": "3",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "23",
-      "delay_minutes": "8",
-      "status": "Very Slow",
+      "current_minutes": "19",
+      "delay_minutes": "4",
+      "status": "Slow",
       "waypoints": [
         [
           44.524684,
@@ -746,23 +746,6 @@
       "encoded_polyline": "ezdnGrnxxO[m@wR__@gWoe@gAeBqAeBqAwAsAqAoAcAoAy@uxAk|@cKaGeJ{F}o@o`@oBeAsB}@uBq@qBg@qB]yBU{BKsBAaBDs`FzRkIToEFkEBoEAqEE_CCeYu@if@iAij@sAgAGkAKkAMkASuBe@uBm@qBw@sBcAaBaA_BgAcHyF{ReP{OeNs\\sX",
       "latitude_secondary": 44.4307331165684,
       "longitude_secondary": -88.1123506772394
-    },
-    {
-      "id": 740097,
-      "roadway": "I-43",
-      "direction": "S",
-      "description": "Roadwork - Mainline Right Shoulder Closed on I-43 SB from BAIRD CREEK RD (BRIDGE CROSSING) to OFF RAMP TO E MASON ST. Daily from 09/08/2026 to 09/08/2026, 06:30 AM - 03:00 PM, T",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4964156241051,
-      "longitude": -87.9384743045898,
-      "last_updated": 1788377554,
-      "lanes_affected": "1 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "suqnGlnvwO~D|@hUpD",
-      "latitude_secondary": 44.4954600007966,
-      "longitude_secondary": -87.9387839927034
     },
     {
       "id": 744858,
