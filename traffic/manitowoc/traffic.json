@@ -13,11 +13,11 @@
     },
     "id": "manitowoc"
   },
-  "updated_local": "Sep 8, 2026 10:22 AM CDT",
+  "updated_local": "Sep 8, 2026 11:22 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 0,
-  "incident_count": 2,
+  "incident_count": 4,
   "segments": [],
   "incidents": [
     {
@@ -53,6 +53,40 @@
       "encoded_polyline": "sunlGxqivOXOF_@I_@WM?y@AoFAa^EcgAAmNEsl@?kF?eAVMHc@I_@WK@cAA}EIyoAGsHFgF?eBTOHa@Ka@WI?C",
       "latitude_secondary": 44.1532540271088,
       "longitude_secondary": -87.7085340941084
+    },
+    {
+      "id": 747918,
+      "roadway": "WI-42",
+      "direction": "n",
+      "description": "WIS 42 CLOSED in BOTH DIRECTIONS from County C (Manitowoc County) to US 151/Dufek Dr (MM: 20.4), due to a crash. Use alternate route.",
+      "severity": "5",
+      "event_type": "closures",
+      "latitude": 44.008361,
+      "longitude": -87.78438,
+      "last_updated": 1788883857,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "Crash",
+      "encoded_polyline": "gkrkGjkxvOsA{AkBeBiAeAmA{@_C{A_BiA}@o@s@c@_@WaBgAcD{BgBkAsGkEqHcF}FyDuDgCuNqJaC{AyBiAkB_AmCmA_C{@aEqAg@MkBm@mBi@w@[y@[kBa@iA]g@OqEuAeBe@_KyCaCu@mCy@cDaAcBe@cBa@{@Ky@KgBCmA?}CL{CJ[@q@Bo@Ck@Eo@EmA[gBm@k@UcAo@{@q@cA_As@}@c@o@c@s@_@s@a@w@[y@Yy@a@sAqBcH_BwFcAiDgA{Ds@}BUo@s@{AUc@c@o@c@o@a@c@s@w@k@c@yA_AgEiCq@c@_CsAgAo@eBaAm@a@qAu@y@e@aBcAsDwBeEaCgDoBm@_@o@a@uAaAe@c@m@s@e@m@MQU]a@u@_@u@]y@u@wBm@yBi@uBwCcLcFiRcCiJCKcDwLiCyJ{A_GgAqDs@oBu@mB{@gBk@eAu@sAeAaBmBoCwCoDsEyFoDmEW]sBmCgCsD}@oAEIyG{JoFcIcD}EiC{Dm@_Ak@s@YY{AuA",
+      "latitude_secondary": 44.073182,
+      "longitude_secondary": -87.71931
+    },
+    {
+      "id": 747919,
+      "roadway": "WI-42",
+      "direction": "s",
+      "description": "WIS 42 CLOSED in BOTH DIRECTIONS from County C (Manitowoc County) to US 151/Dufek Dr (MM: 20.4), due to a crash. Use alternate route.",
+      "severity": "4",
+      "event_type": "closures",
+      "latitude": 44.073182,
+      "longitude": -87.71931,
+      "last_updated": 1788883832,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "Crash",
+      "encoded_polyline": "k`_lGttkvOzAtAXXj@r@l@~@hCzDbD|EnFbIxGzJDH|@nAfCrDrBlCV\\nDlErExFvCnDlBnCdA`Bt@rAj@dAz@fBt@lBr@nBfApDzA~FhCxJbDvLBJbChJbFhRvCbLh@tBl@xBt@vB\\x@^t@`@t@T\\LPd@l@l@r@d@b@tA`An@`@l@^fDnBdE`CrDvB`BbAx@d@pAt@l@`@dB`AfAn@~BrAp@b@fEhCxA~@j@b@r@v@`@b@b@n@b@n@Tb@r@zATn@r@|BfAzDbAhD~AvFpBbH`@rAXx@Zx@`@v@^r@b@r@b@n@r@|@bA~@z@p@bAn@j@TfBl@lAZn@Dj@Dn@Bp@CZAzCK|CMlA~~~~~~BfBBx@Jz@JbB`@bBd@bD`AlCx@`Ct@~JxCdBd@pEtAf@NhA\\jB`@x@Zv@ZlBh@jBl@f@L`EpA~Bz@lClAjB~@xBhA`CzAtNpJtDfC|FxDpHbFrGjEfBjAbDzB`BfA^Vr@b@|@n@~AhA~BzAlAz@hAdAjBdBrAzA",
+      "latitude_secondary": 44.008361,
+      "longitude_secondary": -87.78438
     }
   ]
 }
