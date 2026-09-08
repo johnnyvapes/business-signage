@@ -14,11 +14,11 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Sep 8, 2026 05:19 PM CDT",
+  "updated_local": "Sep 8, 2026 06:18 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 28,
+  "incident_count": 26,
   "segments": [
     {
       "id": "4008",
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "18",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -301,8 +301,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "17",
-      "delay_minutes": "2",
+      "current_minutes": "16",
+      "delay_minutes": "1",
       "status": "Moderate",
       "waypoints": [
         [
@@ -516,8 +516,8 @@
       "description": "Roadwork - Mainline Right Lane Closed on I-41 SB from ON RAMP FROM COUNTY F to ON RAMP FROM COUNTY F",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4317054,
-      "longitude": -88.1106248,
+      "latitude": 44.4317066,
+      "longitude": -88.1106228,
       "last_updated": 1778520553,
       "lanes_affected": "3 lane(s) of 5 blocked.",
       "is_full_closure": false,
@@ -848,40 +848,6 @@
       "encoded_polyline": "yianG~g}xOyDgEqNkPmEeFuEkFuJwKs@s@cIqMmCkFyDwH{Xog@",
       "latitude_secondary": 44.4135368761443,
       "longitude_secondary": -88.1361181709042
-    },
-    {
-      "id": 744967,
-      "roadway": "I-43",
-      "direction": "N",
-      "description": "Roadwork - Mainline Left Shoulder Closed on I-43 NB from COUNTY JJ|Manitowoc Rd (BRIDGE CROSSING) to COUNTY JJ|Manitowoc Rd (BRIDGE CROSSING). Daily from 09/08/2026 to 09/08/2026, 07:00 AM - 06:00 PM, T",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.465359,
-      "longitude": -87.9546011,
-      "last_updated": 1787751742,
-      "lanes_affected": "1 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "osknGfsywOmFaHkEuFOUyFoH}AuB_AkA",
-      "latitude_secondary": 44.4665476,
-      "longitude_secondary": -87.953146
-    },
-    {
-      "id": 744968,
-      "roadway": "I-43",
-      "direction": "S",
-      "description": "Roadwork - Mainline Left Shoulder Closed on I-43 SB from ON RAMP FROM COUNTY JJ to ON RAMP FROM COUNTY JJ. Daily from 09/08/2026 to 09/08/2026, 07:00 AM - 06:00 PM, T",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4698361,
-      "longitude": -87.9497028,
-      "last_updated": 1787751742,
-      "lanes_affected": "1 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "oolnGrtxwOfFzGdBzBdAvANPd@j@fF~G",
-      "latitude_secondary": 44.468681,
-      "longitude_secondary": -87.9511227
     }
   ]
 }
