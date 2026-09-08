@@ -11,9 +11,10 @@
       "center_longitude": -89.5895614,
       "zoom": 15
     },
+    "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Sep 8, 2026 12:20 PM CDT",
+  "updated_local": "Sep 8, 2026 12:53 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -229,7 +230,7 @@
       "severity": "Unknown",
       "event_type": "roadwork",
       "latitude": 44.9539357,
-      "longitude": -89.6984247,
+      "longitude": -89.6984245,
       "last_updated": 1785215527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
