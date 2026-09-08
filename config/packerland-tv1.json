@@ -12,9 +12,9 @@
   "google_reviews": "johnny_vapes_packerland_4_5_star.json",
   "playlist": [
     {
-      "type": "image",
-      "src": "traffic/packerland/traffic.png",
-      "seconds": 120,
+      "type": "traffic-html",
+      "src": "https://johnnyvapes.github.io/test-repos/green-bay.html",
+      "seconds": 300,
       "label": "Traffic"
     },
     {
