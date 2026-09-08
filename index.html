@@ -10,6 +10,14 @@ html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#080d13;fon
 #stage{position:fixed;inset:0;width:100vw;height:100vh;background:#080d13}
 #traffic-stage{position:fixed;inset:0;width:100vw;height:100vh;background:#080d13;display:none}
 #traffic-stage iframe{display:block;width:100%;height:100%;border:0;background:#080d13}
+#traffic-stage.tvbro-desktop-canvas iframe{
+  position:absolute;
+  left:0;
+  top:0;
+  width:1920px;
+  height:1080px;
+  transform-origin:top left;
+}
 #stage>img,#stage>video{position:fixed;inset:0;width:100vw;height:100vh;object-fit:contain;background:#080d13;border:0}
 .weather{position:fixed;inset:0;box-sizing:border-box;padding:3vw 3.2vw;color:#fff;background:linear-gradient(135deg,#173b5c,#286f99)}
 .head{display:flex;justify-content:space-between;align-items:flex-start}.title{font-size:clamp(32px,4vw,68px);font-weight:700}.date{font-size:clamp(17px,1.7vw,30px);opacity:.85;margin-top:.3vw}.live{font-size:clamp(15px,1.5vw,25px);letter-spacing:.08em;opacity:.8}
@@ -36,6 +44,53 @@ const requestedTv=(params.get("tv")||"").replace(/[^1-3]/g,"");
 const CONFIG=(requestedStore&&requestedTv&&["packerland","manitowoc","wausau"].includes(requestedStore))?`config/${requestedStore}-tv${requestedTv}.json`:"config.json";
 let SIGNAGE_CONFIG=null,GOOGLE_REVIEWS="johnny_vapes_bellevue_4_5_star.json";
 let playlist=[],current=-1,timer=null,video=null,generation=0,googleDeck=[],facebookReviewDeck=[],watchdog=null,trafficFrame=null,trafficSrc=null,trafficVisible=false;
+function tvBroDesktopCanvasNeeded(){
+  // Measured on the user's Chromecast/TV Bro:
+  // 960x540 CSS viewport, DPR 2, physical 1920x1080 TV.
+  // Detect by geometry rather than UA because TV Bro is set to Chrome Desktop UA.
+  return (
+    window.devicePixelRatio >= 1.5 &&
+    window.innerWidth <= 1100 &&
+    window.innerHeight <= 700 &&
+    screen.width <= 1100 &&
+    screen.height <= 700
+  );
+}
+
+function sizeTrafficFrame(){
+  const ts=document.getElementById("traffic-stage");
+  if(!ts||!trafficFrame)return;
+
+  if(tvBroDesktopCanvasNeeded()){
+    ts.classList.add("tvbro-desktop-canvas");
+
+    // Render the iframe at a true 1920x1080 CSS layout viewport.
+    // CSS transform then maps that desktop canvas into TV Bro's measured
+    // 960x540 viewport. At DPR 2 this lands exactly on 1920x1080 physical pixels.
+    const sx=window.innerWidth/1920;
+    const sy=window.innerHeight/1080;
+
+    trafficFrame.style.position="absolute";
+    trafficFrame.style.left="0";
+    trafficFrame.style.top="0";
+    trafficFrame.style.width="1920px";
+    trafficFrame.style.height="1080px";
+    trafficFrame.style.transformOrigin="top left";
+    trafficFrame.style.transform=`scale(${sx},${sy})`;
+  }else{
+    ts.classList.remove("tvbro-desktop-canvas");
+    trafficFrame.style.position="";
+    trafficFrame.style.left="";
+    trafficFrame.style.top="";
+    trafficFrame.style.width="100%";
+    trafficFrame.style.height="100%";
+    trafficFrame.style.transformOrigin="";
+    trafficFrame.style.transform="";
+  }
+}
+
+window.addEventListener("resize",()=>{ if(trafficFrame) sizeTrafficFrame(); });
+
 const WMO={0:["☀️","Clear"],1:["🌤️","Mostly clear"],2:["⛅","Partly cloudy"],3:["☁️","Cloudy"],45:["🌫️","Foggy"],48:["🌫️","Foggy"],51:["🌦️","Light drizzle"],53:["🌦️","Drizzle"],55:["🌧️","Heavy drizzle"],61:["🌦️","Light rain"],63:["🌧️","Rain"],65:["🌧️","Heavy rain"],71:["🌨️","Light snow"],73:["🌨️","Snow"],75:["❄️","Heavy snow"],80:["🌦️","Showers"],81:["🌧️","Heavy showers"],82:["⛈️","Heavy showers"],95:["⛈️","Thunderstorm"],96:["⛈️","Thunderstorm"],99:["⛈️","Thunderstorm"]};
 function bust(url){return url+(url.includes("?")?"&":"?")+"v="+Date.now()}
 function active(my){return my===generation}
@@ -65,7 +120,7 @@ async function init(){
 }
 function startWatchdog(){setInterval(()=>{const stage=document.getElementById("stage");if((!stage||!stage.children.length)&&!trafficVisible){console.warn("Signage watchdog: empty stage; advancing");next()}},30000);setInterval(()=>{if(document.visibilityState!=="visible")return;location.reload()},6*60*60*1000)}
 function next(){clean();const my=++generation;current=(current+1)%playlist.length;const x=playlist[current];const t=String(x.type||"").toLowerCase().replace(/-/g,"_");if(t==="traffic_html")return trafficHtml(x,my);if(t==="image")return image(x,my);if(t==="video")return playVideo(x,my);if(t==="weather")return weather(x.seconds||20,my);if(t==="google_review"||t==="google_reviews")return googleReviews(x.seconds||15,my);if(t==="facebook_post")return facebookPost(x.seconds||15,my);if(t==="facebook_review")return facebookReview(x.seconds||15,my);document.getElementById("stage").innerHTML='<div class="message">Unsupported slide type</div>';scheduleNext(my,5000)}
-function trafficHtml(x,my){const ts=document.getElementById("traffic-stage");trafficVisible=true;ts.style.display="block";if(!trafficFrame||trafficSrc!==x.src){trafficFrame=document.createElement("iframe");trafficFrame.src=x.src;trafficFrame.setAttribute("allowfullscreen","");trafficFrame.setAttribute("loading","eager");trafficFrame.setAttribute("title",x.label||"Live traffic");ts.replaceChildren(trafficFrame);trafficSrc=x.src}scheduleNext(my,Math.max(1,Number(x.seconds)||120)*1000)}
+function trafficHtml(x,my){const ts=document.getElementById("traffic-stage");trafficVisible=true;ts.style.display="block";if(!trafficFrame||trafficSrc!==x.src){trafficFrame=document.createElement("iframe");trafficFrame.src=x.src;trafficFrame.setAttribute("allowfullscreen","");trafficFrame.setAttribute("loading","eager");trafficFrame.setAttribute("title",x.label||"Live traffic");ts.replaceChildren(trafficFrame);trafficSrc=x.src}sizeTrafficFrame();scheduleNext(my,Math.max(1,Number(x.seconds)||120)*1000)}
 function image(x,my){const e=document.createElement("img");e.src=bust(x.src);e.onerror=()=>scheduleNext(my,2000);document.getElementById("stage").appendChild(e);scheduleNext(my,Math.max(1,Number(x.seconds)||10)*1000)}
 function playVideo(x,my){const v=document.createElement("video");video=v;let advanced=false;const advance=()=>{if(advanced||!active(my))return;advanced=true;next()};v.autoplay=true;v.muted=true;v.defaultMuted=true;v.playsInline=true;v.preload="auto";v.controls=false;v.setAttribute("autoplay","");v.setAttribute("muted","");v.setAttribute("playsinline","");v.setAttribute("disablepictureinpicture","");v.setAttribute("controlslist","nodownload noplaybackrate nofullscreen");v.src=bust(x.src);v.addEventListener("ended",advance,{once:true});v.addEventListener("error",()=>{if(active(my))setTimeout(advance,3000)},{once:true});document.getElementById("stage").appendChild(v);const seconds=Number(x.seconds)||0;const startTimer=()=>{v.play().catch(()=>{});if(seconds>0)scheduleNext(my,seconds*1000)};v.addEventListener("loadedmetadata",startTimer,{once:true});v.load();v.play().catch(()=>{})}
 function formatDate(s){if(!s)return"";const d=new Date(s);return isNaN(d)?s:d.toLocaleDateString("en-US",{year:"numeric",month:"long",day:"numeric"})}
