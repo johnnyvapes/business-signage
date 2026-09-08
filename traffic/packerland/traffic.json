@@ -13,7 +13,7 @@
     },
     "id": "packerland"
   },
-  "updated_local": "Sep 8, 2026 06:20 AM CDT",
+  "updated_local": "Sep 8, 2026 07:26 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -24,9 +24,9 @@
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "16",
-      "delay_minutes": "1",
-      "status": "Normal",
+      "current_minutes": "20",
+      "delay_minutes": "4",
+      "status": "Slow",
       "waypoints": [
         [
           44.451904,
@@ -253,9 +253,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "18",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "25",
+      "delay_minutes": "8",
+      "status": "Slow",
       "waypoints": [
         [
           44.524762,
@@ -300,9 +300,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "17",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "24",
+      "delay_minutes": "9",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524684,
@@ -770,15 +770,15 @@
       "description": "Roadwork - Mainline Left Shoulder Closed on I-43 NB from COUNTY JJ|Manitowoc Rd (BRIDGE CROSSING) to COUNTY JJ|Manitowoc Rd (BRIDGE CROSSING). Daily from 09/08/2026 to 09/08/2026, 07:00 AM - 06:00 PM, T",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4678803500527,
-      "longitude": -87.9520677203025,
+      "latitude": 44.4653568,
+      "longitude": -87.9546038,
       "last_updated": 1787751742,
       "lanes_affected": "1 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "gclnGlcywOi@y@uCuD",
-      "latitude_secondary": 44.4680873763544,
-      "longitude_secondary": -87.9517773305168
+      "encoded_polyline": "osknGfsywOmFaHkEuFOUyFoH}AuB_AkA",
+      "latitude_secondary": 44.4665476,
+      "longitude_secondary": -87.953146
     },
     {
       "id": 744968,
@@ -787,15 +787,15 @@
       "description": "Roadwork - Mainline Left Shoulder Closed on I-43 SB from ON RAMP FROM COUNTY JJ to ON RAMP FROM COUNTY JJ. Daily from 09/08/2026 to 09/08/2026, 07:00 AM - 06:00 PM, T",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4688330718366,
-      "longitude": -87.9508785231948,
+      "latitude": 44.469837,
+      "longitude": -87.9497016,
       "last_updated": 1787751742,
       "lanes_affected": "1 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "eilnG~{xwOrCrDj@z@",
-      "latitude_secondary": 44.4683121681267,
-      "longitude_secondary": -87.9515063861839
+      "encoded_polyline": "oolnGrtxwOfFzGdBzBdAvANPd@j@fF|G",
+      "latitude_secondary": 44.468681,
+      "longitude_secondary": -87.9511227
     }
   ]
 }
