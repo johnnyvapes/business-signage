@@ -7,9 +7,8 @@
 <style>
 *{box-sizing:border-box}
 html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#080d13;font-family:Arial,Helvetica,sans-serif}
-#stage{position:fixed;inset:0;width:100vw;height:100vh;background:#080d13;z-index:1}
-#traffic-stage{position:fixed;inset:0;width:100vw;height:100vh;background:#080d13;z-index:2;visibility:hidden;opacity:0;pointer-events:none}
-#traffic-stage.active{visibility:visible;opacity:1;pointer-events:auto}
+#stage{position:fixed;inset:0;width:100vw;height:100vh;background:#080d13}
+#traffic-stage{position:fixed;inset:0;width:100vw;height:100vh;background:#080d13;display:none}
 #traffic-stage iframe{display:block;width:100%;height:100%;border:0;background:#080d13}
 #stage>img,#stage>video{position:fixed;inset:0;width:100vw;height:100vh;object-fit:contain;background:#080d13;border:0}
 .weather{position:fixed;inset:0;box-sizing:border-box;padding:3vw 3.2vw;color:#fff;background:linear-gradient(135deg,#173b5c,#286f99)}
@@ -29,7 +28,7 @@ html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#080d13;fon
 .message{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;background:#111;font-size:4vw}
 </style>
 </head>
-<body><div id="stage"></div><div id="traffic-stage" aria-hidden="true"></div>
+<body><div id="stage"></div><div id="traffic-stage"></div>
 <script>
 const params=new URLSearchParams(location.search);
 const requestedStore=(params.get("store")||"").toLowerCase();
@@ -43,7 +42,7 @@ function active(my){return my===generation}
 function scheduleNext(my,ms){clearTimeout(timer);timer=setTimeout(()=>{if(active(my))next()},Math.max(250,ms))}
 function fitText(el,maxPx,minPx=20){if(!el)return;el.style.fontSize=maxPx+"px";let size=maxPx;const limit=el.clientHeight;while(size>minPx && el.scrollHeight>limit+2){size-=1;el.style.fontSize=size+"px"}}
 function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
-function clean(){clearTimeout(timer);timer=null;clearTimeout(watchdog);watchdog=null;if(video){try{video.pause();video.removeAttribute("src");video.load();video.remove()}catch(e){}video=null}document.getElementById("stage").replaceChildren();trafficVisible=false;const ts=document.getElementById("traffic-stage");ts.classList.remove("active");ts.setAttribute("aria-hidden","true")}
+function clean(){clearTimeout(timer);timer=null;clearTimeout(watchdog);watchdog=null;if(video){try{video.pause();video.removeAttribute("src");video.load();video.remove()}catch(e){}video=null}document.getElementById("stage").replaceChildren();trafficVisible=false;document.getElementById("traffic-stage").style.display="none"}
 async function init(){
   const params=new URLSearchParams(location.search);
   const store=(params.get("store")||"").trim().toLowerCase();
@@ -65,8 +64,8 @@ async function init(){
   next()
 }
 function startWatchdog(){setInterval(()=>{const stage=document.getElementById("stage");if((!stage||!stage.children.length)&&!trafficVisible){console.warn("Signage watchdog: empty stage; advancing");next()}},30000);setInterval(()=>{if(document.visibilityState!=="visible")return;location.reload()},6*60*60*1000)}
-function next(){clean();const my=++generation;current=(current+1)%playlist.length;const x=playlist[current];const t=String(x.type||"").toLowerCase().replace(/-/g,"_");if(t==="image")return image(x,my);if(t==="traffic_html")return trafficHtml(x,my);if(t==="video")return playVideo(x,my);if(t==="weather")return weather(x.seconds||20,my);if(t==="google_review"||t==="google_reviews")return googleReviews(x.seconds||15,my);if(t==="facebook_post")return facebookPost(x.seconds||15,my);if(t==="facebook_review")return facebookReview(x.seconds||15,my);document.getElementById("stage").innerHTML='<div class="message">Unsupported slide type</div>';scheduleNext(my,5000)}
-function trafficHtml(x,my){const ts=document.getElementById("traffic-stage");trafficVisible=true;ts.classList.add("active");ts.setAttribute("aria-hidden","false");if(!trafficFrame||trafficSrc!==x.src){trafficFrame=document.createElement("iframe");trafficFrame.src=x.src;trafficFrame.setAttribute("allowfullscreen","");trafficFrame.setAttribute("loading","eager");trafficFrame.setAttribute("title",x.label||"Live traffic");ts.replaceChildren(trafficFrame);trafficSrc=x.src}scheduleNext(my,Math.max(1,Number(x.seconds)||120)*1000)}
+function next(){clean();const my=++generation;current=(current+1)%playlist.length;const x=playlist[current];const t=String(x.type||"").toLowerCase().replace(/-/g,"_");if(t==="traffic_html")return trafficHtml(x,my);if(t==="image")return image(x,my);if(t==="video")return playVideo(x,my);if(t==="weather")return weather(x.seconds||20,my);if(t==="google_review"||t==="google_reviews")return googleReviews(x.seconds||15,my);if(t==="facebook_post")return facebookPost(x.seconds||15,my);if(t==="facebook_review")return facebookReview(x.seconds||15,my);document.getElementById("stage").innerHTML='<div class="message">Unsupported slide type</div>';scheduleNext(my,5000)}
+function trafficHtml(x,my){const ts=document.getElementById("traffic-stage");trafficVisible=true;ts.style.display="block";if(!trafficFrame||trafficSrc!==x.src){trafficFrame=document.createElement("iframe");trafficFrame.src=x.src;trafficFrame.setAttribute("allowfullscreen","");trafficFrame.setAttribute("loading","eager");trafficFrame.setAttribute("title",x.label||"Live traffic");ts.replaceChildren(trafficFrame);trafficSrc=x.src}scheduleNext(my,Math.max(1,Number(x.seconds)||120)*1000)}
 function image(x,my){const e=document.createElement("img");e.src=bust(x.src);e.onerror=()=>scheduleNext(my,2000);document.getElementById("stage").appendChild(e);scheduleNext(my,Math.max(1,Number(x.seconds)||10)*1000)}
 function playVideo(x,my){const v=document.createElement("video");video=v;let advanced=false;const advance=()=>{if(advanced||!active(my))return;advanced=true;next()};v.autoplay=true;v.muted=true;v.defaultMuted=true;v.playsInline=true;v.preload="auto";v.controls=false;v.setAttribute("autoplay","");v.setAttribute("muted","");v.setAttribute("playsinline","");v.setAttribute("disablepictureinpicture","");v.setAttribute("controlslist","nodownload noplaybackrate nofullscreen");v.src=bust(x.src);v.addEventListener("ended",advance,{once:true});v.addEventListener("error",()=>{if(active(my))setTimeout(advance,3000)},{once:true});document.getElementById("stage").appendChild(v);const seconds=Number(x.seconds)||0;const startTimer=()=>{v.play().catch(()=>{});if(seconds>0)scheduleNext(my,seconds*1000)};v.addEventListener("loadedmetadata",startTimer,{once:true});v.load();v.play().catch(()=>{})}
 function formatDate(s){if(!s)return"";const d=new Date(s);return isNaN(d)?s:d.toLocaleDateString("en-US",{year:"numeric",month:"long",day:"numeric"})}
