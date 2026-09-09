@@ -14,11 +14,11 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Sep 8, 2026 09:20 PM CDT",
+  "updated_local": "Sep 8, 2026 10:20 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 74,
+  "incident_count": 73,
   "segments": [
     {
       "id": "803",
@@ -1428,23 +1428,6 @@
       "encoded_polyline": "csqqG~|tbPCrP",
       "latitude_secondary": 44.9875575330015,
       "longitude_secondary": -89.7356183380441
-    },
-    {
-      "id": 748568,
-      "roadway": "US-51",
-      "direction": "s",
-      "description": "US 51 South 0.2 miles beyond Ramp from County NN. The left shoulder is closed due to a disabled vehicle.",
-      "severity": "1",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.92758,
-      "longitude": -89.66223,
-      "last_updated": 1788919260,
-      "lanes_affected": "Shoulder blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Disabled Vehicle",
-      "encoded_polyline": "k|eqG|cgbP",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }

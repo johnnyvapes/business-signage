@@ -14,7 +14,7 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Sep 8, 2026 09:20 PM CDT",
+  "updated_local": "Sep 8, 2026 10:20 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -26,7 +26,7 @@
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
       "current_minutes": "16",
-      "delay_minutes": "0",
+      "delay_minutes": "1",
       "status": "Normal",
       "waypoints": [
         [
