@@ -14,19 +14,19 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Sep 9, 2026 06:20 AM CDT",
+  "updated_local": "Sep 9, 2026 07:26 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 26,
+  "incident_count": 27,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "18",
-      "delay_minutes": "2",
+      "current_minutes": "17",
+      "delay_minutes": "1",
       "status": "Moderate",
       "waypoints": [
         [
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "21",
-      "delay_minutes": "4",
-      "status": "Slow",
+      "current_minutes": "18",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "20",
-      "delay_minutes": "5",
-      "status": "Slow",
+      "current_minutes": "17",
+      "delay_minutes": "2",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524684,
@@ -516,8 +516,8 @@
       "description": "Roadwork - Mainline Right Lane Closed on I-41 SB from ON RAMP FROM COUNTY F to ON RAMP FROM COUNTY F",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4317054,
-      "longitude": -88.1106248,
+      "latitude": 44.4317066,
+      "longitude": -88.1106228,
       "last_updated": 1778520553,
       "lanes_affected": "3 lane(s) of 5 blocked.",
       "is_full_closure": false,
@@ -848,6 +848,23 @@
       "encoded_polyline": "yianG~g}xOyDgEqNkPmEeFuEkFuJwKs@s@cIqMmCkFyDwH{Xog@",
       "latitude_secondary": 44.4135368761443,
       "longitude_secondary": -88.1361181709042
+    },
+    {
+      "id": 748716,
+      "roadway": "I-41",
+      "direction": "n",
+      "description": "I-41 North at WIS 172/Oneida. The right lane is closed due to a disabled vehicle.",
+      "severity": "2",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.464544,
+      "longitude": -88.081495,
+      "last_updated": 1788956002,
+      "lanes_affected": "1 lane(s) of 3 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "knknGjlrxO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
