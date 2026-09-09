@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Sep 9, 2026 04:18 PM CDT",
+  "updated_local": "Sep 9, 2026 05:19 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 21,
+  "incident_count": 22,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "24",
-      "delay_minutes": "9",
-      "status": "Slow",
+      "current_minutes": "18",
+      "delay_minutes": "2",
+      "status": "Moderate",
       "waypoints": [
         [
           44.451904,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "35",
-      "delay_minutes": "18",
-      "status": "Very Slow",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "33",
-      "delay_minutes": "18",
-      "status": "Very Slow",
+      "current_minutes": "16",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524684,
@@ -761,6 +761,23 @@
       "is_full_closure": false,
       "event_subtype": "Disabled Vehicle",
       "encoded_polyline": "cmvnGpz|wO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
+    },
+    {
+      "id": 749444,
+      "roadway": "I-41",
+      "direction": "n",
+      "description": "I-41 North 0.2 miles beyond I-43 South. The left shoulder is blocked due to a crash.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.556872,
+      "longitude": -88.059799,
+      "last_updated": 1788989004,
+      "lanes_affected": "Shoulder blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Crash",
+      "encoded_polyline": "mo}nGvdnxO",
       "latitude_secondary": null,
       "longitude_secondary": null
     }
