@@ -14,7 +14,7 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Sep 9, 2026 02:18 PM CDT",
+  "updated_local": "Sep 9, 2026 03:20 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -25,9 +25,9 @@
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "18",
-      "delay_minutes": "3",
-      "status": "Moderate",
+      "current_minutes": "25",
+      "delay_minutes": "9",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.451904,
@@ -192,9 +192,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
-      "current_minutes": "12",
-      "delay_minutes": "7",
-      "status": "Very Slow",
+      "current_minutes": "6",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.521888,
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "17",
-      "delay_minutes": "8",
-      "status": "Very Slow",
+      "current_minutes": "9",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.521963,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "35",
+      "delay_minutes": "18",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524762,
@@ -301,8 +301,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "24",
-      "delay_minutes": "9",
+      "current_minutes": "34",
+      "delay_minutes": "19",
       "status": "Very Slow",
       "waypoints": [
         [
@@ -375,9 +375,9 @@
       "roadway": "I-43 ",
       "description": "Sign 512 I-43 NB to Lineville Rd via I-43/I-41",
       "normal_minutes": "13",
-      "current_minutes": "18",
-      "delay_minutes": "5",
-      "status": "Slow",
+      "current_minutes": "13",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.438024,
@@ -720,15 +720,15 @@
       "description": "Roadwork - Mainline Moving Lane Closure on I-41 SB from MEMORIAL DR (BRIDGE CROSSING) to COUNTY F (Scheuring Road) (BRIDGE CROSSING). Daily from 09/09/2026 to 09/10/2026, 08:00 AM - 02:00 PM, W, Th",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5480723,
-      "longitude": -88.0691267,
+      "latitude": 44.5480823999361,
+      "longitude": -88.069138349378,
       "last_updated": 1788377554,
       "lanes_affected": "No Data",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "mx{nG`_pxOt@n@vAlAj@f@dEjDpCvBzAjAzApAjB`BhDlCXTn@j@ZVZXdCvBv@r@pAhAjAbAlAdArBbBzCbCxBdBFJ\\T|@v@h@b@p@j@j@f@hCxBxCzB^XTNZPh@ZlB`AjAl@rAd@~Ad@tAZjARVF`CX`AF`ABnBFhABjEJjABvBFdABlFJzHT~CFV?~BHtBDtHPf@BbA@dCF|GPzCHbWl@bFJ`CBzG@tEC`BCp@AtCGrCItAGpDOvI]nAGvCM|@EzCK`EO~Oq@dDOfEQbDMdCKfBGzCMfDOzNk@`K_@`Sq@f@A\\?dDWjBM\\?lBM|CMrEMj@Eh@ChGW|GWdCK`EMhCMvAE|GYvJa@tCIzAEfAAfABfAH\\@r@FfALnAV|AZnA\\xAh@xAl@`Bz@~A`Af@TXRr@b@fDrBzFjD|PhK~KzGhAt@jBhAn@`@b@VdC|AnNnI|A`Az@f@n@`@|EtC~Q|KxA~@jAr@hNlItD|BvG~DjF`Dv@b@|CjB~BxAdBpA`BzA~AdBvApBpAtB~@hB",
-      "latitude_secondary": 44.547795,
-      "longitude_secondary": -88.0693676
+      "encoded_polyline": "ox{nGb_pxOp\\pXzOdNzRdPbHxF~AfA`B`ArBbApBv@tBl@tBd@jARjALjAJfAFhj@rAhf@hAdYt@~BBpEDnE@jECnEGjIUr`F{R`BErB@zBJxBTpB\\pBf@tBp@rB|@nBdA|o@n`@dJzFbK`GtxAj|@nAx@nAbArApApAvApAdBfAdBfWne@vR~^\\n@",
+      "latitude_secondary": 44.5439772568614,
+      "longitude_secondary": -88.0726902278232
     },
     {
       "id": 740042,
