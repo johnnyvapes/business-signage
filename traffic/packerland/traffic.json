@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Sep 9, 2026 07:26 AM CDT",
+  "updated_local": "Sep 9, 2026 08:22 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 21,
+  "incident_count": 20,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "17",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "25",
+      "delay_minutes": "9",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.451904,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "18",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "35",
+      "delay_minutes": "18",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "17",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "34",
+      "delay_minutes": "19",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524684,
@@ -746,23 +746,6 @@
       "encoded_polyline": "cpjnGzaywOpBqCr@KNTTB\\_@Cq@d@I|@cA",
       "latitude_secondary": 44.4591265499166,
       "longitude_secondary": -87.9510862942381
-    },
-    {
-      "id": 748716,
-      "roadway": "I-41",
-      "direction": "n",
-      "description": "I-41 North at WIS 172/Oneida. The right lane is closed due to a disabled vehicle.",
-      "severity": "2",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.464544,
-      "longitude": -88.081495,
-      "last_updated": 1788956002,
-      "lanes_affected": "1 lane(s) of 3 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Disabled Vehicle",
-      "encoded_polyline": "knknGjlrxO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }
