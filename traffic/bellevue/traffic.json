@@ -14,11 +14,11 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Sep 10, 2026 01:22 PM CDT",
+  "updated_local": "Sep 10, 2026 04:35 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 28,
+  "incident_count": 23,
   "segments": [
     {
       "id": "4008",
@@ -26,7 +26,7 @@
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
       "current_minutes": "17",
-      "delay_minutes": "1",
+      "delay_minutes": "2",
       "status": "Moderate",
       "waypoints": [
         [
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "18",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -663,40 +663,6 @@
       "longitude_secondary": -87.9547490646254
     },
     {
-      "id": 727512,
-      "roadway": "US-141",
-      "direction": "N",
-      "description": "Roadwork - Mainline Flagging Operation on US 141 NB from CEDAR HEDGE LN to I-43 (BRIDGE CROSSING). Daily from 08/28/2026 to 09/10/2026, 05:00 AM - 03:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4381469606751,
-      "longitude": -87.9179045992383,
-      "last_updated": 1787584470,
-      "lanes_affected": "No lanes blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "mifnGzmrwOwE?mSp[m@PQlAeTb]Yv@aFdK_EzKaT|l@kNz_@qBvEyBlEsCvEiE`GmBfD}@hA}@bAe@HQQSC[\\@n@s@JsBtCaPdQkHrI",
-      "latitude_secondary": 44.4392319089775,
-      "longitude_secondary": -87.9179042759725
-    },
-    {
-      "id": 727513,
-      "roadway": "US-141",
-      "direction": "S",
-      "description": "Roadwork - Mainline Flagging Operation on US 141 SB from FROM US 141 NB to CEDAR HEDGE LN. Daily from 08/28/2026 to 09/10/2026, 05:00 AM - 03:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.463906614642,
-      "longitude": -87.9564113915617,
-      "last_updated": 1787584470,
-      "lanes_affected": "No lanes blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "mjknGp~ywOdHkI`PeQrBuCr@KNTTB\\_@Cq@d@I|@cA|@iAlBgDhEaGrCwExBmEpBwEjN{_@`T}l@~D{K`FeKXw@dTc]PmAl@QlSq[|E?",
-      "latitude_secondary": 44.462438494765,
-      "longitude_secondary": -87.9547490646254
-    },
-    {
       "id": 727812,
       "roadway": "Ontario Rd",
       "direction": "S",
@@ -712,40 +678,6 @@
       "encoded_polyline": "{zknGxktwO}j@M",
       "latitude_secondary": 44.473571237103,
       "longitude_secondary": -87.9277363789276
-    },
-    {
-      "id": 740041,
-      "roadway": "I-41",
-      "direction": "S",
-      "description": "Roadwork - Mainline Moving Lane Closure on I-41 SB from MEMORIAL DR (BRIDGE CROSSING) to COUNTY F (Scheuring Road) (BRIDGE CROSSING). Daily from 09/09/2026 to 09/10/2026, 08:00 AM - 02:00 PM, W, Th",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.5480823999361,
-      "longitude": -88.069138349378,
-      "last_updated": 1788377554,
-      "lanes_affected": "No Data",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "ox{nGb_pxOp\\pXzOdNzRdPbHxF~AfA`B`ArBbApBv@tBl@tBd@jARjALjAJfAFhj@rAhf@hAdYt@~BBpEDnE@jECnEGjIUr`F{R`BErB@zBJxBTpB\\pBf@tBp@rB|@nBdA|o@n`@dJzFbK`GtxAj|@nAx@nAbArApApAvApAdBfAdBfWne@vR~^\\n@",
-      "latitude_secondary": 44.5439772568614,
-      "longitude_secondary": -88.0726902278232
-    },
-    {
-      "id": 740042,
-      "roadway": "I-41",
-      "direction": "N",
-      "description": "Roadwork - Mainline Moving Lane Closure on I-41 NB from COUNTY F (Scheuring Road) (BRIDGE CROSSING) to MEMORIAL DR (BRIDGE CROSSING). Daily from 09/09/2026 to 09/10/2026, 08:00 AM - 02:00 PM, W, Th",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4305866520897,
-      "longitude": -88.1125800474668,
-      "last_updated": 1788377554,
-      "lanes_affected": "No Data",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "ezdnGrnxxO[m@wR__@gWoe@gAeBqAeBqAwAsAqAoAcAoAy@uxAk|@cKaGeJ{F}o@o`@oBeAsB}@uBq@qBg@qB]yBU{BKsBAaBDs`FzRkIToEFkEBoEAqEE_CCeYu@if@iAij@sAgAGkAKkAMkASuBe@uBm@qBw@sBcAaBaA_BgAcHyF{ReP{OeNs\\sX",
-      "latitude_secondary": 44.4307331165684,
-      "longitude_secondary": -88.1123506772394
     },
     {
       "id": 744858,
@@ -858,28 +790,11 @@
       "event_type": "accidentsAndIncidents",
       "latitude": 44.520659,
       "longitude": -87.971126,
-      "last_updated": 1789037741,
+      "last_updated": 1789066685,
       "lanes_affected": "Shoulder blocked.",
       "is_full_closure": false,
       "event_subtype": "Disabled Vehicle",
       "encoded_polyline": "cmvnGpz|wO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
-    },
-    {
-      "id": 750171,
-      "roadway": "I-43",
-      "direction": "n",
-      "description": "Crash on Ramp from Mason St to I-43 North.",
-      "severity": "1",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.490006,
-      "longitude": -87.939554,
-      "last_updated": 1789062326,
-      "lanes_affected": "No lanes blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Crash",
-      "encoded_polyline": "qmpnGduvwO",
       "latitude_secondary": null,
       "longitude_secondary": null
     }
