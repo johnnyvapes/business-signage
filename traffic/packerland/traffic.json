@@ -14,7 +14,7 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Sep 10, 2026 03:23 AM CDT",
+  "updated_local": "Sep 10, 2026 04:21 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -25,9 +25,9 @@
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "16",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "17",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.451904,
@@ -64,9 +64,9 @@
       "roadway": "I-41 ",
       "description": "Sign 504 I-41 NB N of Scheuring to WIS 29",
       "normal_minutes": "6",
-      "current_minutes": "6",
+      "current_minutes": "7",
       "delay_minutes": "0",
-      "status": "Normal",
+      "status": "Moderate",
       "waypoints": [
         [
           44.436496,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "15",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "16",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524684,
@@ -703,15 +703,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on I-41 SB from ON RAMP FROM COUNTY F to BRIDGE (BRIDGE CROSSING). Daily from 09/08/2026 to 09/11/2026, 07:00 PM - 05:00 AM, T, W, Th (excluding F)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4288263,
-      "longitude": -88.1152218,
+      "latitude": 44.4276514873837,
+      "longitude": -88.1171754948381,
       "last_updated": 1788663160,
       "lanes_affected": "3 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "eodnGb_yxOv@zAfEvH`Z|i@bCtE|CxFfBbDxAdCfBlC|@nApA`BjCxC~FrGbH|H|FrGhMjN",
-      "latitude_secondary": 44.4285455,
-      "longitude_secondary": -88.1156753
+      "encoded_polyline": "ygdnGjkyxOxXjg@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjP|DhE",
+      "latitude_secondary": 44.4276081730648,
+      "longitude_secondary": -88.1172432831086
     },
     {
       "id": 744860,
