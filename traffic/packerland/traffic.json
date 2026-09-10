@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Sep 10, 2026 12:19 PM CDT",
+  "updated_local": "Sep 10, 2026 01:22 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 21,
+  "incident_count": 22,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "16",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "17",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.451904,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "18",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524762,
@@ -301,8 +301,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "16",
-      "delay_minutes": "1",
+      "current_minutes": "17",
+      "delay_minutes": "2",
       "status": "Moderate",
       "waypoints": [
         [
@@ -761,6 +761,23 @@
       "is_full_closure": false,
       "event_subtype": "Disabled Vehicle",
       "encoded_polyline": "cmvnGpz|wO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
+    },
+    {
+      "id": 750171,
+      "roadway": "I-43",
+      "direction": "n",
+      "description": "Crash on Ramp from Mason St to I-43 North.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.490006,
+      "longitude": -87.939554,
+      "last_updated": 1789062326,
+      "lanes_affected": "No lanes blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Crash",
+      "encoded_polyline": "qmpnGduvwO",
       "latitude_secondary": null,
       "longitude_secondary": null
     }
