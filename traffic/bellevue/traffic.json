@@ -14,19 +14,19 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Sep 11, 2026 09:20 AM CDT",
+  "updated_local": "Sep 11, 2026 01:24 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 27,
+  "incident_count": 31,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "19",
-      "delay_minutes": "3",
+      "current_minutes": "17",
+      "delay_minutes": "1",
       "status": "Moderate",
       "waypoints": [
         [
@@ -254,8 +254,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "18",
-      "delay_minutes": "1",
+      "current_minutes": "19",
+      "delay_minutes": "2",
       "status": "Moderate",
       "waypoints": [
         [
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "18",
-      "delay_minutes": "3",
-      "status": "Moderate",
+      "current_minutes": "19",
+      "delay_minutes": "4",
+      "status": "Slow",
       "waypoints": [
         [
           44.524684,
@@ -865,6 +865,74 @@
       "encoded_polyline": "aqinGvzwwOSd@yBlEsCvEiE`GmBfD}@hA}@bAe@HQQSC[\\@n@s@JsBtCqOtP",
       "latitude_secondary": 44.4548282332614,
       "longitude_secondary": -87.9457544602012
+    },
+    {
+      "id": 751438,
+      "roadway": "I-41",
+      "direction": "N",
+      "description": "Roadwork - Mainline Various Lanes Closed on I-41 NB from LITTLE RAPIDS RD (BRIDGE CROSSING) to OFF RAMP TO COUNTY F / SCHEURING RD. Daily from 09/08/2026 to 09/12/2026, 08:00 PM - 05:00 AM, T, W, Th, F (excluding Sat)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4126051525887,
+      "longitude": -88.1371213881129,
+      "last_updated": 1789140648,
+      "lanes_affected": "3 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "yianG~g}xOyDgEqNkPmEeFuEkFuJwKs@s@cIqMmCkFyDwH{Xog@",
+      "latitude_secondary": 44.4135368761443,
+      "longitude_secondary": -88.1361181709042
+    },
+    {
+      "id": 751439,
+      "roadway": "I-41",
+      "direction": "S",
+      "description": "Roadwork - Mainline Various Lanes Closed on I-41 SB from ON RAMP FROM COUNTY F to BRIDGE (BRIDGE CROSSING). Daily from 09/08/2026 to 09/12/2026, 07:00 PM - 05:00 AM, T, W, Th, F (excluding Sat)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4276514873837,
+      "longitude": -88.1171754948381,
+      "last_updated": 1789137948,
+      "lanes_affected": "3 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "ygdnGjkyxOxXjg@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjP|DhE",
+      "latitude_secondary": 44.4276081730648,
+      "longitude_secondary": -88.1172432831086
+    },
+    {
+      "id": 751541,
+      "roadway": "WI-172",
+      "direction": "W",
+      "description": "Roadwork - Mainline Moving Lane Closure on WIS 172 WB from ON RAMP FROM IH-43 SB to FROM C/D NB OFF RAMP. Daily from 09/14/2026 to 09/17/2026, 08:00 PM - 04:00 AM, M, T, W, Th",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4531321435384,
+      "longitude": -87.9731286736586,
+      "last_updated": 1789145148,
+      "lanes_affected": "No Data",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "aginG`g}wOLp[LJQpS?\\CrAWvV]~HsA|HoIpZwQ~k@wMbd@mVx~@QRsOzj@Of@gDzMGXS|@_EdOiBpEqBhE_I|O_F~KgCvHQl@q@jCcE~RiClSmHt`AcD|Yq@jFs@jGDf@_BbLMLIvByAdMw@~DmDpOsDzN[rAa@|Ac@zAg@zAi@vAuGnP",
+      "latitude_secondary": 44.4530583584894,
+      "longitude_secondary": -87.9776957491701
+    },
+    {
+      "id": 751542,
+      "roadway": "WI-172",
+      "direction": "E",
+      "description": "Roadwork - Mainline Moving Lane Closure on WIS 172 EB from I-41 NB ON-RAMP FROM WIS 172 EB (BRIDGE CROSSING) to OFF RAMP TO IH-43 NB. Daily from 09/14/2026 to 09/17/2026, 08:00 PM - 04:00 AM, M, T, W, Th",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4834056447986,
+      "longitude": -88.0793160226622,
+      "last_updated": 1789145148,
+      "lanes_affected": "No Data",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "idonGv~qxOlEyRV{B?kBb@{A`@}AZsArD{NlDqOv@_ExAeMHwBLM~AcLEg@r@kGp@kFbD}YlHu`AhCmSbE_Sp@kCPm@fCwH~E_L~H}OpBiEhBqE~DeOR}@FYfD{MNg@rO{j@PSlVy~@vMcd@vQ_l@nIqZrA}H\\_IVwVBsA?]PqS^eDz@_W",
+      "latitude_secondary": 44.4823840989513,
+      "longitude_secondary": -88.0761474128984
     }
   ]
 }
