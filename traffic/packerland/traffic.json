@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Sep 10, 2026 07:02 PM CDT",
+  "updated_local": "Sep 10, 2026 11:28 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 19,
+  "incident_count": 18,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "16",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "17",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.451904,
@@ -705,28 +705,11 @@
       "event_type": "accidentsAndIncidents",
       "latitude": 44.520659,
       "longitude": -87.971126,
-      "last_updated": 1789066685,
+      "last_updated": 1789095399,
       "lanes_affected": "Shoulder blocked.",
       "is_full_closure": false,
       "event_subtype": "Disabled Vehicle",
       "encoded_polyline": "cmvnGpz|wO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
-    },
-    {
-      "id": 750648,
-      "roadway": "WI-29/32",
-      "direction": "w",
-      "description": "WIS 29/32 West 0.3 miles beyond I-41/WIS 32. The right shoulder is closed due to a disabled vehicle.",
-      "severity": "1",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.550735,
-      "longitude": -88.106444,
-      "last_updated": 1789084404,
-      "lanes_affected": "Shoulder blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Disabled Vehicle",
-      "encoded_polyline": "ci|nGfhwxO",
       "latitude_secondary": null,
       "longitude_secondary": null
     }
