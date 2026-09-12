@@ -14,11 +14,11 @@
     "generate_map": true,
     "id": "manitowoc"
   },
-  "updated_local": "Sep 11, 2026 07:10 PM CDT",
+  "updated_local": "Sep 12, 2026 12:39 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 0,
-  "incident_count": 2,
+  "incident_count": 4,
   "segments": [],
   "incidents": [
     {
@@ -54,6 +54,40 @@
       "encoded_polyline": "sunlGxqivOXOF_@I_@WM?y@AoFAa^EcgAAmNEsl@?kF?eAVMHc@I_@WK@cAA}EIyoAGsHFgF?eBTOHa@Ka@WI?C",
       "latitude_secondary": 44.1532540271088,
       "longitude_secondary": -87.7085340941084
+    },
+    {
+      "id": 753167,
+      "roadway": "WI-42",
+      "direction": "N",
+      "description": "Roadwork - Mainline Full Closure on WIS 42 NB from 15TH ST to 22ND ST. Daily from 09/19/2026 to 09/19/2026, 05:00 AM - 06:00 PM, Sat. Detour: Madison St to Monroe St, back to STH 42",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.146686739646,
+      "longitude": -87.568245072284,
+      "last_updated": 1789190149,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "ykmlGpdnuOkQ?eEJmK?yDK?C",
+      "latitude_secondary": 44.1475724502138,
+      "longitude_secondary": -87.568245498829
+    },
+    {
+      "id": 753168,
+      "roadway": "WI-42",
+      "direction": "S",
+      "description": "Roadwork - Mainline Full Closure on WIS 42 SB from 22ND ST to 15TH ST. Daily from 09/19/2026 to 09/19/2026, 05:00 AM - 06:00 PM, Sat. Detour: Madison St to Monroe St, back to STH 42",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.1535418522844,
+      "longitude": -87.5682471843824,
+      "last_updated": 1789190149,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "svnlGpdnuOxDJlK?dEKnQ?",
+      "latitude_secondary": 44.1526051720822,
+      "longitude_secondary": -87.5683099036645
     }
   ]
 }
