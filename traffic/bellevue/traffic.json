@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Sep 12, 2026 09:02 AM CDT",
+  "updated_local": "Sep 12, 2026 12:00 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 30,
+  "incident_count": 29,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "16",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "19",
+      "delay_minutes": "3",
+      "status": "Moderate",
       "waypoints": [
         [
           44.451904,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "24",
+      "delay_minutes": "7",
+      "status": "Slow",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "15",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "23",
+      "delay_minutes": "8",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524684,
@@ -899,23 +899,6 @@
       "encoded_polyline": "idonGv~qxOlEyRV{B?kBb@{A`@}AZsArD{NlDqOv@_ExAeMHwBLM~AcLEg@r@kGp@kFbD}YlHu`AhCmSbE_Sp@kCPm@fCwH~E_L~H}OpBiEhBqE~DeOR}@FYfD{MNg@rO{j@PSlVy~@vMcd@vQ_l@nIqZrA}H\\_IVwVBsA?]PqS^eDz@_W",
       "latitude_secondary": 44.4823840989513,
       "longitude_secondary": -88.0761474128984
-    },
-    {
-      "id": 753289,
-      "roadway": "Ramp from I-43  to WI-172",
-      "direction": "u",
-      "description": "Ramp from I-43 South to WIS 172 West closed because of a crash.",
-      "severity": "4",
-      "event_type": "closures",
-      "latitude": 44.462165,
-      "longitude": -87.959253,
-      "last_updated": 1789218971,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "Crash",
-      "encoded_polyline": "q_knGhpzwO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }
