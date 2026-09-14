@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Sep 14, 2026 07:39 AM CDT",
+  "updated_local": "Sep 14, 2026 01:33 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 35,
+  "incident_count": 38,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "18",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "25",
+      "delay_minutes": "10",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.451904,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "23",
-      "delay_minutes": "6",
-      "status": "Slow",
+      "current_minutes": "36",
+      "delay_minutes": "19",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "22",
-      "delay_minutes": "7",
-      "status": "Slow",
+      "current_minutes": "34",
+      "delay_minutes": "19",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524684,
@@ -901,23 +901,6 @@
       "longitude_secondary": -88.0761474128984
     },
     {
-      "id": 755755,
-      "roadway": "US-41",
-      "direction": "s",
-      "description": "US 41 South 1.3 miles beyond I-41 South. The right shoulder is closed due to a disabled vehicle.",
-      "severity": "1",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.568769,
-      "longitude": -88.04865,
-      "last_updated": 1789383395,
-      "lanes_affected": "Shoulder blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Disabled Vehicle",
-      "encoded_polyline": "yy_oG`_lxO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
-    },
-    {
       "id": 756175,
       "roadway": "I-41",
       "direction": "S",
@@ -1001,6 +984,74 @@
       "encoded_polyline": "guenG|mrwOdA?pAG",
       "latitude_secondary": 44.434568229725,
       "longitude_secondary": -87.9179064113365
+    },
+    {
+      "id": 756426,
+      "roadway": "WI-32",
+      "direction": "N",
+      "description": "Roadwork - Mainline Left Shoulder Closed on WIS 32 NB from Packerland Drive (CTH EB) (BRIDGE CROSSING) to DUCK CREEK (BRIDGE CROSSING). Daily from 09/17/2026 to 09/25/2026, 07:00 AM - 06:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.5434306791494,
+      "longitude": -88.0889428066243,
+      "last_updated": 1789393553,
+      "lanes_affected": "2 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "m{znGzzsxOuMnb@",
+      "latitude_secondary": 44.5448058254045,
+      "longitude_secondary": -88.0922608271936
+    },
+    {
+      "id": 756427,
+      "roadway": "WI-29",
+      "direction": "E",
+      "description": "Roadwork - Mainline Left Shoulder Closed on WIS 29 EB from DUCK CREEK (BRIDGE CROSSING) to WIS 29 EB (BRIDGE CROSSING). Daily from 09/17/2026 to 09/25/2026, 07:00 AM - 06:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.5458614431146,
+      "longitude": -88.0948079879696,
+      "last_updated": 1789393553,
+      "lanes_affected": "2 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "sj{nGp_uxO|BoHlBqC`GcPFOHKJG^IXEFEHKCk@KUMEM@Ue@",
+      "latitude_secondary": 44.5452308770919,
+      "longitude_secondary": -88.0932862451193
+    },
+    {
+      "id": 756428,
+      "roadway": "WI-32",
+      "direction": "S",
+      "description": "Roadwork - Mainline Left Shoulder Closed on WIS 32 SB from DUCK CREEK (BRIDGE CROSSING) to Packerland Drive (CTH EB) (BRIDGE CROSSING). Daily from 09/17/2026 to 09/25/2026, 07:00 AM - 06:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.5457747532754,
+      "longitude": -88.0945987748996,
+      "last_updated": 1789393553,
+      "lanes_affected": "2 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "aj{nGf~txOtMmb@",
+      "latitude_secondary": 44.5452308770919,
+      "longitude_secondary": -88.0932862451193
+    },
+    {
+      "id": 756429,
+      "roadway": "WI-29",
+      "direction": "W",
+      "description": "Roadwork - Mainline Left Shoulder Closed on WIS 29 WB from COUNTY EB to DUCK CREEK (BRIDGE CROSSING). Daily from 09/17/2026 to 09/25/2026, 07:00 AM - 06:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.543638912052,
+      "longitude": -88.087635974983,
+      "last_updated": 1789393553,
+      "lanes_affected": "2 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "w|znGvrsxOGMIGK?IBGDCBMXa@dASv@UjAQlAUnB[jGWtFsE`O",
+      "latitude_secondary": 44.5436799711522,
+      "longitude_secondary": -88.0875677575441
     }
   ]
 }
