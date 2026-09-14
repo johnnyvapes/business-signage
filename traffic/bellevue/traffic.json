@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Sep 14, 2026 01:33 PM CDT",
+  "updated_local": "Sep 14, 2026 05:26 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 38,
+  "incident_count": 40,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "25",
-      "delay_minutes": "10",
-      "status": "Very Slow",
+      "current_minutes": "16",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.451904,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "36",
-      "delay_minutes": "19",
-      "status": "Very Slow",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "34",
-      "delay_minutes": "19",
-      "status": "Very Slow",
+      "current_minutes": "16",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524684,
@@ -1052,6 +1052,40 @@
       "encoded_polyline": "w|znGvrsxOGMIGK?IBGDCBMXa@dASv@UjAQlAUnB[jGWtFsE`O",
       "latitude_secondary": 44.5436799711522,
       "longitude_secondary": -88.0875677575441
+    },
+    {
+      "id": 757271,
+      "roadway": "I-41",
+      "direction": "N",
+      "description": "Roadwork - Mainline Various Lanes Closed on I-41 NB from LITTLE RAPIDS RD (BRIDGE CROSSING) to OFF RAMP TO COUNTY F / SCHEURING RD. Daily from 09/21/2026 to 09/26/2026, 08:00 PM - 05:00 AM, M, T, W, Th, F (excluding Sat)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4126051525887,
+      "longitude": -88.1371213881129,
+      "last_updated": 1789415153,
+      "lanes_affected": "3 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "yianG~g}xOyDgEqNkPmEeFuEkFuJwKs@s@cIqMmCkFyDwH{Xog@",
+      "latitude_secondary": 44.4135368761443,
+      "longitude_secondary": -88.1361181709042
+    },
+    {
+      "id": 757290,
+      "roadway": "I-41",
+      "direction": "S",
+      "description": "Roadwork - Mainline Various Lanes Closed on I-41 SB from ON RAMP FROM COUNTY F to BRIDGE (BRIDGE CROSSING). Daily from 09/21/2026 to 09/26/2026, 07:00 PM - 05:00 AM, M, T, W, Th, F (excluding Sat)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4276514873837,
+      "longitude": -88.1171754948381,
+      "last_updated": 1789416054,
+      "lanes_affected": "3 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "ygdnGjkyxOxXjg@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjP|DhE",
+      "latitude_secondary": 44.4276081730648,
+      "longitude_secondary": -88.1172432831086
     }
   ]
 }
