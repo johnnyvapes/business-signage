@@ -14,7 +14,7 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Sep 15, 2026 08:27 AM CDT",
+  "updated_local": "Sep 15, 2026 01:07 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -314,15 +314,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on US 51 NB from IH-39 NB TERMINI to BIG RIB RIVER (BRIDGE CROSSING)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.9066665,
-      "longitude": -89.6470212,
+      "latitude": 44.8992833616889,
+      "longitude": -89.6421671776067,
       "last_updated": 1785215527,
       "lanes_affected": "2 lane(s) of 5 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "uyaqGzddbP[R}B|AuD`CyDfCUNyBvAoH|Ek@ZoL|HsCfBcG|DeC|AuAz@mEvCcG`EeLnHgF`DuFvD_E`CqElCyDtBgChAkBx@gCjA{ChAcDlAaA\\qJvCmBl@_Ez@yBd@yGlAcDh@q@HuIfAmCTmF\\aDP{BHc@?{BHmH@u@?",
-      "latitude_secondary": 44.9068117,
-      "longitude_secondary": -89.6471249
+      "encoded_polyline": "ok`qGpfcbP}TtNqVzNmO`KwDxB_GdEgOtJmNrJiF`Duj@n]aLpGcBbAqDnBaHhDsHhCqHxByHjB}HzAwHhAyHx@yHj@cQd@iG?",
+      "latitude_secondary": 44.8995789631097,
+      "longitude_secondary": -89.6423788901651
     },
     {
       "id": 681408,
