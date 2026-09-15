@@ -14,11 +14,11 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Sep 15, 2026 01:07 PM CDT",
+  "updated_local": "Sep 15, 2026 05:07 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 31,
+  "incident_count": 29,
   "segments": [
     {
       "id": "4008",
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "16",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "15",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524684,
@@ -680,23 +680,6 @@
       "longitude_secondary": -87.9510862942381
     },
     {
-      "id": 751030,
-      "roadway": "I-43",
-      "direction": "S",
-      "description": "Roadwork - Mainline Right Lane Closed on I-43 SB from ON RAMP FROM ATKINSON DR to LAND (BRIDGE CROSSING). Daily from 09/14/2026 to 09/15/2026, 09:00 AM - 03:00 PM, M, T",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.5376020066107,
-      "longitude": -88.0208878850499,
-      "last_updated": 1789023168,
-      "lanes_affected": "2 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "_wynGpqfxOJs@hHkWl^kfBdFkTdEoP",
-      "latitude_secondary": 44.5375421271873,
-      "longitude_secondary": -88.0206311147509
-    },
-    {
       "id": 751031,
       "roadway": "I-43",
       "direction": "N",
@@ -746,23 +729,6 @@
       "encoded_polyline": "ygdnGjkyxOxXjg@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjP|DhE",
       "latitude_secondary": 44.4276081730648,
       "longitude_secondary": -88.1172432831086
-    },
-    {
-      "id": 751303,
-      "roadway": "US-141",
-      "direction": "S",
-      "description": "Roadwork - Mainline Flagging Operation on US 141 SB from BLUESTONE PL to US 141 NB. Daily from 09/15/2026 to 09/15/2026, 06:00 AM - 04:00 PM, T",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4623487896592,
-      "longitude": -87.9546533836967,
-      "last_updated": 1789023168,
-      "lanes_affected": "No lanes blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "u`knGpsywOnOqPrBuCr@KNTTB\\_@Cq@d@I|@cA|@iAlBgDhEaGrCwExBmETi@",
-      "latitude_secondary": 44.4597114633678,
-      "longitude_secondary": -87.9518405350278
     },
     {
       "id": 751541,
