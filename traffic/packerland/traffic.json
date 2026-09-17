@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Sep 17, 2026 11:52 AM CDT",
+  "updated_local": "Sep 17, 2026 03:13 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 28,
+  "incident_count": 26,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "42",
-      "delay_minutes": "26",
-      "status": "Very Slow",
+      "current_minutes": "16",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.451904,
@@ -192,9 +192,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
-      "current_minutes": "12",
-      "delay_minutes": "6",
-      "status": "Very Slow",
+      "current_minutes": "6",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.521888,
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "16",
-      "delay_minutes": "7",
-      "status": "Very Slow",
+      "current_minutes": "9",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.521963,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "18",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "23",
-      "delay_minutes": "8",
-      "status": "Very Slow",
+      "current_minutes": "16",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524684,
@@ -375,9 +375,9 @@
       "roadway": "I-43 ",
       "description": "Sign 512 I-43 NB to Lineville Rd via I-43/I-41",
       "normal_minutes": "13",
-      "current_minutes": "18",
-      "delay_minutes": "5",
-      "status": "Slow",
+      "current_minutes": "13",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.438024,
@@ -680,23 +680,6 @@
       "longitude_secondary": -87.9510862942381
     },
     {
-      "id": 751031,
-      "roadway": "I-43",
-      "direction": "N",
-      "description": "Roadwork - Mainline Right Lane Closed on I-43 NB from LAND (BRIDGE CROSSING) to CNW RR (BRIDGE CROSSING). Daily from 09/16/2026 to 09/17/2026, 09:00 AM - 03:00 PM, W, Th",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.5288839642681,
-      "longitude": -87.9939838534817,
-      "last_updated": 1789023168,
-      "lanes_affected": "2 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "o`xnGjiaxOeElPeFjTm^jfBiHjWMv@",
-      "latitude_secondary": 44.5298713962665,
-      "longitude_secondary": -87.9967703770393
-    },
-    {
       "id": 751291,
       "roadway": "I-41",
       "direction": "S",
@@ -865,23 +848,6 @@
       "encoded_polyline": "ygdnGjkyxOxXjg@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjP|DhE",
       "latitude_secondary": 44.4276081730648,
       "longitude_secondary": -88.1172432831086
-    },
-    {
-      "id": 762068,
-      "roadway": "I-41",
-      "direction": "n",
-      "description": "I-41 North 2.5 miles beyond Ramp from County S. The right lane is blocked due to a crash.",
-      "severity": "3",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.417989,
-      "longitude": -88.130822,
-      "last_updated": 1789658812,
-      "lanes_affected": "1 lane(s) of 2 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Crash",
-      "encoded_polyline": "mkbnGr`|xO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }
