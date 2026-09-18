@@ -14,19 +14,19 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Sep 18, 2026 09:23 AM CDT",
+  "updated_local": "Sep 18, 2026 01:20 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 26,
+  "incident_count": 28,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "17",
-      "delay_minutes": "1",
+      "current_minutes": "18",
+      "delay_minutes": "2",
       "status": "Moderate",
       "waypoints": [
         [
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "10",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "9",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.521963,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "18",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "21",
+      "delay_minutes": "4",
+      "status": "Slow",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "17",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "20",
+      "delay_minutes": "5",
+      "status": "Slow",
       "waypoints": [
         [
           44.524684,
@@ -848,6 +848,40 @@
       "encoded_polyline": "ygdnGjkyxOxXjg@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjP|DhE",
       "latitude_secondary": 44.4276081730648,
       "longitude_secondary": -88.1172432831086
+    },
+    {
+      "id": 763680,
+      "roadway": "I-41",
+      "direction": "S",
+      "description": "Roadwork - Mainline Various Lanes Closed on I-41 SB from ON RAMP FROM COUNTY F to BRIDGE (BRIDGE CROSSING). Daily from 09/20/2026 to 09/21/2026, 08:00 PM - 05:00 AM, Sun (excluding M)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4276514873837,
+      "longitude": -88.1171754948381,
+      "last_updated": 1789749942,
+      "lanes_affected": "3 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "ygdnGjkyxOxXjg@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjP|DhE",
+      "latitude_secondary": 44.4276081730648,
+      "longitude_secondary": -88.1172432831086
+    },
+    {
+      "id": 763779,
+      "roadway": "I-41",
+      "direction": "s",
+      "description": "I-41 South at Ramp from Mason St. The right lane is blocked due to a crash.",
+      "severity": "2",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.521677,
+      "longitude": -88.082263,
+      "last_updated": 1789755312,
+      "lanes_affected": "1 lane(s) of 2 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Crash",
+      "encoded_polyline": "osvnGbqrxO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
