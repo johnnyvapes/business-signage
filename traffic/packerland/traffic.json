@@ -14,11 +14,11 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Sep 19, 2026 09:20 AM CDT",
+  "updated_local": "Sep 19, 2026 12:57 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 26,
+  "incident_count": 25,
   "segments": [
     {
       "id": "4008",
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "15",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "16",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524684,
@@ -831,23 +831,6 @@
       "encoded_polyline": "ygdnGjkyxOxXjg@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjP|DhE",
       "latitude_secondary": 44.4276081730648,
       "longitude_secondary": -88.1172432831086
-    },
-    {
-      "id": 764441,
-      "roadway": "I-43",
-      "direction": "s",
-      "description": "I-43 South at Ramp from WIS 54/57 West. The left lane is blocked due to a crash.",
-      "severity": "3",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.518736,
-      "longitude": -87.95571,
-      "last_updated": 1789824749,
-      "lanes_affected": "1 lane(s) of 2 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Crash",
-      "encoded_polyline": "cavnGdzywO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }
