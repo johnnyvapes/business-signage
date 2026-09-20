@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Sep 19, 2026 08:00 PM CDT",
+  "updated_local": "Sep 20, 2026 01:06 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 25,
+  "incident_count": 26,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "24",
+      "current_minutes": "25",
       "delay_minutes": "9",
-      "status": "Slow",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.451904,
@@ -301,8 +301,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "34",
-      "delay_minutes": "19",
+      "current_minutes": "33",
+      "delay_minutes": "18",
       "status": "Very Slow",
       "waypoints": [
         [
@@ -831,6 +831,23 @@
       "encoded_polyline": "ygdnGjkyxOxXjg@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjP|DhE",
       "latitude_secondary": 44.4276081730648,
       "longitude_secondary": -88.1172432831086
+    },
+    {
+      "id": 765278,
+      "roadway": "I-41",
+      "direction": "S",
+      "description": "Roadwork - Mainline Moving Lane Closure on I-41 SB from ON RAMP FROM COUNTY B to OFF RAMP TO COUNTY F. Daily from 09/27/2026 to 09/30/2026, 08:00 PM - 05:00 AM, Sun, M, T, W",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.6327983004619,
+      "longitude": -88.0472382705707,
+      "last_updated": 1789881343,
+      "lanes_affected": "No Data",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "_jloGfvkxOtAd@vF~B~O~HbIdAhJRxV?zDElDL`wAXbIJtDCtDIzCM`DUhk@{EbDSfDQhEKfEE~cCUfEOnAr@nAVlA\\pAd@nAl@hAn@jAx@dAz@p@p@t@v@r@z@p@~@f@v@jJlOhJfOjAbAlDfHnLnRxAtBzAnB|AjB`BfBjBhBjB~AnB|ArF|DtC|Bvj@xd@zOdNzRdPbHxF~AfA`B`ArBbApBv@tBl@tBd@jARjALjAJfAFhj@rAhf@hAdYt@~BBpEDnE@jECnEGjIUr`F{R`BErB@zBJxBTpB\\pBf@tBp@rB|@nBdA|o@n`@dJzFbK`GtxAj|@nAx@nAbArApApAvApAdBfAdBfWne@R\\",
+      "latitude_secondary": 44.6323678641939,
+      "longitude_secondary": -88.0474276281386
     }
   ]
 }
