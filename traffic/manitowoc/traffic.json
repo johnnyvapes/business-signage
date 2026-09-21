@@ -14,11 +14,11 @@
     "generate_map": true,
     "id": "manitowoc"
   },
-  "updated_local": "Sep 21, 2026 08:57 AM CDT",
+  "updated_local": "Sep 21, 2026 02:19 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 0,
-  "incident_count": 4,
+  "incident_count": 2,
   "segments": [],
   "incidents": [
     {
@@ -54,40 +54,6 @@
       "encoded_polyline": "sunlGxqivOXOF_@I_@WM?y@AoFAa^EcgAAmNEsl@?kF?eAVMHc@I_@WK@cAA}EIyoAGsHFgF?eBTOHa@Ka@WI?C",
       "latitude_secondary": 44.1532540271088,
       "longitude_secondary": -87.7085340941084
-    },
-    {
-      "id": 756357,
-      "roadway": "US-10",
-      "direction": "W",
-      "description": "Roadwork - Mainline Right Lane Closed on US 10 WB from MANITOWOC RIVER (BRIDGE CROSSING) to MANITOWOC RIVER (BRIDGE CROSSING). Daily from 09/21/2026 to 09/21/2026, 07:00 AM - 10:00 AM, M",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.1090365919306,
-      "longitude": -87.7129185576336,
-      "last_updated": 1789390853,
-      "lanes_affected": "2 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "o`flGvljvOW`DG|@",
-      "latitude_secondary": 44.109157222566,
-      "longitude_secondary": -87.7137304518089
-    },
-    {
-      "id": 756358,
-      "roadway": "US-10",
-      "direction": "E",
-      "description": "Roadwork - Mainline Right Lane Closed on US 10 EB from MANITOWOC RIVER (BRIDGE CROSSING) to MANITOWOC RIVER (BRIDGE CROSSING). Daily from 09/21/2026 to 09/21/2026, 07:00 AM - 10:00 AM, M",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.1090592175122,
-      "longitude": -87.7140629372162,
-      "last_updated": 1789390853,
-      "lanes_affected": "2 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "s`flGzsjvO^_F",
-      "latitude_secondary": 44.1090361569579,
-      "longitude_secondary": -87.7139026348744
     }
   ]
 }
