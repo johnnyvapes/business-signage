@@ -14,19 +14,19 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Sep 23, 2026 06:25 AM CDT",
+  "updated_local": "Sep 23, 2026 11:48 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 27,
+  "incident_count": 28,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "17",
-      "delay_minutes": "1",
+      "current_minutes": "19",
+      "delay_minutes": "3",
       "status": "Moderate",
       "waypoints": [
         [
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "20",
-      "delay_minutes": "3",
-      "status": "Moderate",
+      "current_minutes": "22",
+      "delay_minutes": "5",
+      "status": "Slow",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "18",
-      "delay_minutes": "3",
-      "status": "Moderate",
+      "current_minutes": "20",
+      "delay_minutes": "5",
+      "status": "Slow",
       "waypoints": [
         [
           44.524684,
@@ -865,6 +865,23 @@
       "encoded_polyline": "ygdnGjkyxOxXjg@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjP|DhE",
       "latitude_secondary": 44.4276081730648,
       "longitude_secondary": -88.1172432831086
+    },
+    {
+      "id": 770025,
+      "roadway": "I-41",
+      "direction": "n",
+      "description": "Disabled vehicle on Exit to Lombardi Ave from I-41 North.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.505402,
+      "longitude": -88.082163,
+      "last_updated": 1790177507,
+      "lanes_affected": "No lanes blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "wmsnGnprxO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
