@@ -14,7 +14,7 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Sep 24, 2026 02:02 PM CDT",
+  "updated_local": "Sep 24, 2026 05:16 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -25,9 +25,9 @@
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "16",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "18",
+      "delay_minutes": "2",
+      "status": "Moderate",
       "waypoints": [
         [
           44.451904,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "21",
+      "delay_minutes": "4",
+      "status": "Slow",
       "waypoints": [
         [
           44.524762,
@@ -301,8 +301,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "16",
-      "delay_minutes": "1",
+      "current_minutes": "17",
+      "delay_minutes": "2",
       "status": "Moderate",
       "waypoints": [
         [
@@ -340,9 +340,9 @@
       "roadway": "I-43 ",
       "description": "Sign 512 I-43 NB to Lineville Rd via 172/41",
       "normal_minutes": "14",
-      "current_minutes": "14",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "15",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.438107,
@@ -833,23 +833,6 @@
       "longitude_secondary": -88.0875677575441
     },
     {
-      "id": 757271,
-      "roadway": "I-41",
-      "direction": "N",
-      "description": "Roadwork - Mainline Various Lanes Closed on I-41 NB from LITTLE RAPIDS RD (BRIDGE CROSSING) to OFF RAMP TO COUNTY F / SCHEURING RD. Daily from 09/20/2026 to 09/26/2026, 08:00 PM - 05:00 AM, Sun, M, T, W, Th, F (excluding Sat)",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4126051525887,
-      "longitude": -88.1371213881129,
-      "last_updated": 1789415153,
-      "lanes_affected": "3 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "yianG~g}xOyDgEqNkPmEeFuEkFuJwKs@s@cIqMmCkFyDwH{Xog@",
-      "latitude_secondary": 44.4135368761443,
-      "longitude_secondary": -88.1361181709042
-    },
-    {
       "id": 757290,
       "roadway": "I-41",
       "direction": "S",
@@ -867,21 +850,38 @@
       "longitude_secondary": -88.1172432831086
     },
     {
-      "id": 771498,
-      "roadway": "I-43",
-      "direction": "s",
-      "description": "I-43 South 1.4 miles beyond WIS 172. The right shoulder is blocked due to a fire.",
+      "id": 771534,
+      "roadway": "Packers Game",
+      "direction": "u",
+      "description": "Packers Game",
       "severity": "1",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.447304,
-      "longitude": -87.949257,
-      "last_updated": 1790275798,
-      "lanes_affected": "Shoulder blocked.",
+      "event_type": "specialEvents",
+      "latitude": 44.501089,
+      "longitude": -88.06135,
+      "last_updated": 1790280494,
+      "lanes_affected": "No lanes blocked.",
       "is_full_closure": false,
-      "event_subtype": "Fire",
-      "encoded_polyline": "sbhnGzqxwO",
+      "event_subtype": "Lambeau Field Event",
+      "encoded_polyline": "yrrnGlnnxO",
       "latitude_secondary": null,
       "longitude_secondary": null
+    },
+    {
+      "id": 771536,
+      "roadway": "Packers Game",
+      "direction": "undefined",
+      "description": "Roadwork - Packers Game",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.501089,
+      "longitude": -88.06135,
+      "last_updated": 1790280494,
+      "lanes_affected": "0 lane(s) of 1 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "yrrnGlnnxO??",
+      "latitude_secondary": 44.501089,
+      "longitude_secondary": -88.06135
     }
   ]
 }
