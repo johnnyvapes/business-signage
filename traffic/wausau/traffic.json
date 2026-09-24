@@ -14,7 +14,7 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Sep 23, 2026 06:36 PM CDT",
+  "updated_local": "Sep 23, 2026 11:36 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -138,7 +138,7 @@
       "description": "WIS 29 EB County O to US 51",
       "normal_minutes": "4",
       "current_minutes": "5",
-      "delay_minutes": "1",
+      "delay_minutes": "2",
       "status": "Slow",
       "waypoints": [
         [
@@ -164,9 +164,9 @@
       "roadway": "WIS 29 ",
       "description": "WIS 29 WB Camp Phillips Rd to US 51",
       "normal_minutes": "5",
-      "current_minutes": "7",
-      "delay_minutes": "2",
-      "status": "Slow",
+      "current_minutes": "5",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.894537,
