@@ -14,7 +14,7 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Sep 23, 2026 11:36 PM CDT",
+  "updated_local": "Sep 24, 2026 04:54 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "15",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "16",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524684,
@@ -771,15 +771,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on I-41 SB from ON RAMP FROM COUNTY F to BRIDGE (BRIDGE CROSSING). Daily from 09/21/2026 to 09/26/2026, 07:00 PM - 05:00 AM, M, T, W, Th, F (excluding Sat)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4288263,
-      "longitude": -88.1152218,
+      "latitude": 44.4276514873837,
+      "longitude": -88.1171754948381,
       "last_updated": 1789416054,
       "lanes_affected": "3 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "eodnGb_yxOv@zAfEvH`Z|i@bCtE|CxFfBbDxAdCfBlC|@nApA`BjCxC~FrGbH|H|FrGhMjN",
-      "latitude_secondary": 44.4285455,
-      "longitude_secondary": -88.1156753
+      "encoded_polyline": "ygdnGjkyxOxXjg@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjP|DhE",
+      "latitude_secondary": 44.4276081730648,
+      "longitude_secondary": -88.1172432831086
     },
     {
       "id": 765278,
