@@ -14,7 +14,7 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Sep 24, 2026 09:56 AM CDT",
+  "updated_local": "Sep 24, 2026 02:02 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -83,9 +83,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "9",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "11",
+      "delay_minutes": "3",
+      "status": "Slow",
       "waypoints": [
         [
           45.025207,
@@ -110,9 +110,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB County WW to WIS 29 West",
       "normal_minutes": "4",
-      "current_minutes": "4",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "5",
+      "delay_minutes": "1",
+      "status": "Slow",
       "waypoints": [
         [
           45.025333,
@@ -195,13 +195,13 @@
       "description": "Roadwork - Mainline Various Lanes Closed on US 51 SB from OFF RAMP TO BRIDGE ST to OFF RAMP TO WIS 52",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.9807724,
-      "longitude": -89.6574146,
+      "latitude": 44.9807882,
+      "longitude": -89.6574145,
       "last_updated": 1785215527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "yhpqGxefbP\\@t@@hA@zDBjEMzKo@rE[|@IxDUd@ApE[fIe@rE]\\AnACtBKnAC|@FbABhBTl@Nt@\\`DvAvAv@h@\\|@v@XVn@l@n@p@p@~@|@rAl@dA",
+      "encoded_polyline": "}hpqGxefbP`@@t@@hA@zDBjEMzKo@rE[|@IxDUd@ApE[fIe@rE]\\AnACtBKnAC|@FbABhBTl@Nt@\\`DvAvAv@h@\\|@v@XVn@l@n@p@p@~@|@rAl@dA",
       "latitude_secondary": 44.9806235,
       "longitude_secondary": -89.6574155
     },

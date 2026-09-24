@@ -14,7 +14,7 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Sep 24, 2026 09:56 AM CDT",
+  "updated_local": "Sep 24, 2026 02:02 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -25,9 +25,9 @@
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "25",
-      "delay_minutes": "9",
-      "status": "Very Slow",
+      "current_minutes": "16",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.451904,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "35",
-      "delay_minutes": "18",
-      "status": "Very Slow",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "34",
-      "delay_minutes": "19",
-      "status": "Very Slow",
+      "current_minutes": "16",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524684,
@@ -867,19 +867,19 @@
       "longitude_secondary": -88.1172432831086
     },
     {
-      "id": 770292,
-      "roadway": "Ramp from I-41  to WI-29/Shawano Ave",
-      "direction": "u",
-      "description": "Ramp from I-41 South to WIS 29/Shawano Ave. The right shoulder is blocked due to a disabled vehicle.",
+      "id": 771498,
+      "roadway": "I-43",
+      "direction": "s",
+      "description": "I-43 South 1.4 miles beyond WIS 172. The right shoulder is blocked due to a fire.",
       "severity": "1",
       "event_type": "accidentsAndIncidents",
-      "latitude": 44.539838,
-      "longitude": -88.076894,
-      "last_updated": 1790247318,
+      "latitude": 44.447304,
+      "longitude": -87.949257,
+      "last_updated": 1790275798,
       "lanes_affected": "Shoulder blocked.",
       "is_full_closure": false,
-      "event_subtype": "Disabled Vehicle",
-      "encoded_polyline": "_eznGpoqxO",
+      "event_subtype": "Fire",
+      "encoded_polyline": "sbhnGzqxwO",
       "latitude_secondary": null,
       "longitude_secondary": null
     }
