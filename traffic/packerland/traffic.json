@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Sep 25, 2026 01:30 PM CDT",
+  "updated_local": "Sep 25, 2026 05:13 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 24,
+  "incident_count": 23,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "25",
-      "delay_minutes": "9",
-      "status": "Very Slow",
+      "current_minutes": "24",
+      "delay_minutes": "8",
+      "status": "Slow",
       "waypoints": [
         [
           44.451904,
@@ -301,8 +301,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "34",
-      "delay_minutes": "19",
+      "current_minutes": "33",
+      "delay_minutes": "18",
       "status": "Very Slow",
       "waypoints": [
         [
@@ -627,23 +627,6 @@
       "encoded_polyline": "{vgnGjm|xO`@?M?",
       "latitude_secondary": 44.4452465129106,
       "longitude_secondary": -88.1328635974201
-    },
-    {
-      "id": 693001,
-      "roadway": "US-141",
-      "direction": "S",
-      "description": "Roadwork - Mainline Right Shoulder Closed on US 141 SB from BLUESTONE PL to WALL ST. Daily from 09/02/2026 to 09/25/2026, 05:00 AM - 03:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4638644043986,
-      "longitude": -87.956363596104,
-      "last_updated": 1785862605,
-      "lanes_affected": "1 lane(s) of 2 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "cjknGf~ywOzGaI`PeQrBuCr@KNTTB\\_@Cq@d@I|@cA|@iAlBgDhEaGrCwExBmEpBwEjN{_@`T}l@~D{K`FeKXw@dTc]PmAl@QlSq[@?",
-      "latitude_secondary": 44.462438494765,
-      "longitude_secondary": -87.9547490646254
     },
     {
       "id": 756175,
