@@ -14,7 +14,7 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Sep 25, 2026 08:39 AM CDT",
+  "updated_local": "Sep 25, 2026 01:30 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -26,7 +26,7 @@
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
       "current_minutes": "25",
-      "delay_minutes": "10",
+      "delay_minutes": "9",
       "status": "Very Slow",
       "waypoints": [
         [
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "10",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "9",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.521963,
@@ -254,8 +254,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "36",
-      "delay_minutes": "19",
+      "current_minutes": "35",
+      "delay_minutes": "18",
       "status": "Very Slow",
       "waypoints": [
         [

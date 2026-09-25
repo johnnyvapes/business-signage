@@ -14,11 +14,11 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Sep 25, 2026 08:39 AM CDT",
+  "updated_local": "Sep 25, 2026 01:30 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 73,
+  "incident_count": 74,
   "segments": [
     {
       "id": "803",
@@ -83,9 +83,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "8",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "9",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           45.025207,
@@ -110,9 +110,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB County WW to WIS 29 West",
       "normal_minutes": "4",
-      "current_minutes": "4",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "5",
+      "delay_minutes": "1",
+      "status": "Slow",
       "waypoints": [
         [
           45.025333,
@@ -164,9 +164,9 @@
       "roadway": "WIS 29 ",
       "description": "WIS 29 WB Camp Phillips Rd to US 51",
       "normal_minutes": "5",
-      "current_minutes": "5",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "7",
+      "delay_minutes": "2",
+      "status": "Slow",
       "waypoints": [
         [
           44.894537,
@@ -1428,6 +1428,23 @@
       "encoded_polyline": "csqqG~|tbPCrP",
       "latitude_secondary": 44.9875575330015,
       "longitude_secondary": -89.7356183380441
+    },
+    {
+      "id": 772396,
+      "roadway": "WI-29",
+      "direction": "W",
+      "description": "Roadwork - Mainline Right Shoulder Closed on WIS 29 WB from ON RAMP FROM COUNTY X to ALDERSON ST (BRIDGE CROSSING)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.8944057684797,
+      "longitude": -89.5793298146367,
+      "last_updated": 1790351974,
+      "lanes_affected": "1 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "am_qGx}vaPHhUZvbA",
+      "latitude_secondary": 44.8943553483164,
+      "longitude_secondary": -89.5829010281282
     }
   ]
 }
