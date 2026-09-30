@@ -14,7 +14,7 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Sep 30, 2026 08:36 AM CDT",
+  "updated_local": "Sep 30, 2026 02:08 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -84,7 +84,7 @@
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
       "current_minutes": "9",
-      "delay_minutes": "0",
+      "delay_minutes": "1",
       "status": "Moderate",
       "waypoints": [
         [
@@ -110,9 +110,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB County WW to WIS 29 West",
       "normal_minutes": "4",
-      "current_minutes": "4",
+      "current_minutes": "5",
       "delay_minutes": "0",
-      "status": "Normal",
+      "status": "Slow",
       "waypoints": [
         [
           45.025333,
@@ -137,9 +137,9 @@
       "roadway": "WIS 29 ",
       "description": "WIS 29 EB County O to US 51",
       "normal_minutes": "4",
-      "current_minutes": "26",
-      "delay_minutes": "22",
-      "status": "Very Slow",
+      "current_minutes": "5",
+      "delay_minutes": "1",
+      "status": "Slow",
       "waypoints": [
         [
           44.94417,
@@ -164,9 +164,9 @@
       "roadway": "WIS 29 ",
       "description": "WIS 29 WB Camp Phillips Rd to US 51",
       "normal_minutes": "5",
-      "current_minutes": "6",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "5",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.894537,
@@ -195,13 +195,13 @@
       "description": "Roadwork - Mainline Various Lanes Closed on US 51 SB from OFF RAMP TO BRIDGE ST to OFF RAMP TO WIS 52",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.9808321,
-      "longitude": -89.6574105,
+      "latitude": 44.980858,
+      "longitude": -89.6574053,
       "last_updated": 1785215527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "eipqGxefbPB?d@@t@@hA@zDBjEMzKo@rE[|@IxDUd@ApE[fIe@rE]\\AnACtBKnAC|@FbABhBTl@Nt@\\`DvAvAv@h@\\|@v@XVn@l@n@p@p@~@|@rAl@dA",
+      "encoded_polyline": "kipqGxefbPH?d@@t@@hA@zDBjEMzKo@rE[|@IxDUd@ApE[fIe@rE]\\AnACtBKnAC|@FbABhBTl@Nt@\\`DvAvAv@h@\\|@v@XVn@l@n@p@p@~@|@rAl@dA",
       "latitude_secondary": 44.9808126,
       "longitude_secondary": -89.6574144
     },
