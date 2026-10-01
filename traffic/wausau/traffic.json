@@ -14,11 +14,11 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Oct 1, 2026 01:49 PM CDT",
+  "updated_local": "Oct 1, 2026 06:05 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 75,
+  "incident_count": 76,
   "segments": [
     {
       "id": "803",
@@ -1455,11 +1455,28 @@
       "event_type": "accidentsAndIncidents",
       "latitude": 44.931784,
       "longitude": -89.664255,
-      "last_updated": 1790871949,
+      "last_updated": 1790880921,
       "lanes_affected": "Shoulder blocked.",
       "is_full_closure": false,
       "event_subtype": "Disabled Vehicle",
       "encoded_polyline": "svfqGppgbP",
+      "latitude_secondary": null,
+      "longitude_secondary": null
+    },
+    {
+      "id": 781512,
+      "roadway": "US-51",
+      "direction": "n",
+      "description": "US 51 North at County NN. The right shoulder is blocked due to a disabled vehicle.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.931952,
+      "longitude": -89.663942,
+      "last_updated": 1790884887,
+      "lanes_affected": "Shoulder blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "uwfqGrngbP",
       "latitude_secondary": null,
       "longitude_secondary": null
     }

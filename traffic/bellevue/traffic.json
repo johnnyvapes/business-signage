@@ -14,11 +14,11 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Oct 1, 2026 01:49 PM CDT",
+  "updated_local": "Oct 1, 2026 06:05 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 32,
+  "incident_count": 36,
   "segments": [
     {
       "id": "4008",
@@ -950,6 +950,74 @@
       "encoded_polyline": "qhanGhi}xOaFqFqNkPmEeFuEkFuJwKs@s@cIqMmCkFyDwHaUma@",
       "latitude_secondary": 44.4135368761443,
       "longitude_secondary": -88.1361181709042
+    },
+    {
+      "id": 781747,
+      "roadway": "Atkinson Drive",
+      "direction": "S",
+      "description": "Roadwork - Local Road Left Lane Closed on Atkinson Drive SB from Hurlbut Street to Velp Avenue",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.5336100505737,
+      "longitude": -88.0280686710408,
+      "last_updated": 1790892820,
+      "lanes_affected": "2 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "a~xnGl~gxOeJmMgQkDwRMgMC",
+      "latitude_secondary": 44.5354035191062,
+      "longitude_secondary": -88.0257602889653
+    },
+    {
+      "id": 781748,
+      "roadway": "Wster Avenue",
+      "direction": "S",
+      "description": "Roadwork - Local Road Left Lane Closed on Webster Avenue SB from N Irwin Avenue to Radisson Street",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.5253254943191,
+      "longitude": -87.9927976712362,
+      "last_updated": 1790892820,
+      "lanes_affected": "2 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "ijwnG~aaxOwQ}b@kAiGUeG\\}E",
+      "latitude_secondary": 44.5283309897438,
+      "longitude_secondary": -87.9870462235328
+    },
+    {
+      "id": 781749,
+      "roadway": "Atkinson Drive",
+      "direction": "N",
+      "description": "Roadwork - Local Road Left Lane Closed on Atkinson Drive NB from Velp Avenue to Hurlbut Street",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.5337332317146,
+      "longitude": -88.0275201122669,
+      "last_updated": 1790892820,
+      "lanes_affected": "2 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "y~xnG~zgxOaMiLgUkBcYU",
+      "latitude_secondary": 44.5359813361612,
+      "longitude_secondary": -88.0253916108318
+    },
+    {
+      "id": 781750,
+      "roadway": "Wster Avenue",
+      "direction": "N",
+      "description": "Roadwork - Local Road Left Lane Closed on Webster Avenue NB from Radisson Street to N Irwin Avenue",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.5251716896737,
+      "longitude": -87.9927205294975,
+      "last_updated": 1790892820,
+      "lanes_affected": "2 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "iiwnGnaaxOiHsPcIkRaBiJd@}H",
+      "latitude_secondary": 44.5266613734657,
+      "longitude_secondary": -87.9898975522555
     }
   ]
 }
