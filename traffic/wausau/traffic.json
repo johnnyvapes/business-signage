@@ -14,7 +14,7 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Oct 2, 2026 11:14 AM CDT",
+  "updated_local": "Oct 2, 2026 04:17 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -83,9 +83,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "9",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "11",
+      "delay_minutes": "3",
+      "status": "Slow",
       "waypoints": [
         [
           45.025207,
@@ -110,9 +110,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB County WW to WIS 29 West",
       "normal_minutes": "4",
-      "current_minutes": "4",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "5",
+      "delay_minutes": "1",
+      "status": "Slow",
       "waypoints": [
         [
           45.025333,
@@ -164,9 +164,9 @@
       "roadway": "WIS 29 ",
       "description": "WIS 29 WB Camp Phillips Rd to US 51",
       "normal_minutes": "5",
-      "current_minutes": "7",
-      "delay_minutes": "2",
-      "status": "Slow",
+      "current_minutes": "9",
+      "delay_minutes": "5",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.894537,
@@ -195,13 +195,13 @@
       "description": "Roadwork - Mainline Various Lanes Closed on US 51 SB from OFF RAMP TO BRIDGE ST to OFF RAMP TO WIS 52",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.980826,
-      "longitude": -89.6574117,
+      "latitude": 44.980825,
+      "longitude": -89.6574119,
       "last_updated": 1785215527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "eipqGxefbPB?d@@t@@hA@zDBjEMzKo@rE[|@IxDUd@ApE[fIe@rE]\\AnACtBKnAC|@FbABhBTl@Nt@\\`DvAvAv@h@\\|@v@XVn@l@n@p@p@~@|@rAl@dA",
+      "encoded_polyline": "cipqGxefbP@?d@@t@@hA@zDBjEMzKo@rE[|@IxDUd@ApE[fIe@rE]\\AnACtBKnAC|@FbABhBTl@Nt@\\`DvAvAv@h@\\|@v@XVn@l@n@p@p@~@|@rAl@dA",
       "latitude_secondary": 44.9808126,
       "longitude_secondary": -89.6574144
     },
@@ -1430,23 +1430,6 @@
       "longitude_secondary": -89.7356183380441
     },
     {
-      "id": 772396,
-      "roadway": "WI-29",
-      "direction": "W",
-      "description": "Roadwork - Mainline Right Shoulder Closed on WIS 29 WB from ON RAMP FROM COUNTY X to ALDERSON ST (BRIDGE CROSSING)",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.8944057684797,
-      "longitude": -89.5793298146367,
-      "last_updated": 1790351974,
-      "lanes_affected": "1 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "am_qGx}vaPHhUZvbA",
-      "latitude_secondary": 44.8943553483164,
-      "longitude_secondary": -89.5829010281282
-    },
-    {
       "id": 780838,
       "roadway": "US-51",
       "direction": "s",
@@ -1455,11 +1438,28 @@
       "event_type": "accidentsAndIncidents",
       "latitude": 44.931784,
       "longitude": -89.664255,
-      "last_updated": 1790939233,
+      "last_updated": 1790967516,
       "lanes_affected": "Shoulder blocked.",
       "is_full_closure": false,
       "event_subtype": "Disabled Vehicle",
       "encoded_polyline": "svfqGppgbP",
+      "latitude_secondary": null,
+      "longitude_secondary": null
+    },
+    {
+      "id": 783127,
+      "roadway": "US-51",
+      "direction": "s",
+      "description": "Disabled vehicle on Exit to County N (Marathon County) from US 51 South.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.91341,
+      "longitude": -89.652297,
+      "last_updated": 1790974845,
+      "lanes_affected": "No lanes blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "yccqGzeebP",
       "latitude_secondary": null,
       "longitude_secondary": null
     }
