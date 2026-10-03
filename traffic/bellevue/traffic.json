@@ -14,11 +14,11 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Oct 2, 2026 04:17 PM CDT",
+  "updated_local": "Oct 2, 2026 08:05 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 36,
+  "incident_count": 33,
   "segments": [
     {
       "id": "4008",
@@ -26,7 +26,7 @@
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
       "current_minutes": "16",
-      "delay_minutes": "1",
+      "delay_minutes": "0",
       "status": "Normal",
       "waypoints": [
         [
@@ -192,9 +192,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
-      "current_minutes": "9",
-      "delay_minutes": "3",
-      "status": "Slow",
+      "current_minutes": "6",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.521888,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "18",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "17",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "15",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524684,
@@ -340,9 +340,9 @@
       "roadway": "I-43 ",
       "description": "Sign 512 I-43 NB to Lineville Rd via 172/41",
       "normal_minutes": "14",
-      "current_minutes": "17",
-      "delay_minutes": "3",
-      "status": "Slow",
+      "current_minutes": "14",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.438107,
@@ -731,74 +731,6 @@
       "longitude_secondary": -87.9179064113365
     },
     {
-      "id": 756426,
-      "roadway": "WI-32",
-      "direction": "N",
-      "description": "Roadwork - Mainline Left Shoulder Closed on WIS 32 NB from Packerland Drive (CTH EB) (BRIDGE CROSSING) to DUCK CREEK (BRIDGE CROSSING). Daily from 09/17/2026 to 10/02/2026, 07:00 AM - 06:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.5434306791494,
-      "longitude": -88.0889428066243,
-      "last_updated": 1789393553,
-      "lanes_affected": "2 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "m{znGzzsxOuMnb@",
-      "latitude_secondary": 44.5448058254045,
-      "longitude_secondary": -88.0922608271936
-    },
-    {
-      "id": 756427,
-      "roadway": "WI-29",
-      "direction": "E",
-      "description": "Roadwork - Mainline Left Shoulder Closed on WIS 29 EB from DUCK CREEK (BRIDGE CROSSING) to WIS 29 EB (BRIDGE CROSSING). Daily from 09/17/2026 to 10/02/2026, 07:00 AM - 06:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.5458614431146,
-      "longitude": -88.0948079879696,
-      "last_updated": 1789393553,
-      "lanes_affected": "2 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "sj{nGp_uxO|BoHlBqC`GcPFOHKJG^IXEFEHKCk@KUMEM@Ue@",
-      "latitude_secondary": 44.5452308770919,
-      "longitude_secondary": -88.0932862451193
-    },
-    {
-      "id": 756428,
-      "roadway": "WI-32",
-      "direction": "S",
-      "description": "Roadwork - Mainline Left Shoulder Closed on WIS 32 SB from DUCK CREEK (BRIDGE CROSSING) to Packerland Drive (CTH EB) (BRIDGE CROSSING). Daily from 09/17/2026 to 10/02/2026, 07:00 AM - 06:00 PM, Sun, M, T, W, Th, F, Sat",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.5457747532754,
-      "longitude": -88.0945987748996,
-      "last_updated": 1789393553,
-      "lanes_affected": "2 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "aj{nGf~txOtMmb@",
-      "latitude_secondary": 44.5452308770919,
-      "longitude_secondary": -88.0932862451193
-    },
-    {
-      "id": 756429,
-      "roadway": "WI-29",
-      "direction": "W",
-      "description": "Roadwork - Mainline Left Shoulder Closed on WIS 29 WB from COUNTY EB to DUCK CREEK (BRIDGE CROSSING). Daily from 09/17/2026 to 10/02/2026, 07:00 AM - 06:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.543638912052,
-      "longitude": -88.087635974983,
-      "last_updated": 1789393553,
-      "lanes_affected": "2 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "w|znGvrsxOGMIGK?IBGDCBMXa@dASv@UjAQlAUnB[jGWtFsE`O",
-      "latitude_secondary": 44.5436799711522,
-      "longitude_secondary": -88.0875677575441
-    },
-    {
       "id": 781083,
       "roadway": "I-41",
       "direction": "S",
@@ -1016,6 +948,23 @@
       "is_full_closure": false,
       "event_subtype": "Disabled Vehicle",
       "encoded_polyline": "ihwnGnbvwO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
+    },
+    {
+      "id": 783377,
+      "roadway": "I-43",
+      "direction": "s",
+      "description": "I-43 South 2.7 miles beyond WIS 172. The left shoulder is closed due to a crash.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.437839,
+      "longitude": -87.927538,
+      "last_updated": 1790988080,
+      "lanes_affected": "Shoulder blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Crash",
+      "encoded_polyline": "ogfnGbjtwO",
       "latitude_secondary": null,
       "longitude_secondary": null
     }
