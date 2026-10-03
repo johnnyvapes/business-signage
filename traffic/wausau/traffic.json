@@ -14,7 +14,7 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Oct 3, 2026 01:25 AM CDT",
+  "updated_local": "Oct 3, 2026 07:27 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -1438,7 +1438,7 @@
       "event_type": "accidentsAndIncidents",
       "latitude": 44.931784,
       "longitude": -89.664255,
-      "last_updated": 1790995894,
+      "last_updated": 1791025148,
       "lanes_affected": "Shoulder blocked.",
       "is_full_closure": false,
       "event_subtype": "Disabled Vehicle",
