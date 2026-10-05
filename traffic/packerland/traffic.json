@@ -14,19 +14,19 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Oct 5, 2026 10:54 AM CDT",
+  "updated_local": "Oct 5, 2026 05:33 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 27,
+  "incident_count": 28,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "19",
-      "delay_minutes": "3",
+      "current_minutes": "17",
+      "delay_minutes": "1",
       "status": "Moderate",
       "waypoints": [
         [
@@ -118,9 +118,9 @@
       "roadway": "WIS 29/32 ",
       "description": "Sign 506 WIS 29 @ E of County FF to WIS 57 via I-43",
       "normal_minutes": "9",
-      "current_minutes": "10",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "18",
+      "delay_minutes": "10",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.55739,
@@ -192,9 +192,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
-      "current_minutes": "7",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "6",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.521888,
@@ -254,8 +254,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "21",
-      "delay_minutes": "4",
+      "current_minutes": "22",
+      "delay_minutes": "5",
       "status": "Slow",
       "waypoints": [
         [
@@ -301,8 +301,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "21",
-      "delay_minutes": "6",
+      "current_minutes": "19",
+      "delay_minutes": "4",
       "status": "Slow",
       "waypoints": [
         [
@@ -516,8 +516,8 @@
       "description": "Roadwork - Mainline Right Lane Closed on I-41 SB from ON RAMP FROM COUNTY F to ON RAMP FROM COUNTY F",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4317245,
-      "longitude": -88.1105941,
+      "latitude": 44.4317248,
+      "longitude": -88.1105936,
       "last_updated": 1778520553,
       "lanes_affected": "3 lane(s) of 5 blocked.",
       "is_full_closure": false,
@@ -726,7 +726,7 @@
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBnA{A",
+      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBnA}A",
       "latitude_secondary": 44.5553128,
       "longitude_secondary": -88.0466444
     },
@@ -865,6 +865,23 @@
       "encoded_polyline": "_}unGvdexOCLyBbZ",
       "latitude_secondary": 44.5180961313204,
       "longitude_secondary": -88.0137914996529
+    },
+    {
+      "id": 786805,
+      "roadway": "I-43",
+      "direction": "n",
+      "description": "I-43 North at WIS 54/57. The right lane is closed due to a crash.",
+      "severity": "3",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.516463,
+      "longitude": -87.948404,
+      "last_updated": 1791237426,
+      "lanes_affected": "1 lane(s) of 2 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Crash",
+      "encoded_polyline": "{runGnlxwO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
