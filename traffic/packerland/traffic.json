@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Oct 4, 2026 07:47 PM CDT",
+  "updated_local": "Oct 5, 2026 01:54 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 26,
+  "incident_count": 27,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "24",
-      "delay_minutes": "9",
-      "status": "Slow",
+      "current_minutes": "27",
+      "delay_minutes": "11",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.451904,
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "9",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "10",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.521963,
@@ -254,8 +254,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "35",
-      "delay_minutes": "18",
+      "current_minutes": "36",
+      "delay_minutes": "19",
       "status": "Very Slow",
       "waypoints": [
         [
@@ -301,8 +301,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "33",
-      "delay_minutes": "18",
+      "current_minutes": "35",
+      "delay_minutes": "20",
       "status": "Very Slow",
       "waypoints": [
         [
@@ -703,15 +703,15 @@
       "description": "Roadwork - Mainline Left Lane Closed on I-43 NB from ON RAMP FROM WIS 54 EB to I-43 NB TO I-41 NB",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5173513036126,
-      "longitude": -87.9504383244087,
+      "latitude": 44.5175343,
+      "longitude": -87.9503543,
       "last_updated": 1790871527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "mxunGfyxwOaBrDqA~Eu@dDmAdM_@dJM^_AdV[~JK?sAvZy@jKmC~MuX|fAcCjJsBxIgAvD{AfGcE|PgI~[eFjTm^jfBiHjW[rBiA~DgAdDi@j@gBxEiCjFcBrCsDpFgAjBUDeA~B{KjPqi@jz@{OvS",
-      "latitude_secondary": 44.5178402670121,
-      "longitude_secondary": -87.9513430787862
+      "encoded_polyline": "qyunGtxxwOu@tB}@bD]tA[xAQ|@S~@SxAU|AYpCS~BInAQtDGtB]jI_@vI[nH[vHc@fKIrBIbBO|BGjAMxAWbCUdBi@bDo@|CuAxF{@jDkIl\\_BrGqBhIoFfTYjA[pASr@}EzRU|@oC~KuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBgC`HsA|CwAzCyAvCU\\m@dAwBhDiAdB_EfGgAzAoEzGmHvKaQ~VmBlC_CpDkEzGaCnD",
+      "latitude_secondary": 44.5176083,
+      "longitude_secondary": -87.9505155
     },
     {
       "id": 781085,
@@ -720,15 +720,15 @@
       "description": "Roadwork - Mainline Left Lane Closed on I-43 SB from I-43 SB to ON RAMP FROM WIS 54 EB",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5642808534816,
-      "longitude": -88.0500821267457,
+      "latitude": 44.5553128,
+      "longitude": -88.0466444,
       "last_updated": 1790871527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "w}~nG~glxO~E|AbBl@t@P|AV|ALzA@bBIrAQvA[tAg@nAk@jAu@jAaAdAcAr@aBtg@aq@pi@kz@zKkPdA_CTEfAkBrDqFbBsChCkFfByEh@k@fAeDhA_EZsBhHkWl^kfBdFkTfI_\\bE}PzAgGfAwDrByIbCkJtX}fAlC_Nx@kKrAwZJ?Z_K~@eVL_@^eJlAeMt@eDpA_FvAaD",
-      "latitude_secondary": 44.5631561448134,
-      "longitude_secondary": -88.0505459417437
+      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBnA{A",
+      "latitude_secondary": 44.5553128,
+      "longitude_secondary": -88.0466444
     },
     {
       "id": 781147,
@@ -833,21 +833,38 @@
       "longitude_secondary": -87.9898975522555
     },
     {
-      "id": 782579,
-      "roadway": "WI-54/57",
-      "direction": "e",
-      "description": "WIS 54/57 East at Nicolet Dr/University Ave. The right shoulder is blocked due to a disabled vehicle.",
-      "severity": "1",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.525007,
-      "longitude": -87.936564,
-      "last_updated": 1791143733,
-      "lanes_affected": "Shoulder blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Disabled Vehicle",
-      "encoded_polyline": "ihwnGnbvwO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
+      "id": 785604,
+      "roadway": "US-141",
+      "direction": "S",
+      "description": "Roadwork - Mainline Full Closure on US 141 SB from MUESEUM PL to WASHINGTON WAY. Detour: Monrow Ave to Walnut St to Broadway",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.518711103835,
+      "longitude": -88.0181080903356,
+      "last_updated": 1791177225,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "}`vnGd`fxOxB_ZBQ",
+      "latitude_secondary": 44.5181570210575,
+      "longitude_secondary": -88.0142195847681
+    },
+    {
+      "id": 785605,
+      "roadway": "US-141",
+      "direction": "N",
+      "description": "Roadwork - Mainline Full Closure on US 141 NB from WASHINGTON WAY to MUSEUM PL. Detour: Monrow Ave to Walnut St to Broadway",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.51808151757,
+      "longitude": -88.013715747236,
+      "last_updated": 1791177225,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "_}unGvdexOCLyBbZ",
+      "latitude_secondary": 44.5180961313204,
+      "longitude_secondary": -88.0137914996529
     }
   ]
 }
