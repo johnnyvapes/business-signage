@@ -14,7 +14,7 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Oct 6, 2026 11:45 AM CDT",
+  "updated_local": "Oct 6, 2026 04:35 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -25,8 +25,8 @@
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "17",
-      "delay_minutes": "1",
+      "current_minutes": "18",
+      "delay_minutes": "2",
       "status": "Moderate",
       "waypoints": [
         [
@@ -118,9 +118,9 @@
       "roadway": "WIS 29/32 ",
       "description": "Sign 506 WIS 29 @ E of County FF to WIS 57 via I-43",
       "normal_minutes": "9",
-      "current_minutes": "10",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "9",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.55739,
@@ -192,9 +192,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
-      "current_minutes": "7",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "11",
+      "delay_minutes": "5",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.521888,
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "10",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "15",
+      "delay_minutes": "6",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.521963,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "21",
+      "delay_minutes": "4",
+      "status": "Slow",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "17",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "29",
+      "delay_minutes": "14",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524684,
@@ -375,9 +375,9 @@
       "roadway": "I-43 ",
       "description": "Sign 512 I-43 NB to Lineville Rd via I-43/I-41",
       "normal_minutes": "13",
-      "current_minutes": "13",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "22",
+      "delay_minutes": "9",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.438024,
@@ -516,8 +516,8 @@
       "description": "Roadwork - Mainline Right Lane Closed on I-41 SB from ON RAMP FROM COUNTY F to ON RAMP FROM COUNTY F",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4317202,
-      "longitude": -88.1106011,
+      "latitude": 44.4317218,
+      "longitude": -88.1105985,
       "last_updated": 1778520553,
       "lanes_affected": "3 lane(s) of 5 blocked.",
       "is_full_closure": false,
