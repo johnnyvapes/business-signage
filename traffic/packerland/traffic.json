@@ -14,7 +14,7 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Oct 6, 2026 08:26 PM CDT",
+  "updated_local": "Oct 7, 2026 03:33 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -302,7 +302,7 @@
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
       "current_minutes": "16",
-      "delay_minutes": "1",
+      "delay_minutes": "0",
       "status": "Moderate",
       "waypoints": [
         [
