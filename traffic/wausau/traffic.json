@@ -14,7 +14,7 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Oct 7, 2026 11:21 AM CDT",
+  "updated_local": "Oct 7, 2026 04:56 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -53,7 +53,7 @@
       "description": "US 51 NB BUS 51 to WIS 29 West",
       "normal_minutes": "6",
       "current_minutes": "6",
-      "delay_minutes": "1",
+      "delay_minutes": "0",
       "status": "Normal",
       "waypoints": [
         [
@@ -83,9 +83,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "9",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "11",
+      "delay_minutes": "3",
+      "status": "Slow",
       "waypoints": [
         [
           45.025207,
@@ -164,9 +164,9 @@
       "roadway": "WIS 29 ",
       "description": "WIS 29 WB Camp Phillips Rd to US 51",
       "normal_minutes": "5",
-      "current_minutes": "5",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "6",
+      "delay_minutes": "2",
+      "status": "Moderate",
       "waypoints": [
         [
           44.894537,
@@ -195,15 +195,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on US 51 SB from OFF RAMP TO BRIDGE ST to OFF RAMP TO WIS 52",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.980825,
-      "longitude": -89.6574119,
+      "latitude": 44.9808126,
+      "longitude": -89.6574144,
       "last_updated": 1785215527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "cipqGxefbP@?d@@t@@hA@zDBjEMzKo@rE[|@IxDUd@ApE[fIe@rE]\\AnACtBKnAC|@FbABhBTl@Nt@\\`DvAvAv@h@\\|@v@XVn@l@n@p@p@~@|@rAl@dA",
-      "latitude_secondary": 44.9808126,
-      "longitude_secondary": -89.6574144
+      "encoded_polyline": "aipqGxefbPd@@t@@hA@zDBjEMzKo@rE[|@IxDUd@ApE[fIe@rE]\\AnACtBKnAC|@FbABhBTl@Nt@\\`DvAvAv@h@\\|@v@XVn@l@n@p@p@~@|@rAl@dA",
+      "latitude_secondary": 44.9806235,
+      "longitude_secondary": -89.6574155
     },
     {
       "id": 681393,
@@ -280,15 +280,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on US 51 SB from BIG RIB RIVER (BRIDGE CROSSING) to US 51 SB (BEGIN CC)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.9421809,
-      "longitude": -89.6666499,
+      "latitude": 44.9420539,
+      "longitude": -89.6666396,
       "last_updated": 1785215527,
       "lanes_affected": "2 lane(s) of 5 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "swhqGp_hbPJArCGpCKhFa@pCUjFo@nBQdDm@jASjB]rBc@~HeBxCy@bEoAjC}@p@S|D}ApFwB~BgAdJuEpC}AbDkBrBsA|EeDnPsKdJcG|FsDzDeCjFiDl@e@pPwKj@_@vL{HlDaCbEkC|HgFz@e@xHeF",
-      "latitude_secondary": 44.9421223,
-      "longitude_secondary": -89.6666439
+      "encoded_polyline": "yvhqGn_hbPdCGpCKhFa@pCUjFo@nBQdDm@jASjB]rBc@~HeBxCy@bEoAjC}@p@S|D}ApFwB~BgAdJuEpC}AbDkBrBsA|EeDnPsKdJcG|FsDzDeCjFiDl@e@pPwKj@_@vL{HlDaCbEkC|HgFz@e@xHeF",
+      "latitude_secondary": 44.941384,
+      "longitude_secondary": -89.6665974
     },
     {
       "id": 681403,
