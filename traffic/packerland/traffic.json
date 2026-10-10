@@ -14,7 +14,7 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Oct 10, 2026 08:33 AM CDT",
+  "updated_local": "Oct 10, 2026 01:28 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -25,9 +25,9 @@
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "24",
-      "delay_minutes": "8",
-      "status": "Slow",
+      "current_minutes": "16",
+      "delay_minutes": "1",
+      "status": "Normal",
       "waypoints": [
         [
           44.451904,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "35",
-      "delay_minutes": "18",
-      "status": "Very Slow",
+      "current_minutes": "19",
+      "delay_minutes": "2",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "34",
-      "delay_minutes": "19",
-      "status": "Very Slow",
+      "current_minutes": "19",
+      "delay_minutes": "4",
+      "status": "Slow",
       "waypoints": [
         [
           44.524684,
@@ -632,7 +632,7 @@
       "id": 756175,
       "roadway": "I-41",
       "direction": "S",
-      "description": "Roadwork - Mainline Moving Lane Closure on I-41 SB from Parkview Road (BRIDGE CROSSING) to Parkview Road (BRIDGE CROSSING). Daily from 10/05/2026 to 10/23/2026, 09:00 AM - 05:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
+      "description": "Roadwork - Mainline Moving Lane Closure on I-41 SB from Parkview Road (BRIDGE CROSSING) to Parkview Road (BRIDGE CROSSING). Daily from 10/05/2026 to 10/23/2026, 10:00 PM - 05:00 AM, M, T, W, Th, F (excluding Sun, Sat)",
       "severity": "Unknown",
       "event_type": "roadwork",
       "latitude": 44.4657910744658,
@@ -649,7 +649,7 @@
       "id": 756178,
       "roadway": "I-41",
       "direction": "N",
-      "description": "Roadwork - Mainline Moving Lane Closure on I-41 NB from ON RAMP FROM COUNTY C / COUNTY D to ON RAMP FROM COUNTY C / COUNTY D. Daily from 10/05/2026 to 10/23/2026, 09:00 AM - 05:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
+      "description": "Roadwork - Mainline Moving Lane Closure on I-41 NB from ON RAMP FROM COUNTY C / COUNTY D to ON RAMP FROM COUNTY C / COUNTY D. Daily from 10/05/2026 to 10/23/2026, 10:00 PM - 05:00 AM, M, T, W, Th, F (excluding Sun, Sat)",
       "severity": "Unknown",
       "event_type": "roadwork",
       "latitude": 44.4820672624526,
@@ -666,7 +666,7 @@
       "id": 756179,
       "roadway": "I-41",
       "direction": "S",
-      "description": "Roadwork - Mainline Moving Lane Closure on I-41 SB from OFF RAMP TO WIS 172 to I-41 SB TO WIS 172 WB (N-W RAMP). Daily from 10/05/2026 to 10/23/2026, 09:00 AM - 05:00 PM, M, T, W, Th, F (excluding Sun, Sat)",
+      "description": "Roadwork - Mainline Moving Lane Closure on I-41 SB from OFF RAMP TO WIS 172 to I-41 SB TO WIS 172 WB (N-W RAMP). Daily from 10/05/2026 to 10/23/2026, 10:00 PM - 05:00 AM, M, T, W, Th, F (excluding Sun, Sat)",
       "severity": "Unknown",
       "event_type": "roadwork",
       "latitude": 44.4884008673542,
@@ -709,7 +709,7 @@
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "qyunGtxxwOu@tB}@bD]tA[xAQ|@S~@SxAU|AYpCS~BInAQtDGtB]jI_@vI[nH[vHc@fKIrBIbBO|BGjAMxAWbCUdBi@bDo@|CuAxF{@jDkIl\\_BrGqBhIoFfTYjA[pASr@}EzRU|@oC~KuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBgC`HsA|CwAzCyAvCU\\m@dAwBhDiAdB_EfGgAzAoEzGmHvKaQ~VmBlC_CpDkEzGeCtD",
+      "encoded_polyline": "qyunGtxxwOu@tB}@bD]tA[xAQ|@S~@SxAU|AYpCS~BInAQtDGtB]jI_@vI[nH[vHc@fKIrBIbBO|BGjAMxAWbCUdBi@bDo@|CuAxF{@jDkIl\\_BrGqBhIoFfTYjA[pASr@}EzRU|@oC~KuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBgC`HsA|CwAzCyAvCU\\m@dAwBhDiAdB_EfGgAzAoEzGmHvKaQ~VmBlC_CpDkEzGcCrD",
       "latitude_secondary": 44.5176083,
       "longitude_secondary": -87.9505155
     },
@@ -726,7 +726,7 @@
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBn@w@",
+      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoB~@iA",
       "latitude_secondary": 44.5553128,
       "longitude_secondary": -88.0466444
     },
