@@ -14,7 +14,7 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Oct 12, 2026 07:33 PM CDT",
+  "updated_local": "Oct 13, 2026 02:38 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -52,9 +52,9 @@
       "roadway": "I-39/US 51 ",
       "description": "US 51 NB BUS 51 to WIS 29 West",
       "normal_minutes": "6",
-      "current_minutes": "6",
+      "current_minutes": "7",
       "delay_minutes": "1",
-      "status": "Normal",
+      "status": "Moderate",
       "waypoints": [
         [
           44.863855,
@@ -83,9 +83,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "10",
+      "current_minutes": "9",
       "delay_minutes": "1",
-      "status": "Slow",
+      "status": "Moderate",
       "waypoints": [
         [
           45.025207,
