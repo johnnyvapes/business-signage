@@ -14,7 +14,7 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Oct 13, 2026 08:08 PM CDT",
+  "updated_local": "Oct 14, 2026 02:29 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -25,9 +25,9 @@
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "17",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "62",
+      "delay_minutes": "47",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.451904,
@@ -64,9 +64,9 @@
       "roadway": "I-41 ",
       "description": "Sign 504 I-41 NB N of Scheuring to WIS 29",
       "normal_minutes": "6",
-      "current_minutes": "6",
+      "current_minutes": "7",
       "delay_minutes": "0",
-      "status": "Normal",
+      "status": "Moderate",
       "waypoints": [
         [
           44.436496,
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "9",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "10",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.521963,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "19",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -301,8 +301,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "18",
-      "delay_minutes": "3",
+      "current_minutes": "16",
+      "delay_minutes": "1",
       "status": "Moderate",
       "waypoints": [
         [
@@ -709,7 +709,7 @@
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "qyunGtxxwOu@tB}@bD]tA[xAQ|@S~@SxAU|AYpCS~BInAQtDGtB]jI_@vI[nH[vHc@fKIrBIbBO|BGjAMxAWbCUdBi@bDo@|CuAxF{@jDkIl\\_BrGqBhIoFfTYjA[pASr@}EzRU|@oC~KuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBgC`HsA|CwAzCyAvCU\\m@dAwBhDiAdB_EfGgAzAoEzGmHvKaQ~VmBlC_CpDkEzGcCpD",
+      "encoded_polyline": "qyunGtxxwOu@tB}@bD]tA[xAQ|@S~@SxAU|AYpCS~BInAQtDGtB]jI_@vI[nH[vHc@fKIrBIbBO|BGjAMxAWbCUdBi@bDo@|CuAxF{@jDkIl\\_BrGqBhIoFfTYjA[pASr@}EzRU|@oC~KuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBgC`HsA|CwAzCyAvCU\\m@dAwBhDiAdB_EfGgAzAoEzGmHvKaQ~VmBlC_CpDkEzGcCrD",
       "latitude_secondary": 44.5176083,
       "longitude_secondary": -87.9505155
     },
@@ -873,15 +873,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on I-41 SB from ON RAMP FROM COUNTY F to LITTLE RAPIDS RD (BRIDGE CROSSING). Daily from 10/12/2026 to 10/16/2026, 07:00 PM - 05:00 AM, M, T, W, Th, F",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4288263,
-      "longitude": -88.1152218,
+      "latitude": 44.4291178094557,
+      "longitude": -88.1148799647201,
       "last_updated": 1791404030,
       "lanes_affected": "3 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "eodnGb_yxOv@zAfEvH`Z|i@bCtE|CxFfBbDxAdCfBlC|@nApA`BjCxC~FrGbH|H|FrGnNtO",
-      "latitude_secondary": 44.4285455,
-      "longitude_secondary": -88.1156753
+      "encoded_polyline": "_qdnG~|xxO~a@vu@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjPbFrF",
+      "latitude_secondary": 44.4285944510169,
+      "longitude_secondary": -88.1156994028136
     },
     {
       "id": 789390,
