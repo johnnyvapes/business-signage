@@ -14,11 +14,11 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Oct 14, 2026 01:30 PM CDT",
+  "updated_local": "Oct 14, 2026 05:14 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 78,
+  "incident_count": 79,
   "segments": [
     {
       "id": "803",
@@ -165,7 +165,7 @@
       "description": "WIS 29 WB Camp Phillips Rd to US 51",
       "normal_minutes": "5",
       "current_minutes": "5",
-      "delay_minutes": "0",
+      "delay_minutes": "1",
       "status": "Normal",
       "waypoints": [
         [
@@ -195,13 +195,13 @@
       "description": "Roadwork - Mainline Various Lanes Closed on US 51 SB from OFF RAMP TO BRIDGE ST to OFF RAMP TO WIS 52",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.9809357,
-      "longitude": -89.6573899,
+      "latitude": 44.9808879,
+      "longitude": -89.6573994,
       "last_updated": 1785215527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "{ipqGtefbPXBd@@t@@hA@zDBjEMzKo@rE[|@IxDUd@ApE[fIe@rE]\\AnACtBKnAC|@FbABhBTl@Nt@\\`DvAvAv@h@\\|@v@XVn@l@n@p@p@~@|@rAl@dA",
+      "encoded_polyline": "qipqGvefbPN@d@@t@@hA@zDBjEMzKo@rE[|@IxDUd@ApE[fIe@rE]\\AnACtBKnAC|@FbABhBTl@Nt@\\`DvAvAv@h@\\|@v@XVn@l@n@p@p@~@|@rAl@dA",
       "latitude_secondary": 44.9808126,
       "longitude_secondary": -89.6574144
     },
@@ -1513,6 +1513,23 @@
       "encoded_polyline": "wakqG`wibP??",
       "latitude_secondary": 44.9540353302076,
       "longitude_secondary": -89.6755253396641
+    },
+    {
+      "id": 797884,
+      "roadway": "US-51",
+      "direction": "n",
+      "description": "US 51 North at Ramp from WIS 29 East. The right shoulder is closed due to a disabled vehicle.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.961391,
+      "longitude": -89.661949,
+      "last_updated": 1792014578,
+      "lanes_affected": "Shoulder blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "uolqGdbgbP",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
