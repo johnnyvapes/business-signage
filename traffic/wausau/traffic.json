@@ -14,11 +14,11 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Oct 15, 2026 01:12 PM CDT",
+  "updated_local": "Oct 15, 2026 05:09 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 79,
+  "incident_count": 78,
   "segments": [
     {
       "id": "803",
@@ -83,9 +83,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "12",
-      "delay_minutes": "4",
-      "status": "Slow",
+      "current_minutes": "9",
+      "delay_minutes": "0",
+      "status": "Moderate",
       "waypoints": [
         [
           45.025207,
@@ -110,9 +110,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB County WW to WIS 29 West",
       "normal_minutes": "4",
-      "current_minutes": "8",
-      "delay_minutes": "4",
-      "status": "Very Slow",
+      "current_minutes": "4",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           45.025333,
@@ -164,9 +164,9 @@
       "roadway": "WIS 29 ",
       "description": "WIS 29 WB Camp Phillips Rd to US 51",
       "normal_minutes": "5",
-      "current_minutes": "5",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "6",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.894537,
@@ -1513,23 +1513,6 @@
       "encoded_polyline": "wakqG`wibP??",
       "latitude_secondary": 44.9540353302076,
       "longitude_secondary": -89.6755253396641
-    },
-    {
-      "id": 798770,
-      "roadway": "US-51",
-      "direction": "n",
-      "description": "US 51 North at Ramp from County NN. The right shoulder is blocked due to a disabled vehicle.",
-      "severity": "1",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.935572,
-      "longitude": -89.665145,
-      "last_updated": 1792086976,
-      "lanes_affected": "Shoulder blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Disabled Vehicle",
-      "encoded_polyline": "ingqGdvgbP",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }
