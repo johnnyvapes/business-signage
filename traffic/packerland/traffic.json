@@ -14,11 +14,11 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Oct 15, 2026 08:12 PM CDT",
+  "updated_local": "Oct 16, 2026 02:03 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 39,
+  "incident_count": 37,
   "segments": [
     {
       "id": "4008",
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "36",
+      "delay_minutes": "19",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "16",
+      "current_minutes": "15",
       "delay_minutes": "0",
-      "status": "Moderate",
+      "status": "Normal",
       "waypoints": [
         [
           44.524684,
@@ -527,40 +527,6 @@
       "longitude_secondary": -88.1117389
     },
     {
-      "id": 635825,
-      "roadway": "Hoffman Road",
-      "direction": "E",
-      "description": "Roadwork - Local Road Full Closure on Hoffman Road EB from Bellevue St to CTH GV",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.4537432359101,
-      "longitude": -88.009234364635,
-      "last_updated": 1782771305,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "{jinGthdxOtBcJL{BSgCqDq[EcBFqAzIu]",
-      "latitude_secondary": 44.4531514304551,
-      "longitude_secondary": -88.0074482147963
-    },
-    {
-      "id": 635827,
-      "roadway": "Hoffman Road",
-      "direction": "W",
-      "description": "Roadwork - Local Road Full Closure on Hoffman Road WB from CTH GV to Bellevue St",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.452310419935,
-      "longitude": -87.9957305287273,
-      "last_updated": 1782771305,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "}ainGhtaxOeIl[WzAGp@@t@B~@~@pIzA~L^pDF|ACfAsB`KOP",
-      "latitude_secondary": 44.4539358071664,
-      "longitude_secondary": -88.0002796556832
-    },
-    {
       "id": 692071,
       "roadway": "CTH EE & CTH",
       "direction": "E",
@@ -726,7 +692,7 @@
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBlAyA",
+      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBjAwA",
       "latitude_secondary": 44.5553128,
       "longitude_secondary": -88.0466444
     },
