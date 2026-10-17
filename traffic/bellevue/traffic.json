@@ -14,7 +14,7 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Oct 17, 2026 12:02 PM CDT",
+  "updated_local": "Oct 17, 2026 02:16 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -118,9 +118,9 @@
       "roadway": "WIS 29/32 ",
       "description": "Sign 506 WIS 29 @ E of County FF to WIS 57 via I-43",
       "normal_minutes": "9",
-      "current_minutes": "10",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "9",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.55739,
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "9",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "10",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.521963,
@@ -516,13 +516,13 @@
       "description": "Roadwork - Mainline Right Lane Closed on I-41 SB from ON RAMP FROM COUNTY F to ON RAMP FROM COUNTY F",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4317246,
-      "longitude": -88.110594,
+      "latitude": 44.4317228,
+      "longitude": -88.1105968,
       "last_updated": 1778520553,
       "lanes_affected": "3 lane(s) of 5 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "gaenGdbxxOvEzINT`@x@xExItCrFfEvH`Z|i@bCtExB`E",
+      "encoded_polyline": "gaenGfbxxOvExINT`@x@xExItCrFfEvH`Z|i@bCtExB`E",
       "latitude_secondary": 44.4310102,
       "longitude_secondary": -88.1117389
     },
