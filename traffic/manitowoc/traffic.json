@@ -14,11 +14,46 @@
     "generate_map": true,
     "id": "manitowoc"
   },
-  "updated_local": "Oct 18, 2026 03:33 PM CDT",
+  "updated_local": "Oct 18, 2026 06:01 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 0,
-  "incident_count": 0,
+  "incident_count": 2,
   "segments": [],
-  "incidents": []
+  "incidents": [
+    {
+      "id": 801944,
+      "roadway": "WI-42",
+      "direction": "n",
+      "description": "WIS 42 CLOSED in BOTH DIRECTIONS at County C (Manitowoc County) (MM: 20.4), due to a crash. Use alternate route.",
+      "severity": "4",
+      "event_type": "closures",
+      "latitude": 44.008382,
+      "longitude": -87.784358,
+      "last_updated": 1792363998,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "Crash",
+      "encoded_polyline": "kkrkGfkxvO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
+    },
+    {
+      "id": 801947,
+      "roadway": "WI-42",
+      "direction": "s",
+      "description": "WIS 42 CLOSED in BOTH DIRECTIONS at County C (Manitowoc County) (MM: 20.4), due to a crash. Use alternate route.",
+      "severity": "4",
+      "event_type": "closures",
+      "latitude": 44.008382,
+      "longitude": -87.784358,
+      "last_updated": 1792363999,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "Crash",
+      "encoded_polyline": "kkrkGfkxvO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
+    }
+  ]
 }

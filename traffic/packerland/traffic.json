@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Oct 18, 2026 03:33 PM CDT",
+  "updated_local": "Oct 18, 2026 06:01 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 32,
+  "incident_count": 33,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "18",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "16",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.451904,
@@ -119,7 +119,7 @@
       "description": "Sign 506 WIS 29 @ E of County FF to WIS 57 via I-43",
       "normal_minutes": "9",
       "current_minutes": "9",
-      "delay_minutes": "1",
+      "delay_minutes": "0",
       "status": "Normal",
       "waypoints": [
         [
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "19",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "19",
-      "delay_minutes": "4",
-      "status": "Slow",
+      "current_minutes": "16",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524684,
@@ -686,15 +686,15 @@
       "description": "Roadwork - Mainline Left Lane Closed on I-43 SB from I-43 SB to ON RAMP FROM WIS 54 EB",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5521891,
-      "longitude": -88.0422867,
+      "latitude": 44.5553128,
+      "longitude": -88.0466444,
       "last_updated": 1790871527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "er|nGhwjxOpCeEfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBrA_B",
-      "latitude_secondary": 44.5520756,
-      "longitude_secondary": -88.0421322
+      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBpA_B",
+      "latitude_secondary": 44.5553128,
+      "longitude_secondary": -88.0466444
     },
     {
       "id": 785604,
@@ -933,6 +933,23 @@
       "encoded_polyline": "_srnG`lnxO??",
       "latitude_secondary": 44.501118,
       "longitude_secondary": -88.060972
+    },
+    {
+      "id": 801950,
+      "roadway": "I-43",
+      "direction": "n",
+      "description": "Debris on Ramp from WIS 54/57 East to I-43 North.",
+      "severity": "3",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.518228,
+      "longitude": -87.952101,
+      "last_updated": 1792364240,
+      "lanes_affected": "1 lane(s) of 2 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Debris",
+      "encoded_polyline": "}}unGrcywO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     },
     {
       "id": 801695,
