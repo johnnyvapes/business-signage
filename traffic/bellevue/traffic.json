@@ -14,11 +14,11 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Oct 18, 2026 06:01 PM CDT",
+  "updated_local": "Oct 18, 2026 08:07 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 38,
+  "incident_count": 35,
   "segments": [
     {
       "id": "4008",
@@ -743,7 +743,7 @@
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBpA_B",
+      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBrAaB",
       "latitude_secondary": 44.5553128,
       "longitude_secondary": -88.0466444
     },
@@ -1001,57 +1001,6 @@
       "encoded_polyline": "qbzmGddtxOodAQmOLyl@QeG_AcL_DwEqBgJeDsFkCyXwMs@EcHyDiWoQ_KyHm_Aqq@uDqCoAgAw@s@]Uo@g@c@YQMY]@C@G@G@E?C?G?CAIAECCCGACCCCACAGAA?C?E@E@CBA@CBA@ABABKG_@Qk@[UOQO]Yi@q@a@g@k@w@w@qAm@cAgRge@qEyFeE}BmAM}B^",
       "latitude_secondary": 44.376157820249,
       "longitude_secondary": -88.0904233119692
-    },
-    {
-      "id": 801701,
-      "roadway": "Packers Game",
-      "direction": "undefined",
-      "description": "Roadwork - Packers Game",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.501118,
-      "longitude": -88.060972,
-      "last_updated": 1792351273,
-      "lanes_affected": "0 lane(s) of 1 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "_srnG`lnxO??",
-      "latitude_secondary": 44.501118,
-      "longitude_secondary": -88.060972
-    },
-    {
-      "id": 801950,
-      "roadway": "I-43",
-      "direction": "n",
-      "description": "Debris on Ramp from WIS 54/57 East to I-43 North.",
-      "severity": "3",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.518228,
-      "longitude": -87.952101,
-      "last_updated": 1792364240,
-      "lanes_affected": "1 lane(s) of 2 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Debris",
-      "encoded_polyline": "}}unGrcywO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
-    },
-    {
-      "id": 801695,
-      "roadway": "Packers Game",
-      "direction": "u",
-      "description": "Packers Game",
-      "severity": "1",
-      "event_type": "specialEvents",
-      "latitude": 44.501118,
-      "longitude": -88.060972,
-      "last_updated": 1792351273,
-      "lanes_affected": "No lanes blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Lambeau Field Event",
-      "encoded_polyline": "_srnG`lnxO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }
