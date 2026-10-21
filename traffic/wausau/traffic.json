@@ -14,7 +14,7 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Oct 21, 2026 10:06 AM CDT",
+  "updated_local": "Oct 21, 2026 02:16 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -137,9 +137,9 @@
       "roadway": "WIS 29 ",
       "description": "WIS 29 EB County O to US 51",
       "normal_minutes": "4",
-      "current_minutes": "5",
-      "delay_minutes": "1",
-      "status": "Slow",
+      "current_minutes": "21",
+      "delay_minutes": "17",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.94417,
