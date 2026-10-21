@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Oct 21, 2026 05:01 AM CDT",
+  "updated_local": "Oct 21, 2026 10:06 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 40,
+  "incident_count": 39,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "17",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "16",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.451904,
@@ -192,9 +192,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
-      "current_minutes": "6",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "7",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.521888,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "19",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "19",
-      "delay_minutes": "4",
-      "status": "Slow",
+      "current_minutes": "17",
+      "delay_minutes": "2",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524684,
@@ -516,15 +516,15 @@
       "description": "Roadwork - Mainline Right Lane Closed on I-41 SB from ON RAMP FROM COUNTY F to ON RAMP FROM COUNTY F",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4261216506404,
-      "longitude": -88.1195707717077,
+      "latitude": 44.4317268,
+      "longitude": -88.1105905,
       "last_updated": 1778520553,
       "lanes_affected": "3 lane(s) of 5 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "g~cnGhzyxOfOlXxDvHtBbE",
-      "latitude_secondary": 44.42352354311,
-      "longitude_secondary": -88.1236382312894
+      "encoded_polyline": "iaenGdbxxOxEzINT`@x@xExItCrFfEvH`Z|i@bCtExB`E",
+      "latitude_secondary": 44.4310102,
+      "longitude_secondary": -88.1117389
     },
     {
       "id": 692071,
@@ -726,7 +726,7 @@
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "qyunGtxxwOu@tB}@bD]tA[xAQ|@S~@SxAU|AYpCS~BInAQtDGtB]jI_@vI[nH[vHc@fKIrBIbBO|BGjAMxAWbCUdBi@bDo@|CuAxF{@jDkIl\\_BrGqBhIoFfTYjA[pASr@}EzRU|@oC~KuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBgC`HsA|CwAzCyAvCU\\m@dAwBhDiAdB_EfGgAzAoEzGmHvKaQ~VmBlC_CpDkEzGgCxD",
+      "encoded_polyline": "qyunGtxxwOu@tB}@bD]tA[xAQ|@S~@SxAU|AYpCS~BInAQtDGtB]jI_@vI[nH[vHc@fKIrBIbBO|BGjAMxAWbCUdBi@bDo@|CuAxF{@jDkIl\\_BrGqBhIoFfTYjA[pASr@}EzRU|@oC~KuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBgC`HsA|CwAzCyAvCU\\m@dAwBhDiAdB_EfGgAzAoEzGmHvKaQ~VmBlC_CpDkEzG_ClD",
       "latitude_secondary": 44.5176083,
       "longitude_secondary": -87.9505155
     },
@@ -737,15 +737,15 @@
       "description": "Roadwork - Mainline Left Lane Closed on I-43 SB from I-43 SB to ON RAMP FROM WIS 54 EB",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5553128,
-      "longitude": -88.0466444,
+      "latitude": 44.5520481,
+      "longitude": -88.042095,
       "last_updated": 1790871527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBvAeB",
-      "latitude_secondary": 44.5553128,
-      "longitude_secondary": -88.0466444
+      "encoded_polyline": "iq|nGbvjxOtB_DfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBzAiB",
+      "latitude_secondary": 44.5514581,
+      "longitude_secondary": -88.0412968
     },
     {
       "id": 782466,
@@ -816,23 +816,6 @@
       "longitude_secondary": -88.0242434497271
     },
     {
-      "id": 787571,
-      "roadway": "I-41",
-      "direction": "S",
-      "description": "Roadwork - Ramp Full Closure on I-41 SB at ON RAMP FROM COUNTY F",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.4292995949954,
-      "longitude": -88.1144574768481,
-      "last_updated": 1789137948,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "crdnGjzxxO??",
-      "latitude_secondary": 44.4292995949954,
-      "longitude_secondary": -88.1144574768481
-    },
-    {
       "id": 794371,
       "roadway": "I-41",
       "direction": "S",
@@ -899,23 +882,6 @@
       "encoded_polyline": "_qdnG~|xxO~a@vu@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjPbFrF",
       "latitude_secondary": 44.4285944510169,
       "longitude_secondary": -88.1156994028136
-    },
-    {
-      "id": 795831,
-      "roadway": "I-41",
-      "direction": "N",
-      "description": "Roadwork - Ramp Full Closure on I-41 NB at OFF RAMP TO COUNTY F / SCHEURING RD. Daily from 10/20/2026 to 10/21/2026, 07:00 PM - 05:00 AM, T (excluding W). Detour: Take IH-41 Exit Ramp at County Rd S.  Take Left on County Rd S to County Rd F.  Take a Right on County Rd F to NB IH-41 Entrance Ramp.  Take the NB IH-41 Entrance ramp to IH-41.",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.4305899966322,
-      "longitude": -88.1119157528117,
-      "last_updated": 1791895439,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "ezdnGnjxxO??",
-      "latitude_secondary": 44.4305899966322,
-      "longitude_secondary": -88.1119157528117
     },
     {
       "id": 797785,
@@ -1086,6 +1052,23 @@
       "encoded_polyline": "i`nnGrrmxOv@gH`Ck[",
       "latitude_secondary": 44.4774022778564,
       "longitude_secondary": -88.0555905527831
+    },
+    {
+      "id": 804862,
+      "roadway": "I-41",
+      "direction": "s",
+      "description": "I-41 South 0.2 miles beyond Ramp from WIS 172 East. The left lane is blocked due to an incident.",
+      "severity": "2",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.477899,
+      "longitude": -88.08006,
+      "last_updated": 1792591426,
+      "lanes_affected": "1 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Incident",
+      "encoded_polyline": "{annGjcrxO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
