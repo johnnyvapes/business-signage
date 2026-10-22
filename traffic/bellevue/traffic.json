@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Oct 21, 2026 11:31 PM CDT",
+  "updated_local": "Oct 22, 2026 05:02 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 34,
+  "incident_count": 26,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "17",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "20",
+      "delay_minutes": "5",
+      "status": "Slow",
       "waypoints": [
         [
           44.451904,
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "9",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "10",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.521963,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "26",
+      "delay_minutes": "9",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "17",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "25",
+      "delay_minutes": "10",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524684,
@@ -408,40 +408,6 @@
   ],
   "incidents": [
     {
-      "id": 566079,
-      "roadway": "I-41",
-      "direction": "N",
-      "description": "Roadwork - Mainline Various Lanes Closed on I-41 NB from OFF RAMP TO COUNTY F / SCHEURING RD to OFF RAMP TO COUNTY F/SCHEURING RD",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4233448479104,
-      "longitude": -88.1239358411224,
-      "last_updated": 1775501776,
-      "lanes_affected": "3 lane(s) of 5 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "{lcnGruzxOc@{@m^cp@",
-      "latitude_secondary": 44.42352354311,
-      "longitude_secondary": -88.1236382312894
-    },
-    {
-      "id": 566786,
-      "roadway": "I-41",
-      "direction": "N",
-      "description": "Roadwork - Mainline Lane Shift on I-41 NB from OFF RAMP TO COUNTY F / SCHEURING RD to OFF RAMP TO COUNTY F / SCHEURING RD",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4169163248224,
-      "longitude": -88.1323516812715,
-      "last_updated": 1775501776,
-      "lanes_affected": "2 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "wdbnGdj|xO[_@uEkFuJwKs@s@cIqMmCkF}BsE",
-      "latitude_secondary": 44.4170601863942,
-      "longitude_secondary": -88.1321908657197
-    },
-    {
       "id": 567005,
       "roadway": "I-41",
       "direction": "S",
@@ -474,57 +440,6 @@
       "encoded_polyline": "odbnGlj|xOc@g@uEkFuJwKs@s@oHsL",
       "latitude_secondary": 44.4170601863942,
       "longitude_secondary": -88.1321908657197
-    },
-    {
-      "id": 578908,
-      "roadway": "I-41",
-      "direction": "S",
-      "description": "Roadwork - Mainline Various Lanes Closed on I-41 SB from ON RAMP FROM COUNTY F to ON RAMP FROM COUNTY F",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4216578010844,
-      "longitude": -88.1266999399788,
-      "last_updated": 1778520553,
-      "lanes_affected": "3 lane(s) of 5 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "kbcnGzf{xOdC`E",
-      "latitude_secondary": 44.420985535433,
-      "longitude_secondary": -88.1276665251277
-    },
-    {
-      "id": 578909,
-      "roadway": "I-41",
-      "direction": "S",
-      "description": "Roadwork - Mainline Lane Shift on I-41 SB from ON RAMP FROM COUNTY F to LITTLE RAPIDS RD (BRIDGE CROSSING)",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4211143588385,
-      "longitude": -88.127481305195,
-      "last_updated": 1778520553,
-      "lanes_affected": "2 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "}~bnGvk{xOhDtFr@r@tJvKtEjFlEdFpNjPjFzF",
-      "latitude_secondary": 44.4202592550436,
-      "longitude_secondary": -88.1287107341247
-    },
-    {
-      "id": 578910,
-      "roadway": "I-41",
-      "direction": "S",
-      "description": "Roadwork - Mainline Right Lane Closed on I-41 SB from ON RAMP FROM COUNTY F to ON RAMP FROM COUNTY F",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4261216506404,
-      "longitude": -88.1195707717077,
-      "last_updated": 1778520553,
-      "lanes_affected": "3 lane(s) of 5 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "g~cnGhzyxOfOlXxDvHtBbE",
-      "latitude_secondary": 44.42352354311,
-      "longitude_secondary": -88.1236382312894
     },
     {
       "id": 692071,
@@ -726,7 +641,7 @@
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "qyunGtxxwOu@tB}@bD]tA[xAQ|@S~@SxAU|AYpCS~BInAQtDGtB]jI_@vI[nH[vHc@fKIrBIbBO|BGjAMxAWbCUdBi@bDo@|CuAxF{@jDkIl\\_BrGqBhIoFfTYjA[pASr@}EzRU|@oC~KuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBgC`HsA|CwAzCyAvCU\\m@dAwBhDiAdB_EfGgAzAoEzGmHvKaQ~VmBlC_CpDkEzGkC|D",
+      "encoded_polyline": "qyunGtxxwOu@tB}@bD]tA[xAQ|@S~@SxAU|AYpCS~BInAQtDGtB]jI_@vI[nH[vHc@fKIrBIbBO|BGjAMxAWbCUdBi@bDo@|CuAxF{@jDkIl\\_BrGqBhIoFfTYjA[pASr@}EzRU|@oC~KuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBgC`HsA|CwAzCyAvCU\\m@dAwBhDiAdB_EfGgAzAoEzGmHvKaQ~VmBlC_CpDkEzGcCrD",
       "latitude_secondary": 44.5176083,
       "longitude_secondary": -87.9505155
     },
@@ -743,7 +658,7 @@
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBlAyA",
+      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBfAsA",
       "latitude_secondary": 44.5553128,
       "longitude_secondary": -88.0466444
     },
@@ -901,23 +816,6 @@
       "longitude_secondary": -88.114576238195
     },
     {
-      "id": 797786,
-      "roadway": "I-41",
-      "direction": "S",
-      "description": "Roadwork - Mainline Full Closure on I-41 SB from ON RAMP FROM COUNTY F to COUNTY S (BRIDGE CROSSING). Daily from 10/21/2026 to 10/22/2026, 11:00 PM - 04:30 AM, W (excluding Th). Detour: Take I-41 SB Exit Ramp at Scheuring Rd. Go Right on Scheuring to County Rd F.  Go Left on County Rd F to County Rd S/Freedom Rd.  Go Left on County Rd S/Freedom Rd to I-41 SB",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.4293355748594,
-      "longitude": -88.1145389957391,
-      "last_updated": 1792010642,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "krdnGzzxxOjc@zw@xDvHlCjFbIpMr@r@tJvKtEjFlEdFpNjPvm@fq@j_@hb@zMvNbGpGrXvZfIvGzClBzZnMTJ",
-      "latitude_secondary": 44.4285944510169,
-      "longitude_secondary": -88.1156994028136
-    },
-    {
       "id": 802090,
       "roadway": "US-141",
       "direction": "N",
@@ -950,40 +848,6 @@
       "encoded_polyline": "i`nnGrrmxOv@gH`Ck[",
       "latitude_secondary": 44.4774022778564,
       "longitude_secondary": -88.0555905527831
-    },
-    {
-      "id": 805981,
-      "roadway": "I-41 South",
-      "direction": "S",
-      "description": "Roadwork - I-41 South CLOSED from County F/Scheuring Rd to Ramp from County S because of road work until Thursday, October 22 at 4:30 am.",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.4328,
-      "longitude": -88.108905,
-      "last_updated": 1792638238,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "_henGrwwxOpA`C`AfBZh@~FxKNT`@x@xExItCrFfEvH`Z|i@bCtE|CxFfBbDxAdCfBlC|@nApA`BjCxC~FrGbH|H|FrGnNtOnP|QnP~QnPzQ~TxVvO`QfDtD^b@`CjC|FjGT\\`EnEtC`DnBpBl@j@x@r@|@n@x@l@|@h@fAl@`Af@jYxL|M|F",
-      "latitude_secondary": 44.4323873416539,
-      "longitude_secondary": -88.1095460311678
-    },
-    {
-      "id": 805978,
-      "roadway": "I-41",
-      "direction": "s",
-      "description": "Road Work - I-41 South CLOSED from County F/Scheuring Rd to Ramp from County S because of road work until Thursday, October 22 at 4:30 am. County F/Scheuring Rd - County U",
-      "severity": "4",
-      "event_type": "closures",
-      "latitude": 44.4328,
-      "longitude": -88.108905,
-      "last_updated": 1792638238,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "Road Work",
-      "encoded_polyline": "_henGrwwxOpA~B~@hBLRLRtDbHhAtBNVb@v@nA~BfCxEtCrFdEvHpLnTpLnTbCrE|CzFfBbDzAdCfBlC|@nApA`BjCzC~FpGbH|H|FrGxHrIrD`EnP|QnP~QnP|Q|TvVvObQfDtD^b@`CjC|FlGTZ~DpEtC~CnBpBl@j@x@r@|@p@v@j@|@h@hAn@`Af@jAf@|VnK|M|F",
-      "latitude_secondary": 44.38373,
-      "longitude_secondary": -88.163867
     }
   ]
 }
