@@ -14,11 +14,29 @@
     "generate_map": true,
     "id": "manitowoc"
   },
-  "updated_local": "Oct 22, 2026 10:07 AM CDT",
+  "updated_local": "Oct 22, 2026 02:12 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 0,
-  "incident_count": 0,
+  "incident_count": 1,
   "segments": [],
-  "incidents": []
+  "incidents": [
+    {
+      "id": 806921,
+      "roadway": "I-43",
+      "direction": "S",
+      "description": "Roadwork - Mainline Moving Lane Closure on I-43 SB from I-43 SB (BEGIN CC) to MANITOWOC - SHEBOYGAN CO LINE. Daily from 10/26/2026 to 11/05/2026, 08:00 AM - 02:00 PM, M, T, W, Th (excluding Sun, F, Sat)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.1468255739014,
+      "longitude": -87.732050522046,
+      "last_updated": 1792693751,
+      "lanes_affected": "No Data",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "ulmlGhdnvObr@fAzCPvU^tEJhFJvUD~S_Av~@eEbAQ~E?lWsArJ_@p@YbHK^?vQs@hi@kCbDSpDEhRkAtDyA~b@e`@lf@sc@r@kA\\?dBqBlIiKbD_DZEx@eAlDcDhDqC~CeClA_AlEoEpDkC~FqF~E}CpBeAbC_AhIkAlYEhLPp[DbDFlD?duAV`w@JlMhCbExArMbHpNrJpw@no@`SzOlPxMzSxOlMpD~NbChM|C~FpB~KpBzw@pRhSbEzSzCdMhBzLdBnMlBzJxAvLfBzk@lI~SvBvX|Eze@fGbIbB`D~@pC|AhBxBbGhEzI~LfIlK`D|Dtf@pn@~OvTbBdBlOpR~HnHlBxAtFhCdDdAbXbIlCd@~VbFbTxAdrA\\",
+      "latitude_secondary": 44.1386451629436,
+      "longitude_secondary": -87.7324073017716
+    }
+  ]
 }

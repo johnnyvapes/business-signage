@@ -14,7 +14,7 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Oct 22, 2026 10:07 AM CDT",
+  "updated_local": "Oct 22, 2026 02:12 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -192,9 +192,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
-      "current_minutes": "7",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "8",
+      "delay_minutes": "2",
+      "status": "Slow",
       "waypoints": [
         [
           44.521888,
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "10",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "11",
+      "delay_minutes": "2",
+      "status": "Slow",
       "waypoints": [
         [
           44.521963,
@@ -301,8 +301,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "35",
-      "delay_minutes": "20",
+      "current_minutes": "36",
+      "delay_minutes": "21",
       "status": "Very Slow",
       "waypoints": [
         [
@@ -375,9 +375,9 @@
       "roadway": "I-43 ",
       "description": "Sign 512 I-43 NB to Lineville Rd via I-43/I-41",
       "normal_minutes": "13",
-      "current_minutes": "13",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "14",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.438024,
@@ -414,15 +414,15 @@
       "description": "Roadwork - Mainline Right Shoulder Closed on I-41 SB from ON RAMP FROM COUNTY F to ON RAMP FROM COUNTY F",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.4273619,
-      "longitude": -88.1175444,
+      "latitude": 44.4217313660998,
+      "longitude": -88.126594165936,
       "last_updated": 1772744304,
       "lanes_affected": "1 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "_fdnGrmyxOzX`h@bCtE|CxFfBbDxAdCfBlC|@nApA`BjCxC~FrGhCtC",
-      "latitude_secondary": 44.4253869,
-      "longitude_secondary": -88.1206763
+      "encoded_polyline": "ybcnGdf{xOdHfLr@r@tJvKtEjFd@h@",
+      "latitude_secondary": 44.4202592550436,
+      "longitude_secondary": -88.1287107341247
     },
     {
       "id": 567187,
@@ -508,23 +508,6 @@
       "encoded_polyline": "{vgnGjm|xO`@?M?",
       "latitude_secondary": 44.4452465129106,
       "longitude_secondary": -88.1328635974201
-    },
-    {
-      "id": 727812,
-      "roadway": "Ontario Rd",
-      "direction": "S",
-      "description": "Roadwork - Local Road Full Closure on Ontario Rd SB from North Village Limits to Eaton Rd",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.4665376895111,
-      "longitude": -87.9278106861524,
-      "last_updated": 1787600765,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "{zknGxktwO}j@M",
-      "latitude_secondary": 44.473571237103,
-      "longitude_secondary": -87.9277363789276
     },
     {
       "id": 756175,
@@ -641,7 +624,7 @@
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "qyunGtxxwOu@tB}@bD]tA[xAQ|@S~@SxAU|AYpCS~BInAQtDGtB]jI_@vI[nH[vHc@fKIrBIbBO|BGjAMxAWbCUdBi@bDo@|CuAxF{@jDkIl\\_BrGqBhIoFfTYjA[pASr@}EzRU|@oC~KuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBgC`HsA|CwAzCyAvCU\\m@dAwBhDiAdB_EfGgAzAoEzGmHvKaQ~VmBlC_CpDkEzGcCrD",
+      "encoded_polyline": "qyunGtxxwOu@tB}@bD]tA[xAQ|@S~@SxAU|AYpCS~BInAQtDGtB]jI_@vI[nH[vHc@fKIrBIbBO|BGjAMxAWbCUdBi@bDo@|CuAxF{@jDkIl\\_BrGqBhIoFfTYjA[pASr@}EzRU|@oC~KuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBgC`HsA|CwAzCyAvCU\\m@dAwBhDiAdB_EfGgAzAoEzGmHvKaQ~VmBlC_CpDkEzGaCnD",
       "latitude_secondary": 44.5176083,
       "longitude_secondary": -87.9505155
     },
@@ -652,32 +635,15 @@
       "description": "Roadwork - Mainline Left Lane Closed on I-43 SB from I-43 SB to ON RAMP FROM WIS 54 EB",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5553128,
-      "longitude": -88.0466444,
+      "latitude": 44.5520847,
+      "longitude": -88.0421446,
       "last_updated": 1790871527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBpA}A",
-      "latitude_secondary": 44.5553128,
-      "longitude_secondary": -88.0466444
-    },
-    {
-      "id": 782466,
-      "roadway": "Ontario Rd",
-      "direction": "N",
-      "description": "Roadwork - Local Road Full Closure on Ontario Rd NB from Eaton Rd to North Village Limits",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.4665225562426,
-      "longitude": -87.9277732009454,
-      "last_updated": 1787600765,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "wzknGpktwOak@G",
-      "latitude_secondary": 44.4735701438281,
-      "longitude_secondary": -87.9277314354092
+      "encoded_polyline": "oq|nGjvjxOzBgDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBpA}A",
+      "latitude_secondary": 44.5520756,
+      "longitude_secondary": -88.0421322
     },
     {
       "id": 785604,
@@ -831,6 +797,40 @@
       "encoded_polyline": "i`nnGrrmxOv@gH`Ck[",
       "latitude_secondary": 44.4774022778564,
       "longitude_secondary": -88.0555905527831
+    },
+    {
+      "id": 806776,
+      "roadway": "US-141",
+      "direction": "S",
+      "description": "Roadwork - Mainline Various Lanes Closed on US 141 SB from MANITOWOC RD to PECAN ST",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4816940225911,
+      "longitude": -87.9704578296295,
+      "last_updated": 1792686552,
+      "lanes_affected": "2 lane(s) of 2 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "qynnGjv|wOhPkCnEaA",
+      "latitude_secondary": 44.4804090907566,
+      "longitude_secondary": -87.9701349874316
+    },
+    {
+      "id": 806777,
+      "roadway": "US-141",
+      "direction": "N",
+      "description": "Roadwork - Mainline Various Lanes Closed on US 141 NB from PECAN ST to MANITOWOC RD",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4778925973345,
+      "longitude": -87.9694380061651,
+      "last_updated": 1792686552,
+      "lanes_affected": "2 lane(s) of 2 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "yannG~o|wOmE~@mPjC",
+      "latitude_secondary": 44.4779010346674,
+      "longitude_secondary": -87.9694406616018
     }
   ]
 }
