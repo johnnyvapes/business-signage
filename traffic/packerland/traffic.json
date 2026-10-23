@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Oct 23, 2026 09:57 AM CDT",
+  "updated_local": "Oct 23, 2026 02:06 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 22,
+  "incident_count": 21,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "19",
-      "delay_minutes": "3",
-      "status": "Moderate",
+      "current_minutes": "16",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.451904,
@@ -118,9 +118,9 @@
       "roadway": "WIS 29/32 ",
       "description": "Sign 506 WIS 29 @ E of County FF to WIS 57 via I-43",
       "normal_minutes": "9",
-      "current_minutes": "10",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "27",
+      "delay_minutes": "18",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.55739,
@@ -192,9 +192,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
-      "current_minutes": "10",
-      "delay_minutes": "4",
-      "status": "Very Slow",
+      "current_minutes": "9",
+      "delay_minutes": "3",
+      "status": "Slow",
       "waypoints": [
         [
           44.521888,
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "14",
-      "delay_minutes": "5",
-      "status": "Very Slow",
+      "current_minutes": "13",
+      "delay_minutes": "4",
+      "status": "Slow",
       "waypoints": [
         [
           44.521963,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "24",
-      "delay_minutes": "7",
-      "status": "Slow",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "27",
-      "delay_minutes": "12",
-      "status": "Very Slow",
+      "current_minutes": "19",
+      "delay_minutes": "4",
+      "status": "Slow",
       "waypoints": [
         [
           44.524684,
@@ -550,15 +550,15 @@
       "description": "Roadwork - Mainline Left Lane Closed on I-43 SB from I-43 SB to ON RAMP FROM WIS 54 EB",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5553128,
-      "longitude": -88.0466444,
+      "latitude": 44.5520457,
+      "longitude": -88.0420917,
       "last_updated": 1790871527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBrA_B",
-      "latitude_secondary": 44.5553128,
-      "longitude_secondary": -88.0466444
+      "encoded_polyline": "iq|nG`vjxOtB}CfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBrA_B",
+      "latitude_secondary": 44.5514581,
+      "longitude_secondary": -88.0412968
     },
     {
       "id": 785604,
@@ -763,23 +763,6 @@
       "encoded_polyline": "wtfnG`xuxOi@_@cUcN",
       "latitude_secondary": 44.4401733661778,
       "longitude_secondary": -88.098570789179
-    },
-    {
-      "id": 808509,
-      "roadway": "I-43",
-      "direction": "n",
-      "description": "I-43 North CLOSED at Ramp from E Shore Dr because of a crash.",
-      "severity": "4",
-      "event_type": "closures",
-      "latitude": 44.527253,
-      "longitude": -87.989206,
-      "last_updated": 1792766985,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "Crash",
-      "encoded_polyline": "ivwnGpk`xO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }
