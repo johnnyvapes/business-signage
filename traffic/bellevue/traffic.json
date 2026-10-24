@@ -14,7 +14,7 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Oct 24, 2026 03:41 PM CDT",
+  "updated_local": "Oct 24, 2026 06:06 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -26,7 +26,7 @@
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
       "current_minutes": "16",
-      "delay_minutes": "1",
+      "delay_minutes": "0",
       "status": "Normal",
       "waypoints": [
         [
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "10",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "9",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.521963,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "18",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "18",
-      "delay_minutes": "3",
-      "status": "Moderate",
+      "current_minutes": "15",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524684,
@@ -516,15 +516,15 @@
       "description": "Roadwork - Mainline Left Lane Closed on I-43 SB from I-43 SB to ON RAMP FROM WIS 54 EB",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5519677,
-      "longitude": -88.0419862,
+      "latitude": 44.5553128,
+      "longitude": -88.0466444,
       "last_updated": 1790871527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "yp|nGlujxOdBiCfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBnA{A",
-      "latitude_secondary": 44.5514581,
-      "longitude_secondary": -88.0412968
+      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBnA{A",
+      "latitude_secondary": 44.5553128,
+      "longitude_secondary": -88.0466444
     },
     {
       "id": 787536,
