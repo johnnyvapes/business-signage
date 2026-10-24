@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Oct 23, 2026 07:34 PM CDT",
+  "updated_local": "Oct 24, 2026 12:42 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 17,
+  "incident_count": 15,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "16",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "25",
+      "delay_minutes": "10",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.451904,
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "10",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "9",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.521963,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "35",
+      "delay_minutes": "18",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "16",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "34",
+      "delay_minutes": "18",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524684,
@@ -407,40 +407,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": 567005,
-      "roadway": "I-41",
-      "direction": "S",
-      "description": "Roadwork - Mainline Right Shoulder Closed on I-41 SB from ON RAMP FROM COUNTY F to ON RAMP FROM COUNTY F",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4217313660998,
-      "longitude": -88.126594165936,
-      "last_updated": 1772744304,
-      "lanes_affected": "1 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "ybcnGdf{xOdHfLr@r@tJvKtEjFd@h@",
-      "latitude_secondary": 44.4202592550436,
-      "longitude_secondary": -88.1287107341247
-    },
-    {
-      "id": 567187,
-      "roadway": "I-41",
-      "direction": "N",
-      "description": "Roadwork - Mainline Right Shoulder Closed on I-41 NB from BRIDGE (BRIDGE CROSSING) to COUNTY F (Scheuring Road) (BRIDGE CROSSING)",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.4168836796766,
-      "longitude": -88.1323881734762,
-      "last_updated": 1772744304,
-      "lanes_affected": "1 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "odbnGlj|xOc@g@uEkFuJwKs@s@oHsL",
-      "latitude_secondary": 44.4170601863942,
-      "longitude_secondary": -88.1321908657197
-    },
     {
       "id": 692071,
       "roadway": "CTH EE & CTH",
@@ -556,7 +522,7 @@
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBhB{B",
+      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBnA}A",
       "latitude_secondary": 44.5553128,
       "longitude_secondary": -88.0466444
     },
