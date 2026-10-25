@@ -14,7 +14,7 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Oct 25, 2026 01:56 PM CDT",
+  "updated_local": "Oct 25, 2026 04:40 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -25,9 +25,9 @@
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "24",
-      "delay_minutes": "8",
-      "status": "Slow",
+      "current_minutes": "16",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.451904,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "35",
-      "delay_minutes": "18",
-      "status": "Very Slow",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "34",
-      "delay_minutes": "19",
-      "status": "Very Slow",
+      "current_minutes": "15",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524684,
@@ -505,7 +505,7 @@
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "qyunGtxxwOu@tB}@bD]tA[xAQ|@S~@SxAU|AYpCS~BInAQtDGtB]jI_@vI[nH[vHc@fKIrBIbBO|BGjAMxAWbCUdBi@bDo@|CuAxF{@jDkIl\\_BrGqBhIoFfTYjA[pASr@}EzRU|@oC~KuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBgC`HsA|CwAzCyAvCU\\m@dAwBhDiAdB_EfGgAzAoEzGmHvKaQ~VmBlC_CpDkEzGaCnD",
+      "encoded_polyline": "qyunGtxxwOu@tB}@bD]tA[xAQ|@S~@SxAU|AYpCS~BInAQtDGtB]jI_@vI[nH[vHc@fKIrBIbBO|BGjAMxAWbCUdBi@bDo@|CuAxF{@jDkIl\\_BrGqBhIoFfTYjA[pASr@}EzRU|@oC~KuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBgC`HsA|CwAzCyAvCU\\m@dAwBhDiAdB_EfGgAzAoEzGmHvKaQ~VmBlC_CpDkEzGcCpD",
       "latitude_secondary": 44.5176083,
       "longitude_secondary": -87.9505155
     },
@@ -522,7 +522,7 @@
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "cr|nGfwjxOnCcEfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBlAyA",
+      "encoded_polyline": "cr|nGfwjxOnCcEfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBdAqA",
       "latitude_secondary": 44.5520756,
       "longitude_secondary": -88.0421322
     },
