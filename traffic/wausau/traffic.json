@@ -14,11 +14,11 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Oct 26, 2026 01:01 AM CDT",
+  "updated_local": "Oct 26, 2026 07:48 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 76,
+  "incident_count": 73,
   "segments": [
     {
       "id": "803",
@@ -1428,57 +1428,6 @@
       "encoded_polyline": "csqqG~|tbPCrP",
       "latitude_secondary": 44.9875575330015,
       "longitude_secondary": -89.7356183380441
-    },
-    {
-      "id": 787494,
-      "roadway": "US-51",
-      "direction": "N",
-      "description": "Roadwork - Ramp Full Closure on US 51 NB at OFF RAMP TO SHERMAN ST",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.9499298396829,
-      "longitude": -89.6664140061884,
-      "last_updated": 1790871527,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "ahjqG`~gbP??",
-      "latitude_secondary": 44.9499298396829,
-      "longitude_secondary": -89.6664140061884
-    },
-    {
-      "id": 787496,
-      "roadway": "WI-29",
-      "direction": "E",
-      "description": "Roadwork - Ramp Full Closure on WIS 29 EB at OFF RAMP TO WIS 52 / US 51 NB. Detour: Take Exit 164B along STH 29 EB to USH 51 NB, Continue along USH 51 NB, Take Exit 193 towards Bridge St., Turn Left along Bridge St. WB, Merge onto USH 51 SB, Take Exit 192 towards Stewart Ave., Turn Right and proceed along STH 52 Parkway WB, proceed with route",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.9538003728027,
-      "longitude": -89.6768837814023,
-      "last_updated": 1790871527,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "g`kqGn_jbP??",
-      "latitude_secondary": 44.9538003728027,
-      "longitude_secondary": -89.6768837814023
-    },
-    {
-      "id": 787497,
-      "roadway": "WI-29",
-      "direction": "W",
-      "description": "Roadwork - Ramp Full Closure on WIS 29 WB at ON RAMP FROM US 51 SB",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.9540353302076,
-      "longitude": -89.6755253396641,
-      "last_updated": 1790871527,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "wakqG`wibP??",
-      "latitude_secondary": 44.9540353302076,
-      "longitude_secondary": -89.6755253396641
     }
   ]
 }
