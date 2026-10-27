@@ -14,11 +14,11 @@
     "generate_map": true,
     "id": "manitowoc"
   },
-  "updated_local": "Oct 27, 2026 11:27 AM CDT",
+  "updated_local": "Oct 27, 2026 04:13 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 0,
-  "incident_count": 2,
+  "incident_count": 4,
   "segments": [],
   "incidents": [
     {
@@ -54,6 +54,40 @@
       "encoded_polyline": "kx`lGz`lvOmMlLoOdN",
       "latitude_secondary": 44.0843350536925,
       "longitude_secondary": -87.7233044852171
+    },
+    {
+      "id": 813499,
+      "roadway": "US-151",
+      "direction": "s",
+      "description": "US 151 CLOSED in BOTH DIRECTIONS from Haupt La to Jackson St (MM: 210.9), due to a crash. Use alternate route.\nDETOUR: WB traffic: Take CTH S north to US 10 east to CTH J south and back onto US 151. EB traffic: Use the reverse.",
+      "severity": "4",
+      "event_type": "closures",
+      "latitude": 44.077752,
+      "longitude": -87.82214,
+      "last_updated": 1793129794,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "Crash",
+      "encoded_polyline": "}|_lGjw_wOe@~DOrBO|BAz@CfA@`CBvB@\\HfD?zBAnACp@KbCOxBQxBUbDGr@U`DA^C`@OrBG|@KxBCbCB`C~~~~~~Bp@B`ABjA@RVjKHbCNbCVdCZ`CF^Db@d@bCj@`CdA`EfAdE~@~DbC`KDXbClL~AfIbAdGdAdG`AlG`AfGFb@fAdHxCrRBXnAfInA~Hh@`ETdCJ~BBnB?tECnQAlA~~~~~~BfDAnFBxBDnBNvBL`BLjAVlB`@~Bd@nBd@hBb@tAbAnCt@lBpAvC",
+      "latitude_secondary": 44.069044,
+      "longitude_secondary": -87.881622
+    },
+    {
+      "id": 813500,
+      "roadway": "US-151",
+      "direction": "n",
+      "description": "US 151 CLOSED in BOTH DIRECTIONS from Haupt La to Jackson St (MM: 210.9), due to a crash. Use alternate route.\nDETOUR: WB traffic: Take CTH S north to US 10 east to CTH J south and back onto US 151. EB traffic: Use the reverse.",
+      "severity": "4",
+      "event_type": "closures",
+      "latitude": 44.068692,
+      "longitude": -87.882193,
+      "last_updated": 1793129892,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "Crash",
+      "encoded_polyline": "id~kGtnkwOCC[e@EIqBuEu@mBcAoCc@uAe@iBe@oBa@_CWmBMkAMaBOwBEoBCyB@oF?gD@mABoQ~~~~~~BuECoBK_CUeCi@aEoA_IoAgICYyCsRgAeHGc@aAgGaAmGeAeGcAeG_BgIcCmLEYcCaK_A_EgAeEeAaEk@aCe@cCEc@G_@[aCWeCOcCIcCWkKASCkACaA?q@CaCBcCJyBF}@NsBBa@@_@TaDFs@TcDPyBNyBJcCBq@@oA~~~~~~B{BIgDA]CwBAaCBgA@{@N}BNsBh@oE",
+      "latitude_secondary": 44.077735,
+      "longitude_secondary": -87.822053
     }
   ]
 }
