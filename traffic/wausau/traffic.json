@@ -14,7 +14,7 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Oct 28, 2026 10:56 AM CDT",
+  "updated_local": "Oct 28, 2026 03:58 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -83,9 +83,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "9",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "11",
+      "delay_minutes": "3",
+      "status": "Slow",
       "waypoints": [
         [
           45.025207,
@@ -212,8 +212,8 @@
       "description": "Roadwork - Mainline Various Lanes Closed on WIS 29 WB from ON RAMP FROM WIS BUS 51 to IH-39 TERMINI NB (END CC)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.8950651,
-      "longitude": -89.6104901,
+      "latitude": 44.8950661,
+      "longitude": -89.6104938,
       "last_updated": 1785215527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
