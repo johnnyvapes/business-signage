@@ -14,11 +14,11 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Oct 29, 2026 09:08 AM CDT",
+  "updated_local": "Oct 29, 2026 03:12 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 73,
+  "incident_count": 74,
   "segments": [
     {
       "id": "803",
@@ -83,9 +83,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "9",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "13",
+      "delay_minutes": "5",
+      "status": "Very Slow",
       "waypoints": [
         [
           45.025207,
@@ -1428,6 +1428,23 @@
       "encoded_polyline": "csqqG~|tbPCrP",
       "latitude_secondary": 44.9875575330015,
       "longitude_secondary": -89.7356183380441
+    },
+    {
+      "id": 816107,
+      "roadway": "US-51",
+      "direction": "s",
+      "description": "Disabled vehicle on Exit to County N (Marathon County) from US 51 South.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.91341,
+      "longitude": -89.652297,
+      "last_updated": 1793298727,
+      "lanes_affected": "No lanes blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "yccqGzeebP",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }

@@ -14,11 +14,11 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Oct 29, 2026 09:08 AM CDT",
+  "updated_local": "Oct 29, 2026 03:12 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 19,
+  "incident_count": 21,
   "segments": [
     {
       "id": "4008",
@@ -192,9 +192,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
-      "current_minutes": "7",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "9",
+      "delay_minutes": "3",
+      "status": "Slow",
       "waypoints": [
         [
           44.521888,
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "10",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "12",
+      "delay_minutes": "3",
+      "status": "Slow",
       "waypoints": [
         [
           44.521963,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "18",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "16",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "22",
+      "delay_minutes": "7",
+      "status": "Slow",
       "waypoints": [
         [
           44.524684,
@@ -375,9 +375,9 @@
       "roadway": "I-43 ",
       "description": "Sign 512 I-43 NB to Lineville Rd via I-43/I-41",
       "normal_minutes": "13",
-      "current_minutes": "13",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "18",
+      "delay_minutes": "5",
+      "status": "Slow",
       "waypoints": [
         [
           44.438024,
@@ -516,15 +516,15 @@
       "description": "Roadwork - Mainline Left Lane Closed on I-43 SB from I-43 SB to ON RAMP FROM WIS 54 EB",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5553128,
-      "longitude": -88.0466444,
+      "latitude": 44.5521386,
+      "longitude": -88.0422181,
       "last_updated": 1790871527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBrAaB",
-      "latitude_secondary": 44.5553128,
-      "longitude_secondary": -88.0466444
+      "encoded_polyline": "{q|nGzvjxOfCwDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBrAaB",
+      "latitude_secondary": 44.5520756,
+      "longitude_secondary": -88.0421322
     },
     {
       "id": 787536,
@@ -729,6 +729,40 @@
       "encoded_polyline": "q`jnGrksxO??",
       "latitude_secondary": 44.4572126730342,
       "longitude_secondary": -88.0864959515257
+    },
+    {
+      "id": 816141,
+      "roadway": "Packers Game",
+      "direction": "undefined",
+      "description": "Roadwork - Packers Game",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.501071,
+      "longitude": -88.06081,
+      "last_updated": 1793301378,
+      "lanes_affected": "0 lane(s) of 1 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "urrnG`knxO??",
+      "latitude_secondary": 44.501071,
+      "longitude_secondary": -88.06081
+    },
+    {
+      "id": 816138,
+      "roadway": "Packers Game",
+      "direction": "u",
+      "description": "Packers Game",
+      "severity": "1",
+      "event_type": "specialEvents",
+      "latitude": 44.501071,
+      "longitude": -88.06081,
+      "last_updated": 1793301378,
+      "lanes_affected": "No lanes blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Lambeau Field Event",
+      "encoded_polyline": "urrnG`knxO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
