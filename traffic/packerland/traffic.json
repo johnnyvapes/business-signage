@@ -14,7 +14,7 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Oct 29, 2026 01:57 AM CDT",
+  "updated_local": "Oct 29, 2026 09:08 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -192,9 +192,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
-      "current_minutes": "6",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "7",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.521888,
@@ -340,9 +340,9 @@
       "roadway": "I-43 ",
       "description": "Sign 512 I-43 NB to Lineville Rd via 172/41",
       "normal_minutes": "14",
-      "current_minutes": "15",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "14",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.438107,
