@@ -14,11 +14,11 @@
     "generate_map": true,
     "id": "manitowoc"
   },
-  "updated_local": "Oct 29, 2026 03:12 PM CDT",
+  "updated_local": "Oct 29, 2026 07:50 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 0,
-  "incident_count": 2,
+  "incident_count": 3,
   "segments": [],
   "incidents": [
     {
@@ -54,6 +54,23 @@
       "encoded_polyline": "kx`lGz`lvOmMlLoOdN",
       "latitude_secondary": 44.0843350536925,
       "longitude_secondary": -87.7233044852171
+    },
+    {
+      "id": 816475,
+      "roadway": "I-43",
+      "direction": "n",
+      "description": "I-43 North at Ramp from US 10 East/WIS 310. The left lane is closed due to a crash.",
+      "severity": "2",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.15406,
+      "longitude": -87.731278,
+      "last_updated": 1793319342,
+      "lanes_affected": "1 lane(s) of 3 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Crash",
+      "encoded_polyline": "{ynlGn_nvO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
