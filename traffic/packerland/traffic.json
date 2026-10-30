@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Oct 30, 2026 02:00 AM CDT",
+  "updated_local": "Oct 30, 2026 09:00 AM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 20,
+  "incident_count": 21,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "16",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "17",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.451904,
@@ -193,7 +193,7 @@
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
       "current_minutes": "6",
-      "delay_minutes": "0",
+      "delay_minutes": "1",
       "status": "Normal",
       "waypoints": [
         [
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "19",
+      "delay_minutes": "2",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "16",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "19",
+      "delay_minutes": "4",
+      "status": "Slow",
       "waypoints": [
         [
           44.524684,
@@ -746,6 +746,23 @@
       "encoded_polyline": "yannG~o|wOmE~@mPjC",
       "latitude_secondary": 44.4779010346674,
       "longitude_secondary": -87.9694406616018
+    },
+    {
+      "id": 816654,
+      "roadway": "WI-172",
+      "direction": "w",
+      "description": "WIS 172 West 1 mile beyond Ramp from Monroe Rd. The right shoulder is blocked due to a disabled vehicle.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.46381,
+      "longitude": -88.013968,
+      "last_updated": 1793363533,
+      "lanes_affected": "Shoulder blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "yiknGhfexO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
