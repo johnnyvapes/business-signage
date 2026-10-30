@@ -14,11 +14,11 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Oct 30, 2026 09:00 AM CDT",
+  "updated_local": "Oct 30, 2026 02:12 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 53,
+  "incident_count": 54,
   "segments": [
     {
       "id": "803",
@@ -83,9 +83,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "9",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "12",
+      "delay_minutes": "4",
+      "status": "Slow",
       "waypoints": [
         [
           45.025207,
@@ -137,9 +137,9 @@
       "roadway": "WIS 29 ",
       "description": "WIS 29 EB County O to US 51",
       "normal_minutes": "4",
-      "current_minutes": "5",
-      "delay_minutes": "1",
-      "status": "Slow",
+      "current_minutes": "26",
+      "delay_minutes": "22",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.94417,
@@ -1088,6 +1088,23 @@
       "encoded_polyline": "qsqqGh`fbP{AGcA?eA@eDT{cBzL}@Jy@J_AP_AToBn@q@XaAf@w@b@w@f@u@j@s@j@sFhFm@~@sD`FmIbPcD~EsClC_ClAyHx@_APiB?kMrAwEL{@GmEy@kCKcLgAwRmB[KgR_CuAAeCk@qWsCuHmCcH{FwE{FuByDmBuFuCoMmBuFqB_EeFuGuCsBq{@id@ka@yW{QaEgSe@q@S_DJmhB{DqHs@_RoEyr@sTeDk@_WgAkOV]F",
       "latitude_secondary": 44.988065304071,
       "longitude_secondary": -89.6564927699446
+    },
+    {
+      "id": 817317,
+      "roadway": "US-51",
+      "direction": "n",
+      "description": "US 51 North at County N (Marathon County). The right shoulder is blocked due to a disabled vehicle.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.907494,
+      "longitude": -89.647626,
+      "last_updated": 1793386509,
+      "lanes_affected": "Shoulder blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "y~aqGthdbP",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
