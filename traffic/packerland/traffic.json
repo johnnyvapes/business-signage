@@ -14,7 +14,7 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Oct 31, 2026 07:12 AM CDT",
+  "updated_local": "Oct 31, 2026 12:39 PM CDT",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
@@ -119,7 +119,7 @@
       "description": "Sign 506 WIS 29 @ E of County FF to WIS 57 via I-43",
       "normal_minutes": "9",
       "current_minutes": "9",
-      "delay_minutes": "1",
+      "delay_minutes": "0",
       "status": "Normal",
       "waypoints": [
         [
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "10",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "9",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.521963,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "19",
+      "delay_minutes": "2",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524762,
@@ -516,15 +516,15 @@
       "description": "Roadwork - Mainline Left Lane Closed on I-43 SB from I-43 SB to ON RAMP FROM WIS 54 EB",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5553128,
-      "longitude": -88.0466444,
+      "latitude": 44.5520914,
+      "longitude": -88.0421537,
       "last_updated": 1790871527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBrAaB",
-      "latitude_secondary": 44.5553128,
-      "longitude_secondary": -88.0466444
+      "encoded_polyline": "qq|nGlvjxO|BiDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBrAaB",
+      "latitude_secondary": 44.5520756,
+      "longitude_secondary": -88.0421322
     },
     {
       "id": 787536,
