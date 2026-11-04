@@ -14,7 +14,7 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Nov 4, 2026 03:00 AM CST",
+  "updated_local": "Nov 4, 2026 11:07 AM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -280,15 +280,15 @@
       "description": "Roadwork - Mainline Moving Lane Closure on US 51 NB from US B51 SB (BRIDGE CROSSING) to RAINBOW DR (BRIDGE CROSSING). Daily from 11/02/2026 to 11/12/2026, 07:00 AM - 03:30 PM, M, T, W, Th (excluding Sun, F, Sat)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.9876065155301,
-      "longitude": -89.6565321534925,
+      "latitude": 44.9808514,
+      "longitude": -89.6571977,
       "last_updated": 1793363358,
       "lanes_affected": "No Data",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "qsqqGh`fbP{AGcA?eA@eDT{cBzL}@Jy@J_AP_AToBn@q@XaAf@w@b@w@f@u@j@s@j@sFhFm@~@sD`FmIbPcD~EsClC_ClAyHx@_APiB?kMrAwEL{@GmEy@kCKcLgAwRmB[KgR_CuAAeCk@qWsCuHmCcH{FwE{FuByDmBuFuCoMmBuFqB_EeFuGuCsBq{@id@ka@yW{QaEgSe@q@S_DJmhB{DqHs@_RoEyr@sTeDk@_WgAkOV]F",
-      "latitude_secondary": 44.988065304071,
-      "longitude_secondary": -89.6564927699446
+      "encoded_polyline": "iipqGndfbPc@Ca@CwACwCO_AGqBSuBQoBMcFe@_BKYEy@E_DUoAOeBGaBCiAH]?qCVsBLaDX_DRyMdAsDP{BPk@BSDm@Bw@FyCTsLx@]DqBJ{ANs@H{DVaBLiCRmG^kBLqALg@@oBXm@Hy@Nw@Xc@Lq@Vk@N{@b@g@TgChBe@Za@^_@Zq@t@q@r@k@t@e@n@cAxAiAlBi@`Ao@jAgFnIgCdEgA|Ay@bA}@v@eA`AiBdAwAr@eA`@mA\\w@JcBPkCLmGFk@@aB@]?g@@k@DmCB_FJkBEkBGgBUuBY[AgCc@wPoCcBWsB[mMoBoMoBo@IoMqBkCc@{Ag@eAc@aBy@qA_AkAgAeAiAcAyA_@i@_@e@_AmB{A{DgAcEy@gEy@cE_AcEmAsDaBmDiBoCmAyAkD}CyDuBwJgFqMuGkDoB{QaKkWaNm@[iJaFuHaEuCmA}C}@}Co@_D]gBEsEEwCAcGBOCkR?oLCyIEuJ?_@AeXEkGSuEWuEg@gIiAwH_B}F_BwC_AwCeAi^mMiEqA{Cu@iGcAyC]kAIaCOqCK_AAqCBqB@cG^m@BcD`@",
+      "latitude_secondary": 44.9810279,
+      "longitude_secondary": -89.6571848
     }
   ]
 }
