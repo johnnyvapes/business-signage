@@ -14,7 +14,7 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Nov 4, 2026 09:26 PM CST",
+  "updated_local": "Nov 5, 2026 06:11 AM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -83,9 +83,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "10",
+      "current_minutes": "9",
       "delay_minutes": "1",
-      "status": "Slow",
+      "status": "Moderate",
       "waypoints": [
         [
           45.025207,
@@ -138,7 +138,7 @@
       "description": "WIS 29 EB County O to US 51",
       "normal_minutes": "4",
       "current_minutes": "5",
-      "delay_minutes": "1",
+      "delay_minutes": "2",
       "status": "Slow",
       "waypoints": [
         [
