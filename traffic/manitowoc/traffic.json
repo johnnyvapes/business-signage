@@ -14,11 +14,46 @@
     "generate_map": true,
     "id": "manitowoc"
   },
-  "updated_local": "Nov 9, 2026 12:05 AM CST",
+  "updated_local": "Nov 9, 2026 10:04 AM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 0,
-  "incident_count": 0,
+  "incident_count": 2,
   "segments": [],
-  "incidents": []
+  "incidents": [
+    {
+      "id": 824843,
+      "roadway": "I-43",
+      "direction": "N",
+      "description": "Roadwork - Mainline Moving Lane Closure on I-43 NB from CARSTENS LAKE RD (BRIDGE CROSSING) to CARSTENS LAKE RD (BRIDGE CROSSING). Daily from 11/16/2026 to 11/16/2026, 06:00 AM - 03:00 PM, M",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.0172426140474,
+      "longitude": -87.713848740858,
+      "last_updated": 1794204784,
+      "lanes_affected": "No Data",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "wbtkGprjvOqToQqNsJyHcE",
+      "latitude_secondary": 44.0206917364956,
+      "longitude_secondary": -87.710893552075
+    },
+    {
+      "id": 824846,
+      "roadway": "I-43",
+      "direction": "N",
+      "description": "Roadwork - Mainline Left Lane Closed on I-43 NB from CS W CUSTER ST (BRIDGE CROSSING) to CS W CUSTER ST (BRIDGE CROSSING). Daily from 11/16/2026 to 11/16/2026, 06:00 AM - 03:00 PM, M",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.0809230856437,
+      "longitude": -87.7201347186661,
+      "last_updated": 1794204784,
+      "lanes_affected": "2 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "wp`lGxykvOaUnS}OrN",
+      "latitude_secondary": 44.0843350536925,
+      "longitude_secondary": -87.7233044852171
+    }
+  ]
 }
