@@ -14,7 +14,7 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Nov 10, 2026 02:18 AM CST",
+  "updated_local": "Nov 10, 2026 10:58 AM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -84,7 +84,7 @@
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
       "current_minutes": "9",
-      "delay_minutes": "1",
+      "delay_minutes": "0",
       "status": "Moderate",
       "waypoints": [
         [
@@ -314,15 +314,15 @@
       "description": "Roadwork - Mainline Right Shoulder Closed on US 51 NB from OFF RAMP TO COUNTY N to ON RAMP FROM COUNTY N. Daily from 11/09/2026 to 11/13/2026, 07:00 AM - 05:00 PM, M, T, W, Th, F",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.9085705807788,
-      "longitude": -89.6486911401176,
+      "latitude": 44.9016737,
+      "longitude": -89.6434231,
       "last_updated": 1793655861,
       "lanes_affected": "1 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "qebqGhodbP{BzAwDxB_GdEyNjJ",
-      "latitude_secondary": 44.9091099990592,
-      "longitude_secondary": -89.6490867889366
+      "encoded_polyline": "mz`qGjncbPoIrFk@Z_KtG{@l@kEnC}B|AuD`CyDfCUNyBvAoH|Ek@ZoL|H_@R",
+      "latitude_secondary": 44.9033472,
+      "longitude_secondary": -89.6446381
     },
     {
       "id": 821348,

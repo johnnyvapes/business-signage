@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Nov 10, 2026 02:18 AM CST",
+  "updated_local": "Nov 10, 2026 10:58 AM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 27,
+  "incident_count": 29,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "26",
-      "delay_minutes": "10",
-      "status": "Very Slow",
+      "current_minutes": "17",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.451904,
@@ -118,9 +118,9 @@
       "roadway": "WIS 29/32 ",
       "description": "Sign 506 WIS 29 @ E of County FF to WIS 57 via I-43",
       "normal_minutes": "9",
-      "current_minutes": "79",
-      "delay_minutes": "70",
-      "status": "Very Slow",
+      "current_minutes": "9",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.55739,
@@ -192,9 +192,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
-      "current_minutes": "6",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "7",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.521888,
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "9",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "11",
+      "delay_minutes": "2",
+      "status": "Slow",
       "waypoints": [
         [
           44.521963,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "76",
-      "delay_minutes": "59",
-      "status": "Very Slow",
+      "current_minutes": "19",
+      "delay_minutes": "2",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "54",
-      "delay_minutes": "39",
-      "status": "Very Slow",
+      "current_minutes": "20",
+      "delay_minutes": "5",
+      "status": "Slow",
       "waypoints": [
         [
           44.524684,
@@ -516,15 +516,15 @@
       "description": "Roadwork - Mainline Left Lane Closed on I-43 SB from I-43 SB to ON RAMP FROM WIS 54 EB",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5553128,
-      "longitude": -88.0466444,
+      "latitude": 44.5521498,
+      "longitude": -88.0422332,
       "last_updated": 1790871527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBpA}A",
-      "latitude_secondary": 44.5553128,
-      "longitude_secondary": -88.0466444
+      "encoded_polyline": "}q|nG|vjxOhCyDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBnA{A",
+      "latitude_secondary": 44.5520756,
+      "longitude_secondary": -88.0421322
     },
     {
       "id": 787536,
@@ -865,6 +865,40 @@
       "encoded_polyline": "w}xnG`fpxOiDjN[r@",
       "latitude_secondary": 44.5336366406055,
       "longitude_secondary": -88.0704678929027
+    },
+    {
+      "id": 825740,
+      "roadway": "WI-29",
+      "direction": "W",
+      "description": "Roadwork - Mainline Right Lane Closed on WIS 29 WB from PERKINS AVE to TAYLOR ST. Daily from 11/13/2026 to 11/17/2026, 06:00 AM - 05:00 PM, M, T, F (excluding Sun, Sat)",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.5317480206659,
+      "longitude": -88.0650901617964,
+      "last_updated": 1794318186,
+      "lanes_affected": "1 lane(s) of 2 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "mrxnGxeoxOy@fDgAxFw@dB_EjPyC~Lg@hAKKQ?OLGJEj@R`@Ij@Qx@GP",
+      "latitude_secondary": 44.5320362064164,
+      "longitude_secondary": -88.0659287079616
+    },
+    {
+      "id": 825802,
+      "roadway": "WI-172",
+      "direction": "W",
+      "description": "Roadwork - Mainline Moving Lane Closure on WIS 172 WB from ON RAMP FROM RIVERSIDE DR to COUNTY H - BROADWAY ST (BRIDGE CROSSING). Daily from 11/13/2026 to 11/13/2026, 12:00 AM - 05:00 AM, F",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4743667495114,
+      "longitude": -88.0390137337928,
+      "last_updated": 1794321786,
+      "lanes_affected": "No Data",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "ykmnGxbjxO_DlOiClSuCv_@",
+      "latitude_secondary": 44.4751669864283,
+      "longitude_secondary": -88.0416370669735
     }
   ]
 }
