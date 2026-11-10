@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Nov 9, 2026 06:12 PM CST",
+  "updated_local": "Nov 10, 2026 02:18 AM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 25,
+  "incident_count": 26,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "16",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "26",
+      "delay_minutes": "10",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.451904,
@@ -118,9 +118,9 @@
       "roadway": "WIS 29/32 ",
       "description": "Sign 506 WIS 29 @ E of County FF to WIS 57 via I-43",
       "normal_minutes": "9",
-      "current_minutes": "9",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "79",
+      "delay_minutes": "70",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.55739,
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "10",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "9",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.521963,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "76",
+      "delay_minutes": "59",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "17",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "54",
+      "delay_minutes": "39",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524684,
@@ -831,6 +831,23 @@
       "encoded_polyline": "astnGvchxO`CiJH_@bA_HzAkEbIqXbBsFnDkLv@yAL_@~AuF",
       "latitude_secondary": 44.5107233173101,
       "longitude_secondary": -88.0271062164909
+    },
+    {
+      "id": 825623,
+      "roadway": "WI-29",
+      "direction": "W",
+      "description": "Roadwork - Mainline Right Lane Closed on WIS 29 WB from TAYLOR ST NB to TAYLOR ST NB. Daily from 11/17/2026 to 11/17/2026, 07:00 AM - 05:00 PM, T",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.5335617593495,
+      "longitude": -88.0702509266936,
+      "last_updated": 1794291185,
+      "lanes_affected": "2 lane(s) of 5 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "w}xnG`fpxOiDjN[r@",
+      "latitude_secondary": 44.5336366406055,
+      "longitude_secondary": -88.0704678929027
     }
   ]
 }
