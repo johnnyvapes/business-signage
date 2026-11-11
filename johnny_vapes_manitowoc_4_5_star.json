@@ -1,25 +1,5 @@
 [
   {
-    "review_id": "ChZDSUhNMG9nS0VKdXlxc1BLckx1bEdnEAE",
-    "place_id": "0x880337f8934db437:0",
-    "author": "Ellie",
-    "rating": 5.0,
-    "description": {
-      "en": "Ten stars for Owen! Best customer service ever and definitely the best vape shop in town. No need to see any of the “other shops” because Johnny Vapes exists."
-    },
-    "likes": 0,
-    "user_images": [],
-    "author_profile_url": "https://www.google.com/maps/contrib/101821125918885669527/reviews?hl=en",
-    "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjXgV89QL8U3uv5zTEyrb8R5UA-JybgTwtPA6rKocnxByyjwwU4=w36-h36-p-rp-mo-ba12-br100",
-    "owner_responses": {},
-    "sub_ratings": {},
-    "created_date": "2026-11-09T10:42:33.778733+00:00",
-    "review_date": "2025-11-09T10:42:33+00:00",
-    "last_modified_date": "2026-11-09T10:42:33.778733+00:00",
-    "company": "Johnny Vapes Manitowoc",
-    "source": "Google Maps"
-  },
-  {
     "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNCcmFIM2VnEAE",
     "place_id": "0x880337f8934db437:0",
     "author": "Jessica",
@@ -33,9 +13,29 @@
     "profile_picture": "https://lh3.googleusercontent.com/a/ACg8ocIKAeQoERK0q1pllUKP5mPiNSvUqtIr8Ml2P-GGAk6wsXwNew=w36-h36-p-rp-mo-ba12-br100",
     "owner_responses": {},
     "sub_ratings": {},
-    "created_date": "2026-11-09T10:42:33.642537+00:00",
-    "review_date": "2023-11-10T10:42:33+00:00",
-    "last_modified_date": "2026-11-09T10:42:33.642537+00:00",
+    "created_date": "2026-11-11T10:06:25.079072+00:00",
+    "review_date": "2023-11-12T10:06:25+00:00",
+    "last_modified_date": "2026-11-11T10:06:25.079072+00:00",
+    "company": "Johnny Vapes Manitowoc",
+    "source": "Google Maps"
+  },
+  {
+    "review_id": "ChZDSUhNMG9nS0VKdXlxc1BLckx1bEdnEAE",
+    "place_id": "0x880337f8934db437:0",
+    "author": "Ellie",
+    "rating": 5.0,
+    "description": {
+      "en": "Ten stars for Owen! Best customer service ever and definitely the best vape shop in town. No need to see any of the “other shops” because Johnny Vapes exists."
+    },
+    "likes": 0,
+    "user_images": [],
+    "author_profile_url": "https://www.google.com/maps/contrib/101821125918885669527/reviews?hl=en",
+    "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjXgV89QL8U3uv5zTEyrb8R5UA-JybgTwtPA6rKocnxByyjwwU4=w36-h36-p-rp-mo-ba12-br100",
+    "owner_responses": {},
+    "sub_ratings": {},
+    "created_date": "2026-11-11T10:06:24.875922+00:00",
+    "review_date": "2025-11-11T10:06:24+00:00",
+    "last_modified_date": "2026-11-11T10:06:24.875922+00:00",
     "company": "Johnny Vapes Manitowoc",
     "source": "Google Maps"
   },
@@ -53,9 +53,9 @@
     "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjUQYSbgNBS89oVVn8xHzFIJ5ip3UZX0mYIAnyP2ZBssSuGvVE1v=w36-h36-p-rp-mo-br100",
     "owner_responses": {},
     "sub_ratings": {},
-    "created_date": "2026-11-09T10:42:33.441687+00:00",
-    "review_date": "2025-11-09T10:42:33+00:00",
-    "last_modified_date": "2026-11-09T10:42:33.441687+00:00",
+    "created_date": "2026-11-11T10:06:24.738230+00:00",
+    "review_date": "2025-11-11T10:06:24+00:00",
+    "last_modified_date": "2026-11-11T10:06:24.738230+00:00",
     "company": "Johnny Vapes Manitowoc",
     "source": "Google Maps"
   },
@@ -73,9 +73,9 @@
     "profile_picture": "https://lh3.googleusercontent.com/a/ACg8ocJCpeDsMmDx_zGVeQwHvczbTG9g946eAien0LszKEXiwl-Yh0Ei=w36-h36-p-rp-mo-br100",
     "owner_responses": {},
     "sub_ratings": {},
-    "created_date": "2026-11-09T10:42:33.176094+00:00",
-    "review_date": "2026-04-13T10:42:33+00:00",
-    "last_modified_date": "2026-11-09T10:42:33.176094+00:00",
+    "created_date": "2026-11-11T10:06:24.456131+00:00",
+    "review_date": "2026-04-15T10:06:24+00:00",
+    "last_modified_date": "2026-11-11T10:06:24.456131+00:00",
     "company": "Johnny Vapes Manitowoc",
     "source": "Google Maps"
   }
