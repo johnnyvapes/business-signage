@@ -14,7 +14,7 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Nov 11, 2026 12:37 PM CST",
+  "updated_local": "Nov 11, 2026 07:28 PM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -484,15 +484,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on US 51 SB from OFF RAMP TO BRIDGE ST to WIS-52 PARKWAY (BRIDGE CROSSING)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.9767525204197,
-      "longitude": -89.6571933092175,
+      "latitude": 44.980817,
+      "longitude": -89.6574135,
       "last_updated": 1794338886,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "uooqGldfbPhXyAbX_BjE?|BTvBb@xBt@rBbApBrAhB`BbBnBzAzBzLjT",
-      "latitude_secondary": 44.9726975364086,
-      "longitude_secondary": -89.6567366571611
+      "encoded_polyline": "cipqGxefbPf@@t@@hA@zDBjEMzKo@rE[|@IxDUd@ApE[fIe@rE]\\AnACtBKnAC|@FbABhBTl@Nt@\\`DvAvAv@h@\\|@v@XVn@l@n@p@p@~@|@rAnDfGtB~D|AtCtA`C",
+      "latitude_secondary": 44.9808126,
+      "longitude_secondary": -89.6574144
     },
     {
       "id": 826087,

@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Nov 11, 2026 12:37 PM CST",
+  "updated_local": "Nov 11, 2026 07:28 PM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 28,
+  "incident_count": 26,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "16",
-      "delay_minutes": "1",
-      "status": "Normal",
+      "current_minutes": "24",
+      "delay_minutes": "8",
+      "status": "Slow",
       "waypoints": [
         [
           44.451904,
@@ -192,9 +192,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
-      "current_minutes": "7",
+      "current_minutes": "6",
       "delay_minutes": "1",
-      "status": "Moderate",
+      "status": "Normal",
       "waypoints": [
         [
           44.521888,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "18",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "32",
+      "delay_minutes": "15",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "18",
-      "delay_minutes": "3",
-      "status": "Moderate",
+      "current_minutes": "31",
+      "delay_minutes": "16",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524684,
@@ -516,15 +516,15 @@
       "description": "Roadwork - Mainline Left Lane Closed on I-43 SB from I-43 SB to ON RAMP FROM WIS 54 EB",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.552129,
-      "longitude": -88.0422049,
+      "latitude": 44.5553128,
+      "longitude": -88.0466444,
       "last_updated": 1790871527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "yq|nGvvjxOdCsDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBbAmA",
-      "latitude_secondary": 44.5520756,
-      "longitude_secondary": -88.0421322
+      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBpA_B",
+      "latitude_secondary": 44.5553128,
+      "longitude_secondary": -88.0466444
     },
     {
       "id": 787536,
@@ -780,40 +780,6 @@
       "encoded_polyline": "gxunGtbzwO??",
       "latitude_secondary": 44.5173206576795,
       "longitude_secondary": -87.957068515544
-    },
-    {
-      "id": 821514,
-      "roadway": "WI-54",
-      "direction": "W",
-      "description": "Roadwork - Mainline Full Closure on WIS 54 WB from WIS 57-MONROE ST (BRIDGE CROSSING) to WIS 32 - ASHLAND AVE (BRIDGE CROSSING). Daily from 11/11/2026 to 11/11/2026, 08:00 AM - 02:00 PM, W. Detour: Ashland Ave to Walnut St to Monroe Ave",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.5062410500717,
-      "longitude": -88.015142154545,
-      "last_updated": 1793779464,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "_ssnGrmexOIj@sBnIoDjLcBrFcIpX{AjEcA~GI^cClJ",
-      "latitude_secondary": 44.5062876874257,
-      "longitude_secondary": -88.0153633266801
-    },
-    {
-      "id": 821515,
-      "roadway": "WI-54",
-      "direction": "E",
-      "description": "Roadwork - Mainline Full Closure on WIS 54 EB from WIS 32 - ASHLAND AVE (BRIDGE CROSSING) to WIS 57 SB. Daily from 11/11/2026 to 11/11/2026, 08:00 AM - 02:00 PM, W. Detour: Ashland Ave to Walnut St to Monroe Ave",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.5113730241678,
-      "longitude": -88.0289243993577,
-      "last_updated": 1793779464,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "astnGvchxO`CiJH_@bA_HzAkEbIqXbBsFnDkLv@yAL_@~AuF",
-      "latitude_secondary": 44.5107233173101,
-      "longitude_secondary": -88.0271062164909
     },
     {
       "id": 825623,
