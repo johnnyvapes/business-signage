@@ -14,7 +14,7 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Nov 11, 2026 07:28 PM CST",
+  "updated_local": "Nov 12, 2026 03:42 AM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -83,9 +83,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "9",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "8",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           45.025207,
@@ -138,7 +138,7 @@
       "description": "WIS 29 EB County O to US 51",
       "normal_minutes": "4",
       "current_minutes": "5",
-      "delay_minutes": "1",
+      "delay_minutes": "2",
       "status": "Slow",
       "waypoints": [
         [
@@ -484,13 +484,13 @@
       "description": "Roadwork - Mainline Various Lanes Closed on US 51 SB from OFF RAMP TO BRIDGE ST to WIS-52 PARKWAY (BRIDGE CROSSING)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.980817,
-      "longitude": -89.6574135,
+      "latitude": 44.9808492,
+      "longitude": -89.6574071,
       "last_updated": 1794338886,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "cipqGxefbPf@@t@@hA@zDBjEMzKo@rE[|@IxDUd@ApE[fIe@rE]\\AnACtBKnAC|@FbABhBTl@Nt@\\`DvAvAv@h@\\|@v@XVn@l@n@p@p@~@|@rAnDfGtB~D|AtCtA`C",
+      "encoded_polyline": "iipqGxefbPF?d@@t@@hA@zDBjEMzKo@rE[|@IxDUd@ApE[fIe@rE]\\AnACtBKnAC|@FbABhBTl@Nt@\\`DvAvAv@h@\\|@v@XVn@l@n@p@p@~@|@rAnDfGtB~D|AtCtA`C",
       "latitude_secondary": 44.9808126,
       "longitude_secondary": -89.6574144
     },
