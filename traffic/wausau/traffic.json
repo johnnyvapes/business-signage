@@ -14,7 +14,7 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Nov 13, 2026 10:09 AM CST",
+  "updated_local": "Nov 13, 2026 04:31 PM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -165,7 +165,7 @@
       "description": "WIS 29 WB Camp Phillips Rd to US 51",
       "normal_minutes": "5",
       "current_minutes": "5",
-      "delay_minutes": "0",
+      "delay_minutes": "1",
       "status": "Normal",
       "waypoints": [
         [
@@ -331,15 +331,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on WIS 29 EB from LITTLE RIB RIVER (BRIDGE CROSSING) to WIS 29 EB (BEGIN CC)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.9539318,
-      "longitude": -89.6982727,
+      "latitude": 44.9537059645005,
+      "longitude": -89.6948828342478,
       "last_updated": 1794338886,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "aakqGdenbPFyH?kAD}E?cGLuSD{E@sF?wHAqJAgMAqJAwBAaL?mIAqFAuAAiG@eBAq@BgBBmAFyALeAHg@\\kBb@cBVy@DGZ_AVi@r@iAt@aAh@i@d@g@HETKp@g@~@g@r@Q|@WbAI~@GrCEv@AjDAT@|FCf@A\\?",
-      "latitude_secondary": 44.9538907,
-      "longitude_secondary": -89.696698
+      "encoded_polyline": "u_kqG~ombPPs_@IcjBFiCPeCZyBd@uBn@oBx@eBbA_BfAoA`Ay@`B_ArBq@vBWzFCrG_@`Dc@X?",
+      "latitude_secondary": 44.9536191969291,
+      "longitude_secondary": -89.6896574147064
     },
     {
       "id": 826081,
