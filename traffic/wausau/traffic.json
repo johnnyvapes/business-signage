@@ -14,11 +14,11 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Nov 12, 2026 12:10 PM CST",
+  "updated_local": "Nov 12, 2026 06:10 PM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 20,
+  "incident_count": 17,
   "segments": [
     {
       "id": "803",
@@ -83,9 +83,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "9",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "10",
+      "delay_minutes": "2",
+      "status": "Slow",
       "waypoints": [
         [
           45.025207,
@@ -164,9 +164,9 @@
       "roadway": "WIS 29 ",
       "description": "WIS 29 WB Camp Phillips Rd to US 51",
       "normal_minutes": "5",
-      "current_minutes": "6",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "5",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.894537,
@@ -238,57 +238,6 @@
       "encoded_polyline": "csqqG~|tbPCrP",
       "latitude_secondary": 44.9875575330015,
       "longitude_secondary": -89.7356183380441
-    },
-    {
-      "id": 816670,
-      "roadway": "WI-29",
-      "direction": "E",
-      "description": "Roadwork - Mainline Moving Lane Closure on WIS 29 EB from OFF RAMP TO COUNTY J to MARATHON - SHAWANO CO LINE. Daily from 11/02/2026 to 11/12/2026, 07:00 AM - 03:30 PM, M, T, W, Th (excluding Sun, F, Sat)",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.8913908984081,
-      "longitude": -89.5048529164295,
-      "last_updated": 1793363358,
-      "lanes_affected": "No Data",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "ez~pGhlhaPRuZVma@Zck@VaMx@{Lpf@ylFt@gLXkLHsLn@i~AXyf@JyKLwKl@i`@FeHC{C~@yv@l@ej@~@a|@^}\\`@g_@d@{pCRkERqGr@gGlAeH\\mCHy@PwBHgIc@eI_AkI]wEG}EBsLC{OBuJ?yLByLDkSBqCFyCJaCJeCPkCVaDX{C`@aD^mCf@sCp@uDn@iC`A}DhAyDdA_DhA}ChAqC~BmEhHgMn~@iuAvAyBrA{B`DkFdJyOpB{C~CyEjC_E|CuE|D}FfEsGbD_FhDgFpEgGhCoDpAiB`BcCtHcLfT_\\lCaEfCwDxAqBzAkBzAgB~AaBfBeB~AwA|AqAdBoA`BgAtA{@pAq@`B{@~As@tAm@dBo@fBk@xDmAtDiAfFaBpE{AtAk@vAs@pAs@~AeApBwA~AuAhBiB`BiBvAkBpAoBpAsBjA}BrAqCxAuDpAyDjAgEhA{Et@{Ib@sI@eJJw]Nym@",
-      "latitude_secondary": 44.8913802677505,
-      "longitude_secondary": -89.5043838531185
-    },
-    {
-      "id": 816675,
-      "roadway": "US-51",
-      "direction": "S",
-      "description": "Roadwork - Mainline Moving Lane Closure on US 51 SB from WISCONSIN RIVER 26 (BRIDGE CROSSING) to MARATHON - PORTAGE CO LINE. Daily from 11/02/2026 to 11/12/2026, 07:30 AM - 03:30 PM, M, T, W, Th (excluding Sun, F, Sat)",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.8696339618605,
-      "longitude": -89.6454224568958,
-      "last_updated": 1793363358,
-      "lanes_affected": "No Data",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "erzpGzzcbPnC_@pJgCnBgAp@e@xAeAr_@e\\dAy@jAw@z@g@z@c@|@a@|@]bA[~@U~@S`AOfAMlAIhAElA?hABjAHhAJjAPfATjAZhA^dA`@bAd@dAl@dAp@p@b@jXtTrS|Q|AjAdArAxz@rr@hs@di@foAx~@fE~CbJ`H~BxAlWfRpErBbKrBlc@~EhDRbN~AtTlArHJfLErG@`EBvAEf~@Yhi@Kxw@_@tl@Sph@IbB?zAGtz@Wb@?vLgAtD_BlB_ApAsAdBkAbG_H~AsBpp@idAtMsN~HeHhB_BxAsAvByA^KlFeEb@?pJmGhADpM_Ih[yR~IyHt@YbYyThAqAvF_EjJ_IdNsJf@Kp@m@pAYLQtJcA",
-      "latitude_secondary": 44.8689120747854,
-      "longitude_secondary": -89.6452579300701
-    },
-    {
-      "id": 816677,
-      "roadway": "US-51",
-      "direction": "N",
-      "description": "Roadwork - Mainline Moving Lane Closure on US 51 NB from US B51 SB (BRIDGE CROSSING) to RAINBOW DR (BRIDGE CROSSING). Daily from 11/02/2026 to 11/12/2026, 07:00 AM - 03:30 PM, M, T, W, Th (excluding Sun, F, Sat)",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.9876065155301,
-      "longitude": -89.6565321534925,
-      "last_updated": 1793363358,
-      "lanes_affected": "No Data",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "qsqqGh`fbP{AGcA?eA@eDT{cBzL}@Jy@J_AP_AToBn@q@XaAf@w@b@w@f@u@j@s@j@sFhFm@~@sD`FmIbPcD~EsClC_ClAyHx@_APiB?kMrAwEL{@GmEy@kCKcLgAwRmB[KgR_CuAAeCk@qWsCuHmCcH{FwE{FuByDmBuFuCoMmBuFqB_EeFuGuCsBq{@id@ka@yW{QaEgSe@q@S_DJmhB{DqHs@_RoEyr@sTeDk@_WgAkOV]F",
-      "latitude_secondary": 44.988065304071,
-      "longitude_secondary": -89.6564927699446
     },
     {
       "id": 821344,
@@ -484,15 +433,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on US 51 SB from OFF RAMP TO BRIDGE ST to WIS-52 PARKWAY (BRIDGE CROSSING)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.9767525204197,
-      "longitude": -89.6571933092175,
+      "latitude": 44.9809283,
+      "longitude": -89.6573914,
       "last_updated": 1794338886,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "uooqGldfbPhXyAbX_BjE?|BTvBb@xBt@rBbApBrAhB`BbBnBzAzBzLjT",
-      "latitude_secondary": 44.9726975364086,
-      "longitude_secondary": -89.6567366571611
+      "encoded_polyline": "yipqGtefbPVBd@@t@@hA@zDBjEMzKo@rE[|@IxDUd@ApE[fIe@rE]\\AnACtBKnAC|@FbABhBTl@Nt@\\`DvAvAv@h@\\|@v@XVn@l@n@p@p@~@|@rAnDfGtB~D|AtCtA`C",
+      "latitude_secondary": 44.9808126,
+      "longitude_secondary": -89.6574144
     },
     {
       "id": 826087,
