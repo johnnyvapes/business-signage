@@ -14,7 +14,7 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Nov 13, 2026 09:04 PM CST",
+  "updated_local": "Nov 14, 2026 04:12 AM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
@@ -83,9 +83,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB WIS 29 West to WIS 29 East",
       "normal_minutes": "8",
-      "current_minutes": "8",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "9",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           45.025207,
@@ -110,9 +110,9 @@
       "roadway": "US 51 ",
       "description": "US 51 SB County WW to WIS 29 West",
       "normal_minutes": "4",
-      "current_minutes": "4",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "5",
+      "delay_minutes": "1",
+      "status": "Slow",
       "waypoints": [
         [
           45.025333,
@@ -263,15 +263,15 @@
       "description": "Roadwork - Mainline Various Lanes Closed on WIS 29 EB from LITTLE RIB RIVER (BRIDGE CROSSING) to WIS 29 EB (BEGIN CC)",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.9537059645005,
-      "longitude": -89.6948828342478,
+      "latitude": 44.9539345,
+      "longitude": -89.6983799,
       "last_updated": 1794338886,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "u_kqG~ombPPs_@IcjBFiCPeCZyBd@uBn@oBx@eBbA_BfAoA`Ay@`B_ArBq@vBWzFCrG_@`Dc@X?",
-      "latitude_secondary": 44.9536191969291,
-      "longitude_secondary": -89.6896574147064
+      "encoded_polyline": "aakqGzenbPFoI?kAD}E?cGLuSD{E@sF?wHAqJAgMAqJAwBAaL?mIAqFAuAAiG@eBAq@BgBBmAFyALeAHg@\\kBb@cBVy@DGZ_AVi@r@iAt@aAh@i@d@g@HETKp@g@~@g@r@Q|@WbAI~@GrCEv@AjDAT@|FCf@A\\?",
+      "latitude_secondary": 44.9538907,
+      "longitude_secondary": -89.696698
     },
     {
       "id": 826081,
