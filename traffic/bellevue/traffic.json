@@ -14,11 +14,11 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Nov 14, 2026 04:12 AM CST",
+  "updated_local": "Nov 14, 2026 10:59 AM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 17,
+  "incident_count": 19,
   "segments": [
     {
       "id": "4008",
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "41",
-      "delay_minutes": "24",
-      "status": "Very Slow",
+      "current_minutes": "17",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "35",
-      "delay_minutes": "20",
-      "status": "Very Slow",
+      "current_minutes": "16",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524684,
@@ -448,15 +448,15 @@
       "description": "Roadwork - Mainline Left Lane Closed on I-43 SB from I-43 SB to ON RAMP FROM WIS 54 EB",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5553128,
-      "longitude": -88.0466444,
+      "latitude": 44.5521894,
+      "longitude": -88.0422872,
       "last_updated": 1790871527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBlAyA",
-      "latitude_secondary": 44.5553128,
-      "longitude_secondary": -88.0466444
+      "encoded_polyline": "er|nGhwjxOpCeEfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBnA{A",
+      "latitude_secondary": 44.5520756,
+      "longitude_secondary": -88.0421322
     },
     {
       "id": 787536,
@@ -695,6 +695,40 @@
       "encoded_polyline": "o`qnGbpkxOOMiNkN{ByCwAgA",
       "latitude_secondary": 44.4931245284363,
       "longitude_secondary": -88.0461876242369
+    },
+    {
+      "id": 830351,
+      "roadway": "I-41",
+      "direction": "n",
+      "description": "I-41 North 0.2 miles beyond WIS 29. The right shoulder is blocked due to a disabled vehicle.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.528207,
+      "longitude": -88.081378,
+      "last_updated": 1794671325,
+      "lanes_affected": "Shoulder blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "i|wnGrkrxO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
+    },
+    {
+      "id": 830369,
+      "roadway": "I-43",
+      "direction": "n",
+      "description": "I-43 North at Ramp from US 141. The right shoulder is blocked due to a disabled vehicle.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.437024,
+      "longitude": -87.924198,
+      "last_updated": 1794672406,
+      "lanes_affected": "Shoulder blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "kbfnGfuswO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
