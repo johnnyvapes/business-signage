@@ -14,11 +14,11 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Nov 17, 2026 07:08 AM CST",
+  "updated_local": "Nov 17, 2026 04:11 PM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 13,
+  "incident_count": 15,
   "segments": [
     {
       "id": "803",
@@ -408,6 +408,40 @@
       "encoded_polyline": "}glqGlngbPVd@tBzCtBzB`CfBjCpAlCx@pCb@rCH~Ws@rp@EbQe@xHk@xHy@vHiA|H{AxHkBpHyBrHiC`HiDpDoBbBcA`LqGtj@o]hFaDlNsJfOuJ~FeEvDyBlOaK|RmL",
       "latitude_secondary": 44.9600290142079,
       "longitude_secondary": -89.6641019396508
+    },
+    {
+      "id": 832247,
+      "roadway": "Ramp from I-39/US-51  to WI-29",
+      "direction": "u",
+      "description": "Road Work - Ramp from I-39/US 51 North to WIS 29 East closed because of road work until Friday, November 20 at 12:00 pm. I-39/US 51 North - WIS 29 East",
+      "severity": "4",
+      "event_type": "closures",
+      "latitude": 44.893589,
+      "longitude": -89.638523,
+      "last_updated": 1794947737,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "Road Work",
+      "encoded_polyline": "}g_qGvobbP",
+      "latitude_secondary": null,
+      "longitude_secondary": null
+    },
+    {
+      "id": 832249,
+      "roadway": "Ramp from I-39/US-51 North to WI-29 East",
+      "direction": "undefined",
+      "description": "Roadwork - Ramp from I-39/US 51 North to WIS 29 East closed because of road work until Friday, November 20 at 12:00 pm.",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.893589,
+      "longitude": -89.638523,
+      "last_updated": 1794947737,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "}g_qGvobbP??",
+      "latitude_secondary": 44.893589,
+      "longitude_secondary": -89.638523
     }
   ]
 }
