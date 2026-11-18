@@ -14,11 +14,46 @@
     "generate_map": true,
     "id": "manitowoc"
   },
-  "updated_local": "Nov 18, 2026 07:49 AM CST",
+  "updated_local": "Nov 18, 2026 03:49 PM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 0,
-  "incident_count": 0,
+  "incident_count": 2,
   "segments": [],
-  "incidents": []
+  "incidents": [
+    {
+      "id": 833371,
+      "roadway": "WI-42",
+      "direction": "N",
+      "description": "Roadwork - Mainline Full Closure on WIS 42 NB from 21ST ST to WASHINGTON ST. Daily from 11/25/2026 to 11/25/2026, 05:30 PM - 09:30 PM, W. Detour: 21st St to Revere Dr to 18th St to Waldo Blvd, back to STH 42",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.088967928511,
+      "longitude": -87.6746700471636,
+      "last_updated": 1795032043,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "acblGt}bvODyKBkUFeYBmP@uGI?",
+      "latitude_secondary": 44.0889526625965,
+      "longitude_secondary": -87.6737161217029
+    },
+    {
+      "id": 833372,
+      "roadway": "WI-42",
+      "direction": "S",
+      "description": "Roadwork - Mainline Full Closure on WIS 42 SB from 10TH ST to 21ST ST. Daily from 11/25/2026 to 11/25/2026, 05:30 PM - 09:30 PM, W. Detour: 21st St to Revere Dr to 18th St to Waldo Blvd, back to STH 42",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.0888835501326,
+      "longitude": -87.6606712735338,
+      "last_updated": 1795032043,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "obblGdf`vOD?AtGClPGdYCjUE|K",
+      "latitude_secondary": 44.0888474627017,
+      "longitude_secondary": -87.6606718571893
+    }
+  ]
 }

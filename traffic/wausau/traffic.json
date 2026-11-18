@@ -14,11 +14,11 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Nov 18, 2026 07:49 AM CST",
+  "updated_local": "Nov 18, 2026 03:49 PM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 15,
+  "incident_count": 16,
   "segments": [
     {
       "id": "803",
@@ -442,6 +442,23 @@
       "encoded_polyline": "}g_qGvobbP??",
       "latitude_secondary": 44.893589,
       "longitude_secondary": -89.638523
+    },
+    {
+      "id": 833373,
+      "roadway": "US-51",
+      "direction": "N",
+      "description": "Roadwork - System Interchange Full Closure on US 51 NB at I-39/US 51 NB TO WIS 29 EB (S-E). Detour: Proceed along USH 51 NB, Take Exit 188 to CTH N, Turn Left on CTH N West, Turn left and proceed south along USH 51 SB / STH 29 EB, Take Exit 187 for STH 29 EB and proceed with route",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.894176270479,
+      "longitude": -89.6397680865517,
+      "last_updated": 1795032043,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "sk_qGpwbbP??",
+      "latitude_secondary": 44.894176270479,
+      "longitude_secondary": -89.6397680865517
     }
   ]
 }
