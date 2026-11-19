@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Nov 19, 2026 06:51 AM CST",
+  "updated_local": "Nov 19, 2026 03:24 PM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 15,
+  "incident_count": 13,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "23",
-      "delay_minutes": "8",
-      "status": "Slow",
+      "current_minutes": "18",
+      "delay_minutes": "3",
+      "status": "Moderate",
       "waypoints": [
         [
           44.451904,
@@ -192,9 +192,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
-      "current_minutes": "8",
-      "delay_minutes": "3",
-      "status": "Slow",
+      "current_minutes": "10",
+      "delay_minutes": "4",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.521888,
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "12",
-      "delay_minutes": "3",
-      "status": "Slow",
+      "current_minutes": "14",
+      "delay_minutes": "5",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.521963,
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "34",
-      "delay_minutes": "17",
-      "status": "Very Slow",
+      "current_minutes": "20",
+      "delay_minutes": "3",
+      "status": "Moderate",
       "waypoints": [
         [
           44.524762,
@@ -301,8 +301,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "34",
-      "delay_minutes": "19",
+      "current_minutes": "28",
+      "delay_minutes": "13",
       "status": "Very Slow",
       "waypoints": [
         [
@@ -375,9 +375,9 @@
       "roadway": "I-43 ",
       "description": "Sign 512 I-43 NB to Lineville Rd via I-43/I-41",
       "normal_minutes": "13",
-      "current_minutes": "15",
-      "delay_minutes": "2",
-      "status": "Moderate",
+      "current_minutes": "21",
+      "delay_minutes": "8",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.438024,
@@ -448,15 +448,15 @@
       "description": "Roadwork - Mainline Right Lane Closed on I-43 SB from I-43 SB to ON RAMP FROM WIS 54 EB",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5553128,
-      "longitude": -88.0466444,
+      "latitude": 44.5520888,
+      "longitude": -88.0421501,
       "last_updated": 1790871527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBrAaB",
-      "latitude_secondary": 44.5553128,
-      "longitude_secondary": -88.0466444
+      "encoded_polyline": "qq|nGlvjxO|BiDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBxAgB",
+      "latitude_secondary": 44.5520756,
+      "longitude_secondary": -88.0421322
     },
     {
       "id": 787536,
@@ -561,40 +561,6 @@
       "longitude_secondary": -87.9879658377634
     },
     {
-      "id": 821362,
-      "roadway": "WI-54",
-      "direction": "W",
-      "description": "Roadwork - System Interchange Full Closure on WIS 54 WB at WIS 54/57 SB TO I-43 NB (RAMP). Daily from 11/09/2026 to 11/25/2026, 09:00 PM - 05:00 AM, Sun, M, T, W, Th, F, Sat",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.521167191249,
-      "longitude": -87.9532148774999,
-      "last_updated": 1793600061,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "ipvnGpjywO??",
-      "latitude_secondary": 44.521167191249,
-      "longitude_secondary": -87.9532148774999
-    },
-    {
-      "id": 821363,
-      "roadway": "I-43",
-      "direction": "S",
-      "description": "Roadwork - System Interchange Full Closure on I-43 SB at I-43 SB TO WIS 54/57 NB (SPLIT RAMP). Daily from 11/09/2026 to 11/25/2026, 09:00 PM - 05:00 AM, Sun, M, T, W, Th, F, Sat",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.5194283039321,
-      "longitude": -87.9631493268551,
-      "last_updated": 1793600061,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "mevnGth{wO??",
-      "latitude_secondary": 44.5194283039321,
-      "longitude_secondary": -87.9631493268551
-    },
-    {
       "id": 832836,
       "roadway": "US-141",
       "direction": "S",
@@ -646,19 +612,19 @@
       "longitude_secondary": -88.1304250703956
     },
     {
-      "id": 833752,
+      "id": 833945,
       "roadway": "I-41",
-      "direction": "n",
-      "description": "I-41 North at Ramp from WIS 172. The right shoulder is blocked due to a disabled vehicle.",
+      "direction": "s",
+      "description": "I-41 South 0.2 miles beyond Ramp from WIS 172 East. The right shoulder is blocked due to a disabled vehicle.",
       "severity": "1",
       "event_type": "accidentsAndIncidents",
-      "latitude": 44.489601,
-      "longitude": -88.080769,
-      "last_updated": 1795092146,
+      "latitude": 44.477998,
+      "longitude": -88.080069,
+      "last_updated": 1795115524,
       "lanes_affected": "Shoulder blocked.",
       "is_full_closure": false,
       "event_subtype": "Disabled Vehicle",
-      "encoded_polyline": "_kpnGxgrxO",
+      "encoded_polyline": "obnnGlcrxO",
       "latitude_secondary": null,
       "longitude_secondary": null
     }
