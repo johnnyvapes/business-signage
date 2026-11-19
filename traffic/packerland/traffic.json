@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "packerland"
   },
-  "updated_local": "Nov 18, 2026 09:13 PM CST",
+  "updated_local": "Nov 19, 2026 06:51 AM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 20,
+  "incident_count": 15,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "16",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "23",
+      "delay_minutes": "8",
+      "status": "Slow",
       "waypoints": [
         [
           44.451904,
@@ -192,7 +192,7 @@
       "roadway": "I-43 ",
       "description": "Sign 510 I-43 NB @ S of Webster to Lineville Rd",
       "normal_minutes": "6",
-      "current_minutes": "9",
+      "current_minutes": "8",
       "delay_minutes": "3",
       "status": "Slow",
       "waypoints": [
@@ -254,9 +254,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "17",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "34",
+      "delay_minutes": "17",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524762,
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "19",
-      "delay_minutes": "4",
-      "status": "Slow",
+      "current_minutes": "34",
+      "delay_minutes": "19",
+      "status": "Very Slow",
       "waypoints": [
         [
           44.524684,
@@ -437,7 +437,7 @@
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "qyunGtxxwOu@tB}@bD]tA[xAQ|@S~@SxAU|AYpCS~BInAQtDGtB]jI_@vI[nH[vHc@fKIrBIbBO|BGjAMxAWbCUdBi@bDo@|CuAxF{@jDkIl\\_BrGqBhIoFfTYjA[pASr@}EzRU|@oC~KuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBgC`HsA|CwAzCyAvCU\\m@dAwBhDiAdB_EfGgAzAoEzGmHvKaQ~VmBlC_CpDkEzGeCtD",
+      "encoded_polyline": "qyunGtxxwOu@tB}@bD]tA[xAQ|@S~@SxAU|AYpCS~BInAQtDGtB]jI_@vI[nH[vHc@fKIrBIbBO|BGjAMxAWbCUdBi@bDo@|CuAxF{@jDkIl\\_BrGqBhIoFfTYjA[pASr@}EzRU|@oC~KuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBgC`HsA|CwAzCyAvCU\\m@dAwBhDiAdB_EfGgAzAoEzGmHvKaQ~VmBlC_CpDkEzGcCpD",
       "latitude_secondary": 44.5176083,
       "longitude_secondary": -87.9505155
     },
@@ -454,7 +454,7 @@
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBnA{A",
+      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBrAaB",
       "latitude_secondary": 44.5553128,
       "longitude_secondary": -88.0466444
     },
@@ -561,57 +561,6 @@
       "longitude_secondary": -87.9879658377634
     },
     {
-      "id": 814452,
-      "roadway": "I-43",
-      "direction": "S",
-      "description": "Roadwork - Ramp Full Closure on I-43 SB at OFF RAMP TO WEBSTER AVE. Daily from 11/02/2026 to 11/19/2026, 07:00 PM - 05:00 AM, M, T, W, Th, F (excluding Sun, Sat)",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.5288285403939,
-      "longitude": -87.9940458622835,
-      "last_updated": 1793193255,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "e`xnGxiaxO??",
-      "latitude_secondary": 44.5288285403939,
-      "longitude_secondary": -87.9940458622835
-    },
-    {
-      "id": 814453,
-      "roadway": "I-43",
-      "direction": "N",
-      "description": "Roadwork - Ramp Full Closure on I-43 NB at OFF RAMP TO E SHORE DR. Daily from 11/02/2026 to 11/19/2026, 06:00 PM - 05:00 AM, M, T, W, Th, F (excluding Sun, Sat)",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.5260682900905,
-      "longitude": -87.9858188561206,
-      "last_updated": 1793193255,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "}nwnGjv_xO??",
-      "latitude_secondary": 44.5260682900905,
-      "longitude_secondary": -87.9858188561206
-    },
-    {
-      "id": 814454,
-      "roadway": "I-43",
-      "direction": "N",
-      "description": "Roadwork - Ramp Full Closure on I-43 NB at ON RAMP FROM E SHORE DR. Daily from 11/02/2026 to 11/19/2026, 08:00 PM - 05:00 AM, M, T, W, Th, F (excluding Sun, Sat)",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.5268428498799,
-      "longitude": -87.9880233018975,
-      "last_updated": 1793193255,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "wswnGbd`xO??",
-      "latitude_secondary": 44.5268428498799,
-      "longitude_secondary": -87.9880233018975
-    },
-    {
       "id": 821362,
       "roadway": "WI-54",
       "direction": "W",
@@ -644,57 +593,6 @@
       "encoded_polyline": "mevnGth{wO??",
       "latitude_secondary": 44.5194283039321,
       "longitude_secondary": -87.9631493268551
-    },
-    {
-      "id": 832814,
-      "roadway": "I-43",
-      "direction": "N",
-      "description": "Roadwork - Ramp Full Closure on I-43 NB at ON RAMP FROM ATKINSON DR. Daily from 11/06/2026 to 11/19/2026, 06:00 PM - 06:00 AM, M, T, W, Th, F (excluding Sun, Sat)",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.5437226598927,
-      "longitude": -88.0304040428841,
-      "last_updated": 1793377758,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "g}znG~lhxO??",
-      "latitude_secondary": 44.5437226598927,
-      "longitude_secondary": -88.0304040428841
-    },
-    {
-      "id": 832815,
-      "roadway": "I-43",
-      "direction": "S",
-      "description": "Roadwork - Ramp Full Closure on I-43 SB at OFF RAMP TO ATKINSON DR. Daily from 11/06/2026 to 11/19/2026, 06:00 PM - 06:00 AM, M, T, W, Th, F (excluding Sun, Sat)",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.541605848242,
-      "longitude": -88.0279715551379,
-      "last_updated": 1793377758,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "apznGx}gxO??",
-      "latitude_secondary": 44.541605848242,
-      "longitude_secondary": -88.0279715551379
-    },
-    {
-      "id": 832816,
-      "roadway": "I-43",
-      "direction": "N",
-      "description": "Roadwork - Ramp Full Closure on I-43 NB at OFF RAMP TO ATKINSON DR. Daily from 11/06/2026 to 11/19/2026, 07:00 PM - 06:00 AM, M, T, W, Th, F (excluding Sun, Sat)",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.5415377224583,
-      "longitude": -88.0274589872636,
-      "last_updated": 1793377758,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "soznGrzgxO??",
-      "latitude_secondary": 44.5415377224583,
-      "longitude_secondary": -88.0274589872636
     },
     {
       "id": 832836,
@@ -746,6 +644,23 @@
       "encoded_polyline": "_k~nG~i|xOxCyJf@gB`Kq\\xd@e{Ad^ijA",
       "latitude_secondary": 44.5605120962872,
       "longitude_secondary": -88.1304250703956
+    },
+    {
+      "id": 833752,
+      "roadway": "I-41",
+      "direction": "n",
+      "description": "I-41 North at Ramp from WIS 172. The right shoulder is blocked due to a disabled vehicle.",
+      "severity": "1",
+      "event_type": "accidentsAndIncidents",
+      "latitude": 44.489601,
+      "longitude": -88.080769,
+      "last_updated": 1795092146,
+      "lanes_affected": "Shoulder blocked.",
+      "is_full_closure": false,
+      "event_subtype": "Disabled Vehicle",
+      "encoded_polyline": "_kpnGxgrxO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
