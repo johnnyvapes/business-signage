@@ -13,9 +13,9 @@
     "profile_picture": "https://lh3.googleusercontent.com/a/ACg8ocIKAeQoERK0q1pllUKP5mPiNSvUqtIr8Ml2P-GGAk6wsXwNew=w36-h36-p-rp-mo-ba12-br100",
     "owner_responses": {},
     "sub_ratings": {},
-    "created_date": "2026-11-17T11:24:51.012738+00:00",
-    "review_date": "2023-11-18T11:24:50+00:00",
-    "last_modified_date": "2026-11-17T11:24:51.012738+00:00",
+    "created_date": "2026-11-19T11:00:16.439768+00:00",
+    "review_date": "2023-11-20T11:00:16+00:00",
+    "last_modified_date": "2026-11-19T11:00:16.439768+00:00",
     "company": "Johnny Vapes Manitowoc",
     "source": "Google Maps"
   },
@@ -33,29 +33,9 @@
     "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjXgV89QL8U3uv5zTEyrb8R5UA-JybgTwtPA6rKocnxByyjwwU4=w36-h36-p-rp-mo-ba12-br100",
     "owner_responses": {},
     "sub_ratings": {},
-    "created_date": "2026-11-17T11:24:50.884631+00:00",
-    "review_date": "2025-11-17T11:24:50+00:00",
-    "last_modified_date": "2026-11-17T11:24:50.884631+00:00",
-    "company": "Johnny Vapes Manitowoc",
-    "source": "Google Maps"
-  },
-  {
-    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WUGVqRmZZMnB1Y0cxV1NHOVJVbmN3UlVoMlYwRRAB",
-    "place_id": "0x880337f8934db437:0",
-    "author": "Some White Guy",
-    "rating": 5.0,
-    "description": {
-      "en": "Came in today, looking for a coil and left feeling like it was the best experience I have ever had at a vape shop. Most delicious flavors. Owen keeps me coming back."
-    },
-    "likes": 0,
-    "user_images": [],
-    "author_profile_url": "https://www.google.com/maps/contrib/116921497100318672634/reviews?hl=en",
-    "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjUQYSbgNBS89oVVn8xHzFIJ5ip3UZX0mYIAnyP2ZBssSuGvVE1v=w36-h36-p-rp-mo-br100",
-    "owner_responses": {},
-    "sub_ratings": {},
-    "created_date": "2026-11-17T11:24:50.803405+00:00",
-    "review_date": "2025-11-17T11:24:50+00:00",
-    "last_modified_date": "2026-11-17T11:24:50.803405+00:00",
+    "created_date": "2026-11-19T11:00:16.290305+00:00",
+    "review_date": "2025-11-19T11:00:16+00:00",
+    "last_modified_date": "2026-11-19T11:00:16.290305+00:00",
     "company": "Johnny Vapes Manitowoc",
     "source": "Google Maps"
   },
@@ -73,9 +53,29 @@
     "profile_picture": "https://lh3.googleusercontent.com/a/ACg8ocJCpeDsMmDx_zGVeQwHvczbTG9g946eAien0LszKEXiwl-Yh0Ei=w36-h36-p-rp-mo-br100",
     "owner_responses": {},
     "sub_ratings": {},
-    "created_date": "2026-11-17T11:24:50.637814+00:00",
-    "review_date": "2026-04-21T11:24:50+00:00",
-    "last_modified_date": "2026-11-17T11:24:50.637814+00:00",
+    "created_date": "2026-11-19T11:00:16.191276+00:00",
+    "review_date": "2026-04-23T11:00:16+00:00",
+    "last_modified_date": "2026-11-19T11:00:16.191276+00:00",
+    "company": "Johnny Vapes Manitowoc",
+    "source": "Google Maps"
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WUGVqRmZZMnB1Y0cxV1NHOVJVbmN3UlVoMlYwRRAB",
+    "place_id": "0x880337f8934db437:0",
+    "author": "Some White Guy",
+    "rating": 5.0,
+    "description": {
+      "en": "Came in today, looking for a coil and left feeling like it was the best experience I have ever had at a vape shop. Most delicious flavors. Owen keeps me coming back."
+    },
+    "likes": 0,
+    "user_images": [],
+    "author_profile_url": "https://www.google.com/maps/contrib/116921497100318672634/reviews?hl=en",
+    "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjUQYSbgNBS89oVVn8xHzFIJ5ip3UZX0mYIAnyP2ZBssSuGvVE1v=w36-h36-p-rp-mo-br100",
+    "owner_responses": {},
+    "sub_ratings": {},
+    "created_date": "2026-11-19T11:00:16.092064+00:00",
+    "review_date": "2025-11-19T11:00:16+00:00",
+    "last_modified_date": "2026-11-19T11:00:16.092064+00:00",
     "company": "Johnny Vapes Manitowoc",
     "source": "Google Maps"
   }
