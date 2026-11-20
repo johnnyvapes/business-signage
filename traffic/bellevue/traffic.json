@@ -14,11 +14,11 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Nov 19, 2026 09:01 PM CST",
+  "updated_local": "Nov 20, 2026 05:22 AM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 13,
+  "incident_count": 11,
   "segments": [
     {
       "id": "4008",
@@ -223,9 +223,9 @@
       "roadway": "I-43 ",
       "description": "Sign 510- NB I-43 @ S of Webster Ave to HWY 172",
       "normal_minutes": "9",
-      "current_minutes": "9",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "10",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.521963,
@@ -301,8 +301,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "16",
-      "delay_minutes": "1",
+      "current_minutes": "17",
+      "delay_minutes": "2",
       "status": "Moderate",
       "waypoints": [
         [
@@ -431,15 +431,15 @@
       "description": "Roadwork - Mainline Right Lane Closed on I-43 NB from ON RAMP FROM WIS 54 EB to I-43 NB TO I-41 NB",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5175343,
-      "longitude": -87.9503543,
+      "latitude": 44.5173513036126,
+      "longitude": -87.9504383244087,
       "last_updated": 1790871527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "qyunGtxxwOu@tB}@bD]tA[xAQ|@S~@SxAU|AYpCS~BInAQtDGtB]jI_@vI[nH[vHc@fKIrBIbBO|BGjAMxAWbCUdBi@bDo@|CuAxF{@jDkIl\\_BrGqBhIoFfTYjA[pASr@}EzRU|@oC~KuDbO{D~OK`@Kd@[lAiA~EiCrLuC`NgBlIoBdJkFxVqGpZmB`Js@lD}@bE}@rDu@pCy@nCo@pBgC`HsA|CwAzCyAvCU\\m@dAwBhDiAdB_EfGgAzAoEzGmHvKaQ~VmBlC_CpDkEzGaCpD",
-      "latitude_secondary": 44.5176083,
-      "longitude_secondary": -87.9505155
+      "encoded_polyline": "mxunGfyxwOaBrDqA~Eu@dDmAdM_@dJM^_AdV[~JK?sAvZy@jKmC~MuX|fAcCjJsBxIgAvD{AfGcE|PgI~[eFjTm^jfBiHjW[rBiA~DgAdDi@j@gBxEiCjFcBrCsDpFgAjBUDeA~B{KjPqi@jz@{OvS",
+      "latitude_secondary": 44.5178402670121,
+      "longitude_secondary": -87.9513430787862
     },
     {
       "id": 781085,
@@ -448,15 +448,15 @@
       "description": "Roadwork - Mainline Right Lane Closed on I-43 SB from I-43 SB to ON RAMP FROM WIS 54 EB",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.5553128,
-      "longitude": -88.0466444,
+      "latitude": 44.5642808534816,
+      "longitude": -88.0500821267457,
       "last_updated": 1790871527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBlAyA",
-      "latitude_secondary": 44.5553128,
-      "longitude_secondary": -88.0466444
+      "encoded_polyline": "w}~nG~glxO~E|AbBl@t@P|AV|ALzA@bBIrAQvA[tAg@nAk@jAu@jAaAdAcAr@aBtg@aq@pi@kz@zKkPdA_CTEfAkBrDqFbBsChCkFfByEh@k@fAeDhA_EZsBhHkWl^kfBdFkTfI_\\bE}PzAgGfAwDrByIbCkJtX}fAlC_Nx@kKrAwZJ?Z_K~@eVL_@^eJlAeMt@eDpA_FvAaD",
+      "latitude_secondary": 44.5631561448134,
+      "longitude_secondary": -88.0505459417437
     },
     {
       "id": 787536,
@@ -578,23 +578,6 @@
       "longitude_secondary": -88.019171187099
     },
     {
-      "id": 832859,
-      "roadway": "WI-172",
-      "direction": "W",
-      "description": "Roadwork - Ramp Full Closure on WIS 172 WB at OFF RAMP TO PILGRIM WAY. Daily from 11/20/2026 to 11/20/2026, 12:00 AM - 05:00 AM, F",
-      "severity": "Unknown",
-      "event_type": "closures",
-      "latitude": 44.4784776767592,
-      "longitude": -88.0610023356071,
-      "last_updated": 1794971297,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "oennGflnxO??",
-      "latitude_secondary": 44.4784776767592,
-      "longitude_secondary": -88.0610023356071
-    },
-    {
       "id": 833945,
       "roadway": "I-41",
       "direction": "s",
@@ -603,28 +586,11 @@
       "event_type": "accidentsAndIncidents",
       "latitude": 44.477998,
       "longitude": -88.080069,
-      "last_updated": 1795115524,
+      "last_updated": 1795147140,
       "lanes_affected": "Shoulder blocked.",
       "is_full_closure": false,
       "event_subtype": "Disabled Vehicle",
       "encoded_polyline": "obnnGlcrxO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
-    },
-    {
-      "id": 834432,
-      "roadway": "I-41",
-      "direction": "n",
-      "description": "I-41 North 2.4 miles beyond Ramp from County S. The left lane is closed due to a crash.",
-      "severity": "3",
-      "event_type": "accidentsAndIncidents",
-      "latitude": 44.416783,
-      "longitude": -88.132135,
-      "last_updated": 1795142462,
-      "lanes_affected": "1 lane(s) of 2 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "Crash",
-      "encoded_polyline": "{cbnGxh|xO",
       "latitude_secondary": null,
       "longitude_secondary": null
     }
