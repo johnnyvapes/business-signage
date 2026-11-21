@@ -14,11 +14,11 @@
     "generate_map": true,
     "id": "manitowoc"
   },
-  "updated_local": "Nov 20, 2026 07:23 PM CST",
+  "updated_local": "Nov 21, 2026 03:38 AM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 0,
-  "incident_count": 2,
+  "incident_count": 4,
   "segments": [],
   "incidents": [
     {
@@ -54,6 +54,40 @@
       "encoded_polyline": "obblGdf`vOD?AtGClPGdYCjUE|K",
       "latitude_secondary": 44.0888474627017,
       "longitude_secondary": -87.6606718571893
+    },
+    {
+      "id": 835537,
+      "roadway": "WI-42",
+      "direction": "N",
+      "description": "Roadwork - Mainline Full Closure on WIS 42 NB from E RIVER ST to 22ND ST. Daily from 11/28/2026 to 11/28/2026, 04:00 PM - 08:00 PM, Sat. Detour: East River St to Jefferson St, back to STH 42",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.1457469132135,
+      "longitude": -87.568221398451,
+      "last_updated": 1795241741,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "}emlGjdnuOkDD{Q?eEJmK?yDK?C",
+      "latitude_secondary": 44.1466136051537,
+      "longitude_secondary": -87.5682450370382
+    },
+    {
+      "id": 835538,
+      "roadway": "WI-42",
+      "direction": "S",
+      "description": "Roadwork - Mainline Full Closure on WIS 42 SB from 22ND ST to E RIVER ST. Daily from 11/28/2026 to 11/28/2026, 04:00 PM - 08:00 PM, Sat. Detour: East River St to Jefferson St, back to STH 42",
+      "severity": "Unknown",
+      "event_type": "closures",
+      "latitude": 44.1535418522844,
+      "longitude": -87.5682471843824,
+      "last_updated": 1795241741,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "svnlGpdnuOxDJlK?dEKzQ?nDE",
+      "latitude_secondary": 44.1526051720822,
+      "longitude_secondary": -87.5683099036645
     }
   ]
 }
