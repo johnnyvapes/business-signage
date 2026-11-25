@@ -14,20 +14,20 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Nov 25, 2026 06:38 AM CST",
+  "updated_local": "Nov 25, 2026 04:25 PM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 6,
+  "incident_count": 8,
   "segments": [
     {
       "id": "4008",
       "roadway": "I-41 ",
       "description": "PCMS Packer Games I-41 SB from WIS 32 to WIS 441",
       "normal_minutes": "16",
-      "current_minutes": "16",
-      "delay_minutes": "0",
-      "status": "Normal",
+      "current_minutes": "17",
+      "delay_minutes": "1",
+      "status": "Moderate",
       "waypoints": [
         [
           44.451904,
@@ -254,8 +254,8 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring Rd VIA I-43/HWY 172",
       "normal_minutes": "17",
-      "current_minutes": "18",
-      "delay_minutes": "1",
+      "current_minutes": "20",
+      "delay_minutes": "3",
       "status": "Moderate",
       "waypoints": [
         [
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "16",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "19",
+      "delay_minutes": "4",
+      "status": "Slow",
       "waypoints": [
         [
           44.524684,
@@ -508,6 +508,40 @@
       "encoded_polyline": "ejwnG|lfxOdAcEp@}D",
       "latitude_secondary": 44.5249648430453,
       "longitude_secondary": -88.019171187099
+    },
+    {
+      "id": 839225,
+      "roadway": "WI-172",
+      "direction": "W",
+      "description": "Roadwork - Mainline Left Shoulder Closed on WIS 172 WB from COUNTY XX|Bellevue St (BRIDGE CROSSING) to LIBAL STREET (BRIDGE CROSSING). Daily from 12/03/2026 to 12/03/2026, 09:00 AM - 02:00 PM, Th",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4613306791491,
+      "longitude": -88.0075289205024,
+      "last_updated": 1795633714,
+      "lanes_affected": "1 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "izjnG`~cxOiSfv@QRsNhh@",
+      "latitude_secondary": 44.464580991125,
+      "longitude_secondary": -88.0163736859662
+    },
+    {
+      "id": 839229,
+      "roadway": "WI-172",
+      "direction": "E",
+      "description": "Roadwork - Mainline Left Shoulder Closed on WIS 172 EB from East River (BRIDGE CROSSING) to COUNTY V|Lime Kiln Rd (BRIDGE CROSSING). Daily from 12/03/2026 to 12/03/2026, 09:00 AM - 02:00 PM, Th",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.4620102127719,
+      "longitude": -88.0093778385708,
+      "last_updated": 1795633714,
+      "lanes_affected": "1 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "q~jnGridxOjFcSvMcd@vQ_l@nIqZrA}H\\_IVwVBsA@kA",
+      "latitude_secondary": 44.4608276049381,
+      "longitude_secondary": -88.0061602034449
     }
   ]
 }

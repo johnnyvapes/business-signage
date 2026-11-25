@@ -14,11 +14,11 @@
     "generate_map": true,
     "id": "wausau"
   },
-  "updated_local": "Nov 25, 2026 06:38 AM CST",
+  "updated_local": "Nov 25, 2026 04:25 PM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 6,
-  "incident_count": 23,
+  "incident_count": 24,
   "segments": [
     {
       "id": "803",
@@ -359,23 +359,6 @@
       "longitude_secondary": -89.666680224844
     },
     {
-      "id": 826086,
-      "roadway": "US-51",
-      "direction": "S",
-      "description": "Roadwork - Mainline Various Lanes Closed on US 51 SB from OFF RAMP TO BRIDGE ST to WIS-52 PARKWAY (BRIDGE CROSSING)",
-      "severity": "Unknown",
-      "event_type": "roadwork",
-      "latitude": 44.9767525204197,
-      "longitude": -89.6571933092175,
-      "last_updated": 1794338886,
-      "lanes_affected": "2 lane(s) of 4 blocked.",
-      "is_full_closure": false,
-      "event_subtype": "roadwork",
-      "encoded_polyline": "uooqGldfbPhXyAbX_BjE?|BTvBb@xBt@rBbApBrAhB`BbBnBzAzBzLjT",
-      "latitude_secondary": 44.9726975364086,
-      "longitude_secondary": -89.6567366571611
-    },
-    {
       "id": 826087,
       "roadway": "US-51",
       "direction": "S",
@@ -578,6 +561,40 @@
       "encoded_polyline": "qo_qGx~|aPO|@oCrOuAzKiE|X_AtMQrFIjc@e@tUE`ZWpEk@nEuAlFoBrEgC`E",
       "latitude_secondary": 44.8948878549884,
       "longitude_secondary": -89.6105184757918
+    },
+    {
+      "id": 839210,
+      "roadway": "WI-29",
+      "direction": "W",
+      "description": "Roadwork - System Interchange Various Lanes Closed on WIS 29 WB at WIS 29 WB TO I-39/US 51 SB (E-S). Daily from 12/02/2026 to 12/03/2026, 08:00 AM - 06:00 PM, W, Th",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.8977826386254,
+      "longitude": -89.6339853986394,
+      "last_updated": 1795633714,
+      "lanes_affected": "1 lane(s) of 3 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "cb`qGlsabP??",
+      "latitude_secondary": 44.8977826386254,
+      "longitude_secondary": -89.6339853986394
+    },
+    {
+      "id": 839211,
+      "roadway": "WI-29",
+      "direction": "E",
+      "description": "Roadwork - Mainline Various Lanes Closed on WIS 29 EB from WIS 29 (BRIDGE CROSSING) to WIS 29 (BRIDGE CROSSING). Daily from 12/02/2026 to 12/03/2026, 08:00 AM - 06:00 PM, W, Th",
+      "severity": "Unknown",
+      "event_type": "roadwork",
+      "latitude": 44.8967596125387,
+      "longitude": -89.6399425746734,
+      "last_updated": 1795633714,
+      "lanes_affected": "2 lane(s) of 4 blocked.",
+      "is_full_closure": false,
+      "event_subtype": "roadwork",
+      "encoded_polyline": "w{_qGrxbbPn@_EZkGCaEU_E_@mC",
+      "latitude_secondary": 44.8965196699711,
+      "longitude_secondary": -89.6389765315614
     }
   ]
 }
