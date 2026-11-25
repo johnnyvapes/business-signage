@@ -13,29 +13,9 @@
     "profile_picture": "https://lh3.googleusercontent.com/a/ACg8ocLdStil_YMqbtbkmuP4gkxcgBOVpQxFBF1u9w-Bv0sJZEi4ig=w36-h36-p-rp-mo-ba12-br100",
     "owner_responses": {},
     "sub_ratings": {},
-    "created_date": "2026-11-23T11:36:46.224162+00:00",
-    "review_date": "2024-11-23T11:36:46+00:00",
-    "last_modified_date": "2026-11-23T11:36:46.224162+00:00",
-    "company": "Johnny Vapes Wausau",
-    "source": "Google Maps"
-  },
-  {
-    "review_id": "ChZDSUhNMG9nS0VJQ0FnSUQ5aFpXZmVBEAE",
-    "place_id": "0x8800254aa8b02a4b:0",
-    "author": "Dakota Nelesen",
-    "rating": 5.0,
-    "description": {
-      "en": "Johnny vapes has been my best experience at a vape shop. Massive selection, anything you could ask for. Luke was extremely friendly and I never felt pressured. You can test everything in the store, so you don’t end up getting something you don’t like. I won’t go anywhere else now."
-    },
-    "likes": 2,
-    "user_images": [],
-    "author_profile_url": "https://www.google.com/maps/contrib/106879837854381710139/reviews?hl=en",
-    "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjWP9uj3igFDmmZuDftYDGMtV3plIM4SBnR2gOtuUq5voNFBj-_S=w36-h36-p-rp-mo-br100",
-    "owner_responses": {},
-    "sub_ratings": {},
-    "created_date": "2026-11-23T11:36:45.858713+00:00",
-    "review_date": "2024-11-23T11:36:45+00:00",
-    "last_modified_date": "2026-11-23T11:36:45.858713+00:00",
+    "created_date": "2026-11-25T11:59:37.706771+00:00",
+    "review_date": "2024-11-25T11:59:37+00:00",
+    "last_modified_date": "2026-11-25T11:59:37.706771+00:00",
     "company": "Johnny Vapes Wausau",
     "source": "Google Maps"
   },
@@ -53,9 +33,9 @@
     "profile_picture": "https://lh3.googleusercontent.com/a/ACg8ocIa3Nwr3ME2-27kAQwsJmtRpUFOZh6hjCrMeddBR4hRatSaqQ=w36-h36-p-rp-mo-br100",
     "owner_responses": {},
     "sub_ratings": {},
-    "created_date": "2026-11-23T11:36:45.717803+00:00",
-    "review_date": "2024-11-23T11:36:45+00:00",
-    "last_modified_date": "2026-11-23T11:36:45.717803+00:00",
+    "created_date": "2026-11-25T11:59:37.607180+00:00",
+    "review_date": "2024-11-25T11:59:37+00:00",
+    "last_modified_date": "2026-11-25T11:59:37.607180+00:00",
     "company": "Johnny Vapes Wausau",
     "source": "Google Maps"
   },
@@ -73,9 +53,29 @@
     "profile_picture": "https://lh3.googleusercontent.com/a/ACg8ocKtTKq-9iQPY5WhgMsF9O7jmA3YBlAmuefd7MclAPLT9EbrXw=w36-h36-p-rp-mo-br100",
     "owner_responses": {},
     "sub_ratings": {},
-    "created_date": "2026-11-23T11:36:45.515297+00:00",
-    "review_date": "2024-11-23T11:36:45+00:00",
-    "last_modified_date": "2026-11-23T11:36:45.515297+00:00",
+    "created_date": "2026-11-25T11:59:37.308553+00:00",
+    "review_date": "2024-11-25T11:59:37+00:00",
+    "last_modified_date": "2026-11-25T11:59:37.308553+00:00",
+    "company": "Johnny Vapes Wausau",
+    "source": "Google Maps"
+  },
+  {
+    "review_id": "ChZDSUhNMG9nS0VJQ0FnSUQ5aFpXZmVBEAE",
+    "place_id": "0x8800254aa8b02a4b:0",
+    "author": "Dakota Nelesen",
+    "rating": 5.0,
+    "description": {
+      "en": "Johnny vapes has been my best experience at a vape shop. Massive selection, anything you could ask for. Luke was extremely friendly and I never felt pressured. You can test everything in the store, so you don’t end up getting something you don’t like. I won’t go anywhere else now."
+    },
+    "likes": 2,
+    "user_images": [],
+    "author_profile_url": "https://www.google.com/maps/contrib/106879837854381710139/reviews?hl=en",
+    "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjWP9uj3igFDmmZuDftYDGMtV3plIM4SBnR2gOtuUq5voNFBj-_S=w36-h36-p-rp-mo-br100",
+    "owner_responses": {},
+    "sub_ratings": {},
+    "created_date": "2026-11-25T11:59:37.144471+00:00",
+    "review_date": "2024-11-25T11:59:37+00:00",
+    "last_modified_date": "2026-11-25T11:59:37.144471+00:00",
     "company": "Johnny Vapes Wausau",
     "source": "Google Maps"
   }
