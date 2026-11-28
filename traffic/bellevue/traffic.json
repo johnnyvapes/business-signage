@@ -14,11 +14,11 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Nov 27, 2026 07:53 PM CST",
+  "updated_local": "Nov 28, 2026 04:13 AM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 9,
+  "incident_count": 8,
   "segments": [
     {
       "id": "4008",
@@ -301,9 +301,9 @@
       "roadway": "WIS 54/57 ",
       "description": "Sign 511 WB HWY 54/57 @ County EA to Scheuring VIA I-43/41",
       "normal_minutes": "15",
-      "current_minutes": "16",
-      "delay_minutes": "1",
-      "status": "Moderate",
+      "current_minutes": "15",
+      "delay_minutes": "0",
+      "status": "Normal",
       "waypoints": [
         [
           44.524684,
@@ -542,23 +542,6 @@
       "encoded_polyline": "q~jnGridxOjFcSvMcd@vQ_l@nIqZrA}H\\_IVwVBsA@kA",
       "latitude_secondary": 44.4608276049381,
       "longitude_secondary": -88.0061602034449
-    },
-    {
-      "id": 840957,
-      "roadway": "WI-54",
-      "direction": "w",
-      "description": "WIS 54 East at I-41 South. The 2 right lanes are blocked due to a crash.",
-      "severity": "3",
-      "event_type": "closures",
-      "latitude": 44.524166,
-      "longitude": -88.082406,
-      "last_updated": 1795830673,
-      "lanes_affected": "All lanes closed.",
-      "is_full_closure": true,
-      "event_subtype": "Crash",
-      "encoded_polyline": "acwnG`rrxO",
-      "latitude_secondary": null,
-      "longitude_secondary": null
     }
   ]
 }
