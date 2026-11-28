@@ -14,11 +14,11 @@
     "generate_map": false,
     "id": "bellevue"
   },
-  "updated_local": "Nov 27, 2026 12:51 PM CST",
+  "updated_local": "Nov 27, 2026 07:53 PM CST",
   "source": "511WI",
   "radius_miles": 9.0,
   "segment_count": 11,
-  "incident_count": 8,
+  "incident_count": 9,
   "segments": [
     {
       "id": "4008",
@@ -448,15 +448,15 @@
       "description": "Roadwork - Mainline Right Lane Closed on I-43 SB from I-43 SB to ON RAMP FROM WIS 54 EB",
       "severity": "Unknown",
       "event_type": "roadwork",
-      "latitude": 44.552124,
-      "longitude": -88.0421981,
+      "latitude": 44.5553128,
+      "longitude": -88.0466444,
       "last_updated": 1790871527,
       "lanes_affected": "2 lane(s) of 4 blocked.",
       "is_full_closure": false,
       "event_subtype": "roadwork",
-      "encoded_polyline": "wq|nGvvjxObCsDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBnA}A",
-      "latitude_secondary": 44.5520756,
-      "longitude_secondary": -88.0421322
+      "encoded_polyline": "ue}nGnrkxOpCkEjG_KjBuCf@o@rAsBzBeDfKmOhKoOpP_WdO{TdA}AxDeGxCkFzAqCPa@x@_BxA{CvAcDd@eA`@gAb@oAdA{Cf@_Bb@{Aj@sB^_BZqAh@cCrAiGDW~@kEbBcIzEaUjCcM~AwHnBgJ|BuK`B{H`BwHz@yDlBkIJc@Ja@~BoJ|@qDdB_HbCyJhAuELa@Ps@hAqEtAgFlAsETu@Rw@d@_BvDuNnH}YlH}YnAcFfAmEx@yDb@eCR_BRaBRoBNaBDmAHaAHgBHsBNuCHoBJsBVcIb@iKd@yKL}CZ}GF{@TmCPcBRwAXqBh@}CZyAVgAz@yCt@wBl@}Ap@}A^w@tBwDd@y@z@mAzAoBnA}A",
+      "latitude_secondary": 44.5553128,
+      "longitude_secondary": -88.0466444
     },
     {
       "id": 787536,
@@ -542,6 +542,23 @@
       "encoded_polyline": "q~jnGridxOjFcSvMcd@vQ_l@nIqZrA}H\\_IVwVBsA@kA",
       "latitude_secondary": 44.4608276049381,
       "longitude_secondary": -88.0061602034449
+    },
+    {
+      "id": 840957,
+      "roadway": "WI-54",
+      "direction": "w",
+      "description": "WIS 54 East at I-41 South. The 2 right lanes are blocked due to a crash.",
+      "severity": "3",
+      "event_type": "closures",
+      "latitude": 44.524166,
+      "longitude": -88.082406,
+      "last_updated": 1795830673,
+      "lanes_affected": "All lanes closed.",
+      "is_full_closure": true,
+      "event_subtype": "Crash",
+      "encoded_polyline": "acwnG`rrxO",
+      "latitude_secondary": null,
+      "longitude_secondary": null
     }
   ]
 }
